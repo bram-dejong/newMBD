@@ -1,0 +1,16 @@
+{
+  "orgName": "newMBD Scratch",
+  "edition": "Enterprise",
+  "features": [
+    "API",
+    "AuthorApex"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    }
+  }
+}

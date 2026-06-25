@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segmentation__c</fullName>
+    <description>[Updated by AI] Formula-derived segmentation from D&amp;B record segment; used to classify account market segment.</description>
+    <externalId>false</externalId>
+    <formula>if(D_B_Record__c != null,  D_B_Record__r.Segment__c ,&apos;not available via D&amp;B&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Segmentation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

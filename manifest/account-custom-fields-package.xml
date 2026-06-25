@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Account.Active__c</members>
+        <members>Account.City_Translated__c</members>
+        <members>Account.D_B_Record__c</members>
+        <members>Account.Legacy_ID__c</members>
+        <members>Account.Region__c</members>
+        <members>Account.SVMX_Account_Category__c</members>
+        <members>Account.SVMX_ERP_Account_ID__c</members>
+        <members>Account.SVMX_ERP_Source__c</members>
+        <members>Account.SVMX_Sales_Organization__c</members>
+        <members>Account.SVMX_Ship_To_ID__c</members>
+        <members>Account.SVMX_Sold_To_ID__c</members>
+        <members>Account.Sales_Person__c</members>
+        <members>Account.Segmentation__c</members>
+        <members>Account.Translated_Name__c</members>
+        <members>Account.Zinc_Conversation__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>65.0</version>
+</Package>

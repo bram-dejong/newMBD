@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__Latitude__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Address location north or south of the equator.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Address location north or south of the equator.</inlineHelpText>
+    <label>Latitude</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
