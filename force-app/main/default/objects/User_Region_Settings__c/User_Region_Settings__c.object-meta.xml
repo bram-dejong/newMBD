@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>MBD User list Primarly used in Flow to launch the appropriate US/NON-US P360 App. Any user addition/removal should be mandatory to feed in this Object.  #SDG Contract Compliance Project 2025</description>
+    <enableFeeds>false</enableFeeds>
+    <label>User Region Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

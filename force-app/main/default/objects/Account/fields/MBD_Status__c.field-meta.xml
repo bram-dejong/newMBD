@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MBD_Status__c</fullName>
+    <defaultValue>IF($User.Division =&apos;MBD&apos;,&apos;Active&apos;,&apos;&apos;)</defaultValue>
+    <label>MBD Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active</fullName>
+                <default>true</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+            <value>
+                <fullName>Credit Issues</fullName>
+                <default>false</default>
+                <label>Credit Issues</label>
+            </value>
+            <value>
+                <fullName>Abolished</fullName>
+                <default>false</default>
+                <label>Abolished</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
