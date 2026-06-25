@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FoC_Kit_List__c</fullName>
+    <label>FoC Kit List</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assay 1</fullName>
+                <default>false</default>
+                <label>Assay 1</label>
+            </value>
+            <value>
+                <fullName>Assay 2</fullName>
+                <default>false</default>
+                <label>Assay 2</label>
+            </value>
+            <value>
+                <fullName>Assay 3</fullName>
+                <default>false</default>
+                <label>Assay 3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

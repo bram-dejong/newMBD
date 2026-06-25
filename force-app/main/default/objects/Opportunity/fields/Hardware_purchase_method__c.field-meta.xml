@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hardware_purchase_method__c</fullName>
+    <label>Hardware purchase method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Capital Purchase</fullName>
+                <default>false</default>
+                <label>Capital Purchase</label>
+            </value>
+            <value>
+                <fullName>Reagent Rental</fullName>
+                <default>false</default>
+                <label>Reagent Rental</label>
+            </value>
+            <value>
+                <fullName>Hardware Rental</fullName>
+                <default>false</default>
+                <label>Hardware Rental</label>
+            </value>
+            <value>
+                <fullName>Sale Type Lease</fullName>
+                <default>false</default>
+                <label>Sale Type Lease</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

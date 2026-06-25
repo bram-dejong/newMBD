@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Length_CAT__c</fullName>
+    <defaultValue>IF(
+  OR(
+    ISPICKVAL($User.Div__c, &quot;TDX&quot;),
+    ISPICKVAL($User.Div__c, &quot;CDD/IDD&quot;),
+    ISPICKVAL($User.Div__c, &quot;CDD/IDD/MBD&quot;),
+    ISPICKVAL($User.Div__c, &quot;CDD/IDD/MBD/TDX&quot;),
+    ISPICKVAL($User.Div__c, &quot;CDD/IDD/TDX&quot;),
+    ISPICKVAL($User.Div__c, &quot;IDD&quot;),
+    ISPICKVAL($User.Div__c, &quot;IDD/MBD&quot;),
+    ISPICKVAL($User.Div__c, &quot;IDD/MBD/TDX&quot;),
+    ISPICKVAL($User.Div__c, &quot;IDD/TDX&quot;)
+  ),
+  12,
+  NULL
+)</defaultValue>
+    <description>[CDD NA Pilot] Length of the contract by month.</description>
+    <externalId>false</externalId>
+    <inlineHelpText># of months</inlineHelpText>
+    <label>Contract Length (months)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

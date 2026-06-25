@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Instrument_Products__c</fullName>
+    <description>Count when the Product Family contains &quot;Instrument&quot;</description>
+    <label>Number of Instrument Products</label>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Instrument_Flagged_Product__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

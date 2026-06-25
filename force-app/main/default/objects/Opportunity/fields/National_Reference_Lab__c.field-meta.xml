@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>National_Reference_Lab__c</fullName>
+    <label>National Reference Lab</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Labcorp</fullName>
+                <default>false</default>
+                <label>Labcorp</label>
+            </value>
+            <value>
+                <fullName>Quest</fullName>
+                <default>false</default>
+                <label>Quest</label>
+            </value>
+            <value>
+                <fullName>Sonic</fullName>
+                <default>false</default>
+                <label>Sonic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

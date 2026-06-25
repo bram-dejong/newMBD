@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Existing_Product_Families_of_Interest__c</fullName>
+    <inlineHelpText>Current product family used.</inlineHelpText>
+    <label>Existing Product Solution of Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AB- FlowDSA-XM</fullName>
+                <default>false</default>
+                <label>AB- FlowDSA-XM</label>
+            </value>
+            <value>
+                <fullName>AB- FlowPRA</fullName>
+                <default>false</default>
+                <label>AB- FlowPRA</label>
+            </value>
+            <value>
+                <fullName>AB- LabScreen</fullName>
+                <default>false</default>
+                <label>AB- LabScreen</label>
+            </value>
+            <value>
+                <fullName>AB- LAT</fullName>
+                <default>false</default>
+                <label>AB- LAT</label>
+            </value>
+            <value>
+                <fullName>AB- LCT</fullName>
+                <default>false</default>
+                <label>AB- LCT</label>
+            </value>
+            <value>
+                <fullName>AB- LS AutoAB</fullName>
+                <default>false</default>
+                <label>AB- LS AutoAB</label>
+            </value>
+            <value>
+                <fullName>AB- LS COVID+</fullName>
+                <default>false</default>
+                <label>AB- LS COVID+</label>
+            </value>
+            <value>
+                <fullName>AB- LS ExPlex</fullName>
+                <default>false</default>
+                <label>AB- LS ExPlex</label>
+            </value>
+            <value>
+                <fullName>AB- LSM</fullName>
+                <default>false</default>
+                <label>AB- LSM</label>
+            </value>
+            <value>
+                <fullName>AB- LS Multi HNA</fullName>
+                <default>false</default>
+                <label>AB- LS Multi HNA</label>
+            </value>
+            <value>
+                <fullName>AB- LS PRA</fullName>
+                <default>false</default>
+                <label>AB- LS PRA</label>
+            </value>
+            <value>
+                <fullName>AB- LS ReFlex</fullName>
+                <default>false</default>
+                <label>AB- LS ReFlex</label>
+            </value>
+            <value>
+                <fullName>AB- LS Single Antigen</fullName>
+                <default>false</default>
+                <label>AB- LS Single Antigen</label>
+            </value>
+            <value>
+                <fullName>AB- Magsort</fullName>
+                <default>false</default>
+                <label>AB- Magsort</label>
+            </value>
+            <value>
+                <fullName>Antibody</fullName>
+                <default>false</default>
+                <label>Antibody</label>
+            </value>
+            <value>
+                <fullName>BioPharma CDX</fullName>
+                <default>false</default>
+                <label>BioPharma CDX</label>
+            </value>
+            <value>
+                <fullName>BioPharma Svcs</fullName>
+                <default>false</default>
+                <label>BioPharma Svcs</label>
+            </value>
+            <value>
+                <fullName>Blood Transfusion - Molecular, PCR</fullName>
+                <default>false</default>
+                <label>Blood Transfusion - Molecular, PCR</label>
+            </value>
+            <value>
+                <fullName>BT</fullName>
+                <default>false</default>
+                <label>BT</label>
+            </value>
+            <value>
+                <fullName>BT - ABO</fullName>
+                <default>false</default>
+                <label>BT - ABO</label>
+            </value>
+            <value>
+                <fullName>BT - HPA</fullName>
+                <default>false</default>
+                <label>BT - HPA</label>
+            </value>
+            <value>
+                <fullName>CDX</fullName>
+                <default>false</default>
+                <label>CDX</label>
+            </value>
+            <value>
+                <fullName>Competitor-Antibody</fullName>
+                <default>false</default>
+                <label>Competitor-Antibody</label>
+            </value>
+            <value>
+                <fullName>Competitor-Equipment</fullName>
+                <default>false</default>
+                <label>Competitor-Equipment</label>
+            </value>
+            <value>
+                <fullName>Competitor-Molecular NGS</fullName>
+                <default>false</default>
+                <label>Competitor-Molecular NGS</label>
+            </value>
+            <value>
+                <fullName>Competitor-Molecular RT-PCR</fullName>
+                <default>false</default>
+                <label>Competitor-Molecular RT-PCR</label>
+            </value>
+            <value>
+                <fullName>Competitor-Molecular SBT</fullName>
+                <default>false</default>
+                <label>Competitor-Molecular SBT</label>
+            </value>
+            <value>
+                <fullName>Competitor-Molecular SSO</fullName>
+                <default>false</default>
+                <label>Competitor-Molecular SSO</label>
+            </value>
+            <value>
+                <fullName>Competitor-Molecular SSP</fullName>
+                <default>false</default>
+                <label>Competitor-Molecular SSP</label>
+            </value>
+            <value>
+                <fullName>CXCL10</fullName>
+                <default>false</default>
+                <label>CXCL10</label>
+            </value>
+            <value>
+                <fullName>Equip ION CHEF</fullName>
+                <default>false</default>
+                <label>Equip ION CHEF</label>
+            </value>
+            <value>
+                <fullName>Equip ION SEQUENCER</fullName>
+                <default>false</default>
+                <label>Equip ION SEQUENCER</label>
+            </value>
+            <value>
+                <fullName>Equip LABScan2</fullName>
+                <default>false</default>
+                <label>Equip LABScan2</label>
+            </value>
+            <value>
+                <fullName>Equip LABScan3D</fullName>
+                <default>false</default>
+                <label>Equip LABScan3D</label>
+            </value>
+            <value>
+                <fullName>Equip LABXpress</fullName>
+                <default>false</default>
+                <label>Equip LABXpress</label>
+            </value>
+            <value>
+                <fullName>Equip ProFlex Q6</fullName>
+                <default>false</default>
+                <label>Equip ProFlex Q6</label>
+            </value>
+            <value>
+                <fullName>Equip QuantStudio</fullName>
+                <default>false</default>
+                <label>Equip QuantStudio</label>
+            </value>
+            <value>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+                <label>Equipment</label>
+            </value>
+            <value>
+                <fullName>MMDX Heart</fullName>
+                <default>false</default>
+                <label>MMDX Heart</label>
+            </value>
+            <value>
+                <fullName>MMDX Kidney</fullName>
+                <default>false</default>
+                <label>MMDX Kidney</label>
+            </value>
+            <value>
+                <fullName>MMDX Liver</fullName>
+                <default>false</default>
+                <label>MMDX Liver</label>
+            </value>
+            <value>
+                <fullName>MMDX Lung</fullName>
+                <default>false</default>
+                <label>MMDX Lung</label>
+            </value>
+            <value>
+                <fullName>Mol- cfDNA - dPCR</fullName>
+                <default>false</default>
+                <label>Mol- cfDNA - dPCR</label>
+            </value>
+            <value>
+                <fullName>Mol- cfDNA - NGS</fullName>
+                <default>false</default>
+                <label>Mol- cfDNA - NGS</label>
+            </value>
+            <value>
+                <fullName>Mol- cfDNA - Service</fullName>
+                <default>false</default>
+                <label>Mol- cfDNA - Service</label>
+            </value>
+            <value>
+                <fullName>Mol- Chimerism - NGS</fullName>
+                <default>false</default>
+                <label>Mol- Chimerism - NGS</label>
+            </value>
+            <value>
+                <fullName>Mol- Chimerism - RT</fullName>
+                <default>false</default>
+                <label>Mol- Chimerism - RT</label>
+            </value>
+            <value>
+                <fullName>Mol- Chimerism - STR</fullName>
+                <default>false</default>
+                <label>Mol- Chimerism - STR</label>
+            </value>
+            <value>
+                <fullName>Molecular, NGS</fullName>
+                <default>false</default>
+                <label>Molecular, NGS</label>
+            </value>
+            <value>
+                <fullName>Molecular, PCR</fullName>
+                <default>false</default>
+                <label>Molecular, PCR</label>
+            </value>
+            <value>
+                <fullName>Molecular, SBT</fullName>
+                <default>false</default>
+                <label>Molecular, SBT</label>
+            </value>
+            <value>
+                <fullName>Molecular, SSO</fullName>
+                <default>false</default>
+                <label>Molecular, SSO</label>
+            </value>
+            <value>
+                <fullName>Molecular, SSP</fullName>
+                <default>false</default>
+                <label>Molecular, SSP</label>
+            </value>
+            <value>
+                <fullName>Mol- LinkSeq</fullName>
+                <default>false</default>
+                <label>Mol- LinkSeq</label>
+            </value>
+            <value>
+                <fullName>Mol- LinkSeq HLA</fullName>
+                <default>false</default>
+                <label>Mol- LinkSeq HLA</label>
+            </value>
+            <value>
+                <fullName>Mol- NGS AllType</fullName>
+                <default>false</default>
+                <label>Mol- NGS AllType</label>
+            </value>
+            <value>
+                <fullName>Mol- NGS FastPlex</fullName>
+                <default>false</default>
+                <label>Mol- NGS FastPlex</label>
+            </value>
+            <value>
+                <fullName>Mol- Other</fullName>
+                <default>false</default>
+                <label>Mol- Other</label>
+            </value>
+            <value>
+                <fullName>Mol- SmartType</fullName>
+                <default>false</default>
+                <label>Mol- SmartType</label>
+            </value>
+            <value>
+                <fullName>Mol- SSO Classic</fullName>
+                <default>false</default>
+                <label>Mol- SSO Classic</label>
+            </value>
+            <value>
+                <fullName>Mol- SSO CWD</fullName>
+                <default>false</default>
+                <label>Mol- SSO CWD</label>
+            </value>
+            <value>
+                <fullName>Mol- SSO HD</fullName>
+                <default>false</default>
+                <label>Mol- SSO HD</label>
+            </value>
+            <value>
+                <fullName>Mol- SSO XR</fullName>
+                <default>false</default>
+                <label>Mol- SSO XR</label>
+            </value>
+            <value>
+                <fullName>PETRA</fullName>
+                <default>false</default>
+                <label>PETRA</label>
+            </value>
+            <value>
+                <fullName>Serology</fullName>
+                <default>false</default>
+                <label>Serology</label>
+            </value>
+            <value>
+                <fullName>Software - Other</fullName>
+                <default>false</default>
+                <label>Software - Other</label>
+            </value>
+            <value>
+                <fullName>XTRA</fullName>
+                <default>false</default>
+                <label>XTRA</label>
+            </value>
+            <value>
+                <fullName>AB-LS PRA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AB-LS PRA</label>
+            </value>
+            <value>
+                <fullName>AB-LS Single Antigen</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AB-LS Single Antigen</label>
+            </value>
+            <value>
+                <fullName>Antibodies</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Antibodies</label>
+            </value>
+            <value>
+                <fullName>BT - RBC - RH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BT - RBC - RH</label>
+            </value>
+            <value>
+                <fullName>Equip. ION CHEF</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Equip. ION CHEF</label>
+            </value>
+            <value>
+                <fullName>Equip. ION SEQUENCER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Equip. ION SEQUENCER</label>
+            </value>
+            <value>
+                <fullName>Equip. LABScan200</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Equip. LABScan200</label>
+            </value>
+            <value>
+                <fullName>Equip. LABScan3D</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Equip. LABScan3D</label>
+            </value>
+            <value>
+                <fullName>Equip. LABXpress</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Equip. LABXpress</label>
+            </value>
+            <value>
+                <fullName>Equip. ProFlex Q6</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Equip. ProFlex Q6</label>
+            </value>
+            <value>
+                <fullName>Equip. QuantStudio</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Equip. QuantStudio</label>
+            </value>
+            <value>
+                <fullName>Oncology</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Oncology</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

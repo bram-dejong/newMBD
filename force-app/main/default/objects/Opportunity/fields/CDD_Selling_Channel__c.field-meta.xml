@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CDD_Selling_Channel__c</fullName>
+    <description>Used to capture which selling channel the order will eventually pass.  Needed to help Distributor and Channel managers in the US identify segments of opportunities.</description>
+    <inlineHelpText>Through which channel will the order be placed?</inlineHelpText>
+    <label>CDD Selling Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ABS</fullName>
+                <default>false</default>
+                <label>ABS</label>
+            </value>
+            <value>
+                <fullName>Block Scientific, Inc (Block)</fullName>
+                <default>false</default>
+                <label>Block Scientific, Inc (Block)</label>
+            </value>
+            <value>
+                <fullName>Cardinal</fullName>
+                <default>false</default>
+                <label>Cardinal</label>
+            </value>
+            <value>
+                <fullName>CLC - Clinical Laboratory Consults</fullName>
+                <default>false</default>
+                <label>CLC - Clinical Laboratory Consults</label>
+            </value>
+            <value>
+                <fullName>Diatron U.S. Inc</fullName>
+                <default>false</default>
+                <label>Diatron U.S. Inc</label>
+            </value>
+            <value>
+                <fullName>Direct</fullName>
+                <default>false</default>
+                <label>Direct</label>
+            </value>
+            <value>
+                <fullName>DPI - Diagnostic Products Inc</fullName>
+                <default>false</default>
+                <label>DPI - Diagnostic Products Inc</label>
+            </value>
+            <value>
+                <fullName>DTPM - Drug Testing Program Management</fullName>
+                <default>false</default>
+                <label>DTPM - Drug Testing Program Management</label>
+            </value>
+            <value>
+                <fullName>Henry Schein</fullName>
+                <default>false</default>
+                <label>Henry Schein</label>
+            </value>
+            <value>
+                <fullName>HMD - Fisher Healthcare</fullName>
+                <default>false</default>
+                <label>HMD - Fisher Healthcare</label>
+            </value>
+            <value>
+                <fullName>JANT - JANT Pharmacal Corporation</fullName>
+                <default>false</default>
+                <label>JANT - JANT Pharmacal Corporation</label>
+            </value>
+            <value>
+                <fullName>License - Abbott</fullName>
+                <default>false</default>
+                <label>License - Abbott</label>
+            </value>
+            <value>
+                <fullName>License - Biomerieux</fullName>
+                <default>false</default>
+                <label>License - Biomerieux</label>
+            </value>
+            <value>
+                <fullName>License - Diasorin</fullName>
+                <default>false</default>
+                <label>License - Diasorin</label>
+            </value>
+            <value>
+                <fullName>License - Fujirebio</fullName>
+                <default>false</default>
+                <label>License - Fujirebio</label>
+            </value>
+            <value>
+                <fullName>License - OCD</fullName>
+                <default>false</default>
+                <label>License - OCD</label>
+            </value>
+            <value>
+                <fullName>License - Roche</fullName>
+                <default>false</default>
+                <label>License - Roche</label>
+            </value>
+            <value>
+                <fullName>License - Siemens</fullName>
+                <default>false</default>
+                <label>License - Siemens</label>
+            </value>
+            <value>
+                <fullName>McKesson</fullName>
+                <default>false</default>
+                <label>McKesson</label>
+            </value>
+            <value>
+                <fullName>Medical Source Inc</fullName>
+                <default>false</default>
+                <label>Medical Source Inc</label>
+            </value>
+            <value>
+                <fullName>Medline</fullName>
+                <default>false</default>
+                <label>Medline</label>
+            </value>
+            <value>
+                <fullName>MedTest DX</fullName>
+                <default>false</default>
+                <label>MedTest DX</label>
+            </value>
+            <value>
+                <fullName>Ortho Clinical Diagnostics</fullName>
+                <default>false</default>
+                <label>Ortho Clinical Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Owens and Minor</fullName>
+                <default>false</default>
+                <label>Owens and Minor</label>
+            </value>
+            <value>
+                <fullName>RSD - Fisher Scientific</fullName>
+                <default>false</default>
+                <label>RSD - Fisher Scientific</label>
+            </value>
+            <value>
+                <fullName>Target</fullName>
+                <default>false</default>
+                <label>Target</label>
+            </value>
+            <value>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+                <label>Undecided</label>
+            </value>
+            <value>
+                <fullName>USSM - US Specialty Management</fullName>
+                <default>false</default>
+                <label>USSM - US Specialty Management</label>
+            </value>
+            <value>
+                <fullName>VWR</fullName>
+                <default>false</default>
+                <label>VWR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

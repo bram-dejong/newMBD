@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Stage__c</fullName>
+    <label>Approval Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required (No Quote)</fullName>
+                <default>false</default>
+                <label>Not Required (No Quote)</label>
+            </value>
+            <value>
+                <fullName>Not Required (No Pre-Order)</fullName>
+                <default>false</default>
+                <label>Not Required (No Pre-Order)</label>
+            </value>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Auto Approved</fullName>
+                <default>false</default>
+                <label>Auto Approved</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Pending for ASM</fullName>
+                <default>false</default>
+                <label>Pending for ASM</label>
+            </value>
+            <value>
+                <fullName>Pending for RSM</fullName>
+                <default>false</default>
+                <label>Pending for RSM</label>
+            </value>
+            <value>
+                <fullName>Pending for Commercial Director</fullName>
+                <default>false</default>
+                <label>Pending for Commercial Director</label>
+            </value>
+            <value>
+                <fullName>Pending for Senior Commercial Director</fullName>
+                <default>false</default>
+                <label>Pending for Senior Commercial Director</label>
+            </value>
+            <value>
+                <fullName>Not Submitted</fullName>
+                <default>false</default>
+                <label>Not Submitted</label>
+            </value>
+            <value>
+                <fullName>1st Level Approved - Pending 2nd Level</fullName>
+                <default>false</default>
+                <label>1st Level Approved - Pending 2nd Level</label>
+            </value>
+            <value>
+                <fullName>2nd Level Approved - Pending 3rd Level</fullName>
+                <default>false</default>
+                <label>2nd Level Approved - Pending 3rd Level</label>
+            </value>
+            <value>
+                <fullName>Recalled</fullName>
+                <default>false</default>
+                <label>Recalled</label>
+            </value>
+            <value>
+                <fullName>Channel Manager Approved</fullName>
+                <default>false</default>
+                <label>Channel Manager Approved</label>
+            </value>
+            <value>
+                <fullName>Sales Manager Approved</fullName>
+                <default>false</default>
+                <label>Sales Manager Approved</label>
+            </value>
+            <value>
+                <fullName>Finance Approved</fullName>
+                <default>false</default>
+                <label>Finance Approved</label>
+            </value>
+            <value>
+                <fullName>Commercial Director Approved</fullName>
+                <default>false</default>
+                <label>Commercial Director Approved</label>
+            </value>
+            <value>
+                <fullName>Channel Director Approved</fullName>
+                <default>false</default>
+                <label>Channel Director Approved</label>
+            </value>
+            <value>
+                <fullName>Pending for Product Manager</fullName>
+                <default>false</default>
+                <label>Pending for Product Manager</label>
+            </value>
+            <value>
+                <fullName>Pending for Global</fullName>
+                <default>false</default>
+                <label>Pending for Global</label>
+            </value>
+            <value>
+                <fullName>Pending for Country Manager</fullName>
+                <default>false</default>
+                <label>Pending for Country Manager</label>
+            </value>
+            <value>
+                <fullName>Country Manager Approved</fullName>
+                <default>false</default>
+                <label>Country Manager Approved</label>
+            </value>
+            <value>
+                <fullName>Pending for Director</fullName>
+                <default>false</default>
+                <label>Pending for Director</label>
+            </value>
+            <value>
+                <fullName>Pending for ES Mgr</fullName>
+                <default>false</default>
+                <label>Pending for ES Mgr</label>
+            </value>
+            <value>
+                <fullName>Pending for Field Director</fullName>
+                <default>false</default>
+                <label>Pending for Field Director</label>
+            </value>
+            <value>
+                <fullName>Pending for Service Director</fullName>
+                <default>false</default>
+                <label>Pending for Service Director</label>
+            </value>
+            <value>
+                <fullName>Director Approved</fullName>
+                <default>false</default>
+                <label>Director Approved</label>
+            </value>
+            <value>
+                <fullName>Field Director Approved</fullName>
+                <default>false</default>
+                <label>Field Director Approved</label>
+            </value>
+            <value>
+                <fullName>ES Mgr Approved</fullName>
+                <default>false</default>
+                <label>ES Mgr Approved</label>
+            </value>
+            <value>
+                <fullName>Service Director Approved</fullName>
+                <default>false</default>
+                <label>Service Director Approved</label>
+            </value>
+            <value>
+                <fullName>Pending for Finance</fullName>
+                <default>false</default>
+                <label>Pending for Finance</label>
+            </value>
+            <value>
+                <fullName>Pending for LEVEL 0</fullName>
+                <default>false</default>
+                <label>Pending for LEVEL 0</label>
+            </value>
+            <value>
+                <fullName>Marketing Manager Approved</fullName>
+                <default>false</default>
+                <label>Marketing Manager Approved</label>
+            </value>
+            <value>
+                <fullName>SFE Approved</fullName>
+                <default>false</default>
+                <label>SFE Approved</label>
+            </value>
+            <value>
+                <fullName>Pricing Approved</fullName>
+                <default>false</default>
+                <label>Pricing Approved</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

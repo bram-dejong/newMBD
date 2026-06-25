@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COVID_19_Antibody_Testing__c</fullName>
+    <formula>INCLUDES( Product_Family_CAT__c , &quot;IDD - COVID-19 Antibody Testing&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>COVID-19 Antibody Testing</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

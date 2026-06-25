@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3rd_Party_Platform__c</fullName>
+    <label>3rd Party Platform</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Abbott Aeroset</fullName>
+                <default>false</default>
+                <label>Abbott Aeroset</label>
+            </value>
+            <value>
+                <fullName>Abbott Alinity c</fullName>
+                <default>false</default>
+                <label>Abbott Alinity c</label>
+            </value>
+            <value>
+                <fullName>Abbott Alinity i</fullName>
+                <default>false</default>
+                <label>Abbott Alinity i</label>
+            </value>
+            <value>
+                <fullName>Abbott Alinity M</fullName>
+                <default>false</default>
+                <label>Abbott Alinity M</label>
+            </value>
+            <value>
+                <fullName>Abbott Architect</fullName>
+                <default>false</default>
+                <label>Abbott Architect</label>
+            </value>
+            <value>
+                <fullName>Abbott Architect c16000</fullName>
+                <default>false</default>
+                <label>Abbott Architect c16000</label>
+            </value>
+            <value>
+                <fullName>Abbott Architect c4000</fullName>
+                <default>false</default>
+                <label>Abbott Architect c4000</label>
+            </value>
+            <value>
+                <fullName>Abbott Architect c8000</fullName>
+                <default>false</default>
+                <label>Abbott Architect c8000</label>
+            </value>
+            <value>
+                <fullName>Abbott m2000rt</fullName>
+                <default>false</default>
+                <label>Abbott m2000rt</label>
+            </value>
+            <value>
+                <fullName>ABI 7500</fullName>
+                <default>false</default>
+                <label>ABI 7500</label>
+            </value>
+            <value>
+                <fullName>Bayer Advia 1200</fullName>
+                <default>false</default>
+                <label>Bayer Advia 1200</label>
+            </value>
+            <value>
+                <fullName>Bayer Advia 1650</fullName>
+                <default>false</default>
+                <label>Bayer Advia 1650</label>
+            </value>
+            <value>
+                <fullName>Bayer Advia 2400</fullName>
+                <default>false</default>
+                <label>Bayer Advia 2400</label>
+            </value>
+            <value>
+                <fullName>BD Max</fullName>
+                <default>false</default>
+                <label>BD Max</label>
+            </value>
+            <value>
+                <fullName>BD Viper</fullName>
+                <default>false</default>
+                <label>BD Viper</label>
+            </value>
+            <value>
+                <fullName>Beckman Access</fullName>
+                <default>false</default>
+                <label>Beckman Access</label>
+            </value>
+            <value>
+                <fullName>Beckman AU480</fullName>
+                <default>false</default>
+                <label>Beckman AU480</label>
+            </value>
+            <value>
+                <fullName>Beckman AU680</fullName>
+                <default>false</default>
+                <label>Beckman AU680</label>
+            </value>
+            <value>
+                <fullName>Beckman DxC</fullName>
+                <default>false</default>
+                <label>Beckman DxC</label>
+            </value>
+            <value>
+                <fullName>Beckman DxC700 AU</fullName>
+                <default>false</default>
+                <label>Beckman DxC700 AU</label>
+            </value>
+            <value>
+                <fullName>Beckman DxI</fullName>
+                <default>false</default>
+                <label>Beckman DxI</label>
+            </value>
+            <value>
+                <fullName>Beckman LX</fullName>
+                <default>false</default>
+                <label>Beckman LX</label>
+            </value>
+            <value>
+                <fullName>Biocartis Idylla</fullName>
+                <default>false</default>
+                <label>Biocartis Idylla</label>
+            </value>
+            <value>
+                <fullName>BioFire</fullName>
+                <default>false</default>
+                <label>BioFire</label>
+            </value>
+            <value>
+                <fullName>BioMerieux Vidas</fullName>
+                <default>false</default>
+                <label>BioMerieux Vidas</label>
+            </value>
+            <value>
+                <fullName>Cascadion</fullName>
+                <default>false</default>
+                <label>Cascadion</label>
+            </value>
+            <value>
+                <fullName>Cepheid Genexpert</fullName>
+                <default>false</default>
+                <label>Cepheid Genexpert</label>
+            </value>
+            <value>
+                <fullName>Diasorin Liaison XL</fullName>
+                <default>false</default>
+                <label>Diasorin Liaison XL</label>
+            </value>
+            <value>
+                <fullName>Focus 3M</fullName>
+                <default>false</default>
+                <label>Focus 3M</label>
+            </value>
+            <value>
+                <fullName>Gamma Counter</fullName>
+                <default>false</default>
+                <label>Gamma Counter</label>
+            </value>
+            <value>
+                <fullName>GenMark XT-8</fullName>
+                <default>false</default>
+                <label>GenMark XT-8</label>
+            </value>
+            <value>
+                <fullName>Hologic Panther</fullName>
+                <default>false</default>
+                <label>Hologic Panther</label>
+            </value>
+            <value>
+                <fullName>Illumina NGS</fullName>
+                <default>false</default>
+                <label>Illumina NGS</label>
+            </value>
+            <value>
+                <fullName>Indiko</fullName>
+                <default>false</default>
+                <label>Indiko</label>
+            </value>
+            <value>
+                <fullName>IndikoPlus</fullName>
+                <default>false</default>
+                <label>IndikoPlus</label>
+            </value>
+            <value>
+                <fullName>Ion NGS</fullName>
+                <default>false</default>
+                <label>Ion NGS</label>
+            </value>
+            <value>
+                <fullName>Konelab</fullName>
+                <default>false</default>
+                <label>Konelab</label>
+            </value>
+            <value>
+                <fullName>Kryptor Classic</fullName>
+                <default>false</default>
+                <label>Kryptor Classic</label>
+            </value>
+            <value>
+                <fullName>Kryptor Compact</fullName>
+                <default>false</default>
+                <label>Kryptor Compact</label>
+            </value>
+            <value>
+                <fullName>Kryptor Compact Plus</fullName>
+                <default>false</default>
+                <label>Kryptor Compact Plus</label>
+            </value>
+            <value>
+                <fullName>Kryptor Gold</fullName>
+                <default>false</default>
+                <label>Kryptor Gold</label>
+            </value>
+            <value>
+                <fullName>Luminex 100/200 IS</fullName>
+                <default>false</default>
+                <label>Luminex 100/200 IS</label>
+            </value>
+            <value>
+                <fullName>Luminex ARIES</fullName>
+                <default>false</default>
+                <label>Luminex ARIES</label>
+            </value>
+            <value>
+                <fullName>Manual Method</fullName>
+                <default>false</default>
+                <label>Manual Method</label>
+            </value>
+            <value>
+                <fullName>MCG 240</fullName>
+                <default>false</default>
+                <label>MCG 240</label>
+            </value>
+            <value>
+                <fullName>Mindray BA800</fullName>
+                <default>false</default>
+                <label>Mindray BA800</label>
+            </value>
+            <value>
+                <fullName>Mindray BS480</fullName>
+                <default>false</default>
+                <label>Mindray BS480</label>
+            </value>
+            <value>
+                <fullName>Nanosphere Verigene</fullName>
+                <default>false</default>
+                <label>Nanosphere Verigene</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Olympus AU2700</fullName>
+                <default>false</default>
+                <label>Olympus AU2700</label>
+            </value>
+            <value>
+                <fullName>Olympus AU400</fullName>
+                <default>false</default>
+                <label>Olympus AU400</label>
+            </value>
+            <value>
+                <fullName>Olympus AU480</fullName>
+                <default>false</default>
+                <label>Olympus AU480</label>
+            </value>
+            <value>
+                <fullName>Olympus AU5000</fullName>
+                <default>false</default>
+                <label>Olympus AU5000</label>
+            </value>
+            <value>
+                <fullName>Olympus AU5200</fullName>
+                <default>false</default>
+                <label>Olympus AU5200</label>
+            </value>
+            <value>
+                <fullName>Olympus AU5400</fullName>
+                <default>false</default>
+                <label>Olympus AU5400</label>
+            </value>
+            <value>
+                <fullName>Olympus AU5800</fullName>
+                <default>false</default>
+                <label>Olympus AU5800</label>
+            </value>
+            <value>
+                <fullName>Olympus AU640</fullName>
+                <default>false</default>
+                <label>Olympus AU640</label>
+            </value>
+            <value>
+                <fullName>Olympus AU800</fullName>
+                <default>false</default>
+                <label>Olympus AU800</label>
+            </value>
+            <value>
+                <fullName>Ortho Vitros 4600</fullName>
+                <default>false</default>
+                <label>Ortho Vitros 4600</label>
+            </value>
+            <value>
+                <fullName>Ortho Vitros 5600</fullName>
+                <default>false</default>
+                <label>Ortho Vitros 5600</label>
+            </value>
+            <value>
+                <fullName>Ortho Vitros XT 7600</fullName>
+                <default>false</default>
+                <label>Ortho Vitros XT 7600</label>
+            </value>
+            <value>
+                <fullName>Other - Please Specify</fullName>
+                <default>false</default>
+                <label>Other - Please Specify</label>
+            </value>
+            <value>
+                <fullName>PCT Direct Reader</fullName>
+                <default>false</default>
+                <label>PCT Direct Reader</label>
+            </value>
+            <value>
+                <fullName>Perkin Elmer Autodelfia</fullName>
+                <default>false</default>
+                <label>Perkin Elmer Autodelfia</label>
+            </value>
+            <value>
+                <fullName>QIAGEN Rotogene</fullName>
+                <default>false</default>
+                <label>QIAGEN Rotogene</label>
+            </value>
+            <value>
+                <fullName>Quant Studio Dx</fullName>
+                <default>false</default>
+                <label>Quant Studio Dx</label>
+            </value>
+            <value>
+                <fullName>Quidel Solana</fullName>
+                <default>false</default>
+                <label>Quidel Solana</label>
+            </value>
+            <value>
+                <fullName>Roche 4800</fullName>
+                <default>false</default>
+                <label>Roche 4800</label>
+            </value>
+            <value>
+                <fullName>Roche 6800/8800</fullName>
+                <default>false</default>
+                <label>Roche 6800/8800</label>
+            </value>
+            <value>
+                <fullName>Roche Ampliprep/Taqman (48/96)</fullName>
+                <default>false</default>
+                <label>Roche Ampliprep/Taqman (48/96)</label>
+            </value>
+            <value>
+                <fullName>Roche c501/6000</fullName>
+                <default>false</default>
+                <label>Roche c501/6000</label>
+            </value>
+            <value>
+                <fullName>Roche c502/8000</fullName>
+                <default>false</default>
+                <label>Roche c502/8000</label>
+            </value>
+            <value>
+                <fullName>Roche c701</fullName>
+                <default>false</default>
+                <label>Roche c701</label>
+            </value>
+            <value>
+                <fullName>Roche c702</fullName>
+                <default>false</default>
+                <label>Roche c702</label>
+            </value>
+            <value>
+                <fullName>Roche Cobas e</fullName>
+                <default>false</default>
+                <label>Roche Cobas e</label>
+            </value>
+            <value>
+                <fullName>Roche Cobas Pro</fullName>
+                <default>false</default>
+                <label>Roche Cobas Pro</label>
+            </value>
+            <value>
+                <fullName>Roche Integra 400</fullName>
+                <default>false</default>
+                <label>Roche Integra 400</label>
+            </value>
+            <value>
+                <fullName>Roche Lightcycler (1.0 or 2.0)</fullName>
+                <default>false</default>
+                <label>Roche Lightcycler (1.0 or 2.0)</label>
+            </value>
+            <value>
+                <fullName>Siemens Advia</fullName>
+                <default>false</default>
+                <label>Siemens Advia</label>
+            </value>
+            <value>
+                <fullName>Siemens Advia Centaur</fullName>
+                <default>false</default>
+                <label>Siemens Advia Centaur</label>
+            </value>
+            <value>
+                <fullName>Siemens Atellica</fullName>
+                <default>false</default>
+                <label>Siemens Atellica</label>
+            </value>
+            <value>
+                <fullName>Siemens Clinitek</fullName>
+                <default>false</default>
+                <label>Siemens Clinitek</label>
+            </value>
+            <value>
+                <fullName>Siemens Dimension</fullName>
+                <default>false</default>
+                <label>Siemens Dimension</label>
+            </value>
+            <value>
+                <fullName>Siemens Dimension VISTA</fullName>
+                <default>false</default>
+                <label>Siemens Dimension VISTA</label>
+            </value>
+            <value>
+                <fullName>Siemens Status</fullName>
+                <default>false</default>
+                <label>Siemens Status</label>
+            </value>
+            <value>
+                <fullName>Siemens Viva Jr</fullName>
+                <default>false</default>
+                <label>Siemens Viva Jr</label>
+            </value>
+            <value>
+                <fullName>Stratec SR300</fullName>
+                <default>false</default>
+                <label>Stratec SR300</label>
+            </value>
+            <value>
+                <fullName>Sysmex UC-1000</fullName>
+                <default>false</default>
+                <label>Sysmex UC-1000</label>
+            </value>
+            <value>
+                <fullName>Thermo Indiko</fullName>
+                <default>false</default>
+                <label>Thermo Indiko</label>
+            </value>
+            <value>
+                <fullName>Thermo Indiko Plus</fullName>
+                <default>false</default>
+                <label>Thermo Indiko Plus</label>
+            </value>
+            <value>
+                <fullName>Tosoh AIA Series</fullName>
+                <default>false</default>
+                <label>Tosoh AIA Series</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

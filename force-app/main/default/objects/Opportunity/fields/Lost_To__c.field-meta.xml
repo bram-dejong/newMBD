@@ -1,0 +1,2317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_To__c</fullName>
+    <description>Name of the Competitor the Opportunity was Won/Lost against</description>
+    <label>Won / Lost To</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>JP_IDD_Division__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3M</fullName>
+                <default>false</default>
+                <label>3M</label>
+            </value>
+            <value>
+                <fullName>Abbott</fullName>
+                <default>false</default>
+                <label>Abbott</label>
+            </value>
+            <value>
+                <fullName>Accelerate</fullName>
+                <default>false</default>
+                <label>Accelerate</label>
+            </value>
+            <value>
+                <fullName>Accelerate Pheno</fullName>
+                <default>false</default>
+                <label>Accelerate Pheno</label>
+            </value>
+            <value>
+                <fullName>Adaptive Biotechnology</fullName>
+                <default>false</default>
+                <label>Adaptive Biotechnology</label>
+            </value>
+            <value>
+                <fullName>AESKU</fullName>
+                <default>false</default>
+                <label>AESKU</label>
+            </value>
+            <value>
+                <fullName>Affinity Biosensors</fullName>
+                <default>false</default>
+                <label>Affinity Biosensors</label>
+            </value>
+            <value>
+                <fullName>Agena</fullName>
+                <default>false</default>
+                <label>Agena</label>
+            </value>
+            <value>
+                <fullName>Agilent</fullName>
+                <default>false</default>
+                <label>Agilent</label>
+            </value>
+            <value>
+                <fullName>Agnitio BioIC</fullName>
+                <default>false</default>
+                <label>Agnitio BioIC</label>
+            </value>
+            <value>
+                <fullName>ALERE</fullName>
+                <default>false</default>
+                <label>ALERE</label>
+            </value>
+            <value>
+                <fullName>Alfresa Pharma Corporation</fullName>
+                <default>false</default>
+                <label>Alfresa Pharma Corporation</label>
+            </value>
+            <value>
+                <fullName>Alifax</fullName>
+                <default>false</default>
+                <label>Alifax</label>
+            </value>
+            <value>
+                <fullName>Ark Diagnostics</fullName>
+                <default>false</default>
+                <label>Ark Diagnostics</label>
+            </value>
+            <value>
+                <fullName>ARUP</fullName>
+                <default>false</default>
+                <label>ARUP</label>
+            </value>
+            <value>
+                <fullName>Astrego</fullName>
+                <default>false</default>
+                <label>Astrego</label>
+            </value>
+            <value>
+                <fullName>Athena</fullName>
+                <default>false</default>
+                <label>Athena</label>
+            </value>
+            <value>
+                <fullName>Autobio</fullName>
+                <default>false</default>
+                <label>Autobio</label>
+            </value>
+            <value>
+                <fullName>AVANTIK</fullName>
+                <default>false</default>
+                <label>AVANTIK</label>
+            </value>
+            <value>
+                <fullName>AXA/Corgenix</fullName>
+                <default>false</default>
+                <label>AXA/Corgenix</label>
+            </value>
+            <value>
+                <fullName>AZER</fullName>
+                <default>false</default>
+                <label>AZER</label>
+            </value>
+            <value>
+                <fullName>BAG Healthcare</fullName>
+                <default>false</default>
+                <label>BAG Healthcare</label>
+            </value>
+            <value>
+                <fullName>BD</fullName>
+                <default>false</default>
+                <label>BD</label>
+            </value>
+            <value>
+                <fullName>Beckman</fullName>
+                <default>false</default>
+                <label>Beckman</label>
+            </value>
+            <value>
+                <fullName>Beckman Coulter</fullName>
+                <default>false</default>
+                <label>Beckman Coulter</label>
+            </value>
+            <value>
+                <fullName>Becton Dickinson</fullName>
+                <default>false</default>
+                <label>Becton Dickinson</label>
+            </value>
+            <value>
+                <fullName>Beijing LandBridge</fullName>
+                <default>false</default>
+                <label>Beijing LandBridge</label>
+            </value>
+            <value>
+                <fullName>BFR</fullName>
+                <default>false</default>
+                <label>BFR</label>
+            </value>
+            <value>
+                <fullName>BGI</fullName>
+                <default>false</default>
+                <label>BGI</label>
+            </value>
+            <value>
+                <fullName>Binding Site</fullName>
+                <default>false</default>
+                <label>Binding Site</label>
+            </value>
+            <value>
+                <fullName>BioFire</fullName>
+                <default>false</default>
+                <label>BioFire</label>
+            </value>
+            <value>
+                <fullName>BioGene</fullName>
+                <default>false</default>
+                <label>BioGene</label>
+            </value>
+            <value>
+                <fullName>BioKar</fullName>
+                <default>false</default>
+                <label>BioKar</label>
+            </value>
+            <value>
+                <fullName>Biomedia</fullName>
+                <default>false</default>
+                <label>Biomedia</label>
+            </value>
+            <value>
+                <fullName>bioMérieux</fullName>
+                <default>false</default>
+                <label>bioMérieux</label>
+            </value>
+            <value>
+                <fullName>Bio-Rad</fullName>
+                <default>false</default>
+                <label>Bio-Rad</label>
+            </value>
+            <value>
+                <fullName>Biosystems</fullName>
+                <default>false</default>
+                <label>Biosystems</label>
+            </value>
+            <value>
+                <fullName>BioTecon</fullName>
+                <default>false</default>
+                <label>BioTecon</label>
+            </value>
+            <value>
+                <fullName>BMX</fullName>
+                <default>false</default>
+                <label>BMX</label>
+            </value>
+            <value>
+                <fullName>Boditech</fullName>
+                <default>false</default>
+                <label>Boditech</label>
+            </value>
+            <value>
+                <fullName>Bruker</fullName>
+                <default>false</default>
+                <label>Bruker</label>
+            </value>
+            <value>
+                <fullName>Buehlmann Laboratories</fullName>
+                <default>false</default>
+                <label>Buehlmann Laboratories</label>
+            </value>
+            <value>
+                <fullName>Calpro AS</fullName>
+                <default>false</default>
+                <label>Calpro AS</label>
+            </value>
+            <value>
+                <fullName>Cancer Diagnostics</fullName>
+                <default>false</default>
+                <label>Cancer Diagnostics</label>
+            </value>
+            <value>
+                <fullName>CapBio</fullName>
+                <default>false</default>
+                <label>CapBio</label>
+            </value>
+            <value>
+                <fullName>CARDINAL</fullName>
+                <default>false</default>
+                <label>CARDINAL</label>
+            </value>
+            <value>
+                <fullName>CareDX</fullName>
+                <default>false</default>
+                <label>CareDX</label>
+            </value>
+            <value>
+                <fullName>Cepheid</fullName>
+                <default>false</default>
+                <label>Cepheid</label>
+            </value>
+            <value>
+                <fullName>Cerner HLA</fullName>
+                <default>false</default>
+                <label>Cerner HLA</label>
+            </value>
+            <value>
+                <fullName>Chemiphar</fullName>
+                <default>false</default>
+                <label>Chemiphar</label>
+            </value>
+            <value>
+                <fullName>CHROMagar</fullName>
+                <default>false</default>
+                <label>CHROMagar</label>
+            </value>
+            <value>
+                <fullName>Chromsystems</fullName>
+                <default>false</default>
+                <label>Chromsystems</label>
+            </value>
+            <value>
+                <fullName>Clear Labs</fullName>
+                <default>false</default>
+                <label>Clear Labs</label>
+            </value>
+            <value>
+                <fullName>C-Luminary</fullName>
+                <default>false</default>
+                <label>C-Luminary</label>
+            </value>
+            <value>
+                <fullName>Conda</fullName>
+                <default>false</default>
+                <label>Conda</label>
+            </value>
+            <value>
+                <fullName>Copan</fullName>
+                <default>false</default>
+                <label>Copan</label>
+            </value>
+            <value>
+                <fullName>Cosmic Corporation Co., Ltd.</fullName>
+                <default>false</default>
+                <label>Cosmic Corporation Co., Ltd.</label>
+            </value>
+            <value>
+                <fullName>CSTB</fullName>
+                <default>false</default>
+                <label>CSTB</label>
+            </value>
+            <value>
+                <fullName>CTC</fullName>
+                <default>false</default>
+                <label>CTC</label>
+            </value>
+            <value>
+                <fullName>Cue</fullName>
+                <default>false</default>
+                <label>Cue</label>
+            </value>
+            <value>
+                <fullName>Cytognos</fullName>
+                <default>false</default>
+                <label>Cytognos</label>
+            </value>
+            <value>
+                <fullName>Dako</fullName>
+                <default>false</default>
+                <label>Dako</label>
+            </value>
+            <value>
+                <fullName>Dalynn</fullName>
+                <default>false</default>
+                <label>Dalynn</label>
+            </value>
+            <value>
+                <fullName>Das</fullName>
+                <default>false</default>
+                <label>Das</label>
+            </value>
+            <value>
+                <fullName>Diasorin</fullName>
+                <default>false</default>
+                <label>Diasorin</label>
+            </value>
+            <value>
+                <fullName>Diasys</fullName>
+                <default>false</default>
+                <label>Diasys</label>
+            </value>
+            <value>
+                <fullName>Diatron</fullName>
+                <default>false</default>
+                <label>Diatron</label>
+            </value>
+            <value>
+                <fullName>Diazyme</fullName>
+                <default>false</default>
+                <label>Diazyme</label>
+            </value>
+            <value>
+                <fullName>Dr. Fooke</fullName>
+                <default>false</default>
+                <label>Dr. Fooke</label>
+            </value>
+            <value>
+                <fullName>DYNEX</fullName>
+                <default>false</default>
+                <label>DYNEX</label>
+            </value>
+            <value>
+                <fullName>E&amp;O</fullName>
+                <default>false</default>
+                <label>E&amp;O</label>
+            </value>
+            <value>
+                <fullName>EasyDiagnostics</fullName>
+                <default>false</default>
+                <label>EasyDiagnostics</label>
+            </value>
+            <value>
+                <fullName>Eppendorf</fullName>
+                <default>false</default>
+                <label>Eppendorf</label>
+            </value>
+            <value>
+                <fullName>Erba Mannheim</fullName>
+                <default>false</default>
+                <label>Erba Mannheim</label>
+            </value>
+            <value>
+                <fullName>E T Healthcare</fullName>
+                <default>false</default>
+                <label>E T Healthcare</label>
+            </value>
+            <value>
+                <fullName>Eurofins</fullName>
+                <default>false</default>
+                <label>Eurofins</label>
+            </value>
+            <value>
+                <fullName>EUROIMMUN</fullName>
+                <default>false</default>
+                <label>EUROIMMUN</label>
+            </value>
+            <value>
+                <fullName>Exact Dx/Bio-Rad</fullName>
+                <default>false</default>
+                <label>Exact Dx/Bio-Rad</label>
+            </value>
+            <value>
+                <fullName>Existing TDX</fullName>
+                <default>false</default>
+                <label>Existing TDX</label>
+            </value>
+            <value>
+                <fullName>External Labs</fullName>
+                <default>false</default>
+                <label>External Labs</label>
+            </value>
+            <value>
+                <fullName>Fujirebio</fullName>
+                <default>false</default>
+                <label>Fujirebio</label>
+            </value>
+            <value>
+                <fullName>GenDx</fullName>
+                <default>false</default>
+                <label>GenDx</label>
+            </value>
+            <value>
+                <fullName>GenMark</fullName>
+                <default>false</default>
+                <label>GenMark</label>
+            </value>
+            <value>
+                <fullName>Gerstel</fullName>
+                <default>false</default>
+                <label>Gerstel</label>
+            </value>
+            <value>
+                <fullName>Getein</fullName>
+                <default>false</default>
+                <label>Getein</label>
+            </value>
+            <value>
+                <fullName>Goldsite</fullName>
+                <default>false</default>
+                <label>Goldsite</label>
+            </value>
+            <value>
+                <fullName>Gold Standard Dx</fullName>
+                <default>false</default>
+                <label>Gold Standard Dx</label>
+            </value>
+            <value>
+                <fullName>GRAINGER</fullName>
+                <default>false</default>
+                <label>GRAINGER</label>
+            </value>
+            <value>
+                <fullName>Grifols</fullName>
+                <default>false</default>
+                <label>Grifols</label>
+            </value>
+            <value>
+                <fullName>Haike</fullName>
+                <default>false</default>
+                <label>Haike</label>
+            </value>
+            <value>
+                <fullName>Hamilton</fullName>
+                <default>false</default>
+                <label>Hamilton</label>
+            </value>
+            <value>
+                <fullName>Hardy Diagnostics</fullName>
+                <default>false</default>
+                <label>Hardy Diagnostics</label>
+            </value>
+            <value>
+                <fullName>HELMER</fullName>
+                <default>false</default>
+                <label>HELMER</label>
+            </value>
+            <value>
+                <fullName>HENRY SCHEIN</fullName>
+                <default>false</default>
+                <label>HENRY SCHEIN</label>
+            </value>
+            <value>
+                <fullName>HiMedia</fullName>
+                <default>false</default>
+                <label>HiMedia</label>
+            </value>
+            <value>
+                <fullName>Histogenetics</fullName>
+                <default>false</default>
+                <label>Histogenetics</label>
+            </value>
+            <value>
+                <fullName>Hitachi</fullName>
+                <default>false</default>
+                <label>Hitachi</label>
+            </value>
+            <value>
+                <fullName>HLA Data Systems / mTilda</fullName>
+                <default>false</default>
+                <label>HLA Data Systems / mTilda</label>
+            </value>
+            <value>
+                <fullName>HOB</fullName>
+                <default>false</default>
+                <label>HOB</label>
+            </value>
+            <value>
+                <fullName>Hologic</fullName>
+                <default>false</default>
+                <label>Hologic</label>
+            </value>
+            <value>
+                <fullName>Homebrew</fullName>
+                <default>false</default>
+                <label>Homebrew</label>
+            </value>
+            <value>
+                <fullName>Horiba</fullName>
+                <default>false</default>
+                <label>Horiba</label>
+            </value>
+            <value>
+                <fullName>Horizon</fullName>
+                <default>false</default>
+                <label>Horizon</label>
+            </value>
+            <value>
+                <fullName>Hotgene</fullName>
+                <default>false</default>
+                <label>Hotgene</label>
+            </value>
+            <value>
+                <fullName>Hycor</fullName>
+                <default>false</default>
+                <label>Hycor</label>
+            </value>
+            <value>
+                <fullName>Hygiena</fullName>
+                <default>false</default>
+                <label>Hygiena</label>
+            </value>
+            <value>
+                <fullName>iBox</fullName>
+                <default>false</default>
+                <label>iBox</label>
+            </value>
+            <value>
+                <fullName>IDS</fullName>
+                <default>false</default>
+                <label>IDS</label>
+            </value>
+            <value>
+                <fullName>IL Japan Co., Ltd.</fullName>
+                <default>false</default>
+                <label>IL Japan Co., Ltd.</label>
+            </value>
+            <value>
+                <fullName>Illumina</fullName>
+                <default>false</default>
+                <label>Illumina</label>
+            </value>
+            <value>
+                <fullName>Immunalysis</fullName>
+                <default>false</default>
+                <label>Immunalysis</label>
+            </value>
+            <value>
+                <fullName>ImmunoConcepts</fullName>
+                <default>false</default>
+                <label>ImmunoConcepts</label>
+            </value>
+            <value>
+                <fullName>Impeco</fullName>
+                <default>false</default>
+                <label>Impeco</label>
+            </value>
+            <value>
+                <fullName>INFOLAB</fullName>
+                <default>false</default>
+                <label>INFOLAB</label>
+            </value>
+            <value>
+                <fullName>Ingen</fullName>
+                <default>false</default>
+                <label>Ingen</label>
+            </value>
+            <value>
+                <fullName>Inno-train</fullName>
+                <default>false</default>
+                <label>Inno-train</label>
+            </value>
+            <value>
+                <fullName>Innovation Diagnostics</fullName>
+                <default>false</default>
+                <label>Innovation Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Inova</fullName>
+                <default>false</default>
+                <label>Inova / Werfen</label>
+            </value>
+            <value>
+                <fullName>JEOL</fullName>
+                <default>false</default>
+                <label>JEOL</label>
+            </value>
+            <value>
+                <fullName>Jeta M</fullName>
+                <default>false</default>
+                <label>Jeta M</label>
+            </value>
+            <value>
+                <fullName>LABCONCO</fullName>
+                <default>false</default>
+                <label>LABCONCO</label>
+            </value>
+            <value>
+                <fullName>LabCorp</fullName>
+                <default>false</default>
+                <label>LabCorp</label>
+            </value>
+            <value>
+                <fullName>LabM</fullName>
+                <default>false</default>
+                <label>LabM</label>
+            </value>
+            <value>
+                <fullName>LABSCO</fullName>
+                <default>false</default>
+                <label>LABSCO</label>
+            </value>
+            <value>
+                <fullName>Leandia</fullName>
+                <default>false</default>
+                <label>Leandia</label>
+            </value>
+            <value>
+                <fullName>LEICA</fullName>
+                <default>false</default>
+                <label>LEICA</label>
+            </value>
+            <value>
+                <fullName>Lifetronic</fullName>
+                <default>false</default>
+                <label>Lifetronic</label>
+            </value>
+            <value>
+                <fullName>Lin-Zhi</fullName>
+                <default>false</default>
+                <label>Lin-Zhi</label>
+            </value>
+            <value>
+                <fullName>LioFilchem</fullName>
+                <default>false</default>
+                <label>LioFilchem</label>
+            </value>
+            <value>
+                <fullName>LSI Medience Corporation</fullName>
+                <default>false</default>
+                <label>LSI Medience Corporation</label>
+            </value>
+            <value>
+                <fullName>Lucira</fullName>
+                <default>false</default>
+                <label>Lucira</label>
+            </value>
+            <value>
+                <fullName>Luminex</fullName>
+                <default>false</default>
+                <label>Luminex</label>
+            </value>
+            <value>
+                <fullName>Lumira</fullName>
+                <default>false</default>
+                <label>Lumira</label>
+            </value>
+            <value>
+                <fullName>MADX, Macro Array Diagnostics</fullName>
+                <default>false</default>
+                <label>MADX, Macro Array Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Mago</fullName>
+                <default>false</default>
+                <label>Mago</label>
+            </value>
+            <value>
+                <fullName>Maine Molecular</fullName>
+                <default>false</default>
+                <label>Maine Molecular</label>
+            </value>
+            <value>
+                <fullName>MAYO</fullName>
+                <default>false</default>
+                <label>MAYO</label>
+            </value>
+            <value>
+                <fullName>Mayo Clinic</fullName>
+                <default>false</default>
+                <label>Mayo Clinic</label>
+            </value>
+            <value>
+                <fullName>MCKESSON</fullName>
+                <default>false</default>
+                <label>MCKESSON</label>
+            </value>
+            <value>
+                <fullName>MEDIPAN</fullName>
+                <default>false</default>
+                <label>MEDIPAN</label>
+            </value>
+            <value>
+                <fullName>Medline</fullName>
+                <default>false</default>
+                <label>Medline</label>
+            </value>
+            <value>
+                <fullName>Medtox</fullName>
+                <default>false</default>
+                <label>Medtox</label>
+            </value>
+            <value>
+                <fullName>Medwiss</fullName>
+                <default>false</default>
+                <label>Medwiss</label>
+            </value>
+            <value>
+                <fullName>Menarini</fullName>
+                <default>false</default>
+                <label>Menarini</label>
+            </value>
+            <value>
+                <fullName>MERCEDES</fullName>
+                <default>false</default>
+                <label>MERCEDES</label>
+            </value>
+            <value>
+                <fullName>Merck</fullName>
+                <default>false</default>
+                <label>Merck</label>
+            </value>
+            <value>
+                <fullName>Merck Millipore</fullName>
+                <default>false</default>
+                <label>Merck Millipore</label>
+            </value>
+            <value>
+                <fullName>Merlin</fullName>
+                <default>false</default>
+                <label>Merlin</label>
+            </value>
+            <value>
+                <fullName>Microbiologics</fullName>
+                <default>false</default>
+                <label>Microbiologics</label>
+            </value>
+            <value>
+                <fullName>Mindray</fullName>
+                <default>false</default>
+                <label>Mindray</label>
+            </value>
+            <value>
+                <fullName>Nanjing GP</fullName>
+                <default>false</default>
+                <label>Nanjing GP</label>
+            </value>
+            <value>
+                <fullName>Nanostring</fullName>
+                <default>false</default>
+                <label>Nanostring</label>
+            </value>
+            <value>
+                <fullName>Natera</fullName>
+                <default>false</default>
+                <label>Natera</label>
+            </value>
+            <value>
+                <fullName>Neogen</fullName>
+                <default>false</default>
+                <label>Neogen</label>
+            </value>
+            <value>
+                <fullName>NOBODY</fullName>
+                <default>false</default>
+                <label>NOBODY</label>
+            </value>
+            <value>
+                <fullName>No Competitor</fullName>
+                <default>false</default>
+                <label>No Competitor</label>
+            </value>
+            <value>
+                <fullName>NONE</fullName>
+                <default>false</default>
+                <label>NONE</label>
+            </value>
+            <value>
+                <fullName>OrgenTec</fullName>
+                <default>false</default>
+                <label>OrgenTec</label>
+            </value>
+            <value>
+                <fullName>Ortho</fullName>
+                <default>false</default>
+                <label>Ortho</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>Other-Manual Technology</fullName>
+                <default>false</default>
+                <label>Other-Manual Technology</label>
+            </value>
+            <value>
+                <fullName>Other-Microtiter Plate System</fullName>
+                <default>false</default>
+                <label>Other-Microtiter Plate System</label>
+            </value>
+            <value>
+                <fullName>OWENS &amp; MINOR</fullName>
+                <default>false</default>
+                <label>OWENS &amp; MINOR</label>
+            </value>
+            <value>
+                <fullName>PALL</fullName>
+                <default>false</default>
+                <label>PALL</label>
+            </value>
+            <value>
+                <fullName>Parrallel Trade</fullName>
+                <default>false</default>
+                <label>Parrallel Trade</label>
+            </value>
+            <value>
+                <fullName>Perkin Elmer</fullName>
+                <default>false</default>
+                <label>Perkin Elmer</label>
+            </value>
+            <value>
+                <fullName>Plate in Hand</fullName>
+                <default>false</default>
+                <label>Plate in Hand</label>
+            </value>
+            <value>
+                <fullName>Prick Test</fullName>
+                <default>false</default>
+                <label>Prick Test</label>
+            </value>
+            <value>
+                <fullName>Promega</fullName>
+                <default>false</default>
+                <label>Promega</label>
+            </value>
+            <value>
+                <fullName>Protrans</fullName>
+                <default>false</default>
+                <label>Protrans</label>
+            </value>
+            <value>
+                <fullName>Qiagen</fullName>
+                <default>false</default>
+                <label>Qiagen</label>
+            </value>
+            <value>
+                <fullName>QuantaMatrix</fullName>
+                <default>false</default>
+                <label>QuantaMatrix</label>
+            </value>
+            <value>
+                <fullName>Quest</fullName>
+                <default>false</default>
+                <label>Quest</label>
+            </value>
+            <value>
+                <fullName>Quidel</fullName>
+                <default>false</default>
+                <label>QuidelOrtho</label>
+            </value>
+            <value>
+                <fullName>Radiometer</fullName>
+                <default>false</default>
+                <label>Radiometer</label>
+            </value>
+            <value>
+                <fullName>Randox</fullName>
+                <default>false</default>
+                <label>Randox</label>
+            </value>
+            <value>
+                <fullName>Randox/Qnostics</fullName>
+                <default>false</default>
+                <label>Randox/Qnostics</label>
+            </value>
+            <value>
+                <fullName>Rapid Novel</fullName>
+                <default>false</default>
+                <label>Rapid Novel</label>
+            </value>
+            <value>
+                <fullName>R-Biopharm</fullName>
+                <default>false</default>
+                <label>R-Biopharm</label>
+            </value>
+            <value>
+                <fullName>Recipe</fullName>
+                <default>false</default>
+                <label>Recipe</label>
+            </value>
+            <value>
+                <fullName>Red One Medical</fullName>
+                <default>false</default>
+                <label>Red One Medical</label>
+            </value>
+            <value>
+                <fullName>Roche</fullName>
+                <default>false</default>
+                <label>Roche</label>
+            </value>
+            <value>
+                <fullName>Roka (IEH)</fullName>
+                <default>false</default>
+                <label>Roka (IEH)</label>
+            </value>
+            <value>
+                <fullName>Rose GenTec</fullName>
+                <default>false</default>
+                <label>Rose GenTec</label>
+            </value>
+            <value>
+                <fullName>SAKURA</fullName>
+                <default>false</default>
+                <label>SAKURA</label>
+            </value>
+            <value>
+                <fullName>Sciex</fullName>
+                <default>false</default>
+                <label>Sciex</label>
+            </value>
+            <value>
+                <fullName>Sebia</fullName>
+                <default>false</default>
+                <label>Sebia</label>
+            </value>
+            <value>
+                <fullName>Selectra Pro</fullName>
+                <default>false</default>
+                <label>Selectra Pro</label>
+            </value>
+            <value>
+                <fullName>SeLux Diagnostics</fullName>
+                <default>false</default>
+                <label>SeLux Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Send Away</fullName>
+                <default>false</default>
+                <label>Send Away</label>
+            </value>
+            <value>
+                <fullName>Send out (Send to Reference lab)</fullName>
+                <default>false</default>
+                <label>Send out (Send to Reference lab)</label>
+            </value>
+            <value>
+                <fullName>SeraCare</fullName>
+                <default>false</default>
+                <label>SeraCare</label>
+            </value>
+            <value>
+                <fullName>SERO</fullName>
+                <default>false</default>
+                <label>SERO</label>
+            </value>
+            <value>
+                <fullName>Sharay</fullName>
+                <default>false</default>
+                <label>Sharay</label>
+            </value>
+            <value>
+                <fullName>Shimadzu</fullName>
+                <default>false</default>
+                <label>Shimadzu</label>
+            </value>
+            <value>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+                <label>Siemens</label>
+            </value>
+            <value>
+                <fullName>SIMPORT</fullName>
+                <default>false</default>
+                <label>SIMPORT</label>
+            </value>
+            <value>
+                <fullName>Sisco</fullName>
+                <default>false</default>
+                <label>Sisco</label>
+            </value>
+            <value>
+                <fullName>Snibe</fullName>
+                <default>false</default>
+                <label>Snibe</label>
+            </value>
+            <value>
+                <fullName>Soft HLA</fullName>
+                <default>false</default>
+                <label>Soft HLA</label>
+            </value>
+            <value>
+                <fullName>Southern Group</fullName>
+                <default>false</default>
+                <label>Southern Group</label>
+            </value>
+            <value>
+                <fullName>Spark</fullName>
+                <default>false</default>
+                <label>Spark</label>
+            </value>
+            <value>
+                <fullName>Specialty Diagnostics</fullName>
+                <default>false</default>
+                <label>Specialty Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Specific Dx</fullName>
+                <default>false</default>
+                <label>Specific Dx</label>
+            </value>
+            <value>
+                <fullName>STAT LAB</fullName>
+                <default>false</default>
+                <label>STAT LAB</label>
+            </value>
+            <value>
+                <fullName>Streck</fullName>
+                <default>false</default>
+                <label>Streck</label>
+            </value>
+            <value>
+                <fullName>Suzhou E.T</fullName>
+                <default>false</default>
+                <label>Suzhou E.T</label>
+            </value>
+            <value>
+                <fullName>Sysmex</fullName>
+                <default>false</default>
+                <label>Sysmex</label>
+            </value>
+            <value>
+                <fullName>T2 Biosystems</fullName>
+                <default>false</default>
+                <label>T2 Biosystems</label>
+            </value>
+            <value>
+                <fullName>Tecan</fullName>
+                <default>false</default>
+                <label>Tecan</label>
+            </value>
+            <value>
+                <fullName>Technopath</fullName>
+                <default>false</default>
+                <label>Technopath</label>
+            </value>
+            <value>
+                <fullName>Teknova</fullName>
+                <default>false</default>
+                <label>Teknova</label>
+            </value>
+            <value>
+                <fullName>Texas BioGene</fullName>
+                <default>false</default>
+                <label>Texas BioGene</label>
+            </value>
+            <value>
+                <fullName>TFS</fullName>
+                <default>false</default>
+                <label>TFS</label>
+            </value>
+            <value>
+                <fullName>Thermo - CMD</fullName>
+                <default>false</default>
+                <label>Thermo - CMD</label>
+            </value>
+            <value>
+                <fullName>Thermo Fisher</fullName>
+                <default>false</default>
+                <label>Thermo Fisher</label>
+            </value>
+            <value>
+                <fullName>Thermo – GSD</fullName>
+                <default>false</default>
+                <label>Thermo – GSD</label>
+            </value>
+            <value>
+                <fullName>Thermo – IDD</fullName>
+                <default>false</default>
+                <label>Thermo – IDD</label>
+            </value>
+            <value>
+                <fullName>Tokyo Boeki</fullName>
+                <default>false</default>
+                <label>Tokyo Boeki</label>
+            </value>
+            <value>
+                <fullName>Tosoh</fullName>
+                <default>false</default>
+                <label>Tosoh</label>
+            </value>
+            <value>
+                <fullName>Transasia</fullName>
+                <default>false</default>
+                <label>Transasia</label>
+            </value>
+            <value>
+                <fullName>Trimero</fullName>
+                <default>false</default>
+                <label>Trimero</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Vela Diagnostics</fullName>
+                <default>false</default>
+                <label>Vela Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Visby</fullName>
+                <default>false</default>
+                <label>Visby</label>
+            </value>
+            <value>
+                <fullName>VWR</fullName>
+                <default>false</default>
+                <label>VWR</label>
+            </value>
+            <value>
+                <fullName>Wakunaga</fullName>
+                <default>false</default>
+                <label>Wakunaga</label>
+            </value>
+            <value>
+                <fullName>Wantai</fullName>
+                <default>false</default>
+                <label>Wantai</label>
+            </value>
+            <value>
+                <fullName>WASPLab Phenomatrix</fullName>
+                <default>false</default>
+                <label>WASPLab Phenomatrix</label>
+            </value>
+            <value>
+                <fullName>Waters</fullName>
+                <default>false</default>
+                <label>Waters</label>
+            </value>
+            <value>
+                <fullName>Werfen</fullName>
+                <default>false</default>
+                <label>Werfen</label>
+            </value>
+            <value>
+                <fullName>Immucor</fullName>
+                <default>false</default>
+                <label>Werfen-Immucor</label>
+            </value>
+            <value>
+                <fullName>Omixon</fullName>
+                <default>false</default>
+                <label>Werfen-Omixon</label>
+            </value>
+            <value>
+                <fullName>Wondfo</fullName>
+                <default>false</default>
+                <label>Wondfo</label>
+            </value>
+            <value>
+                <fullName>Wuhan easy</fullName>
+                <default>false</default>
+                <label>Wuhan easy</label>
+            </value>
+            <value>
+                <fullName>Xebios</fullName>
+                <default>false</default>
+                <label>Xebios</label>
+            </value>
+            <value>
+                <fullName>Yingsheng</fullName>
+                <default>false</default>
+                <label>Yingsheng</label>
+            </value>
+            <value>
+                <fullName>ZeptoMetrix</fullName>
+                <default>false</default>
+                <label>ZeptoMetrix</label>
+            </value>
+            <value>
+                <fullName>Zeus</fullName>
+                <default>false</default>
+                <label>Zeus</label>
+            </value>
+            <value>
+                <fullName>Zheda Dixun</fullName>
+                <default>false</default>
+                <label>Zheda Dixun</label>
+            </value>
+            <value>
+                <fullName>Zhuhai DL Biotech</fullName>
+                <default>false</default>
+                <label>Zhuhai DL Biotech</label>
+            </value>
+            <value>
+                <fullName>Zivak</fullName>
+                <default>false</default>
+                <label>Zivak</label>
+            </value>
+            <value>
+                <fullName>Z-SC1</fullName>
+                <default>false</default>
+                <label>Z-SC1</label>
+            </value>
+            <value>
+                <fullName>OTHER（膜条20项）</fullName>
+                <default>false</default>
+                <label>OTHER（膜条20项）</label>
+            </value>
+            <value>
+                <fullName>OTHER（膜条29项）</fullName>
+                <default>false</default>
+                <label>OTHER（膜条29项）</label>
+            </value>
+            <value>
+                <fullName>携光</fullName>
+                <default>false</default>
+                <label>携光</label>
+            </value>
+            <value>
+                <fullName>MOPEC</fullName>
+                <default>false</default>
+                <label>MOPEC</label>
+            </value>
+            <value>
+                <fullName>TESTS SENT OUT</fullName>
+                <default>false</default>
+                <label>TESTS SENT OUT</label>
+            </value>
+            <value>
+                <fullName>OCD</fullName>
+                <default>false</default>
+                <label>OCD</label>
+            </value>
+            <value>
+                <fullName>Sysmex UC-1000</fullName>
+                <default>false</default>
+                <label>Sysmex UC-1000</label>
+            </value>
+            <value>
+                <fullName>Grifois</fullName>
+                <default>false</default>
+                <label>Grifois</label>
+            </value>
+            <value>
+                <fullName>RG_SmokeTest_Comp.</fullName>
+                <default>false</default>
+                <label>RG_SmokeTest_Comp.</label>
+            </value>
+            <value>
+                <fullName>Ark</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ark</label>
+            </value>
+            <value>
+                <fullName>Hardy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hardy</label>
+            </value>
+            <value>
+                <fullName>Hitachi Chemical Diagnostics Systems Co., Ltd.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hitachi Chemical Diagnostics Systems Co., Ltd.</label>
+            </value>
+            <value>
+                <fullName>Hygenia</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hygenia</label>
+            </value>
+            <value>
+                <fullName>ISOLAB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ISOLAB</label>
+            </value>
+            <value>
+                <fullName>Jeta Molecular</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Jeta Molecular</label>
+            </value>
+            <value>
+                <fullName>Kiestra ReadA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kiestra ReadA</label>
+            </value>
+            <value>
+                <fullName>Kit Controls</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kit Controls</label>
+            </value>
+            <value>
+                <fullName>Kit Controls - IVD Manufacturer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kit Controls - IVD Manufacturer</label>
+            </value>
+            <value>
+                <fullName>LCMS (Liquid Chromatography/Mass Spec)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LCMS (Liquid Chromatography/Mass Spec)</label>
+            </value>
+            <value>
+                <fullName>LSI Medience (formerly Mitsubishi)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LSI Medience (formerly Mitsubishi)</label>
+            </value>
+            <value>
+                <fullName>MAST Group</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MAST Group</label>
+            </value>
+            <value>
+                <fullName>MEDICAL ＆ BIOLOGICAL LABORATORIES CO., LTD.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MEDICAL ＆ BIOLOGICAL LABORATORIES CO., LTD.</label>
+            </value>
+            <value>
+                <fullName>MOCHIDA PHARMACEUTICAL CO., LTD.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MOCHIDA PHARMACEUTICAL CO., LTD.</label>
+            </value>
+            <value>
+                <fullName>Micronostyx</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Micronostyx</label>
+            </value>
+            <value>
+                <fullName>Nippon Chemiphar Co., Ltd</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nippon Chemiphar Co., Ltd</label>
+            </value>
+            <value>
+                <fullName>Non-Viable</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non-Viable</label>
+            </value>
+            <value>
+                <fullName>Orasure</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Orasure</label>
+            </value>
+            <value>
+                <fullName>POC (Point of cared device companies)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>POC (Point of cared device companies)</label>
+            </value>
+            <value>
+                <fullName>Phoenix</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Phoenix</label>
+            </value>
+            <value>
+                <fullName>Qnostics</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Qnostics</label>
+            </value>
+            <value>
+                <fullName>Roche Diagnostics K.K.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Roche Diagnostics K.K.</label>
+            </value>
+            <value>
+                <fullName>SEKISUI MEDICAL CO., LTD.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SEKISUI MEDICAL CO., LTD.</label>
+            </value>
+            <value>
+                <fullName>SYSMEX CORPORATION</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SYSMEX CORPORATION</label>
+            </value>
+            <value>
+                <fullName>Sera-Care</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sera-Care</label>
+            </value>
+            <value>
+                <fullName>Siemens Healthcare K.K</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Siemens Healthcare K.K</label>
+            </value>
+            <value>
+                <fullName>Tosoh Corporation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tosoh Corporation</label>
+            </value>
+            <value>
+                <fullName>Undetermined</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Undetermined</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Abbott</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Agilent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Ark Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Autobio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Beckman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Beckman Coulter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Binding Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>bioMérieux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Bio-Rad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Biosystems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Boditech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Bruker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Cepheid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Chromsystems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>CTC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Diasorin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Diasys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Diatron</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Diazyme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Eppendorf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Erba Mannheim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>EUROIMMUN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Exact Dx/Bio-Rad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Fujirebio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Gerstel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Goldsite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Hamilton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Hitachi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Hologic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Homebrew</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Horiba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Horizon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Hotgene</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>IDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Immunalysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Impeco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Lin-Zhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>LSI Medience Corporation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Maine Molecular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>MEDIPAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Medtox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Mindray</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Nanjing GP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>NOBODY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>OTHER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Parrallel Trade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Perkin Elmer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Quidel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Radiometer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Randox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Randox/Qnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Recipe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Roche</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Sciex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Selectra Pro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Send out (Send to Reference lab)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>SeraCare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>SERO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Shimadzu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Siemens</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Snibe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Spark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Specialty Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Streck</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Suzhou E.T</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Sysmex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Tecan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Technopath</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Thermo - CMD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Thermo Fisher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Thermo – GSD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Thermo – IDD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Tokyo Boeki</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Tosoh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Transasia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Wantai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Waters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Wondfo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Wuhan easy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Yingsheng</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>ZeptoMetrix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Zivak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>AXA/Corgenix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Buehlmann Laboratories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Calpro AS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Chemiphar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>C-Luminary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Dr. Fooke</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>DYNEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Gold Standard Dx</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Grifols</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>HOB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Hycor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>ImmunoConcepts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Inova</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>MADX, Macro Array Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Mago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Medwiss</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Menarini</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>NONE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>OrgenTec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Other-Manual Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Other-Microtiter Plate System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Zeus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>OTHER（膜条20项）</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>OTHER（膜条29项）</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>携光</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>3M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Accelerate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Agena</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>ALERE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>ARUP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Athena</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>AVANTIK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>AZER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Becton Dickinson</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>BioKar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>BioTecon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>BMX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Cancer Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>CARDINAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>CHROMagar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Conda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Copan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>E&amp;O</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>GRAINGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Hardy Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>HELMER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>HENRY SCHEIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>HiMedia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Hygiena</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>iBox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>INFOLAB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>LABCONCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>LabM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>LABSCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>LEICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>LioFilchem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>MAYO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>MCKESSON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Medline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Merck</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Merlin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Microbiologics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Nanostring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Neogen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>OWENS &amp; MINOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>R-Biopharm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Red One Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Roka (IEH)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>SAKURA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>SIMPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Southern Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>STAT LAB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Vela Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>VWR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Xebios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Z-SC1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>MOPEC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>TESTS SENT OUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>OCD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Sysmex UC-1000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Grifois</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>RG_SmokeTest_Comp.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>BAG Healthcare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>BFR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>BGI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>BioGene</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>CapBio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>CareDX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Cerner HLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>CSTB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Eurofins</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Existing TDX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>External Labs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>GenDx</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Histogenetics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>HLA Data Systems / mTilda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Illumina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Inno-train</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>JEOL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Jeta M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>LabCorp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Natera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Promega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Protrans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Qiagen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Rose GenTec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Sisco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Soft HLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Texas BioGene</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Wakunaga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Werfen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Immucor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Omixon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Adaptive Biotechnology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Cytognos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Dako</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Das</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Leandia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Mayo Clinic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Ortho</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Rapid Novel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Sebia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Send Away</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Trimero</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

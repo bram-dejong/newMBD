@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Family_CAT__c</fullName>
+    <description>[CDD NA Pilot] This field is to determine the product line represented by this opportunity.</description>
+    <label>Product Families of Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>JP_IDD_Division__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AB/IHC</fullName>
+                <default>false</default>
+                <label>AB/IHC</label>
+            </value>
+            <value>
+                <fullName>ACRION</fullName>
+                <default>false</default>
+                <label>ACRION</label>
+            </value>
+            <value>
+                <fullName>Allergy</fullName>
+                <default>false</default>
+                <label>Allergy</label>
+            </value>
+            <value>
+                <fullName>AMX-QC Catalog</fullName>
+                <default>false</default>
+                <label>AMX-QC Catalog</label>
+            </value>
+            <value>
+                <fullName>Antibody</fullName>
+                <default>false</default>
+                <label>Antibody</label>
+            </value>
+            <value>
+                <fullName>Antibody Testing</fullName>
+                <default>false</default>
+                <label>Antibody Testing</label>
+            </value>
+            <value>
+                <fullName>AST</fullName>
+                <default>false</default>
+                <label>AST</label>
+            </value>
+            <value>
+                <fullName>Autoimmune</fullName>
+                <default>false</default>
+                <label>Autoimmune</label>
+            </value>
+            <value>
+                <fullName>Automation</fullName>
+                <default>false</default>
+                <label>Automation</label>
+            </value>
+            <value>
+                <fullName>Biochemical ID</fullName>
+                <default>false</default>
+                <label>Biochemical ID</label>
+            </value>
+            <value>
+                <fullName>BioPharma and Research</fullName>
+                <default>false</default>
+                <label>BioPharma and Research</label>
+            </value>
+            <value>
+                <fullName>Bup2</fullName>
+                <default>false</default>
+                <label>Bup2</label>
+            </value>
+            <value>
+                <fullName>Capitol Vial</fullName>
+                <default>false</default>
+                <label>Capitol Vial</label>
+            </value>
+            <value>
+                <fullName>Cardiac</fullName>
+                <default>false</default>
+                <label>Cardiac</label>
+            </value>
+            <value>
+                <fullName>CCR</fullName>
+                <default>false</default>
+                <label>CCR</label>
+            </value>
+            <value>
+                <fullName>Central Nervous System Disorder</fullName>
+                <default>false</default>
+                <label>Central Nervous System Disorder</label>
+            </value>
+            <value>
+                <fullName>Clever Culture</fullName>
+                <default>false</default>
+                <label>Clever Culture</label>
+            </value>
+            <value>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+                <label>Clinical</label>
+            </value>
+            <value>
+                <fullName>Clinical Analyzers &amp; Instruments</fullName>
+                <default>false</default>
+                <label>Clinical Analyzers &amp; Instruments</label>
+            </value>
+            <value>
+                <fullName>Clinical Chemistry Reagents/Consumables</fullName>
+                <default>false</default>
+                <label>Clinical Chemistry Reagents/Consumables</label>
+            </value>
+            <value>
+                <fullName>Clinical Lab Services</fullName>
+                <default>false</default>
+                <label>Clinical Lab Services</label>
+            </value>
+            <value>
+                <fullName>Collection and Transport</fullName>
+                <default>false</default>
+                <label>Collection and Transport</label>
+            </value>
+            <value>
+                <fullName>Complement</fullName>
+                <default>false</default>
+                <label>Complement</label>
+            </value>
+            <value>
+                <fullName>Contract Manufacturing Service</fullName>
+                <default>false</default>
+                <label>Contract Manufacturing Service</label>
+            </value>
+            <value>
+                <fullName>Culture Media</fullName>
+                <default>false</default>
+                <label>Culture Media</label>
+            </value>
+            <value>
+                <fullName>Culture Media Convenience</fullName>
+                <default>false</default>
+                <label>Culture Media Convenience</label>
+            </value>
+            <value>
+                <fullName>Culture Media DCM</fullName>
+                <default>false</default>
+                <label>Culture Media DCM</label>
+            </value>
+            <value>
+                <fullName>Culture Media PPM</fullName>
+                <default>false</default>
+                <label>Culture Media PPM</label>
+            </value>
+            <value>
+                <fullName>Drugs of Abuse Testing</fullName>
+                <default>false</default>
+                <label>Drugs of Abuse Testing</label>
+            </value>
+            <value>
+                <fullName>Endocrinology/Thyroid</fullName>
+                <default>false</default>
+                <label>Endocrinology/Thyroid</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>Environmental System</fullName>
+                <default>false</default>
+                <label>Environmental System</label>
+            </value>
+            <value>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+                <label>Equipment</label>
+            </value>
+            <value>
+                <fullName>Equipment and Automation</fullName>
+                <default>false</default>
+                <label>Equipment and Automation</label>
+            </value>
+            <value>
+                <fullName>EXENT</fullName>
+                <default>false</default>
+                <label>EXENT</label>
+            </value>
+            <value>
+                <fullName>Fertility</fullName>
+                <default>false</default>
+                <label>Fertility</label>
+            </value>
+            <value>
+                <fullName>Flu</fullName>
+                <default>false</default>
+                <label>Flu</label>
+            </value>
+            <value>
+                <fullName>Flu A/B and Covid Combo Test</fullName>
+                <default>false</default>
+                <label>Flu A/B and Covid Combo Test</label>
+            </value>
+            <value>
+                <fullName>Flu A/B Test</fullName>
+                <default>false</default>
+                <label>Flu A/B Test</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Food testing</fullName>
+                <default>false</default>
+                <label>Food testing</label>
+            </value>
+            <value>
+                <fullName>Freelite</fullName>
+                <default>false</default>
+                <label>Freelite</label>
+            </value>
+            <value>
+                <fullName>General PCR Testing</fullName>
+                <default>false</default>
+                <label>General PCR Testing</label>
+            </value>
+            <value>
+                <fullName>Hevylite</fullName>
+                <default>false</default>
+                <label>Hevylite</label>
+            </value>
+            <value>
+                <fullName>ID</fullName>
+                <default>false</default>
+                <label>ID</label>
+            </value>
+            <value>
+                <fullName>IDD - Aesku Autoimmune</fullName>
+                <default>false</default>
+                <label>IDD - Aesku Autoimmune</label>
+            </value>
+            <value>
+                <fullName>IDD - Aesku Infectious Disease</fullName>
+                <default>false</default>
+                <label>IDD - Aesku Infectious Disease</label>
+            </value>
+            <value>
+                <fullName>IDD - Aesku Instruments</fullName>
+                <default>false</default>
+                <label>IDD - Aesku Instruments</label>
+            </value>
+            <value>
+                <fullName>IDD - Allergon</fullName>
+                <default>false</default>
+                <label>IDD - Allergon</label>
+            </value>
+            <value>
+                <fullName>IDD-EliA</fullName>
+                <default>false</default>
+                <label>IDD-EliA</label>
+            </value>
+            <value>
+                <fullName>ImmunoCAP Rapid</fullName>
+                <default>false</default>
+                <label>ImmunoCAP Rapid</label>
+            </value>
+            <value>
+                <fullName>Immunoglobulins</fullName>
+                <default>false</default>
+                <label>Immunoglobulins</label>
+            </value>
+            <value>
+                <fullName>Indiko</fullName>
+                <default>false</default>
+                <label>Indiko</label>
+            </value>
+            <value>
+                <fullName>Indiko Instruments</fullName>
+                <default>false</default>
+                <label>Indiko Instruments</label>
+            </value>
+            <value>
+                <fullName>Industrial</fullName>
+                <default>false</default>
+                <label>Industrial</label>
+            </value>
+            <value>
+                <fullName>Infection</fullName>
+                <default>false</default>
+                <label>Infection</label>
+            </value>
+            <value>
+                <fullName>Instruments</fullName>
+                <default>false</default>
+                <label>Instruments</label>
+            </value>
+            <value>
+                <fullName>ISD</fullName>
+                <default>false</default>
+                <label>ISD</label>
+            </value>
+            <value>
+                <fullName>Konelab</fullName>
+                <default>false</default>
+                <label>Konelab</label>
+            </value>
+            <value>
+                <fullName>Kryptor/Service</fullName>
+                <default>false</default>
+                <label>Kryptor/Service</label>
+            </value>
+            <value>
+                <fullName>LabLink</fullName>
+                <default>false</default>
+                <label>LabLink</label>
+            </value>
+            <value>
+                <fullName>Legionella</fullName>
+                <default>false</default>
+                <label>Legionella</label>
+            </value>
+            <value>
+                <fullName>Manual AST</fullName>
+                <default>false</default>
+                <label>Manual AST</label>
+            </value>
+            <value>
+                <fullName>MAS-QC</fullName>
+                <default>false</default>
+                <label>MAS-QC</label>
+            </value>
+            <value>
+                <fullName>Mass Spectrometry</fullName>
+                <default>false</default>
+                <label>Mass Spectrometry</label>
+            </value>
+            <value>
+                <fullName>MBD Culture Media</fullName>
+                <default>false</default>
+                <label>MBD Culture Media</label>
+            </value>
+            <value>
+                <fullName>MBD ID</fullName>
+                <default>false</default>
+                <label>MBD ID</label>
+            </value>
+            <value>
+                <fullName>MBD Molecular Detection</fullName>
+                <default>false</default>
+                <label>MBD Molecular Detection</label>
+            </value>
+            <value>
+                <fullName>MBD Pre-Analytical Supplies</fullName>
+                <default>false</default>
+                <label>MBD Pre-Analytical Supplies</label>
+            </value>
+            <value>
+                <fullName>MBD Quality Control</fullName>
+                <default>false</default>
+                <label>MBD Quality Control</label>
+            </value>
+            <value>
+                <fullName>MBD Rapid Tests</fullName>
+                <default>false</default>
+                <label>MBD Rapid Tests</label>
+            </value>
+            <value>
+                <fullName>MBD Seasonal</fullName>
+                <default>false</default>
+                <label>MBD Seasonal</label>
+            </value>
+            <value>
+                <fullName>Microbial Identification</fullName>
+                <default>false</default>
+                <label>Microbial Identification</label>
+            </value>
+            <value>
+                <fullName>Microbiology</fullName>
+                <default>false</default>
+                <label>Microbiology</label>
+            </value>
+            <value>
+                <fullName>Microgenics Specialty</fullName>
+                <default>false</default>
+                <label>Microgenics Specialty</label>
+            </value>
+            <value>
+                <fullName>MicroSEQ</fullName>
+                <default>false</default>
+                <label>MicroSEQ</label>
+            </value>
+            <value>
+                <fullName>Mol- cfDNA Devyser</fullName>
+                <default>false</default>
+                <label>Mol- cfDNA Devyser</label>
+            </value>
+            <value>
+                <fullName>Mol- Chimerism Devyser</fullName>
+                <default>false</default>
+                <label>Mol- Chimerism Devyser</label>
+            </value>
+            <value>
+                <fullName>Molecular Controls</fullName>
+                <default>false</default>
+                <label>Molecular Controls</label>
+            </value>
+            <value>
+                <fullName>Molecular Detection</fullName>
+                <default>false</default>
+                <label>Molecular Detection</label>
+            </value>
+            <value>
+                <fullName>Molecular Instrumentation</fullName>
+                <default>false</default>
+                <label>Molecular Instrumentation</label>
+            </value>
+            <value>
+                <fullName>NGS</fullName>
+                <default>false</default>
+                <label>NGS</label>
+            </value>
+            <value>
+                <fullName>Niche External</fullName>
+                <default>false</default>
+                <label>Niche External</label>
+            </value>
+            <value>
+                <fullName>Oncology</fullName>
+                <default>false</default>
+                <label>Oncology</label>
+            </value>
+            <value>
+                <fullName>Optilite</fullName>
+                <default>false</default>
+                <label>Optilite</label>
+            </value>
+            <value>
+                <fullName>Oral Fluid Testing</fullName>
+                <default>false</default>
+                <label>Oral Fluid Testing</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other products</fullName>
+                <default>false</default>
+                <label>Other products</label>
+            </value>
+            <value>
+                <fullName>Particles</fullName>
+                <default>false</default>
+                <label>Particles</label>
+            </value>
+            <value>
+                <fullName>PCR Instruments</fullName>
+                <default>false</default>
+                <label>PCR Instruments</label>
+            </value>
+            <value>
+                <fullName>Pharma</fullName>
+                <default>false</default>
+                <label>Pharma</label>
+            </value>
+            <value>
+                <fullName>Point of Care</fullName>
+                <default>false</default>
+                <label>Point of Care</label>
+            </value>
+            <value>
+                <fullName>Post Transplant Monitoring</fullName>
+                <default>false</default>
+                <label>Post Transplant Monitoring</label>
+            </value>
+            <value>
+                <fullName>PPM</fullName>
+                <default>false</default>
+                <label>PPM</label>
+            </value>
+            <value>
+                <fullName>Pre-Analytical Supplies</fullName>
+                <default>false</default>
+                <label>Pre-Analytical Supplies</label>
+            </value>
+            <value>
+                <fullName>Prenatal Screening</fullName>
+                <default>false</default>
+                <label>Prenatal Screening</label>
+            </value>
+            <value>
+                <fullName>QC Controls</fullName>
+                <default>false</default>
+                <label>QC Controls</label>
+            </value>
+            <value>
+                <fullName>QC Custom</fullName>
+                <default>false</default>
+                <label>QC Custom-General</label>
+            </value>
+            <value>
+                <fullName>QC Custom-Infectious Disease</fullName>
+                <default>false</default>
+                <label>QC Custom-Infectious Disease</label>
+            </value>
+            <value>
+                <fullName>QC Custom-Oncology ctDNA</fullName>
+                <default>false</default>
+                <label>QC Custom-Oncology ctDNA</label>
+            </value>
+            <value>
+                <fullName>QC Custom-Oncology FFPE</fullName>
+                <default>false</default>
+                <label>QC Custom-Oncology FFPE</label>
+            </value>
+            <value>
+                <fullName>QCO</fullName>
+                <default>false</default>
+                <label>QCO</label>
+            </value>
+            <value>
+                <fullName>Quality Control</fullName>
+                <default>false</default>
+                <label>Quality Control</label>
+            </value>
+            <value>
+                <fullName>qualyfast</fullName>
+                <default>false</default>
+                <label>qualyfast</label>
+            </value>
+            <value>
+                <fullName>Rapid AST</fullName>
+                <default>false</default>
+                <label>Rapid AST</label>
+            </value>
+            <value>
+                <fullName>RapidFinder Meat ID/GMO Assays</fullName>
+                <default>false</default>
+                <label>RapidFinder Meat ID/GMO Assays</label>
+            </value>
+            <value>
+                <fullName>Rapid PCR – Flu A/B and Covid Combo Test</fullName>
+                <default>false</default>
+                <label>Rapid PCR – Flu A/B and Covid Combo Test</label>
+            </value>
+            <value>
+                <fullName>Rapid PCR – Flu A/B Test</fullName>
+                <default>false</default>
+                <label>Rapid PCR – Flu A/B Test</label>
+            </value>
+            <value>
+                <fullName>Rapid PCR – General PCR Testing</fullName>
+                <default>false</default>
+                <label>Rapid PCR – General PCR Testing</label>
+            </value>
+            <value>
+                <fullName>Rapid PCR – RSV Test</fullName>
+                <default>false</default>
+                <label>Rapid PCR – RSV Test</label>
+            </value>
+            <value>
+                <fullName>Rapid PCR – SARS-Cov-2 Test</fullName>
+                <default>false</default>
+                <label>Rapid PCR – SARS-Cov-2 Test</label>
+            </value>
+            <value>
+                <fullName>Rapid PCR – Strep A</fullName>
+                <default>false</default>
+                <label>Rapid PCR – Strep A</label>
+            </value>
+            <value>
+                <fullName>Rapid Tests</fullName>
+                <default>false</default>
+                <label>Rapid Tests</label>
+            </value>
+            <value>
+                <fullName>RAST</fullName>
+                <default>false</default>
+                <label>RAST</label>
+            </value>
+            <value>
+                <fullName>Renal Function</fullName>
+                <default>false</default>
+                <label>Renal Function</label>
+            </value>
+            <value>
+                <fullName>Respiratory/Pulmonary/Cardiac</fullName>
+                <default>false</default>
+                <label>Respiratory/Pulmonary/Cardiac</label>
+            </value>
+            <value>
+                <fullName>RSV Test</fullName>
+                <default>false</default>
+                <label>RSV Test</label>
+            </value>
+            <value>
+                <fullName>SARS-CoV-2</fullName>
+                <default>false</default>
+                <label>SARS-CoV-2</label>
+            </value>
+            <value>
+                <fullName>SARS-Cov-2 Test</fullName>
+                <default>false</default>
+                <label>SARS-Cov-2 Test</label>
+            </value>
+            <value>
+                <fullName>Seasonal</fullName>
+                <default>false</default>
+                <label>Seasonal</label>
+            </value>
+            <value>
+                <fullName>Serology</fullName>
+                <default>false</default>
+                <label>Serology</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Specimen Collection &amp; Handling</fullName>
+                <default>false</default>
+                <label>Specimen Collection &amp; Handling</label>
+            </value>
+            <value>
+                <fullName>Spice</fullName>
+                <default>false</default>
+                <label>Spice</label>
+            </value>
+            <value>
+                <fullName>Strep A</fullName>
+                <default>false</default>
+                <label>Strep A</label>
+            </value>
+            <value>
+                <fullName>Subclasses</fullName>
+                <default>false</default>
+                <label>Subclasses</label>
+            </value>
+            <value>
+                <fullName>SureTect</fullName>
+                <default>false</default>
+                <label>SureTect</label>
+            </value>
+            <value>
+                <fullName>SureTect/RapidFinder Assays</fullName>
+                <default>false</default>
+                <label>SureTect/RapidFinder Assays</label>
+            </value>
+            <value>
+                <fullName>TDM/ISD</fullName>
+                <default>false</default>
+                <label>TDM/ISD</label>
+            </value>
+            <value>
+                <fullName>TD Other PF</fullName>
+                <default>false</default>
+                <label>TD Other PF</label>
+            </value>
+            <value>
+                <fullName>TDX Equipment</fullName>
+                <default>false</default>
+                <label>TDX Equipment</label>
+            </value>
+            <value>
+                <fullName>TDX Molecular</fullName>
+                <default>false</default>
+                <label>TDX Molecular</label>
+            </value>
+            <value>
+                <fullName>TDX TMS-BT</fullName>
+                <default>false</default>
+                <label>TDX TMS-BT</label>
+            </value>
+            <value>
+                <fullName>TDX TMS-CDX</fullName>
+                <default>false</default>
+                <label>TDX TMS-CDX</label>
+            </value>
+            <value>
+                <fullName>TDX TMS-MMDX</fullName>
+                <default>false</default>
+                <label>TDX TMS-MMDX</label>
+            </value>
+            <value>
+                <fullName>Toxicology</fullName>
+                <default>false</default>
+                <label>Toxicology</label>
+            </value>
+            <value>
+                <fullName>Tubes &amp; Vials</fullName>
+                <default>false</default>
+                <label>Tubes &amp; Vials</label>
+            </value>
+            <value>
+                <fullName>Tumor Marker</fullName>
+                <default>false</default>
+                <label>Tumor Marker</label>
+            </value>
+            <value>
+                <fullName>Urinalysis</fullName>
+                <default>false</default>
+                <label>Urinalysis</label>
+            </value>
+            <value>
+                <fullName>Vaccine Response</fullName>
+                <default>false</default>
+                <label>Vaccine Response</label>
+            </value>
+            <value>
+                <fullName>View Allergy</fullName>
+                <default>false</default>
+                <label>View Allergy</label>
+            </value>
+            <value>
+                <fullName>Viral Transport Media</fullName>
+                <default>false</default>
+                <label>Viral Transport Media</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>AB/IHC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>AMX-QC Catalog</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Automation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Bup2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Capitol Vial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Cardiac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>CCR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Clinical Analyzers &amp; Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Clinical Chemistry Reagents/Consumables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Contract Manufacturing Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Drugs of Abuse Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Endocrinology/Thyroid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Fertility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Indiko</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Indiko Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Infection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>ISD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Konelab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Kryptor/Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>LabLink</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>MAS-QC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Microgenics Specialty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Molecular Controls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Niche External</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Oncology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Oral Fluid Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Particles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Point of Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Prenatal Screening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>QC Controls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>QC Custom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>QC Custom-Infectious Disease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>QC Custom-Oncology ctDNA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>QC Custom-Oncology FFPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Quality Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Rapid Tests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Respiratory/Pulmonary/Cardiac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Spice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>TDM/ISD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Toxicology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Tumor Marker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDD</controllingFieldValue>
+            <valueName>Urinalysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Allergy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Autoimmune</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>IDD - Aesku Autoimmune</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>IDD - Aesku Infectious Disease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>IDD - Aesku Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>IDD - Allergon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>ImmunoCAP Rapid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>View Allergy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>ACRION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>AST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Biochemical ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Clever Culture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Clinical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Collection and Transport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Culture Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Culture Media Convenience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Culture Media DCM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Culture Media PPM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Environmental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Environmental System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Flu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Food testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Industrial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Legionella</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Manual AST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Mass Spectrometry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Microbial Identification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Microbiology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>MicroSEQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Molecular Detection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Molecular Instrumentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>NGS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Other products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>PCR Instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Pharma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>PPM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Pre-Analytical Supplies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>QCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>qualyfast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Rapid AST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>RapidFinder Meat ID/GMO Assays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>RAST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>SARS-CoV-2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Seasonal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Specimen Collection &amp; Handling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>SureTect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>SureTect/RapidFinder Assays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Tubes &amp; Vials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Viral Transport Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Antibody</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Antibody Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>BioPharma and Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Clinical Lab Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Equipment and Automation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Mol- cfDNA Devyser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Mol- Chimerism Devyser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Post Transplant Monitoring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Serology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>TD Other PF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>TDX Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>TDX Molecular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>TDX TMS-BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>TDX TMS-CDX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDX</controllingFieldValue>
+            <valueName>TDX TMS-MMDX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Central Nervous System Disorder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Complement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>EXENT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Freelite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Hevylite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Immunoglobulins</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Optilite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Renal Function</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Subclasses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDX</controllingFieldValue>
+            <valueName>Vaccine Response</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

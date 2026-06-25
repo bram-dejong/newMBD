@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Down_End_Date__c</fullName>
+    <description>[CDD NE Wave 1] Track lock down end date, which controls the tender notice banner on tender, account, and contact page layouts for CDD.</description>
+    <inlineHelpText>Date the Tender will no longer be locked down</inlineHelpText>
+    <label>Lock Down End Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

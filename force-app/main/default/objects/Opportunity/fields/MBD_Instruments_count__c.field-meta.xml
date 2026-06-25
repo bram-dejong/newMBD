@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MBD_Instruments_count__c</fullName>
+    <description>Roll up for instrument product class</description>
+    <label>Instruments Count</label>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Product_Class__c</field>
+        <operation>equals</operation>
+        <value>Instruments</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

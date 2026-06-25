@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Potential_Renewal_Date__c</fullName>
+    <formula>IF( IsClosed ,  CloseDate + ( Contract_Length_CAT__c * 30), NULL)</formula>
+    <inlineHelpText>CloseDate+(Contract Length CAT * 30)</inlineHelpText>
+    <label>Potential Renewal Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

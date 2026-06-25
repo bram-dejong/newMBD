@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timing_for_Priorities__c</fullName>
+    <label>Timing for Priorities</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Urgent</fullName>
+                <default>false</default>
+                <label>Urgent</label>
+            </value>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Work it in</fullName>
+                <default>false</default>
+                <label>Work it in</label>
+            </value>
+            <value>
+                <fullName>Later</fullName>
+                <default>false</default>
+                <label>Later</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Solution_of_Interest__c</fullName>
+    <label>Product Solution of Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>TDX_Product_Families_of_Interest__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AB- FlowDSA-XM</fullName>
+                <default>false</default>
+                <label>AB- FlowDSA-XM</label>
+            </value>
+            <value>
+                <fullName>AB- FlowPRA</fullName>
+                <default>false</default>
+                <label>AB- FlowPRA</label>
+            </value>
+            <value>
+                <fullName>AB- LabScreen</fullName>
+                <default>false</default>
+                <label>AB- LabScreen</label>
+            </value>
+            <value>
+                <fullName>AB- LAT</fullName>
+                <default>false</default>
+                <label>AB- LAT</label>
+            </value>
+            <value>
+                <fullName>AB- LCT</fullName>
+                <default>false</default>
+                <label>AB- LCT</label>
+            </value>
+            <value>
+                <fullName>AB- LS AutoAB</fullName>
+                <default>false</default>
+                <label>AB- LS AutoAB</label>
+            </value>
+            <value>
+                <fullName>AB- LS ExPlex</fullName>
+                <default>false</default>
+                <label>AB- LS ExPlex</label>
+            </value>
+            <value>
+                <fullName>AB- LSM</fullName>
+                <default>false</default>
+                <label>AB- LSM</label>
+            </value>
+            <value>
+                <fullName>AB- LS Multi HNA</fullName>
+                <default>false</default>
+                <label>AB- LS Multi HNA</label>
+            </value>
+            <value>
+                <fullName>AB- LS PRA</fullName>
+                <default>false</default>
+                <label>AB- LS PRA</label>
+            </value>
+            <value>
+                <fullName>AB- LS ReFlex</fullName>
+                <default>false</default>
+                <label>AB- LS ReFlex</label>
+            </value>
+            <value>
+                <fullName>AB- LS Single Antigen</fullName>
+                <default>false</default>
+                <label>AB- LS Single Antigen</label>
+            </value>
+            <value>
+                <fullName>AB- Magsort</fullName>
+                <default>false</default>
+                <label>AB- Magsort</label>
+            </value>
+            <value>
+                <fullName>Antibody</fullName>
+                <default>false</default>
+                <label>Antibody</label>
+            </value>
+            <value>
+                <fullName>BioPharma CDX</fullName>
+                <default>false</default>
+                <label>BioPharma CDX</label>
+            </value>
+            <value>
+                <fullName>BioPharma Svcs</fullName>
+                <default>false</default>
+                <label>BioPharma Svcs</label>
+            </value>
+            <value>
+                <fullName>CXCL10</fullName>
+                <default>false</default>
+                <label>CXCL10</label>
+            </value>
+            <value>
+                <fullName>XTRA</fullName>
+                <default>false</default>
+                <label>EkTRA</label>
+            </value>
+            <value>
+                <fullName>Equip HLA Pro</fullName>
+                <default>false</default>
+                <label>Equip HLA Pro</label>
+            </value>
+            <value>
+                <fullName>Equip ION CHEF</fullName>
+                <default>false</default>
+                <label>Equip ION CHEF</label>
+            </value>
+            <value>
+                <fullName>Equip ION SEQUENCER</fullName>
+                <default>false</default>
+                <label>Equip ION SEQUENCER</label>
+            </value>
+            <value>
+                <fullName>Equip LABScan200</fullName>
+                <default>false</default>
+                <label>Equip LABScan200</label>
+            </value>
+            <value>
+                <fullName>Equip LABScan3D</fullName>
+                <default>false</default>
+                <label>Equip LABScan3D</label>
+            </value>
+            <value>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+                <label>Equipment</label>
+            </value>
+            <value>
+                <fullName>Equip ProFlex Q6</fullName>
+                <default>false</default>
+                <label>Equip ProFlex Q6</label>
+            </value>
+            <value>
+                <fullName>Equip QuantStudio</fullName>
+                <default>false</default>
+                <label>Equip QuantStudio</label>
+            </value>
+            <value>
+                <fullName>MMDX Heart</fullName>
+                <default>false</default>
+                <label>MMDX Heart</label>
+            </value>
+            <value>
+                <fullName>MMDX Kidney</fullName>
+                <default>false</default>
+                <label>MMDX Kidney</label>
+            </value>
+            <value>
+                <fullName>MMDX Lung</fullName>
+                <default>false</default>
+                <label>MMDX Lung</label>
+            </value>
+            <value>
+                <fullName>Mol - BT</fullName>
+                <default>false</default>
+                <label>Mol - BT</label>
+            </value>
+            <value>
+                <fullName>Mol- cfDNA Devyser</fullName>
+                <default>false</default>
+                <label>Mol- cfDNA Devyser</label>
+            </value>
+            <value>
+                <fullName>Mol- Chimerism Devyser</fullName>
+                <default>false</default>
+                <label>Mol- Chimerism Devyser</label>
+            </value>
+            <value>
+                <fullName>Mol- LinkSeq</fullName>
+                <default>false</default>
+                <label>Mol- LinkSeq</label>
+            </value>
+            <value>
+                <fullName>Mol- LinkSeq HLA</fullName>
+                <default>false</default>
+                <label>Mol- LinkSeq HLA</label>
+            </value>
+            <value>
+                <fullName>Mol- NGS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mol- NGS</label>
+            </value>
+            <value>
+                <fullName>Mol- NGS AllType</fullName>
+                <default>false</default>
+                <label>Mol- NGS AllType</label>
+            </value>
+            <value>
+                <fullName>Mol- NGS FastPlex</fullName>
+                <default>false</default>
+                <label>Mol- NGS FastPlex</label>
+            </value>
+            <value>
+                <fullName>Mol- NGS_Hybrid_Capture</fullName>
+                <default>false</default>
+                <label>Mol- NGS Hybrid Capture</label>
+            </value>
+            <value>
+                <fullName>Mol- NGS Rapid</fullName>
+                <default>false</default>
+                <label>Mol- NGS Rapid</label>
+            </value>
+            <value>
+                <fullName>Mol- Other</fullName>
+                <default>false</default>
+                <label>Mol- Other</label>
+            </value>
+            <value>
+                <fullName>Mol- PCR</fullName>
+                <default>false</default>
+                <label>Mol- PCR</label>
+            </value>
+            <value>
+                <fullName>Mol- SBT</fullName>
+                <default>false</default>
+                <label>Mol- SBT</label>
+            </value>
+            <value>
+                <fullName>Mol- SmartType</fullName>
+                <default>false</default>
+                <label>Mol- SmartType</label>
+            </value>
+            <value>
+                <fullName>Mol- SSO</fullName>
+                <default>false</default>
+                <label>Mol- SSO</label>
+            </value>
+            <value>
+                <fullName>Mol- SSO Classic</fullName>
+                <default>false</default>
+                <label>Mol- SSO Classic</label>
+            </value>
+            <value>
+                <fullName>Mol- SSO CWD</fullName>
+                <default>false</default>
+                <label>Mol- SSO CWD</label>
+            </value>
+            <value>
+                <fullName>Mol- SSO HD</fullName>
+                <default>false</default>
+                <label>Mol- SSO HD</label>
+            </value>
+            <value>
+                <fullName>Mol- SSO XR</fullName>
+                <default>false</default>
+                <label>Mol- SSO XR</label>
+            </value>
+            <value>
+                <fullName>Mol- SSP</fullName>
+                <default>false</default>
+                <label>Mol- SSP</label>
+            </value>
+            <value>
+                <fullName>PTRA</fullName>
+                <default>false</default>
+                <label>PTRA</label>
+            </value>
+            <value>
+                <fullName>Serology</fullName>
+                <default>false</default>
+                <label>Serology</label>
+            </value>
+            <value>
+                <fullName>Software - HistoTrac</fullName>
+                <default>false</default>
+                <label>Software - HistoTrac</label>
+            </value>
+            <value>
+                <fullName>Software - Histotrac Add On</fullName>
+                <default>false</default>
+                <label>Software - Histotrac Add On</label>
+            </value>
+            <value>
+                <fullName>Software - Histotrac Lite</fullName>
+                <default>false</default>
+                <label>Software - Histotrac Lite</label>
+            </value>
+            <value>
+                <fullName>Software - Other</fullName>
+                <default>false</default>
+                <label>Software - Other</label>
+            </value>
+            <value>
+                <fullName>TacroType</fullName>
+                <default>false</default>
+                <label>TacroType</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- FlowDSA-XM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- FlowPRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- LabScreen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- LAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- LCT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- LS AutoAB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- LS ExPlex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- LSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- LS Multi HNA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- LS PRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- LS ReFlex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- LS Single Antigen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>AB- Magsort</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>Antibody</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antibody Testing</controllingFieldValue>
+            <valueName>Serology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BioPharma and Research</controllingFieldValue>
+            <valueName>BioPharma CDX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BioPharma and Research</controllingFieldValue>
+            <valueName>BioPharma Svcs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Lab Services</controllingFieldValue>
+            <valueName>CXCL10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Lab Services</controllingFieldValue>
+            <valueName>XTRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Lab Services</controllingFieldValue>
+            <valueName>MMDX Heart</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Lab Services</controllingFieldValue>
+            <valueName>MMDX Kidney</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Lab Services</controllingFieldValue>
+            <valueName>MMDX Lung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Lab Services</controllingFieldValue>
+            <valueName>PTRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Lab Services</controllingFieldValue>
+            <valueName>TacroType</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment and Automation</controllingFieldValue>
+            <valueName>Equip HLA Pro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment and Automation</controllingFieldValue>
+            <valueName>Equip ION CHEF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment and Automation</controllingFieldValue>
+            <valueName>Equip ION SEQUENCER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment and Automation</controllingFieldValue>
+            <valueName>Equip LABScan200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment and Automation</controllingFieldValue>
+            <valueName>Equip LABScan3D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment and Automation</controllingFieldValue>
+            <valueName>Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment and Automation</controllingFieldValue>
+            <valueName>Equip ProFlex Q6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment and Automation</controllingFieldValue>
+            <valueName>Equip QuantStudio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol - BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- LinkSeq</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- LinkSeq HLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- NGS AllType</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- NGS FastPlex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- NGS_Hybrid_Capture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- NGS Rapid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- PCR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- SBT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- SmartType</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- SSO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- SSO Classic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- SSO CWD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- SSO HD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- SSO XR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular Typing</controllingFieldValue>
+            <valueName>Mol- SSP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Post Transplant Monitoring</controllingFieldValue>
+            <valueName>Mol- cfDNA Devyser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Post Transplant Monitoring</controllingFieldValue>
+            <valueName>Mol- Chimerism Devyser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Software - HistoTrac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Software - Histotrac Add On</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Software - Histotrac Lite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Software - Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

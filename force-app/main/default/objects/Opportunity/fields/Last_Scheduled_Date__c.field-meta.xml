@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Scheduled_Date__c</fullName>
+    <label>Last Scheduled Date</label>
+    <summarizedField>Revenue_Schedule__c.Revenue_Schedule_Date__c</summarizedField>
+    <summaryFilterItems>
+        <field>Revenue_Schedule__c.Revenue_Schedule_Date__c</field>
+        <operation>notEqual</operation>
+        <value></value>
+    </summaryFilterItems>
+    <summaryForeignKey>Revenue_Schedule__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

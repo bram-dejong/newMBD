@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JP_IDD_Division__c</fullName>
+    <label>Opportunity Div</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CDD</fullName>
+                <default>false</default>
+                <label>CDD</label>
+            </value>
+            <value>
+                <fullName>IDD</fullName>
+                <default>false</default>
+                <label>IDD</label>
+            </value>
+            <value>
+                <fullName>MBD</fullName>
+                <default>false</default>
+                <label>MBD</label>
+            </value>
+            <value>
+                <fullName>TDX</fullName>
+                <default>false</default>
+                <label>TDX</label>
+            </value>
+            <value>
+                <fullName>PDX</fullName>
+                <default>false</default>
+                <label>PDX</label>
+            </value>
+            <value>
+                <fullName>RDS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RDS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

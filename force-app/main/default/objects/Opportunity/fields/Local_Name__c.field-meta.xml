@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Local_Name__c</fullName>
+    <description>HMD and CDD Field. Needed to allow business to create an ad-hoc name. Standard name field is auto-generated based on workflow for all of SDG. Provided access to TDX profiles also for this field 10/09/2020</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Business specific naming convention.</inlineHelpText>
+    <label>Local Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

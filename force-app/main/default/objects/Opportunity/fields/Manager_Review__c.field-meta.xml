@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manager_Review__c</fullName>
+    <label>Manager Review</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Reviewed</fullName>
+                <default>false</default>
+                <label>Not Reviewed</label>
+            </value>
+            <value>
+                <fullName>According to Forecast</fullName>
+                <default>false</default>
+                <label>According to Forecast</label>
+            </value>
+            <value>
+                <fullName>Deviation from Forecast</fullName>
+                <default>false</default>
+                <label>Deviation from Forecast</label>
+            </value>
+            <value>
+                <fullName>1 - New</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1 - New</label>
+            </value>
+            <value>
+                <fullName>2 - Update needed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2 - Update needed</label>
+            </value>
+            <value>
+                <fullName>3 - Confirmed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3 - Confirmed</label>
+            </value>
+            <value>
+                <fullName>4 - MBR included</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4 - MBR included</label>
+            </value>
+            <value>
+                <fullName>5 - Forecast included</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5 - Forecast included</label>
+            </value>
+            <value>
+                <fullName>6 - AOP Included</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>6 - AOP Included</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Days_to_Year_End__c</fullName>
+    <description>[CDD NA] Number of Remaining Days from Close Date to 6 weeks before Year End.</description>
+    <externalId>false</externalId>
+    <formula>If ( OR(YEAR(CloseDate) &lt;&gt;  YEAR(TODAY()), DATE(YEAR(TODAY()),11,01) &lt; CloseDate), 0, DATE(YEAR(TODAY()),11,01)- CloseDate)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Number of Days to Year End</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

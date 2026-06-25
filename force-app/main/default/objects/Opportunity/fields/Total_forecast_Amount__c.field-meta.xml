@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_forecast_Amount__c</fullName>
+    <label>Total forecast Amount</label>
+    <summarizedField>Revenue_Schedule__c.Forecasted_Amount__c</summarizedField>
+    <summaryForeignKey>Revenue_Schedule__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Distribution_Channel__c</fullName>
+    <label>Distribution Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Avantor/VWR</fullName>
+                <default>false</default>
+                <label>Avantor/VWR</label>
+            </value>
+            <value>
+                <fullName>Cardinal (USA Only)</fullName>
+                <default>false</default>
+                <label>Cardinal (USA Only)</label>
+            </value>
+            <value>
+                <fullName>Direct</fullName>
+                <default>true</default>
+                <label>Direct</label>
+            </value>
+            <value>
+                <fullName>Fisher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fisher</label>
+            </value>
+            <value>
+                <fullName>Fisher (EU/ROW)</fullName>
+                <default>false</default>
+                <label>Fisher (EU/ROW)</label>
+            </value>
+            <value>
+                <fullName>Fisher HMD</fullName>
+                <default>false</default>
+                <label>Fisher HMD</label>
+            </value>
+            <value>
+                <fullName>Fisher RSD</fullName>
+                <default>false</default>
+                <label>Fisher RSD</label>
+            </value>
+            <value>
+                <fullName>Henry Schein</fullName>
+                <default>false</default>
+                <label>Henry Schein</label>
+            </value>
+            <value>
+                <fullName>HMD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HMD</label>
+            </value>
+            <value>
+                <fullName>McKesson</fullName>
+                <default>false</default>
+                <label>McKesson</label>
+            </value>
+            <value>
+                <fullName>Medline</fullName>
+                <default>false</default>
+                <label>Medline</label>
+            </value>
+            <value>
+                <fullName>Midland</fullName>
+                <default>false</default>
+                <label>Midland</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Monthly_Revenue__c</fullName>
+    <formula>IF(
+   AND(
+       MONTH(TODAY())&gt;=  MONTH(CloseDate),
+       YEAR(TODAY()) &gt;=  YEAR(CloseDate),
+       MONTH(TODAY()) &lt;=   MONTH(Contract_Length_CAT__c * MONTH(CloseDate) + Contract_Length_CAT__c + CloseDate),
+       YEAR(TODAY()) &lt;=   YEAR(Contract_Length_CAT__c * MONTH(CloseDate) + Contract_Length_CAT__c + CloseDate)
+ 
+       ),
+       Estimated_Recurring_Monthly_Revenue__c, NULL
+   )</formula>
+    <label>Current Monthly Revenue</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

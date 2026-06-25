@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Run_Proteins_in_house__c</fullName>
+    <inlineHelpText>(on Chem or Protein Analyzer)</inlineHelpText>
+    <label>Run Proteins in-house</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Match_Criteria</valueSetName>
+    </valueSet>
+</CustomField>
