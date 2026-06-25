@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Instruments_Product__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Updates from opportunity  line item</inlineHelpText>
+    <label>Instruments Product</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

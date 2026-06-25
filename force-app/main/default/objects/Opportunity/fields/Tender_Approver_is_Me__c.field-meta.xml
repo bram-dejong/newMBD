@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tender_Approver_is_Me__c</fullName>
+    <formula>Tender_Approver__c =   $User.Id</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tender Approver is Me</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probability__c</fullName>
+    <label>Probability</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>20% - Long shot, highly unlikely</fullName>
+                <default>false</default>
+                <label>20% - Long shot, highly unlikely</label>
+            </value>
+            <value>
+                <fullName>40% - Good target, leaning loss</fullName>
+                <default>false</default>
+                <label>40% - Good target, leaning loss</label>
+            </value>
+            <value>
+                <fullName>60% - Good target, leaning win</fullName>
+                <default>false</default>
+                <label>60% - Good target, leaning win</label>
+            </value>
+            <value>
+                <fullName>80% - Very Confident to win</fullName>
+                <default>false</default>
+                <label>80% - Very Confident to win</label>
+            </value>
+            <value>
+                <fullName>90% - Extremely confident to win</fullName>
+                <default>false</default>
+                <label>90% - Extremely confident to win</label>
+            </value>
+            <value>
+                <fullName>100% - Closed/Won</fullName>
+                <default>false</default>
+                <label>100% - Closed/Won</label>
+            </value>
+            <value>
+                <fullName>0% - Closed/Lost</fullName>
+                <default>false</default>
+                <label>0% - Closed/Lost</label>
+            </value>
+            <value>
+                <fullName>20% - Early in Sales Process</fullName>
+                <default>false</default>
+                <label>20% - Early in Sales Process</label>
+            </value>
+            <value>
+                <fullName>40% - Too much unknown</fullName>
+                <default>false</default>
+                <label>40% - Too much unknown</label>
+            </value>
+            <value>
+                <fullName>60% - Leaning Our Way</fullName>
+                <default>false</default>
+                <label>60% - Leaning Our Way</label>
+            </value>
+            <value>
+                <fullName>80% - Confident</fullName>
+                <default>false</default>
+                <label>80% - Confident</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

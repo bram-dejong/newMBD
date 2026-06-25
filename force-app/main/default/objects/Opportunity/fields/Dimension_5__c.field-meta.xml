@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dimension_5__c</fullName>
+    <label>Dimension 5</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Dimension_4__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Abbott</fullName>
+                <default>false</default>
+                <label>Abbott</label>
+            </value>
+            <value>
+                <fullName>Beckman</fullName>
+                <default>false</default>
+                <label>Beckman</label>
+            </value>
+            <value>
+                <fullName>Biomerieux</fullName>
+                <default>false</default>
+                <label>Biomerieux</label>
+            </value>
+            <value>
+                <fullName>Blood Donor Screening</fullName>
+                <default>false</default>
+                <label>Blood Donor Screening</label>
+            </value>
+            <value>
+                <fullName>Cardiac</fullName>
+                <default>false</default>
+                <label>Cardiac</label>
+            </value>
+            <value>
+                <fullName>ctDNA</fullName>
+                <default>false</default>
+                <label>ctDNA</label>
+            </value>
+            <value>
+                <fullName>Diasorin</fullName>
+                <default>false</default>
+                <label>Diasorin</label>
+            </value>
+            <value>
+                <fullName>Diasys</fullName>
+                <default>false</default>
+                <label>Diasys</label>
+            </value>
+            <value>
+                <fullName>Diazyme</fullName>
+                <default>false</default>
+                <label>Diazyme</label>
+            </value>
+            <value>
+                <fullName>FFPE</fullName>
+                <default>false</default>
+                <label>FFPE</label>
+            </value>
+            <value>
+                <fullName>Fujirebio</fullName>
+                <default>false</default>
+                <label>Fujirebio</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>General Chemistry</fullName>
+                <default>false</default>
+                <label>General Chemistry</label>
+            </value>
+            <value>
+                <fullName>Immunoassay</fullName>
+                <default>false</default>
+                <label>Immunoassay</label>
+            </value>
+            <value>
+                <fullName>Immunosuppressive Drugs</fullName>
+                <default>false</default>
+                <label>Immunosuppressive Drugs</label>
+            </value>
+            <value>
+                <fullName>LSI</fullName>
+                <default>false</default>
+                <label>LSI</label>
+            </value>
+            <value>
+                <fullName>Mindray</fullName>
+                <default>false</default>
+                <label>Mindray</label>
+            </value>
+            <value>
+                <fullName>Molecular Infectious Disease</fullName>
+                <default>false</default>
+                <label>Molecular Infectious Disease</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Omni Controls</fullName>
+                <default>false</default>
+                <label>Omni Controls</label>
+            </value>
+            <value>
+                <fullName>Oncology</fullName>
+                <default>false</default>
+                <label>Oncology</label>
+            </value>
+            <value>
+                <fullName>Oral-Eze</fullName>
+                <default>false</default>
+                <label>Oral-Eze</label>
+            </value>
+            <value>
+                <fullName>OraSure</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OraSure</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Paraller Trade</fullName>
+                <default>false</default>
+                <label>Paraller Trade</label>
+            </value>
+            <value>
+                <fullName>QuidelOrtho</fullName>
+                <default>false</default>
+                <label>QuidelOrtho</label>
+            </value>
+            <value>
+                <fullName>Radiometer</fullName>
+                <default>false</default>
+                <label>Radiometer</label>
+            </value>
+            <value>
+                <fullName>Roche</fullName>
+                <default>false</default>
+                <label>Roche</label>
+            </value>
+            <value>
+                <fullName>Serology/Infectious Disease</fullName>
+                <default>false</default>
+                <label>Serology/Infectious Disease</label>
+            </value>
+            <value>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+                <label>Siemens</label>
+            </value>
+            <value>
+                <fullName>Snibe</fullName>
+                <default>false</default>
+                <label>Snibe</label>
+            </value>
+            <value>
+                <fullName>Specialty/Toxicology</fullName>
+                <default>false</default>
+                <label>Specialty/Toxicology</label>
+            </value>
+            <value>
+                <fullName>Therapeutic Drug Monitoring</fullName>
+                <default>false</default>
+                <label>Therapeutic Drug Monitoring</label>
+            </value>
+            <value>
+                <fullName>Transplant</fullName>
+                <default>false</default>
+                <label>Transplant</label>
+            </value>
+            <value>
+                <fullName>Urinalysis</fullName>
+                <default>false</default>
+                <label>Urinalysis</label>
+            </value>
+            <value>
+                <fullName>Women&apos;s Health</fullName>
+                <default>false</default>
+                <label>Women&apos;s Health</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Buffers</controllingFieldValue>
+            <controllingFieldValue>Diluents</controllingFieldValue>
+            <controllingFieldValue>Sheath Fluid</controllingFieldValue>
+            <controllingFieldValue>Lysing</controllingFieldValue>
+            <controllingFieldValue>Stains</controllingFieldValue>
+            <controllingFieldValue>Lablink</controllingFieldValue>
+            <controllingFieldValue>CEDIA</controllingFieldValue>
+            <controllingFieldValue>DRI</controllingFieldValue>
+            <controllingFieldValue>Not Applicable</controllingFieldValue>
+            <controllingFieldValue>TDM/ISD</controllingFieldValue>
+            <controllingFieldValue>POC (Cups)</controllingFieldValue>
+            <controllingFieldValue>KRYPTOR</controllingFieldValue>
+            <controllingFieldValue>EIA</controllingFieldValue>
+            <controllingFieldValue>LIA</controllingFieldValue>
+            <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Merchandise</controllingFieldValue>
+            <controllingFieldValue>POC (direct)</controllingFieldValue>
+            <controllingFieldValue>POC (Q)</controllingFieldValue>
+            <controllingFieldValue>RIA</controllingFieldValue>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <controllingFieldValue>Confirmations</controllingFieldValue>
+            <controllingFieldValue>Wash</controllingFieldValue>
+            <valueName>Not Applicable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Beckman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Diasys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Diazyme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Mindray</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Paraller Trade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Radiometer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Snibe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAS Controls</controllingFieldValue>
+            <valueName>Cardiac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAS Controls</controllingFieldValue>
+            <valueName>General Chemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAS Controls</controllingFieldValue>
+            <valueName>Immunoassay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAS Controls</controllingFieldValue>
+            <valueName>Omni Controls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAS Controls</controllingFieldValue>
+            <controllingFieldValue>Catalog Controls</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAS Controls</controllingFieldValue>
+            <valueName>Serology/Infectious Disease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAS Controls</controllingFieldValue>
+            <valueName>Specialty/Toxicology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAS Controls</controllingFieldValue>
+            <valueName>Urinalysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catalog Controls</controllingFieldValue>
+            <valueName>Blood Donor Screening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catalog Controls</controllingFieldValue>
+            <controllingFieldValue>Custom Controls</controllingFieldValue>
+            <valueName>Molecular Infectious Disease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catalog Controls</controllingFieldValue>
+            <controllingFieldValue>Custom Controls</controllingFieldValue>
+            <valueName>Oncology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catalog Controls</controllingFieldValue>
+            <valueName>Transplant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catalog Controls</controllingFieldValue>
+            <valueName>Women&apos;s Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom Controls</controllingFieldValue>
+            <valueName>ctDNA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom Controls</controllingFieldValue>
+            <valueName>FFPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom Controls</controllingFieldValue>
+            <valueName>General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CEDIA</controllingFieldValue>
+            <valueName>Oral-Eze</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N/A</controllingFieldValue>
+            <controllingFieldValue>TDM/ISD</controllingFieldValue>
+            <valueName>Immunosuppressive Drugs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N/A</controllingFieldValue>
+            <controllingFieldValue>TDM/ISD</controllingFieldValue>
+            <valueName>Therapeutic Drug Monitoring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Merchandise</controllingFieldValue>
+            <valueName>Abbott</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>License</controllingFieldValue>
+            <valueName>Biomerieux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Merchandise</controllingFieldValue>
+            <valueName>Diasorin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>License</controllingFieldValue>
+            <valueName>Fujirebio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>License</controllingFieldValue>
+            <valueName>LSI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Merchandise</controllingFieldValue>
+            <valueName>QuidelOrtho</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Merchandise</controllingFieldValue>
+            <valueName>Roche</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Merchandise</controllingFieldValue>
+            <valueName>Siemens</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

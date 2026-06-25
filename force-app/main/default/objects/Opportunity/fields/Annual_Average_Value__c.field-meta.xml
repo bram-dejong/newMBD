@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Average_Value__c</fullName>
+    <description>[CDD NA Pilot] Average Annual Value of the deal.</description>
+    <formula>IF(
+    Contract_Length_CAT__c &lt; 12,
+    Total_Value_of_the_Deal_CAT__c ,
+    ( Total_Value_of_the_Deal_CAT__c /  Contract_Length_CAT__c ) * 12
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Annual Average Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

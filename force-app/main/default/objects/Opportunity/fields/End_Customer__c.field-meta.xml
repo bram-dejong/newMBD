@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_Customer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>[CDD nEM Wave 1] To track the end customer that’s purchasing through the Distributor.</description>
+    <label>End Customer</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Opportunities (End Customer)</relationshipLabel>
+    <relationshipName>End_Customer</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

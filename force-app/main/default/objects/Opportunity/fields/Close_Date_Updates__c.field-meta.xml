@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_Updates__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>This field is updated by a workflow &apos;Increment Close Date when updated&apos;. Whenever close date value on the opportunity is updated, this field is incremented by 1</description>
+    <externalId>false</externalId>
+    <label># Close Date Updates</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

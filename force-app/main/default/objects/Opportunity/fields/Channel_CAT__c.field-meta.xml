@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_CAT__c</fullName>
+    <description>[CDD NA Pilot] This field is used by sales reps to define the channel through which the product will be sold.</description>
+    <inlineHelpText>Use to define the channel through which the product(s) will be sold.</inlineHelpText>
+    <label>Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AcroMetrix</fullName>
+                <default>false</default>
+                <label>AcroMetrix</label>
+            </value>
+            <value>
+                <fullName>Cardinal (US Only)</fullName>
+                <default>false</default>
+                <label>Cardinal (US Only)</label>
+            </value>
+            <value>
+                <fullName>HMD</fullName>
+                <default>false</default>
+                <label>HMD</label>
+            </value>
+            <value>
+                <fullName>Labsco</fullName>
+                <default>false</default>
+                <label>Labsco</label>
+            </value>
+            <value>
+                <fullName>MGC</fullName>
+                <default>false</default>
+                <label>MGC</label>
+            </value>
+            <value>
+                <fullName>VWR</fullName>
+                <default>false</default>
+                <label>VWR</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Direct</fullName>
+                <default>false</default>
+                <label>Direct</label>
+            </value>
+            <value>
+                <fullName>Fisher</fullName>
+                <default>false</default>
+                <label>Fisher</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

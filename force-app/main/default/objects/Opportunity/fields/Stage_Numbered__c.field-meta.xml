@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_Numbered__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL(StageName, &quot;Prospect&quot;),&quot;1 Prospect&quot;,
+         IF( ISPICKVAL(StageName, &quot;Needs Analysis&quot;),&quot;2 Needs Analysis&quot;,
+		    IF( ISPICKVAL(StageName, &quot;Proposal&quot;),&quot;3 Proposal&quot;,
+			  IF(ISPICKVAL(StageName, &quot;In Negotiation/Evaluation&quot;),&quot;4 In Negotiation/Evaluation&quot;,
+			  	IF(ISPICKVAL(StageName, &quot;Verbal Agreement&quot;),&quot;5 Verbal Agreement&quot;,
+			     		IF(ISPICKVAL(StageName, &quot;Closed Won&quot;),&quot;6 Closed Won&quot;,
+			        		IF(ISPICKVAL(StageName, &quot;Closed Lost&quot;),&quot;7 Closed Lost&quot;,
+			           			IF(ISPICKVAL(StageName, &quot;On Hold&quot;),&quot;8 On Hold&quot;,&quot;None&quot;)
+			          			)
+			        		)
+			    		)
+				)
+		       )
+            )
+  )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Stage - Numbered</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

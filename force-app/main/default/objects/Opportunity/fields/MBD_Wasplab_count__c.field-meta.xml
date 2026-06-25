@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MBD_Wasplab_count__c</fullName>
+    <label>MBD Wasplab count</label>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Product_Class__c</field>
+        <operation>equals</operation>
+        <value>WASP Lab</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tender_Renewal_Date__c</fullName>
+    <description>[CDD nEM Wave 1] Track the date the tender can be renewed.</description>
+    <inlineHelpText>The date the tender can be renewed.</inlineHelpText>
+    <label>Tender Renewal Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

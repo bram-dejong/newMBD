@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Qtr__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(MONTH((CloseDate)),
+1,&apos;Q1&apos;,
+
+2,&apos;Q1&apos;,
+
+3,&apos;Q1&apos;,
+
+4,&apos;Q2&apos;,
+
+5,&apos;Q2&apos;,
+
+6,&apos;Q2&apos;,
+
+7,&apos;Q3&apos;,
+
+8,&apos;Q3&apos;, 
+
+9,&apos;Q3&apos;,
+
+10,&apos;Q4&apos;,
+
+11,&apos;Q4&apos;,
+
+12,&apos;Q4&apos;,
+null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Closed Qtr</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

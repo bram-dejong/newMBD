@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dimension_2__c</fullName>
+    <label>Dimension 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Dimension_1__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acute Care / Cardiac</fullName>
+                <default>false</default>
+                <label>Acute Care / Cardiac</label>
+            </value>
+            <value>
+                <fullName>Bone Metabolism</fullName>
+                <default>false</default>
+                <label>Bone Metabolism</label>
+            </value>
+            <value>
+                <fullName>Cascadion</fullName>
+                <default>false</default>
+                <label>Cascadion</label>
+            </value>
+            <value>
+                <fullName>Clinical Chemistry</fullName>
+                <default>false</default>
+                <label>Clinical Chemistry</label>
+            </value>
+            <value>
+                <fullName>Endocrinology</fullName>
+                <default>false</default>
+                <label>Endocrinology</label>
+            </value>
+            <value>
+                <fullName>External</fullName>
+                <default>false</default>
+                <label>External</label>
+            </value>
+            <value>
+                <fullName>Fertility</fullName>
+                <default>false</default>
+                <label>Fertility</label>
+            </value>
+            <value>
+                <fullName>Indiko Instrument</fullName>
+                <default>false</default>
+                <label>Indiko Instrument</label>
+            </value>
+            <value>
+                <fullName>Infectiology</fullName>
+                <default>false</default>
+                <label>Infectiology</label>
+            </value>
+            <value>
+                <fullName>Kryptor Instrument</fullName>
+                <default>false</default>
+                <label>Kryptor Instrument</label>
+            </value>
+            <value>
+                <fullName>Konelab Instrument</fullName>
+                <default>false</default>
+                <label>Konelab Instrument</label>
+            </value>
+            <value>
+                <fullName>Niche</fullName>
+                <default>false</default>
+                <label>Niche</label>
+            </value>
+            <value>
+                <fullName>Oncology</fullName>
+                <default>false</default>
+                <label>Oncology</label>
+            </value>
+            <value>
+                <fullName>Particles</fullName>
+                <default>false</default>
+                <label>Particles</label>
+            </value>
+            <value>
+                <fullName>Preeclampsia</fullName>
+                <default>false</default>
+                <label>Preeclampsia</label>
+            </value>
+            <value>
+                <fullName>Prenatal Screening</fullName>
+                <default>false</default>
+                <label>Prenatal Screening</label>
+            </value>
+            <value>
+                <fullName>QC</fullName>
+                <default>false</default>
+                <label>QC</label>
+            </value>
+            <value>
+                <fullName>TDM/ISD</fullName>
+                <default>false</default>
+                <label>TDM/ISD</label>
+            </value>
+            <value>
+                <fullName>TOX</fullName>
+                <default>false</default>
+                <label>TOX</label>
+            </value>
+            <value>
+                <fullName>Rapid Testing</fullName>
+                <default>false</default>
+                <label>Rapid Testing</label>
+            </value>
+            <value>
+                <fullName>Automation</fullName>
+                <default>false</default>
+                <label>Automation</label>
+            </value>
+            <value>
+                <fullName>HVFL</fullName>
+                <default>false</default>
+                <label>HVFL</label>
+            </value>
+            <value>
+                <fullName>SBFL</fullName>
+                <default>false</default>
+                <label>SBFL</label>
+            </value>
+            <value>
+                <fullName>Own Label &amp; Custom</fullName>
+                <default>false</default>
+                <label>Own Label &amp; Custom</label>
+            </value>
+            <value>
+                <fullName>Lyophilization</fullName>
+                <default>false</default>
+                <label>Lyophilization</label>
+            </value>
+            <value>
+                <fullName>Formulation</fullName>
+                <default>false</default>
+                <label>Formulation</label>
+            </value>
+            <value>
+                <fullName>System Fluids</fullName>
+                <default>false</default>
+                <label>System Fluids</label>
+            </value>
+            <value>
+                <fullName>Assays</fullName>
+                <default>false</default>
+                <label>Assays</label>
+            </value>
+            <value>
+                <fullName>QC/Cals</fullName>
+                <default>false</default>
+                <label>QC/Cals</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>A&amp;A</controllingFieldValue>
+            <valueName>Clinical Chemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A&amp;A</controllingFieldValue>
+            <valueName>Indiko Instrument</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A&amp;A</controllingFieldValue>
+            <valueName>Konelab Instrument</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A&amp;A</controllingFieldValue>
+            <valueName>Niche</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A&amp;A</controllingFieldValue>
+            <valueName>Automation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMK</controllingFieldValue>
+            <valueName>Acute Care / Cardiac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMK</controllingFieldValue>
+            <valueName>Bone Metabolism</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMK</controllingFieldValue>
+            <valueName>Endocrinology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMK</controllingFieldValue>
+            <valueName>Fertility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMK</controllingFieldValue>
+            <valueName>Infectiology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMK</controllingFieldValue>
+            <valueName>Kryptor Instrument</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMK</controllingFieldValue>
+            <valueName>Oncology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMK</controllingFieldValue>
+            <valueName>Preeclampsia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMK</controllingFieldValue>
+            <valueName>Prenatal Screening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NDx</controllingFieldValue>
+            <valueName>External</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NDx</controllingFieldValue>
+            <valueName>Particles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NDx</controllingFieldValue>
+            <valueName>QC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NDx</controllingFieldValue>
+            <valueName>TDM/ISD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NDx</controllingFieldValue>
+            <valueName>TOX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NDx</controllingFieldValue>
+            <valueName>Rapid Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDR</controllingFieldValue>
+            <valueName>HVFL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDR</controllingFieldValue>
+            <valueName>SBFL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDR</controllingFieldValue>
+            <valueName>Own Label &amp; Custom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDR</controllingFieldValue>
+            <valueName>Lyophilization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDR</controllingFieldValue>
+            <valueName>Formulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDR</controllingFieldValue>
+            <valueName>System Fluids</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDR</controllingFieldValue>
+            <valueName>Assays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDR</controllingFieldValue>
+            <valueName>QC/Cals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CDR</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

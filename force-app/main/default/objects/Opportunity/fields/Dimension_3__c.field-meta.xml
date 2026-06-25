@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dimension_3__c</fullName>
+    <label>Dimension 3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Dimension_2__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ACTH</fullName>
+                <default>false</default>
+                <label>ACTH</label>
+            </value>
+            <value>
+                <fullName>AFP</fullName>
+                <default>false</default>
+                <label>AFP</label>
+            </value>
+            <value>
+                <fullName>Anatomical Pathology</fullName>
+                <default>false</default>
+                <label>Anatomical Pathology</label>
+            </value>
+            <value>
+                <fullName>Anti-TG</fullName>
+                <default>false</default>
+                <label>Anti-TG</label>
+            </value>
+            <value>
+                <fullName>Anti-TPO</fullName>
+                <default>false</default>
+                <label>Anti-TPO</label>
+            </value>
+            <value>
+                <fullName>Buffered Blood Bank Saline</fullName>
+                <default>false</default>
+                <label>Buffered Blood Bank Saline</label>
+            </value>
+            <value>
+                <fullName>CA125II</fullName>
+                <default>false</default>
+                <label>CA125II</label>
+            </value>
+            <value>
+                <fullName>CA15-3</fullName>
+                <default>false</default>
+                <label>CA15-3</label>
+            </value>
+            <value>
+                <fullName>CA19-9</fullName>
+                <default>false</default>
+                <label>CA19-9</label>
+            </value>
+            <value>
+                <fullName>Calcitonin</fullName>
+                <default>false</default>
+                <label>Calcitonin</label>
+            </value>
+            <value>
+                <fullName>CEA</fullName>
+                <default>false</default>
+                <label>CEA</label>
+            </value>
+            <value>
+                <fullName>Chromogranin A</fullName>
+                <default>false</default>
+                <label>Chromogranin A</label>
+            </value>
+            <value>
+                <fullName>Clinical Chemistry</fullName>
+                <default>false</default>
+                <label>Clinical Chemistry</label>
+            </value>
+            <value>
+                <fullName>Coagulation</fullName>
+                <default>false</default>
+                <label>Coagulation</label>
+            </value>
+            <value>
+                <fullName>Copeptin pro-AVP</fullName>
+                <default>false</default>
+                <label>Copeptin pro-AVP</label>
+            </value>
+            <value>
+                <fullName>CRPus</fullName>
+                <default>false</default>
+                <label>CRPus</label>
+            </value>
+            <value>
+                <fullName>CT-proAVP</fullName>
+                <default>false</default>
+                <label>CT-proAVP</label>
+            </value>
+            <value>
+                <fullName>CT-proET1</fullName>
+                <default>false</default>
+                <label>CT-proET1</label>
+            </value>
+            <value>
+                <fullName>CYFRA21-1</fullName>
+                <default>false</default>
+                <label>CYFRA21-1</label>
+            </value>
+            <value>
+                <fullName>Diagnostics</fullName>
+                <default>false</default>
+                <label>Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Drugs of Abuse</fullName>
+                <default>false</default>
+                <label>Drugs of Abuse</label>
+            </value>
+            <value>
+                <fullName>Fastscreen</fullName>
+                <default>false</default>
+                <label>Fastscreen</label>
+            </value>
+            <value>
+                <fullName>FBHCG</fullName>
+                <default>false</default>
+                <label>FBHCG</label>
+            </value>
+            <value>
+                <fullName>free PSA</fullName>
+                <default>false</default>
+                <label>free PSA</label>
+            </value>
+            <value>
+                <fullName>fT3</fullName>
+                <default>false</default>
+                <label>fT3</label>
+            </value>
+            <value>
+                <fullName>fT4</fullName>
+                <default>false</default>
+                <label>fT4</label>
+            </value>
+            <value>
+                <fullName>Glucose Tolerance</fullName>
+                <default>false</default>
+                <label>Glucose Tolerance</label>
+            </value>
+            <value>
+                <fullName>GTTB</fullName>
+                <default>false</default>
+                <label>GTTB</label>
+            </value>
+            <value>
+                <fullName>HCG+ß total</fullName>
+                <default>false</default>
+                <label>HCG+ß total</label>
+            </value>
+            <value>
+                <fullName>Hematology</fullName>
+                <default>false</default>
+                <label>Hematology</label>
+            </value>
+            <value>
+                <fullName>hTg sensitive</fullName>
+                <default>false</default>
+                <label>hTg sensitive</label>
+            </value>
+            <value>
+                <fullName>IA</fullName>
+                <default>false</default>
+                <label>IA</label>
+            </value>
+            <value>
+                <fullName>Indiko</fullName>
+                <default>false</default>
+                <label>Indiko</label>
+            </value>
+            <value>
+                <fullName>Indiko ISE</fullName>
+                <default>false</default>
+                <label>Indiko ISE</label>
+            </value>
+            <value>
+                <fullName>Indiko Plus</fullName>
+                <default>false</default>
+                <label>Indiko Plus</label>
+            </value>
+            <value>
+                <fullName>Indiko Plus ISE</fullName>
+                <default>false</default>
+                <label>Indiko Plus ISE</label>
+            </value>
+            <value>
+                <fullName>Inhibin A</fullName>
+                <default>false</default>
+                <label>Inhibin A</label>
+            </value>
+            <value>
+                <fullName>Konelab</fullName>
+                <default>false</default>
+                <label>Konelab</label>
+            </value>
+            <value>
+                <fullName>Kryptor Compact Plus</fullName>
+                <default>false</default>
+                <label>Kryptor Compact Plus</label>
+            </value>
+            <value>
+                <fullName>Kryptor Gold</fullName>
+                <default>false</default>
+                <label>Kryptor Gold</label>
+            </value>
+            <value>
+                <fullName>Lab Grade Water</fullName>
+                <default>false</default>
+                <label>Lab Grade Water</label>
+            </value>
+            <value>
+                <fullName>Molecular</fullName>
+                <default>false</default>
+                <label>Molecular</label>
+            </value>
+            <value>
+                <fullName>MR-proADM</fullName>
+                <default>false</default>
+                <label>MR-proADM</label>
+            </value>
+            <value>
+                <fullName>MR-proANP</fullName>
+                <default>false</default>
+                <label>MR-proANP</label>
+            </value>
+            <value>
+                <fullName>Multi Parametric</fullName>
+                <default>false</default>
+                <label>Multi Parametric</label>
+            </value>
+            <value>
+                <fullName>Multiple</fullName>
+                <default>false</default>
+                <label>Multiple</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Neopterin</fullName>
+                <default>false</default>
+                <label>Neopterin</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>NSE</fullName>
+                <default>false</default>
+                <label>NSE</label>
+            </value>
+            <value>
+                <fullName>OFT</fullName>
+                <default>false</default>
+                <label>OFT</label>
+            </value>
+            <value>
+                <fullName>Osteocalcin</fullName>
+                <default>false</default>
+                <label>Osteocalcin</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PAPP-A</fullName>
+                <default>false</default>
+                <label>PAPP-A</label>
+            </value>
+            <value>
+                <fullName>PCT</fullName>
+                <default>false</default>
+                <label>PCT</label>
+            </value>
+            <value>
+                <fullName>PlGF plus</fullName>
+                <default>false</default>
+                <label>PlGF plus</label>
+            </value>
+            <value>
+                <fullName>Prime</fullName>
+                <default>false</default>
+                <label>Prime</label>
+            </value>
+            <value>
+                <fullName>Prolactin</fullName>
+                <default>false</default>
+                <label>Prolactin</label>
+            </value>
+            <value>
+                <fullName>QA(MAS)</fullName>
+                <default>false</default>
+                <label>QA(MAS)</label>
+            </value>
+            <value>
+                <fullName>QC/Cals</fullName>
+                <default>false</default>
+                <label>QC/Cals</label>
+            </value>
+            <value>
+                <fullName>QC Acrometrix</fullName>
+                <default>false</default>
+                <label>QC Acrometrix</label>
+            </value>
+            <value>
+                <fullName>SCC</fullName>
+                <default>false</default>
+                <label>SCC</label>
+            </value>
+            <value>
+                <fullName>Serum</fullName>
+                <default>false</default>
+                <label>Serum</label>
+            </value>
+            <value>
+                <fullName>sFlt-1</fullName>
+                <default>false</default>
+                <label>sFlt-1</label>
+            </value>
+            <value>
+                <fullName>Standards</fullName>
+                <default>false</default>
+                <label>Standards</label>
+            </value>
+            <value>
+                <fullName>T3</fullName>
+                <default>false</default>
+                <label>T3</label>
+            </value>
+            <value>
+                <fullName>T4</fullName>
+                <default>false</default>
+                <label>T4</label>
+            </value>
+            <value>
+                <fullName>TBG</fullName>
+                <default>false</default>
+                <label>TBG</label>
+            </value>
+            <value>
+                <fullName>TCA</fullName>
+                <default>false</default>
+                <label>TCA</label>
+            </value>
+            <value>
+                <fullName>TDM/ISD</fullName>
+                <default>false</default>
+                <label>TDM/ISD</label>
+            </value>
+            <value>
+                <fullName>TG</fullName>
+                <default>false</default>
+                <label>TG</label>
+            </value>
+            <value>
+                <fullName>total PSA</fullName>
+                <default>false</default>
+                <label>total PSA</label>
+            </value>
+            <value>
+                <fullName>TRAK</fullName>
+                <default>false</default>
+                <label>TRAK</label>
+            </value>
+            <value>
+                <fullName>TSH</fullName>
+                <default>false</default>
+                <label>TSH</label>
+            </value>
+            <value>
+                <fullName>UE3</fullName>
+                <default>false</default>
+                <label>UE3</label>
+            </value>
+            <value>
+                <fullName>Urine</fullName>
+                <default>false</default>
+                <label>Urine</label>
+            </value>
+            <value>
+                <fullName>Volatiles</fullName>
+                <default>false</default>
+                <label>Volatiles</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Formulation</controllingFieldValue>
+            <controllingFieldValue>Cascadion</controllingFieldValue>
+            <controllingFieldValue>Rapid Testing</controllingFieldValue>
+            <controllingFieldValue>Lyophilization</controllingFieldValue>
+            <valueName>Not Applicable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Fluids</controllingFieldValue>
+            <controllingFieldValue>Assays</controllingFieldValue>
+            <controllingFieldValue>QC/Cals</controllingFieldValue>
+            <controllingFieldValue>HVFL</controllingFieldValue>
+            <valueName>Anatomical Pathology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Fluids</controllingFieldValue>
+            <controllingFieldValue>Assays</controllingFieldValue>
+            <controllingFieldValue>QC/Cals</controllingFieldValue>
+            <controllingFieldValue>HVFL</controllingFieldValue>
+            <controllingFieldValue>SBFL</controllingFieldValue>
+            <controllingFieldValue>Own Label &amp; Custom</controllingFieldValue>
+            <valueName>Clinical Chemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Fluids</controllingFieldValue>
+            <controllingFieldValue>Assays</controllingFieldValue>
+            <controllingFieldValue>QC/Cals</controllingFieldValue>
+            <controllingFieldValue>SBFL</controllingFieldValue>
+            <controllingFieldValue>Own Label &amp; Custom</controllingFieldValue>
+            <valueName>Coagulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Fluids</controllingFieldValue>
+            <controllingFieldValue>Assays</controllingFieldValue>
+            <controllingFieldValue>QC/Cals</controllingFieldValue>
+            <controllingFieldValue>HVFL</controllingFieldValue>
+            <valueName>Hematology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Fluids</controllingFieldValue>
+            <controllingFieldValue>Assays</controllingFieldValue>
+            <controllingFieldValue>QC/Cals</controllingFieldValue>
+            <controllingFieldValue>HVFL</controllingFieldValue>
+            <controllingFieldValue>SBFL</controllingFieldValue>
+            <valueName>IA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Fluids</controllingFieldValue>
+            <controllingFieldValue>Assays</controllingFieldValue>
+            <controllingFieldValue>QC/Cals</controllingFieldValue>
+            <controllingFieldValue>HVFL</controllingFieldValue>
+            <valueName>Molecular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Fluids</controllingFieldValue>
+            <controllingFieldValue>Assays</controllingFieldValue>
+            <controllingFieldValue>QC/Cals</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Multiple</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Fluids</controllingFieldValue>
+            <controllingFieldValue>Assays</controllingFieldValue>
+            <controllingFieldValue>QC/Cals</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>External</controllingFieldValue>
+            <controllingFieldValue>SBFL</controllingFieldValue>
+            <controllingFieldValue>Own Label &amp; Custom</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Own Label &amp; Custom</controllingFieldValue>
+            <valueName>Buffered Blood Bank Saline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Glucose Tolerance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Own Label &amp; Custom</controllingFieldValue>
+            <valueName>Lab Grade Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Own Label &amp; Custom</controllingFieldValue>
+            <valueName>Volatiles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Indiko Instrument</controllingFieldValue>
+            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
+            <controllingFieldValue>Niche</controllingFieldValue>
+            <valueName>Indiko</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Indiko Instrument</controllingFieldValue>
+            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
+            <controllingFieldValue>Niche</controllingFieldValue>
+            <valueName>Indiko ISE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Indiko Instrument</controllingFieldValue>
+            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
+            <controllingFieldValue>Niche</controllingFieldValue>
+            <valueName>Indiko Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Indiko Instrument</controllingFieldValue>
+            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
+            <controllingFieldValue>Niche</controllingFieldValue>
+            <valueName>Indiko Plus ISE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kryptor Instrument</controllingFieldValue>
+            <valueName>Kryptor Compact Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kryptor Instrument</controllingFieldValue>
+            <valueName>Kryptor Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Konelab Instrument</controllingFieldValue>
+            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
+            <valueName>Konelab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preeclampsia</controllingFieldValue>
+            <valueName>PlGF plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preeclampsia</controllingFieldValue>
+            <valueName>sFlt-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QC</controllingFieldValue>
+            <valueName>QA(MAS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QC</controllingFieldValue>
+            <valueName>QC Acrometrix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOX</controllingFieldValue>
+            <valueName>OFT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOX</controllingFieldValue>
+            <valueName>Serum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TOX</controllingFieldValue>
+            <valueName>Urine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDM/ISD</controllingFieldValue>
+            <valueName>N/A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDM/ISD</controllingFieldValue>
+            <valueName>TDM/ISD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Particles</controllingFieldValue>
+            <valueName>Diagnostics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Particles</controllingFieldValue>
+            <valueName>Standards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Drugs of Abuse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automation</controllingFieldValue>
+            <valueName>Prime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automation</controllingFieldValue>
+            <valueName>TCA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SBFL</controllingFieldValue>
+            <valueName>QC/Cals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acute Care / Cardiac</controllingFieldValue>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>Copeptin pro-AVP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acute Care / Cardiac</controllingFieldValue>
+            <valueName>CT-proET1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acute Care / Cardiac</controllingFieldValue>
+            <valueName>MR-proANP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bone Metabolism</controllingFieldValue>
+            <valueName>Osteocalcin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>ACTH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>Anti-TG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>Anti-TPO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>Calcitonin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>CT-proAVP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>fT3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>fT4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>hTg sensitive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <controllingFieldValue>Prenatal Screening</controllingFieldValue>
+            <valueName>Multi Parametric</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>T3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>T4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>TBG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>TG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>TRAK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Endocrinology</controllingFieldValue>
+            <valueName>TSH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fertility</controllingFieldValue>
+            <valueName>Prolactin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infectiology</controllingFieldValue>
+            <valueName>CRPus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infectiology</controllingFieldValue>
+            <valueName>MR-proADM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infectiology</controllingFieldValue>
+            <valueName>Neopterin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infectiology</controllingFieldValue>
+            <valueName>PCT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>AFP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>CA125II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>CA15-3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>CA19-9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>CEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>Chromogranin A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>CYFRA21-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>free PSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>HCG+ß total</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>NSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>SCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>total PSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prenatal Screening</controllingFieldValue>
+            <valueName>Fastscreen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prenatal Screening</controllingFieldValue>
+            <valueName>FBHCG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prenatal Screening</controllingFieldValue>
+            <valueName>Inhibin A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prenatal Screening</controllingFieldValue>
+            <valueName>PAPP-A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prenatal Screening</controllingFieldValue>
+            <valueName>UE3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Own Label &amp; Custom</controllingFieldValue>
+            <valueName>GTTB</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

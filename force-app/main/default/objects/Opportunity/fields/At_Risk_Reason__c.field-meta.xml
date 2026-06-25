@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>At_Risk_Reason__c</fullName>
+    <label>At Risk Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>JP_IDD_Division__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lab Consolidation</fullName>
+                <default>false</default>
+                <label>Lab Consolidation</label>
+            </value>
+            <value>
+                <fullName>Lab out of Business</fullName>
+                <default>false</default>
+                <label>Lab out of Business</label>
+            </value>
+            <value>
+                <fullName>New Technologies</fullName>
+                <default>false</default>
+                <label>New Technologies</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Product Availability</fullName>
+                <default>false</default>
+                <label>Product Availability</label>
+            </value>
+            <value>
+                <fullName>Quality Issues</fullName>
+                <default>false</default>
+                <label>Quality Issues</label>
+            </value>
+            <value>
+                <fullName>Reason 3</fullName>
+                <default>false</default>
+                <label>Reason 3</label>
+            </value>
+            <value>
+                <fullName>Regulatory Compliance</fullName>
+                <default>false</default>
+                <label>Regulatory Compliance</label>
+            </value>
+            <value>
+                <fullName>Relationship</fullName>
+                <default>false</default>
+                <label>Relationship</label>
+            </value>
+            <value>
+                <fullName>Re-tender</fullName>
+                <default>false</default>
+                <label>Re-tender</label>
+            </value>
+            <value>
+                <fullName>Service Issues</fullName>
+                <default>false</default>
+                <label>Service Issues</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Lab Consolidation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Lab out of Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>New Technologies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Pricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Product Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Quality Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Regulatory Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Re-tender</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <valueName>Service Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IDD</controllingFieldValue>
+            <controllingFieldValue>MBD</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_Recurring_Total_Profit__c</fullName>
+    <description>[CDD NE Wave 1] Added as part of solution to track recurring revenue.  Total profit amount for products where Annual Recurring Product is checked</description>
+    <label>Estimated Recurring Total Profit</label>
+    <summarizedField>OpportunityLineItem.Profit__c</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Annual_Recurring_Product__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

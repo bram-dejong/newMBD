@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Installation_Status__c</fullName>
+    <label>Installation Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>in progress</fullName>
+                <default>false</default>
+                <label>in progress</label>
+            </value>
+            <value>
+                <fullName>Won, but not installed yet</fullName>
+                <default>false</default>
+                <label>Won, but not installed yet</label>
+            </value>
+            <value>
+                <fullName>Installed, not enabled</fullName>
+                <default>false</default>
+                <label>Installed, not enabled</label>
+            </value>
+            <value>
+                <fullName>Installed, enabled</fullName>
+                <default>false</default>
+                <label>Installed, enabled</label>
+            </value>
+            <value>
+                <fullName>Order lost</fullName>
+                <default>false</default>
+                <label>Order lost</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

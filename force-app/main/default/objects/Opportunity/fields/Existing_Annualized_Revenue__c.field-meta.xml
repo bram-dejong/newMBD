@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Existing_Annualized_Revenue__c</fullName>
+    <inlineHelpText>If Product Families of Interest is for NGS, provide current estimated 12 month revenue using existing TDX products.</inlineHelpText>
+    <label>Existing Annualized Revenue</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

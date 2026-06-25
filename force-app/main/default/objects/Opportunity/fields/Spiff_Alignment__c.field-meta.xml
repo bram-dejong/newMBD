@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spiff_Alignment__c</fullName>
+    <description>TASK8662952
+REQ1560084
+RITM1791145
+SCTASK0728025 - Label Change</description>
+    <label>Sales Initiative</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2024 BMK/LP Partnership</fullName>
+                <default>false</default>
+                <label>2024 BMK/LP Partnership</label>
+            </value>
+            <value>
+                <fullName>CDD EU 2025 Konelab replacement SI</fullName>
+                <default>false</default>
+                <label>CDD EU 2025 Konelab replacement SI</label>
+            </value>
+            <value>
+                <fullName>CDD EU 2025 Lablink SI</fullName>
+                <default>false</default>
+                <label>CDD EU 2025 Lablink SI</label>
+            </value>
+            <value>
+                <fullName>CDD EU 2025 PE Know the competition SI</fullName>
+                <default>false</default>
+                <label>CDD EU 2025 PE Know the competition SI</label>
+            </value>
+            <value>
+                <fullName>CDD EU 2025 AAA Sentinel SI</fullName>
+                <default>false</default>
+                <label>CDD EU 2025 AAA Sentinel SI</label>
+            </value>
+            <value>
+                <fullName>CDD INT 2025 Indiko AAA SI</fullName>
+                <default>false</default>
+                <label>CDD INT 2025 Indiko AAA SI</label>
+            </value>
+            <value>
+                <fullName>CDD INT 2025 Konelab replacement SI</fullName>
+                <default>false</default>
+                <label>CDD INT 2025 Konelab replacement SI</label>
+            </value>
+            <value>
+                <fullName>CDD INT 2025 Kryptor SI</fullName>
+                <default>false</default>
+                <label>CDD INT 2025 Kryptor SI</label>
+            </value>
+            <value>
+                <fullName>CDD INT 2025 Wellness SI</fullName>
+                <default>false</default>
+                <label>CDD INT 2025 Wellness SI</label>
+            </value>
+            <value>
+                <fullName>CDD NORAM Toxicology Prospecting</fullName>
+                <default>false</default>
+                <label>CDD NORAM Toxicology Prospecting</label>
+            </value>
+            <value>
+                <fullName>CDD NORAM QC Prospecting</fullName>
+                <default>false</default>
+                <label>CDD NORAM QC Prospecting</label>
+            </value>
+            <value>
+                <fullName>CDD NORAM CJ&amp;F Prospecting</fullName>
+                <default>false</default>
+                <label>CDD NORAM CJ&amp;F Prospecting</label>
+            </value>
+            <value>
+                <fullName>CDD NORAM PE Prospecting</fullName>
+                <default>false</default>
+                <label>CDD NORAM PE Prospecting</label>
+            </value>
+            <value>
+                <fullName>20255 BMK/LP Leadership.</fullName>
+                <default>false</default>
+                <label>20255 BMK/LP Leadership.</label>
+            </value>
+            <value>
+                <fullName>2021 Spiff Eligible</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2021 Spiff Eligible</label>
+            </value>
+            <value>
+                <fullName>2022 HUB Initiative - MAS QC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2022 HUB Initiative - MAS QC</label>
+            </value>
+            <value>
+                <fullName>2022 MAS QC Extravaganza!</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2022 MAS QC Extravaganza!</label>
+            </value>
+            <value>
+                <fullName>2022 NORAM NDx Extravaganza!</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2022 NORAM NDx Extravaganza!</label>
+            </value>
+            <value>
+                <fullName>2023 Auto-Connectivity Spiff</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2023 Auto-Connectivity Spiff</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

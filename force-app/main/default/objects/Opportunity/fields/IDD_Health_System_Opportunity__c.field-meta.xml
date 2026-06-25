@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IDD_Health_System_Opportunity__c</fullName>
+    <label>IDD Health System Opportunity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Profile Optimization</fullName>
+                <default>false</default>
+                <label>Profile Optimization</label>
+            </value>
+            <value>
+                <fullName>Components</fullName>
+                <default>false</default>
+                <label>Components</label>
+            </value>
+            <value>
+                <fullName>Autoimmune</fullName>
+                <default>false</default>
+                <label>Autoimmune</label>
+            </value>
+            <value>
+                <fullName>Gluten Related Disorders</fullName>
+                <default>false</default>
+                <label>Gluten Related Disorders</label>
+            </value>
+            <value>
+                <fullName>Antibiotic Stewardship</fullName>
+                <default>false</default>
+                <label>Antibiotic Stewardship</label>
+            </value>
+            <value>
+                <fullName>Asthma Pathway</fullName>
+                <default>false</default>
+                <label>Asthma Pathway</label>
+            </value>
+            <value>
+                <fullName>COPD</fullName>
+                <default>false</default>
+                <label>COPD</label>
+            </value>
+            <value>
+                <fullName>ACOS</fullName>
+                <default>false</default>
+                <label>ACOS</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Lab Outreach</fullName>
+                <default>false</default>
+                <label>Lab Outreach</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
