@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manager_Text__c</fullName>
+    <description>Used for reporting only since Manager isn&apos;t an available field for reports.  Not be seen on the page layout.</description>
+    <externalId>false</externalId>
+    <formula>Manager.FirstName + &apos; &apos; + Manager.LastName</formula>
+    <label>Manager</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

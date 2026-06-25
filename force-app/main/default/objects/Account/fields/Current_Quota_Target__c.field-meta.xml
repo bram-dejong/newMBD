@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Quota_Target__c</fullName>
+    <label>Current Quota Target</label>
+    <summarizedField>Partner_Performance__c.Yearly_Target__c</summarizedField>
+    <summaryFilterItems>
+        <field>Partner_Performance__c.Date__c</field>
+        <operation>equals</operation>
+        <value>1/1/2019</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Partner_Performance__c.Account__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -3,7 +3,9 @@
   "edition": "Enterprise",
   "features": [
     "API",
-    "AuthorApex"
+    "AuthorApex",
+    "MultiCurrency",
+    "Quotes"
   ],
   "settings": {
     "lightningExperienceSettings": {

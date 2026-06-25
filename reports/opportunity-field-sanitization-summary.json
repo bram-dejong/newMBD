@@ -1,0 +1,36 @@
+{
+  "local_before": 435,
+  "kept": 272,
+  "removed": 163,
+  "tracker_custom_opp": 437,
+  "tracker_not_local": [
+    "Associated_Blue_Sheet__c",
+    "Bluesheet_URL__c"
+  ],
+  "removed_managed_namespace": [
+    "BRNSHRK__ContentViewRate__c",
+    "BRNSHRK__DaysSinceLastContentSent__c",
+    "kfsell__Blue_Sheet_Count__c",
+    "kfsell__Green_Sheet_Count__c",
+    "kfsell__Is_Owned__c",
+    "kfsell__Opportunity_Scorecard_progress__c",
+    "kfsell__Scorecard_Stage__c",
+    "kfsell__Stage_Last_ModifiedOn__c"
+  ],
+  "remaining_after_managed_namespace_prune": 264,
+  "kept_after_managed_namespace_prune": 264,
+  "removed_ds_dependency": [
+    "Data_Science_Recommendation_Info__c",
+    "DS_Recommendation__c"
+  ],
+  "remaining_after_ds_prune": 263,
+  "removed_deploy_blocker": [
+    "GPO_CAT__c"
+  ],
+  "remaining_after_gpo_cat_prune": 265,
+  "removed_current_scratch_missing_multicurrency": [
+    "Amount_USD_Active_Currency__c",
+    "Renewal_Calculator_USD_Active_Currency__c"
+  ],
+  "remaining_after_multicurrency_prune": 263
+}

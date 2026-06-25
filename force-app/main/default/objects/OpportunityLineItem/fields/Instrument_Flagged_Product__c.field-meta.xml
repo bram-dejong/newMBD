@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Instrument_Flagged_Product__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This controls logic in rollups, email alerts and other parts of the system. Updated via WFR.</description>
+    <label>Instrument-Flagged Product</label>
+    <type>Checkbox</type>
+</CustomField>

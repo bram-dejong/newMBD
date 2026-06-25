@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubReg__c</fullName>
+    <label>SubReg</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reg__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ACCS</fullName>
+                <default>false</default>
+                <label>ACCS</label>
+            </value>
+            <value>
+                <fullName>Admin</fullName>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>Africa</fullName>
+                <default>false</default>
+                <label>Africa</label>
+            </value>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>ANZ</fullName>
+                <default>false</default>
+                <label>ANZ</label>
+            </value>
+            <value>
+                <fullName>APAC</fullName>
+                <default>false</default>
+                <label>APAC</label>
+            </value>
+            <value>
+                <fullName>BEL-NLD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BEL-NLD</label>
+            </value>
+            <value>
+                <fullName>Benelux</fullName>
+                <default>false</default>
+                <label>Benelux</label>
+            </value>
+            <value>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+                <label>Brazil</label>
+            </value>
+            <value>
+                <fullName>Business Solutions Manager</fullName>
+                <default>false</default>
+                <label>Business Solutions Manager</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>Central East</fullName>
+                <default>false</default>
+                <label>Central East</label>
+            </value>
+            <value>
+                <fullName>Central Europe</fullName>
+                <default>false</default>
+                <label>Central Europe</label>
+            </value>
+            <value>
+                <fullName>Central West</fullName>
+                <default>false</default>
+                <label>Central West</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>Clinical Central</fullName>
+                <default>false</default>
+                <label>Clinical Central</label>
+            </value>
+            <value>
+                <fullName>Clinical Northeast</fullName>
+                <default>false</default>
+                <label>Clinical Northeast</label>
+            </value>
+            <value>
+                <fullName>Clinical Southeast</fullName>
+                <default>false</default>
+                <label>Clinical Southeast</label>
+            </value>
+            <value>
+                <fullName>Clinical West</fullName>
+                <default>false</default>
+                <label>Clinical West</label>
+            </value>
+            <value>
+                <fullName>DACH</fullName>
+                <default>false</default>
+                <label>DACH</label>
+            </value>
+            <value>
+                <fullName>Direct Europe</fullName>
+                <default>false</default>
+                <label>Direct Europe</label>
+            </value>
+            <value>
+                <fullName>East</fullName>
+                <default>false</default>
+                <label>East</label>
+            </value>
+            <value>
+                <fullName>Eastern Europe</fullName>
+                <default>false</default>
+                <label>Eastern Europe</label>
+            </value>
+            <value>
+                <fullName>EEMEA</fullName>
+                <default>false</default>
+                <label>EEMEA</label>
+            </value>
+            <value>
+                <fullName>EMEA</fullName>
+                <default>false</default>
+                <label>EMEA</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets</fullName>
+                <default>false</default>
+                <label>Emerging Markets</label>
+            </value>
+            <value>
+                <fullName>EU</fullName>
+                <default>false</default>
+                <label>EU</label>
+            </value>
+            <value>
+                <fullName>EUR</fullName>
+                <default>false</default>
+                <label>EUR</label>
+            </value>
+            <value>
+                <fullName>EurAfrica</fullName>
+                <default>false</default>
+                <label>EurAfrica</label>
+            </value>
+            <value>
+                <fullName>EurAsia</fullName>
+                <default>false</default>
+                <label>EurAsia</label>
+            </value>
+            <value>
+                <fullName>Europe</fullName>
+                <default>false</default>
+                <label>Europe</label>
+            </value>
+            <value>
+                <fullName>Food Safety</fullName>
+                <default>false</default>
+                <label>Food Safety</label>
+            </value>
+            <value>
+                <fullName>FR/BE and S EU</fullName>
+                <default>false</default>
+                <label>FR/BE and S EU</label>
+            </value>
+            <value>
+                <fullName>FraBeLux</fullName>
+                <default>false</default>
+                <label>FraBeLux</label>
+            </value>
+            <value>
+                <fullName>France</fullName>
+                <default>false</default>
+                <label>France</label>
+            </value>
+            <value>
+                <fullName>France, Belgium</fullName>
+                <default>false</default>
+                <label>France, Belgium</label>
+            </value>
+            <value>
+                <fullName>France/Belgium/Lux</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>France/Belgium/Lux</label>
+            </value>
+            <value>
+                <fullName>Germany</fullName>
+                <default>false</default>
+                <label>Germany</label>
+            </value>
+            <value>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <label>Global</label>
+            </value>
+            <value>
+                <fullName>Hong Kong</fullName>
+                <default>false</default>
+                <label>Hong Kong</label>
+            </value>
+            <value>
+                <fullName>HSE</fullName>
+                <default>false</default>
+                <label>HSE</label>
+            </value>
+            <value>
+                <fullName>HSE Director</fullName>
+                <default>false</default>
+                <label>HSE Director</label>
+            </value>
+            <value>
+                <fullName>Iberia</fullName>
+                <default>false</default>
+                <label>Iberia</label>
+            </value>
+            <value>
+                <fullName>India</fullName>
+                <default>false</default>
+                <label>India</label>
+            </value>
+            <value>
+                <fullName>Industrial-KA</fullName>
+                <default>false</default>
+                <label>Industrial-KA</label>
+            </value>
+            <value>
+                <fullName>Instrument Specialist</fullName>
+                <default>false</default>
+                <label>Instrument Specialist</label>
+            </value>
+            <value>
+                <fullName>Instrument Specialist Manager</fullName>
+                <default>false</default>
+                <label>Instrument Specialist Manager</label>
+            </value>
+            <value>
+                <fullName>International</fullName>
+                <default>false</default>
+                <label>International</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>Italy</fullName>
+                <default>false</default>
+                <label>Italy</label>
+            </value>
+            <value>
+                <fullName>Japan</fullName>
+                <default>false</default>
+                <label>Japan</label>
+            </value>
+            <value>
+                <fullName>Latam</fullName>
+                <default>false</default>
+                <label>Latam</label>
+            </value>
+            <value>
+                <fullName>LATMEA</fullName>
+                <default>false</default>
+                <label>LATMEA</label>
+            </value>
+            <value>
+                <fullName>M+EE</fullName>
+                <default>false</default>
+                <label>M+EE</label>
+            </value>
+            <value>
+                <fullName>MEA</fullName>
+                <default>false</default>
+                <label>MEA</label>
+            </value>
+            <value>
+                <fullName>MENA</fullName>
+                <default>false</default>
+                <label>MENA</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Middle East and Africa</fullName>
+                <default>false</default>
+                <label>Middle East and Africa</label>
+            </value>
+            <value>
+                <fullName>Midwest</fullName>
+                <default>false</default>
+                <label>Midwest</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+            <value>
+                <fullName>NA 2</fullName>
+                <default>false</default>
+                <label>NA 2</label>
+            </value>
+            <value>
+                <fullName>NE</fullName>
+                <default>false</default>
+                <label>NE</label>
+            </value>
+            <value>
+                <fullName>Non-Acute</fullName>
+                <default>false</default>
+                <label>Non-Acute</label>
+            </value>
+            <value>
+                <fullName>Nordic</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nordic</label>
+            </value>
+            <value>
+                <fullName>Nordics</fullName>
+                <default>false</default>
+                <label>Nordics</label>
+            </value>
+            <value>
+                <fullName>North</fullName>
+                <default>false</default>
+                <label>North</label>
+            </value>
+            <value>
+                <fullName>North America</fullName>
+                <default>false</default>
+                <label>North America</label>
+            </value>
+            <value>
+                <fullName>North Central</fullName>
+                <default>false</default>
+                <label>North Central</label>
+            </value>
+            <value>
+                <fullName>North East</fullName>
+                <default>false</default>
+                <label>North East</label>
+            </value>
+            <value>
+                <fullName>Northern</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Northern</label>
+            </value>
+            <value>
+                <fullName>Northern EU &amp; Frabelux Cluster</fullName>
+                <default>false</default>
+                <label>Northern EU &amp; Frabelux Cluster</label>
+            </value>
+            <value>
+                <fullName>Northwest</fullName>
+                <default>false</default>
+                <label>Northwest</label>
+            </value>
+            <value>
+                <fullName>Other Asia Pacific</fullName>
+                <default>false</default>
+                <label>Other Asia Pacific</label>
+            </value>
+            <value>
+                <fullName>Pacific</fullName>
+                <default>false</default>
+                <label>Pacific</label>
+            </value>
+            <value>
+                <fullName>Pharma</fullName>
+                <default>false</default>
+                <label>Pharma</label>
+            </value>
+            <value>
+                <fullName>Quest</fullName>
+                <default>false</default>
+                <label>Quest</label>
+            </value>
+            <value>
+                <fullName>Russia CIS</fullName>
+                <default>false</default>
+                <label>Russia CIS</label>
+            </value>
+            <value>
+                <fullName>Safety Sales Director</fullName>
+                <default>false</default>
+                <label>Safety Sales Director</label>
+            </value>
+            <value>
+                <fullName>Safety Sales Manager</fullName>
+                <default>false</default>
+                <label>Safety Sales Manager</label>
+            </value>
+            <value>
+                <fullName>Safety Sales Specialist</fullName>
+                <default>false</default>
+                <label>Safety Sales Specialist</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Sales Excellence</fullName>
+                <default>false</default>
+                <label>Sales Excellence</label>
+            </value>
+            <value>
+                <fullName>Sales Operations</fullName>
+                <default>false</default>
+                <label>Sales Operations</label>
+            </value>
+            <value>
+                <fullName>Sales Support Lead</fullName>
+                <default>false</default>
+                <label>Sales Support Lead</label>
+            </value>
+            <value>
+                <fullName>Sales Support Manager</fullName>
+                <default>false</default>
+                <label>Sales Support Manager</label>
+            </value>
+            <value>
+                <fullName>Sales Support Rep</fullName>
+                <default>false</default>
+                <label>Sales Support Rep</label>
+            </value>
+            <value>
+                <fullName>Sales Tools</fullName>
+                <default>false</default>
+                <label>Sales Tools</label>
+            </value>
+            <value>
+                <fullName>SE</fullName>
+                <default>false</default>
+                <label>SE</label>
+            </value>
+            <value>
+                <fullName>Singapore</fullName>
+                <default>false</default>
+                <label>Singapore</label>
+            </value>
+            <value>
+                <fullName>Sonic</fullName>
+                <default>false</default>
+                <label>Sonic</label>
+            </value>
+            <value>
+                <fullName>South</fullName>
+                <default>false</default>
+                <label>South</label>
+            </value>
+            <value>
+                <fullName>South Asia</fullName>
+                <default>false</default>
+                <label>South Asia</label>
+            </value>
+            <value>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+                <label>Southeast</label>
+            </value>
+            <value>
+                <fullName>South East Asia</fullName>
+                <default>false</default>
+                <label>South East Asia</label>
+            </value>
+            <value>
+                <fullName>South-East Asia</fullName>
+                <default>false</default>
+                <label>South-East Asia</label>
+            </value>
+            <value>
+                <fullName>Southern and Eastern Europe</fullName>
+                <default>false</default>
+                <label>Southern and Eastern Europe</label>
+            </value>
+            <value>
+                <fullName>Southern EU &amp; DACH Cluster</fullName>
+                <default>false</default>
+                <label>Southern EU &amp; DACH Cluster</label>
+            </value>
+            <value>
+                <fullName>South Korea</fullName>
+                <default>false</default>
+                <label>South Korea</label>
+            </value>
+            <value>
+                <fullName>SPR Inside Sales</fullName>
+                <default>false</default>
+                <label>SPR Inside Sales</label>
+            </value>
+            <value>
+                <fullName>Taiwan</fullName>
+                <default>false</default>
+                <label>Taiwan</label>
+            </value>
+            <value>
+                <fullName>UK</fullName>
+                <default>false</default>
+                <label>UK</label>
+            </value>
+            <value>
+                <fullName>UK/IE/NL</fullName>
+                <default>false</default>
+                <label>UK/IE/NL</label>
+            </value>
+            <value>
+                <fullName>UKI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>UKI</label>
+            </value>
+            <value>
+                <fullName>UNI</fullName>
+                <default>false</default>
+                <label>UNI</label>
+            </value>
+            <value>
+                <fullName>United Arab Emirates</fullName>
+                <default>false</default>
+                <label>United Arab Emirates</label>
+            </value>
+            <value>
+                <fullName>USA</fullName>
+                <default>false</default>
+                <label>USA</label>
+            </value>
+            <value>
+                <fullName>US East</fullName>
+                <default>false</default>
+                <label>US East</label>
+            </value>
+            <value>
+                <fullName>US West</fullName>
+                <default>false</default>
+                <label>US West</label>
+            </value>
+            <value>
+                <fullName>Vertical Markets</fullName>
+                <default>false</default>
+                <label>Vertical Markets</label>
+            </value>
+            <value>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+                <label>Warehouse</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Safety Sales (Services)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (Healthcare BD)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Manager</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Director</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Specialist</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (CE)</controllingFieldValue>
+            <valueName>Central East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Sales (Services)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (Healthcare BD)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Manager</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Director</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Specialist</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (CE)</controllingFieldValue>
+            <valueName>Central West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Sales (Services)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (Healthcare BD)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Manager</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Director</controllingFieldValue>
+            <controllingFieldValue>Northeast</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Specialist</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (CE)</controllingFieldValue>
+            <valueName>North East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Sales (Services)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (Healthcare BD)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Manager</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Director</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Specialist</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (CE)</controllingFieldValue>
+            <valueName>Pacific</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Sales (Services)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (Healthcare BD)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Manager</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Director</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Specialist</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (CE)</controllingFieldValue>
+            <valueName>Safety Sales Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Sales (Services)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (Healthcare BD)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Manager</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Director</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Specialist</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (CE)</controllingFieldValue>
+            <valueName>Safety Sales Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Sales (Services)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (Healthcare BD)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Manager</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Director</controllingFieldValue>
+            <controllingFieldValue>China</controllingFieldValue>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Specialist</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (CE)</controllingFieldValue>
+            <valueName>South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Sales (Services)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (Healthcare BD)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Manager</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Director</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Specialist</controllingFieldValue>
+            <controllingFieldValue>Safety Sales (CE)</controllingFieldValue>
+            <valueName>SPR Inside Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Sales (Healthcare BD)</controllingFieldValue>
+            <controllingFieldValue>Safety Sales Specialist</controllingFieldValue>
+            <valueName>Safety Sales Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>EMEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>MEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Middle East</controllingFieldValue>
+            <valueName>United Arab Emirates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>International</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Northeast</controllingFieldValue>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Northeast</controllingFieldValue>
+            <controllingFieldValue>HSE</controllingFieldValue>
+            <controllingFieldValue>West</controllingFieldValue>
+            <controllingFieldValue>Central</controllingFieldValue>
+            <valueName>HSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Northeast</controllingFieldValue>
+            <controllingFieldValue>Instrument Specialist</controllingFieldValue>
+            <controllingFieldValue>West</controllingFieldValue>
+            <controllingFieldValue>Central</controllingFieldValue>
+            <valueName>Instrument Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Warehouse</controllingFieldValue>
+            <valueName>Warehouse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrument Specialist</controllingFieldValue>
+            <valueName>Instrument Specialist Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <controllingFieldValue>All</controllingFieldValue>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <controllingFieldValue>Emerging Markets</controllingFieldValue>
+            <valueName>All</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Industrial-KA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>North</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <controllingFieldValue>Central</controllingFieldValue>
+            <valueName>North Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>Northwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEMEA</controllingFieldValue>
+            <controllingFieldValue>Emerging Markets</controllingFieldValue>
+            <valueName>Africa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEMEA</controllingFieldValue>
+            <valueName>Eastern Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEMEA</controllingFieldValue>
+            <valueName>EurAfrica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEMEA</controllingFieldValue>
+            <valueName>EurAsia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEMEA</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <controllingFieldValue>Emerging Markets</controllingFieldValue>
+            <valueName>Latam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEMEA</controllingFieldValue>
+            <valueName>M+EE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEMEA</controllingFieldValue>
+            <valueName>MENA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEMEA</controllingFieldValue>
+            <valueName>Russia CIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <controllingFieldValue>Europe, LATMEA, APAC</controllingFieldValue>
+            <valueName>ACCS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <controllingFieldValue>Central</controllingFieldValue>
+            <valueName>Central Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <valueName>Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <controllingFieldValue>Europe, LATMEA, APAC</controllingFieldValue>
+            <valueName>FraBeLux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <controllingFieldValue>Europe, LATMEA, APAC</controllingFieldValue>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>Germany</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <controllingFieldValue>Europe, LATMEA, APAC</controllingFieldValue>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>Iberia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <controllingFieldValue>Europe, LATMEA, APAC</controllingFieldValue>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>Italy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <controllingFieldValue>Europe, LATMEA, APAC</controllingFieldValue>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>Nordics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <valueName>Northern EU &amp; Frabelux Cluster</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <valueName>Southern EU &amp; DACH Cluster</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Europe</controllingFieldValue>
+            <controllingFieldValue>Europe, LATMEA, APAC</controllingFieldValue>
+            <valueName>UNI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southeast</controllingFieldValue>
+            <valueName>Southeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reference Lab</controllingFieldValue>
+            <valueName>Quest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reference Lab</controllingFieldValue>
+            <valueName>Sonic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NA</controllingFieldValue>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NA</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <valueName>Global</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NA</controllingFieldValue>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>USA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>Direct Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>North America</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>ANZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>APAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>China</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>Hong Kong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>India</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>Japan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>Other Asia Pacific</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>Singapore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>South Asia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>South-East Asia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>South Korea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APAC</controllingFieldValue>
+            <valueName>Taiwan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central</controllingFieldValue>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central</controllingFieldValue>
+            <valueName>Midwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>NE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>SE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>Clinical Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>Clinical Northeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>Clinical Southeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>Clinical West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>Food Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>NA 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>Pharma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>Sales Excellence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>US East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North America</controllingFieldValue>
+            <valueName>US West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATMEA</controllingFieldValue>
+            <valueName>LATMEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive</controllingFieldValue>
+            <valueName>Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Systems Director</controllingFieldValue>
+            <valueName>HSE Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>IT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Operations</controllingFieldValue>
+            <valueName>Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Operations</controllingFieldValue>
+            <valueName>Business Solutions Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Operations</controllingFieldValue>
+            <valueName>Sales Operations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Operations</controllingFieldValue>
+            <valueName>Sales Support Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Operations</controllingFieldValue>
+            <valueName>Sales Support Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Operations</controllingFieldValue>
+            <valueName>Sales Support Rep</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Operations</controllingFieldValue>
+            <valueName>Sales Tools</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Acute</controllingFieldValue>
+            <valueName>Non-Acute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>Brazil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vertical Markets</controllingFieldValue>
+            <valueName>Vertical Markets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>Benelux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>DACH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>EUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>France, Belgium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Europe</controllingFieldValue>
+            <valueName>UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Emerging Markets</controllingFieldValue>
+            <valueName>EEMEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Emerging Markets</controllingFieldValue>
+            <valueName>Emerging Markets</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

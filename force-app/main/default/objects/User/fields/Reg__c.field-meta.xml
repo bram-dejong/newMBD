@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reg__c</fullName>
+    <label>Reg</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>3P</fullName>
+                <default>false</default>
+                <label>3P</label>
+            </value>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>APAC</fullName>
+                <default>false</default>
+                <label>APAC</label>
+            </value>
+            <value>
+                <fullName>APAC, EMEA, LATAM</fullName>
+                <default>false</default>
+                <label>APAC, EMEA, LATAM</label>
+            </value>
+            <value>
+                <fullName>APJ</fullName>
+                <default>false</default>
+                <label>APJ</label>
+            </value>
+            <value>
+                <fullName>CACR Approvers</fullName>
+                <default>false</default>
+                <label>CACR Approvers</label>
+            </value>
+            <value>
+                <fullName>Capital Contracting</fullName>
+                <default>false</default>
+                <label>Capital Contracting</label>
+            </value>
+            <value>
+                <fullName>Cascadion</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cascadion</label>
+            </value>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+                <label>Customer Service</label>
+            </value>
+            <value>
+                <fullName>Direct Europe</fullName>
+                <default>false</default>
+                <label>Direct Europe</label>
+            </value>
+            <value>
+                <fullName>EEMEA</fullName>
+                <default>false</default>
+                <label>EEMEA</label>
+            </value>
+            <value>
+                <fullName>EMEA</fullName>
+                <default>false</default>
+                <label>EMEA</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets</fullName>
+                <default>false</default>
+                <label>Emerging Markets</label>
+            </value>
+            <value>
+                <fullName>EU</fullName>
+                <default>false</default>
+                <label>EU</label>
+            </value>
+            <value>
+                <fullName>Europe</fullName>
+                <default>false</default>
+                <label>Europe</label>
+            </value>
+            <value>
+                <fullName>Europe, LATMEA, APAC</fullName>
+                <default>false</default>
+                <label>Europe, LATMEA, APAC</label>
+            </value>
+            <value>
+                <fullName>Executive</fullName>
+                <default>false</default>
+                <label>Executive</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <label>Global</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Health Systems Director</fullName>
+                <default>false</default>
+                <label>Health Systems Director</label>
+            </value>
+            <value>
+                <fullName>HSE</fullName>
+                <default>false</default>
+                <label>HSE</label>
+            </value>
+            <value>
+                <fullName>Inside Sales</fullName>
+                <default>false</default>
+                <label>Inside Sales</label>
+            </value>
+            <value>
+                <fullName>Instrument Specialist</fullName>
+                <default>false</default>
+                <label>Instrument Specialist</label>
+            </value>
+            <value>
+                <fullName>International</fullName>
+                <default>false</default>
+                <label>International</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>LATAM</fullName>
+                <default>false</default>
+                <label>LATAM</label>
+            </value>
+            <value>
+                <fullName>LATMEA</fullName>
+                <default>false</default>
+                <label>LATMEA</label>
+            </value>
+            <value>
+                <fullName>Learning &amp; Development</fullName>
+                <default>false</default>
+                <label>Learning &amp; Development</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Middle East</fullName>
+                <default>false</default>
+                <label>Middle East</label>
+            </value>
+            <value>
+                <fullName>MSD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MSD</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+            <value>
+                <fullName>NE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NE</label>
+            </value>
+            <value>
+                <fullName>NEM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NEM</label>
+            </value>
+            <value>
+                <fullName>Non-Acute</fullName>
+                <default>false</default>
+                <label>Non-Acute</label>
+            </value>
+            <value>
+                <fullName>North America</fullName>
+                <default>false</default>
+                <label>North America</label>
+            </value>
+            <value>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+                <label>Northeast</label>
+            </value>
+            <value>
+                <fullName>Particles</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Particles</label>
+            </value>
+            <value>
+                <fullName>Planner</fullName>
+                <default>false</default>
+                <label>Planner</label>
+            </value>
+            <value>
+                <fullName>POC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>POC</label>
+            </value>
+            <value>
+                <fullName>Product Management</fullName>
+                <default>false</default>
+                <label>Product Management</label>
+            </value>
+            <value>
+                <fullName>Reference Lab</fullName>
+                <default>false</default>
+                <label>Reference Lab</label>
+            </value>
+            <value>
+                <fullName>Safety Sales (CE)</fullName>
+                <default>false</default>
+                <label>Safety Sales (CE)</label>
+            </value>
+            <value>
+                <fullName>Safety Sales (Healthcare BD)</fullName>
+                <default>false</default>
+                <label>Safety Sales (Healthcare BD)</label>
+            </value>
+            <value>
+                <fullName>Safety Sales (Services)</fullName>
+                <default>false</default>
+                <label>Safety Sales (Services)</label>
+            </value>
+            <value>
+                <fullName>Safety Sales Director</fullName>
+                <default>false</default>
+                <label>Safety Sales Director</label>
+            </value>
+            <value>
+                <fullName>Safety Sales Manager</fullName>
+                <default>false</default>
+                <label>Safety Sales Manager</label>
+            </value>
+            <value>
+                <fullName>Safety Sales Specialist</fullName>
+                <default>false</default>
+                <label>Safety Sales Specialist</label>
+            </value>
+            <value>
+                <fullName>Sales Operations</fullName>
+                <default>false</default>
+                <label>Sales Operations</label>
+            </value>
+            <value>
+                <fullName>SE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SE</label>
+            </value>
+            <value>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+                <label>Southeast</label>
+            </value>
+            <value>
+                <fullName>Vertical Markets</fullName>
+                <default>false</default>
+                <label>Vertical Markets</label>
+            </value>
+            <value>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+                <label>Warehouse</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

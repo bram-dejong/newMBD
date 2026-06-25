@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Scheduled Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pipeline</fullName>
+                <color>#0B6FCE</color>
+                <default>true</default>
+                <label>Pipeline</label>
+            </value>
+            <value>
+                <fullName>Booked</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Booked</label>
+            </value>
+            <value>
+                <fullName>Shipped</fullName>
+                <color>#E27001</color>
+                <default>false</default>
+                <label>Shipped</label>
+            </value>
+            <value>
+                <fullName>Invoiced</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>Invoiced</label>
+            </value>
+            <value>
+                <fullName>Paid</fullName>
+                <color>#009900</color>
+                <default>false</default>
+                <label>Paid</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Performance_Naming_Convention__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(LEN(Account__r.Name)&gt;72, LEFT(Account__r.Name, 69)&amp;&quot;...&quot;, Account__r.Name)    
+
+&amp;&quot; - &quot;&amp; TEXT(YEAR(Date__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Partner Performance Naming Convention</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
