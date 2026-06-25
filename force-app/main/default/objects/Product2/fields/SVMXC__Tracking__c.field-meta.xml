@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__Tracking__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If and how this product is tracked when sold to customers. Serialized products are tracked by unique serial numbers. Lot/Batch tracked items are identified by the batch or lot numbers. Non-tracked items do not have a lot or serial number.</description>
+    <inlineHelpText>If and how this product is tracked when sold to customers. Serialized products are tracked by unique serial numbers. Lot/Batch tracked items are identified by the batch or lot numbers. Non-tracked items do not have a lot or serial number.</inlineHelpText>
+    <label>Tracking</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Serialized</fullName>
+                <default>false</default>
+                <label>Serialized</label>
+            </value>
+            <value>
+                <fullName>Lot/Batch Tracked</fullName>
+                <default>false</default>
+                <label>Lot/Batch Tracked</label>
+            </value>
+            <value>
+                <fullName>Non-Tracked</fullName>
+                <default>false</default>
+                <label>Non-Tracked</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

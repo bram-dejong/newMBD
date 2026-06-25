@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Download_to_mobile__c</fullName>
+    <description>Formula field based on user&apos;s division</description>
+    <formula>If($User.Department= TEXT(Family),true,If($User.CDD_IDD_User__c &amp;&amp; (TEXT(Family)=&apos;IDD&apos; || TEXT(Family)=&apos;CDD&apos;) ,true,false))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Download to mobile</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

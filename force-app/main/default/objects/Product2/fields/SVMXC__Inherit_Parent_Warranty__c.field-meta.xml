@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__Inherit_Parent_Warranty__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates if installed products of this product inherit the parent&apos;s warranty automatically. If not, this product should be linked to a warranty template.</description>
+    <inlineHelpText>Indicates if installed products of this product inherit the parent&apos;s warranty automatically. If not, this product should be linked to a warranty template.</inlineHelpText>
+    <label>Inherit Parent Warranty</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

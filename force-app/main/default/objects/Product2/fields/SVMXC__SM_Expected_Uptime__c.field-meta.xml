@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__SM_Expected_Uptime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Set the uptime for the product</description>
+    <inlineHelpText>Set the uptime for the product</inlineHelpText>
+    <label>Expected Uptime</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

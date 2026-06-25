@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__SM_Life_Expectancy__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is to capture the duration for how long the product is designed to function under normal conditions.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is to capture the duration for how long the product is designed to function under normal conditions.</inlineHelpText>
+    <label>Life Expectancy</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

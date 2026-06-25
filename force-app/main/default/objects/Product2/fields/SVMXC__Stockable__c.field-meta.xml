@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__Stockable__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag indicates if this product is stockable. ServiceMax does not maintain inventory of non-stockable products.</description>
+    <inlineHelpText>Flag indicates if this product is stockable. ServiceMax does not maintain inventory of non-stockable products.</inlineHelpText>
+    <label>Stockable</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

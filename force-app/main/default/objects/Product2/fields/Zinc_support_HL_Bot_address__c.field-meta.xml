@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zinc_support_HL_Bot_address__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The unique zinc hotline address for the intended product line based hotline</inlineHelpText>
+    <label>Zinc support HL Bot address</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__Replacement_Available__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag indicates if there are any replacement products defined for this product. Set automatically by Manage Replacements feature</description>
+    <inlineHelpText>Flag indicates if there are any replacement products defined for this product. Set automatically by Manage Replacements feature</inlineHelpText>
+    <label>Replacement Available?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

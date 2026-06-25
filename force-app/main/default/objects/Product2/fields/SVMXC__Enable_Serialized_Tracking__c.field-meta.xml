@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__Enable_Serialized_Tracking__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag indicates if stock information for this product is tracked at the serial number level. If this flag is checked, serial number information will be captured in all ServiceMax inventory transactions.</description>
+    <inlineHelpText>Flag indicates if stock information for this product is tracked at the serial number level. If this flag is checked, serial number information will be captured in all ServiceMax inventory transactions.</inlineHelpText>
+    <label>Enable Serialized Tracking of Stock</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

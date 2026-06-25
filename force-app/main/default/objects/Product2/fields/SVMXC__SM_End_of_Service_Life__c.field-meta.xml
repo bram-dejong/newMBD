@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__SM_End_of_Service_Life__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Services will not be provided from this date.</description>
+    <inlineHelpText>Services will not be provided from this date.</inlineHelpText>
+    <label>End of Service Life</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

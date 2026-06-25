@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Detail__c</fullName>
+    <externalId>false</externalId>
+    <formula>SVMX_ERP_Product_ID__c &amp;&quot; ¦ &quot;&amp;
+Name &amp;&quot; ¦ &quot;
+&amp;IF(SVMXC__Enable_Serialized_Tracking__c=TRUE,&quot;S&quot;,&quot;NS&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>S = Serialised Product NS = Non Serialised Product</inlineHelpText>
+    <label>Product Detail</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__SM_Life_Expectancy_Unit__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The unit for the Life Expectancy of the product.</description>
+    <inlineHelpText>The unit for the Life Expectancy of the product.</inlineHelpText>
+    <label>Life Expectancy Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>SVMXC__Unit_of_Time</valueSetName>
+    </valueSet>
+</CustomField>

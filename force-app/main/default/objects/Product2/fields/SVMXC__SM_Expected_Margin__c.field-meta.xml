@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__SM_Expected_Margin__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Set the expected margin for this product</description>
+    <inlineHelpText>Set the expected margin for this product</inlineHelpText>
+    <label>Expected Margin %</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVMXC__SM_Enable_Batch_Lot_Tracking__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Select this checkbox to indicate the stock information for this product is tracked at the batch/lot level. If this flag is checked, batch/lot number information will be captured in all ServiceMax inventory transactions.</description>
+    <label>Enable Batch/Lot Tracking</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

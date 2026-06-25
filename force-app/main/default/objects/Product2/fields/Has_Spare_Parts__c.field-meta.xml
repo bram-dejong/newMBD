@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Spare_Parts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to filter if an Instrument will have spare parts that are replaceable</description>
+    <label>Has Spare Parts</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
