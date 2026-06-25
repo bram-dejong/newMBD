@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Calculator_USD_Active_Currency__c</fullName>
+    <description>This is used to convert the Opportunity Renewal Calculator into USD based on the Active Currency Conversion Rate for the WAM and SSO Objects</description>
+    <externalId>false</externalId>
+    <formula>Renewal_Calculator__c / CURRENCYRATE(TEXT(CurrencyIsoCode))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Renewal Calculator USD (Active Currency)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
