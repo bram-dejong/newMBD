@@ -3,5 +3,6 @@
     <fullName>Created_from_Lead__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Created from Lead</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

@@ -3,5 +3,6 @@
     <fullName>SMS__c</fullName>
     <defaultValue>false</defaultValue>
     <label>SMS</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

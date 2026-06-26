@@ -3,5 +3,6 @@
     <fullName>Inactive_CAT__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Inactive</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

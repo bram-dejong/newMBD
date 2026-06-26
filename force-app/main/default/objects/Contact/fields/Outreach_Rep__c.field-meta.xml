@@ -3,5 +3,6 @@
     <fullName>Outreach_Rep__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Outreach Rep</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

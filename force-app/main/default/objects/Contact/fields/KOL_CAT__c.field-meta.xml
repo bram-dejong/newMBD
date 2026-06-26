@@ -3,5 +3,6 @@
     <fullName>KOL_CAT__c</fullName>
     <defaultValue>false</defaultValue>
     <label>KOL</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

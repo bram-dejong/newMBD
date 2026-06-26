@@ -3,5 +3,6 @@
     <fullName>MC_Hard_Bounce__c</fullName>
     <defaultValue>false</defaultValue>
     <label>MC Hard Bounce</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

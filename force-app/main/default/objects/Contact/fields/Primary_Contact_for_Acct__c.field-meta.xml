@@ -3,5 +3,6 @@
     <fullName>Primary_Contact_for_Acct__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Primary Contact for Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

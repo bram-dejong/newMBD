@@ -3,5 +3,6 @@
     <fullName>Is_Email_Bounced__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Email Bounced</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

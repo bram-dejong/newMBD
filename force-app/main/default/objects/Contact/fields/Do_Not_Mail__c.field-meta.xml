@@ -3,5 +3,6 @@
     <fullName>Do_Not_Mail__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Do Not Mail</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

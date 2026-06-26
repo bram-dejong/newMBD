@@ -3,5 +3,6 @@
     <fullName>Marketing_Opt_out__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Marketing Opt-out</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

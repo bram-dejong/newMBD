@@ -2,5 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>CAS_acquisition_date__c</fullName>
     <label>CAS acquisition date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Date</type>
 </CustomField>

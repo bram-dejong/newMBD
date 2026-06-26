@@ -3,5 +3,6 @@
     <fullName>Do_Not_Solicit__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Do Not Solicit</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

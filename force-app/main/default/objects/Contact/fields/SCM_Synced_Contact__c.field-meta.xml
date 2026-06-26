@@ -3,5 +3,6 @@
     <fullName>SCM_Synced_Contact__c</fullName>
     <defaultValue>false</defaultValue>
     <label>SCM Synced Contact</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

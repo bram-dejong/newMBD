@@ -3,5 +3,6 @@
     <fullName>Ever_been_TMO_Speaker__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Ever been TMO Speaker</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

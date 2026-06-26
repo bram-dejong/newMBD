@@ -3,5 +3,6 @@
     <fullName>Phone__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Phone</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

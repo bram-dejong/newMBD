@@ -3,5 +3,6 @@
     <fullName>In_Person__c</fullName>
     <defaultValue>false</defaultValue>
     <label>In-Person</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

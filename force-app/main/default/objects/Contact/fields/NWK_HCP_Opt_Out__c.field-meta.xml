@@ -3,5 +3,6 @@
     <fullName>NWK_HCP_Opt_Out__c</fullName>
     <defaultValue>false</defaultValue>
     <label>HCP Opt-Out - VOD</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

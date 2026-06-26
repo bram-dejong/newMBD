@@ -3,5 +3,6 @@
     <fullName>CAS_Permitted__c</fullName>
     <defaultValue>false</defaultValue>
     <label>CAS Permitted</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

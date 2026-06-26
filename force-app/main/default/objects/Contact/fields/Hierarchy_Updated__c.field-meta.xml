@@ -3,5 +3,6 @@
     <fullName>Hierarchy_Updated__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Hierarchy Updated</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

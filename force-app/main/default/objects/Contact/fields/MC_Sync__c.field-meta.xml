@@ -3,5 +3,6 @@
     <fullName>MC_Sync__c</fullName>
     <defaultValue>false</defaultValue>
     <label>MC Sync</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

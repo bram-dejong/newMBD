@@ -3,5 +3,6 @@
     <fullName>National_Speaker__c</fullName>
     <defaultValue>false</defaultValue>
     <label>National Speaker</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>
