@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DHC_Primary_Hospital_GPO__c</fullName>
+    <label>DHC Primary Hospital GPO</label>
+    <length>255</length>
+    <type>Text</type>
+</CustomField>

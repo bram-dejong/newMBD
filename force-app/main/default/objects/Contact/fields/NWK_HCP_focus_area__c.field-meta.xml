@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NWK_HCP_focus_area__c</fullName>
+    <label>HCP focus area</label>
+    <length>255</length>
+    <type>Text</type>
+</CustomField>
