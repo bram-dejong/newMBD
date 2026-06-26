@@ -3,7 +3,6 @@
     <fullName>SVMX_ERP_Return_Flag__c</fullName>
     <defaultValue>false</defaultValue>
     <label>ERP Return Flag</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <type>Checkbox</type>
 </CustomField>

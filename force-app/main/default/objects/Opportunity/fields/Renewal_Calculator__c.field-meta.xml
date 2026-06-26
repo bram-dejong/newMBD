@@ -6,5 +6,6 @@
     <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
     <summaryOperation>sum</summaryOperation>
     <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>Summary</type>
 </CustomField>

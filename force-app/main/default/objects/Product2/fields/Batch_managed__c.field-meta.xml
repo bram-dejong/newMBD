@@ -3,7 +3,6 @@
     <fullName>Batch_managed__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Batch managed</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <type>Checkbox</type>
 </CustomField>

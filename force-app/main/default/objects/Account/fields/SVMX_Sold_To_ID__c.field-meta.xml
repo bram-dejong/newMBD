@@ -6,7 +6,7 @@
     <label>Sold-To ID</label>
     <length>25</length>
     <required>false</required>
-    <trackHistory>false</trackHistory>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Text</type>
     <unique>false</unique>
 </CustomField>

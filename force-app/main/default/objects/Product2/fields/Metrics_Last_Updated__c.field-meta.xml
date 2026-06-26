@@ -3,7 +3,6 @@
     <fullName>Metrics_Last_Updated__c</fullName>
     <label>Metrics Last Updated</label>
     <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>DateTime</type>
 </CustomField>

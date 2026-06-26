@@ -6,11 +6,12 @@
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>MultiselectPicklist</type>
     <valueSet>
         <controllingField>JP_IDD_Division__c</controllingField>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>AB/IHC</fullName>
                 <default>false</default>

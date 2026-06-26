@@ -5,12 +5,13 @@
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
         <controllingField>TDX_Product_Families_of_Interest__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>AB- FlowDSA-XM</fullName>
                 <default>false</default>
@@ -182,12 +183,6 @@
                 <label>Mol- LinkSeq HLA</label>
             </value>
             <value>
-                <fullName>Mol- NGS</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Mol- NGS</label>
-            </value>
-            <value>
                 <fullName>Mol- NGS AllType</fullName>
                 <default>false</default>
                 <label>Mol- NGS AllType</label>
@@ -291,6 +286,12 @@
                 <fullName>TacroType</fullName>
                 <default>false</default>
                 <label>TacroType</label>
+            </value>
+            <value>
+                <fullName>Mol- NGS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mol- NGS</label>
             </value>
         </valueSetDefinition>
         <valueSettings>

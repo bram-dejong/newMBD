@@ -4,7 +4,7 @@
     <description>[Updated by AI] Categorizes account type for ServiceMax and operational processing; picklist values should be maintained by business owners.</description>
     <label>Account Category</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
         <valueSetDefinition>

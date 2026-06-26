@@ -5,12 +5,13 @@
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
         <controllingField>Dimension_3__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>Buffers</fullName>
                 <default>false</default>
@@ -148,13 +149,16 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>TRAK</controllingFieldValue>
-            <controllingFieldValue>UE3</controllingFieldValue>
-            <controllingFieldValue>hTg sensitive</controllingFieldValue>
-            <controllingFieldValue>CA15-3</controllingFieldValue>
-            <controllingFieldValue>CA19-9</controllingFieldValue>
+            <controllingFieldValue>MR-proANP</controllingFieldValue>
+            <controllingFieldValue>Multi Parametric</controllingFieldValue>
+            <controllingFieldValue>NSE</controllingFieldValue>
+            <controllingFieldValue>Osteocalcin</controllingFieldValue>
+            <controllingFieldValue>PAPP-A</controllingFieldValue>
             <controllingFieldValue>CEA</controllingFieldValue>
+            <controllingFieldValue>PCT</controllingFieldValue>
             <controllingFieldValue>Chromogranin A</controllingFieldValue>
+            <controllingFieldValue>PlGF plus</controllingFieldValue>
+            <controllingFieldValue>Prolactin</controllingFieldValue>
             <controllingFieldValue>Copeptin pro-AVP</controllingFieldValue>
             <controllingFieldValue>CRPus</controllingFieldValue>
             <controllingFieldValue>CT-proET1</controllingFieldValue>
@@ -163,69 +167,76 @@
             <controllingFieldValue>Anti-TG</controllingFieldValue>
             <controllingFieldValue>Anti-TPO</controllingFieldValue>
             <controllingFieldValue>CA125II</controllingFieldValue>
+            <controllingFieldValue>CA15-3</controllingFieldValue>
+            <controllingFieldValue>CA19-9</controllingFieldValue>
+            <controllingFieldValue>SCC</controllingFieldValue>
+            <controllingFieldValue>sFlt-1</controllingFieldValue>
             <controllingFieldValue>FBHCG</controllingFieldValue>
             <controllingFieldValue>free PSA</controllingFieldValue>
             <controllingFieldValue>HCG+ß total</controllingFieldValue>
-            <controllingFieldValue>Inhibin A</controllingFieldValue>
-            <controllingFieldValue>MR-proADM</controllingFieldValue>
-            <controllingFieldValue>MR-proANP</controllingFieldValue>
-            <controllingFieldValue>Multi Parametric</controllingFieldValue>
-            <controllingFieldValue>NSE</controllingFieldValue>
-            <controllingFieldValue>Osteocalcin</controllingFieldValue>
-            <controllingFieldValue>Kryptor Compact Plus</controllingFieldValue>
-            <controllingFieldValue>PAPP-A</controllingFieldValue>
-            <controllingFieldValue>Kryptor Gold</controllingFieldValue>
-            <controllingFieldValue>PCT</controllingFieldValue>
-            <controllingFieldValue>PlGF plus</controllingFieldValue>
-            <controllingFieldValue>Prolactin</controllingFieldValue>
-            <controllingFieldValue>SCC</controllingFieldValue>
-            <controllingFieldValue>sFlt-1</controllingFieldValue>
             <controllingFieldValue>TG</controllingFieldValue>
             <controllingFieldValue>total PSA</controllingFieldValue>
+            <controllingFieldValue>TRAK</controllingFieldValue>
+            <controllingFieldValue>hTg sensitive</controllingFieldValue>
+            <controllingFieldValue>UE3</controllingFieldValue>
+            <controllingFieldValue>Inhibin A</controllingFieldValue>
+            <controllingFieldValue>Kryptor Compact Plus</controllingFieldValue>
+            <controllingFieldValue>Kryptor Gold</controllingFieldValue>
+            <controllingFieldValue>MR-proADM</controllingFieldValue>
             <valueName>KRYPTOR</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>TRAK</controllingFieldValue>
-            <controllingFieldValue>TSH</controllingFieldValue>
-            <controllingFieldValue>CT-proAVP</controllingFieldValue>
-            <controllingFieldValue>Anti-TG</controllingFieldValue>
-            <controllingFieldValue>Anti-TPO</controllingFieldValue>
-            <controllingFieldValue>PCT</controllingFieldValue>
-            <controllingFieldValue>TG</controllingFieldValue>
-            <valueName>LIA</valueName>
+            <controllingFieldValue>Multiple</controllingFieldValue>
+            <controllingFieldValue>Not Applicable</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
+            <controllingFieldValue>Prime</controllingFieldValue>
+            <controllingFieldValue>Coagulation</controllingFieldValue>
+            <controllingFieldValue>Anatomical Pathology</controllingFieldValue>
+            <controllingFieldValue>Buffered Blood Bank Saline</controllingFieldValue>
+            <controllingFieldValue>QC/Cals</controllingFieldValue>
+            <controllingFieldValue>Diagnostics</controllingFieldValue>
+            <controllingFieldValue>Drugs of Abuse</controllingFieldValue>
+            <controllingFieldValue>Standards</controllingFieldValue>
+            <controllingFieldValue>TCA</controllingFieldValue>
+            <controllingFieldValue>Glucose Tolerance</controllingFieldValue>
+            <controllingFieldValue>GTTB</controllingFieldValue>
+            <controllingFieldValue>Hematology</controllingFieldValue>
+            <controllingFieldValue>IA</controllingFieldValue>
+            <controllingFieldValue>Indiko</controllingFieldValue>
+            <controllingFieldValue>Volatiles</controllingFieldValue>
+            <controllingFieldValue>Indiko ISE</controllingFieldValue>
+            <controllingFieldValue>Indiko Plus</controllingFieldValue>
+            <controllingFieldValue>Indiko Plus ISE</controllingFieldValue>
+            <controllingFieldValue>Konelab</controllingFieldValue>
+            <controllingFieldValue>Lab Grade Water</controllingFieldValue>
+            <controllingFieldValue>Molecular</controllingFieldValue>
+            <valueName>Not Applicable</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>TRAK</controllingFieldValue>
-            <controllingFieldValue>TSH</controllingFieldValue>
+            <controllingFieldValue>N/A</controllingFieldValue>
+            <valueName>N/A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Neopterin</controllingFieldValue>
+            <valueName>EIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Neopterin</controllingFieldValue>
+            <controllingFieldValue>Osteocalcin</controllingFieldValue>
             <controllingFieldValue>Calcitonin</controllingFieldValue>
             <controllingFieldValue>ACTH</controllingFieldValue>
             <controllingFieldValue>Anti-TG</controllingFieldValue>
             <controllingFieldValue>Anti-TPO</controllingFieldValue>
-            <controllingFieldValue>fT3</controllingFieldValue>
-            <controllingFieldValue>fT4</controllingFieldValue>
-            <controllingFieldValue>Neopterin</controllingFieldValue>
-            <controllingFieldValue>Osteocalcin</controllingFieldValue>
             <controllingFieldValue>T3</controllingFieldValue>
             <controllingFieldValue>T4</controllingFieldValue>
             <controllingFieldValue>TBG</controllingFieldValue>
+            <controllingFieldValue>fT3</controllingFieldValue>
+            <controllingFieldValue>fT4</controllingFieldValue>
             <controllingFieldValue>TG</controllingFieldValue>
+            <controllingFieldValue>TRAK</controllingFieldValue>
+            <controllingFieldValue>TSH</controllingFieldValue>
             <valueName>RIA</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>QA(MAS)</controllingFieldValue>
-            <valueName>Lablink</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>QA(MAS)</controllingFieldValue>
-            <valueName>MAS Controls</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>QC Acrometrix</controllingFieldValue>
-            <valueName>Catalog Controls</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>QC Acrometrix</controllingFieldValue>
-            <valueName>Custom Controls</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>OFT</controllingFieldValue>
@@ -238,102 +249,28 @@
             <valueName>Confirmations</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Urine</controllingFieldValue>
-            <controllingFieldValue>Serum</controllingFieldValue>
-            <valueName>DRI</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Urine</controllingFieldValue>
-            <valueName>POC (Cups)</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>N/A</controllingFieldValue>
-            <valueName>N/A</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Not Applicable</controllingFieldValue>
-            <controllingFieldValue>Diagnostics</controllingFieldValue>
-            <controllingFieldValue>Standards</controllingFieldValue>
-            <controllingFieldValue>Konelab</controllingFieldValue>
-            <controllingFieldValue>Drugs of Abuse</controllingFieldValue>
-            <controllingFieldValue>Other</controllingFieldValue>
-            <controllingFieldValue>Indiko</controllingFieldValue>
-            <controllingFieldValue>Indiko ISE</controllingFieldValue>
-            <controllingFieldValue>Indiko Plus</controllingFieldValue>
-            <controllingFieldValue>Indiko Plus ISE</controllingFieldValue>
-            <controllingFieldValue>TCA</controllingFieldValue>
-            <controllingFieldValue>Prime</controllingFieldValue>
-            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
-            <controllingFieldValue>IA</controllingFieldValue>
-            <controllingFieldValue>Hematology</controllingFieldValue>
-            <controllingFieldValue>Molecular</controllingFieldValue>
-            <controllingFieldValue>Anatomical Pathology</controllingFieldValue>
-            <controllingFieldValue>QC/Cals</controllingFieldValue>
-            <controllingFieldValue>Coagulation</controllingFieldValue>
-            <controllingFieldValue>Lab Grade Water</controllingFieldValue>
-            <controllingFieldValue>Buffered Blood Bank Saline</controllingFieldValue>
-            <controllingFieldValue>Volatiles</controllingFieldValue>
-            <controllingFieldValue>GTTB</controllingFieldValue>
-            <controllingFieldValue>Multiple</controllingFieldValue>
-            <controllingFieldValue>Glucose Tolerance</controllingFieldValue>
-            <valueName>Not Applicable</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>TDM/ISD</controllingFieldValue>
-            <valueName>TDM/ISD</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
-            <controllingFieldValue>IA</controllingFieldValue>
-            <valueName>Buffers</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
-            <controllingFieldValue>IA</controllingFieldValue>
-            <controllingFieldValue>Hematology</controllingFieldValue>
-            <controllingFieldValue>Molecular</controllingFieldValue>
-            <valueName>Diluents</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
-            <controllingFieldValue>IA</controllingFieldValue>
-            <controllingFieldValue>Molecular</controllingFieldValue>
-            <controllingFieldValue>Anatomical Pathology</controllingFieldValue>
-            <valueName>Wash</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Fastscreen</controllingFieldValue>
-            <valueName>Software</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Hematology</controllingFieldValue>
-            <valueName>Sheath Fluid</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Molecular</controllingFieldValue>
-            <valueName>Lysing</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Anatomical Pathology</controllingFieldValue>
-            <valueName>Stains</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MR-proADM</controllingFieldValue>
             <controllingFieldValue>PCT</controllingFieldValue>
+            <valueName>Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PCT</controllingFieldValue>
+            <controllingFieldValue>CT-proAVP</controllingFieldValue>
+            <controllingFieldValue>Anti-TG</controllingFieldValue>
+            <controllingFieldValue>Anti-TPO</controllingFieldValue>
+            <controllingFieldValue>TG</controllingFieldValue>
+            <controllingFieldValue>TRAK</controllingFieldValue>
+            <controllingFieldValue>TSH</controllingFieldValue>
+            <valueName>LIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PCT</controllingFieldValue>
+            <controllingFieldValue>MR-proADM</controllingFieldValue>
             <valueName>License</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>PCT</controllingFieldValue>
             <controllingFieldValue>MR-proADM</controllingFieldValue>
-            <controllingFieldValue>PCT</controllingFieldValue>
             <valueName>Merchandise</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Neopterin</controllingFieldValue>
-            <valueName>EIA</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>PCT</controllingFieldValue>
-            <valueName>Competitor</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>PCT</controllingFieldValue>
@@ -342,6 +279,70 @@
         <valueSettings>
             <controllingFieldValue>PCT</controllingFieldValue>
             <valueName>POC (Q)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
+            <controllingFieldValue>IA</controllingFieldValue>
+            <valueName>Buffers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
+            <controllingFieldValue>Hematology</controllingFieldValue>
+            <controllingFieldValue>IA</controllingFieldValue>
+            <controllingFieldValue>Molecular</controllingFieldValue>
+            <valueName>Diluents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clinical Chemistry</controllingFieldValue>
+            <controllingFieldValue>Anatomical Pathology</controllingFieldValue>
+            <controllingFieldValue>IA</controllingFieldValue>
+            <controllingFieldValue>Molecular</controllingFieldValue>
+            <valueName>Wash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QA(MAS)</controllingFieldValue>
+            <valueName>Lablink</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QA(MAS)</controllingFieldValue>
+            <valueName>MAS Controls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anatomical Pathology</controllingFieldValue>
+            <valueName>Stains</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QC Acrometrix</controllingFieldValue>
+            <valueName>Catalog Controls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QC Acrometrix</controllingFieldValue>
+            <valueName>Custom Controls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Serum</controllingFieldValue>
+            <controllingFieldValue>Urine</controllingFieldValue>
+            <valueName>DRI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fastscreen</controllingFieldValue>
+            <valueName>Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TDM/ISD</controllingFieldValue>
+            <valueName>TDM/ISD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hematology</controllingFieldValue>
+            <valueName>Sheath Fluid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urine</controllingFieldValue>
+            <valueName>POC (Cups)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molecular</controllingFieldValue>
+            <valueName>Lysing</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

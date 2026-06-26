@@ -5,7 +5,6 @@
     <description>Checkbox to indicate whether there are Spare Part Positions related to the Product.</description>
     <inlineHelpText>Indicates whether there are Spare Part Positions related to this product.</inlineHelpText>
     <label>Spare Parts Positions Available</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

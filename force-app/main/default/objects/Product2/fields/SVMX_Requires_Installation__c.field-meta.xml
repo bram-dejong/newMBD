@@ -3,7 +3,6 @@
     <fullName>SVMX_Requires_Installation__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Requires Installation</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <type>Checkbox</type>
 </CustomField>

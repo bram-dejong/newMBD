@@ -5,6 +5,5 @@
     <description>PDX Field</description>
     <label>Corporate Account</label>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

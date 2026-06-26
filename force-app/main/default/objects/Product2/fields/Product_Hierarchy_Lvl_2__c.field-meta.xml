@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Hierarchy_Lvl_2__c</fullName>
+    <label>Product Hierarchy Lvl 2</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allergy</fullName>
+                <default>false</default>
+                <label>Allergy</label>
+            </value>
+            <value>
+                <fullName>AST</fullName>
+                <default>false</default>
+                <label>AST</label>
+            </value>
+            <value>
+                <fullName>Autoimmune</fullName>
+                <default>false</default>
+                <label>Autoimmune</label>
+            </value>
+            <value>
+                <fullName>Blood Culture</fullName>
+                <default>false</default>
+                <label>Blood Culture</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion</fullName>
+                <default>false</default>
+                <label>CDD Cascadion</label>
+            </value>
+            <value>
+                <fullName>Culture Media</fullName>
+                <default>false</default>
+                <label>Culture Media</label>
+            </value>
+            <value>
+                <fullName>ID</fullName>
+                <default>false</default>
+                <label>ID</label>
+            </value>
+            <value>
+                <fullName>Instruments</fullName>
+                <default>false</default>
+                <label>Instruments</label>
+            </value>
+            <value>
+                <fullName>Instruments-Competitor</fullName>
+                <default>false</default>
+                <label>Instruments-Competitor</label>
+            </value>
+            <value>
+                <fullName>Molecular Detection</fullName>
+                <default>false</default>
+                <label>Molecular Detection</label>
+            </value>
+            <value>
+                <fullName>Niche</fullName>
+                <default>false</default>
+                <label>Niche</label>
+            </value>
+            <value>
+                <fullName>Other products</fullName>
+                <default>false</default>
+                <label>Other products</label>
+            </value>
+            <value>
+                <fullName>PDXCore</fullName>
+                <default>false</default>
+                <label>PDXCore</label>
+            </value>
+            <value>
+                <fullName>PDXExent</fullName>
+                <default>false</default>
+                <label>PDXExent</label>
+            </value>
+            <value>
+                <fullName>Pre-Analytical Supplies</fullName>
+                <default>false</default>
+                <label>Pre-Analytical Supplies</label>
+            </value>
+            <value>
+                <fullName>Quality Control</fullName>
+                <default>false</default>
+                <label>Quality Control</label>
+            </value>
+            <value>
+                <fullName>Rapid Tests</fullName>
+                <default>false</default>
+                <label>Rapid Tests</label>
+            </value>
+            <value>
+                <fullName>Seasonal</fullName>
+                <default>false</default>
+                <label>Seasonal</label>
+            </value>
+            <value>
+                <fullName>TDX OLI</fullName>
+                <default>false</default>
+                <label>TDX OLI</label>
+            </value>
+            <value>
+                <fullName>TDX SSF</fullName>
+                <default>false</default>
+                <label>TDX SSF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

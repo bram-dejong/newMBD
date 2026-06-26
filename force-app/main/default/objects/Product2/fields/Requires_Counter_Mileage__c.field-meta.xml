@@ -3,7 +3,6 @@
     <fullName>Requires_Counter_Mileage__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Requires Counter/Mileage</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

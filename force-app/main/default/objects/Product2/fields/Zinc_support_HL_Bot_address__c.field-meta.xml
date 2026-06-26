@@ -5,7 +5,6 @@
     <inlineHelpText>The unique zinc hotline address for the intended product line based hotline</inlineHelpText>
     <label>Zinc support HL Bot address</label>
     <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Email</type>
     <unique>false</unique>

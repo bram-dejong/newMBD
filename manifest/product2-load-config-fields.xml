@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Product2.Annual_Recurring_Product__c</members>
+        <members>Product2.Business_Unit2__c</members>
+        <members>Product2.Competitor_Product__c</members>
+        <members>Product2.EAN_UPC_GTIN__c</members>
+        <members>Product2.Legacy_Id__c</members>
+        <members>Product2.Manufacturer__c</members>
+        <members>Product2.Old_Material_Number__c</members>
+        <members>Product2.Pack_Type__c</members>
+        <members>Product2.Prod_Level_2_Hierarchy_and_Prod_Desc__c</members>
+        <members>Product2.Product_Class__c</members>
+        <members>Product2.Product_Dimension__c</members>
+        <members>Product2.Product_Hierarchy_Level_1__c</members>
+        <members>Product2.Product_Hierarchy_Level_Number__c</members>
+        <members>Product2.Product_Hierarchy_Lvl_2__c</members>
+        <members>Product2.Product_Hierarchy_Lvl_4__c</members>
+        <members>Product2.Product_Hierarchy_Lvl_5__c</members>
+        <members>Product2.Product_Hierarchy__c</members>
+        <members>Product2.Product_Hierrarchy_Lvl_3__c</members>
+        <members>Product2.SOURCE_ID__c</members>
+        <members>Product2.Supplier__c</members>
+        <members>Product2.Unit_Of_Measure__c</members>
+        <members>Product2.X18_digit_product_Id__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>newMBD_Import_Access</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>Company Communities User</members>
+        <members>Contract Manager</members>
+        <members>CPQ Integration User</members>
+        <members>Guest License User</members>
+        <members>High Volume Customer Portal User</members>
+        <members>Identity User</members>
+        <members>Marketing User</members>
+        <members>Minimum Access - API Only Integrations</members>
+        <members>Minimum Access - Salesforce</members>
+        <members>Service Cloud</members>
+        <members>Solution Manager</members>
+        <members>Standard User</members>
+        <members>System Administrator</members>
+        <members>Trial Customer Portal User</members>
+        <name>Profile</name>
+    </types>
+    <version>67.0</version>
+</Package>

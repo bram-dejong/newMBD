@@ -4,7 +4,6 @@
     <inlineHelpText>This can contain a hyperlink to product data sheets or support pages</inlineHelpText>
     <label>Product information</label>
     <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Url</type>
 </CustomField>

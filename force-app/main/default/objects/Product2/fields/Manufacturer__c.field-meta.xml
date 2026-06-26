@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manufacturer__c</fullName>
+    <description>[HMD] Picklist field used specifically for Asset-related products.</description>
+    <label>Manufacturer</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABAXIS</fullName>
+                <default>false</default>
+                <label>ABAXIS</label>
+            </value>
+            <value>
+                <fullName>ABBOTT</fullName>
+                <default>false</default>
+                <label>ABBOTT</label>
+            </value>
+            <value>
+                <fullName>ABX</fullName>
+                <default>false</default>
+                <label>ABX</label>
+            </value>
+            <value>
+                <fullName>Accelerate Diagnostics</fullName>
+                <default>false</default>
+                <label>Accelerate Diagnostics</label>
+            </value>
+            <value>
+                <fullName>ADVANCED INSTRUMENTS</fullName>
+                <default>false</default>
+                <label>ADVANCED INSTRUMENTS</label>
+            </value>
+            <value>
+                <fullName>ALERE</fullName>
+                <default>false</default>
+                <label>ALERE</label>
+            </value>
+            <value>
+                <fullName>ALERE ALFA WASSERMAN</fullName>
+                <default>false</default>
+                <label>ALERE ALFA WASSERMAN</label>
+            </value>
+            <value>
+                <fullName>APPLIED BIOSYSTEMS</fullName>
+                <default>false</default>
+                <label>APPLIED BIOSYSTEMS</label>
+            </value>
+            <value>
+                <fullName>Arkray</fullName>
+                <default>false</default>
+                <label>Arkray</label>
+            </value>
+            <value>
+                <fullName>BAYER</fullName>
+                <default>false</default>
+                <label>BAYER</label>
+            </value>
+            <value>
+                <fullName>BD</fullName>
+                <default>false</default>
+                <label>BD</label>
+            </value>
+            <value>
+                <fullName>BECKMAN COULTER</fullName>
+                <default>false</default>
+                <label>BECKMAN COULTER</label>
+            </value>
+            <value>
+                <fullName>BELAIR</fullName>
+                <default>false</default>
+                <label>BELAIR</label>
+            </value>
+            <value>
+                <fullName>BIOCARE</fullName>
+                <default>false</default>
+                <label>BIOCARE</label>
+            </value>
+            <value>
+                <fullName>BioFire</fullName>
+                <default>false</default>
+                <label>BioFire</label>
+            </value>
+            <value>
+                <fullName>BIOGENIX</fullName>
+                <default>false</default>
+                <label>BIOGENIX</label>
+            </value>
+            <value>
+                <fullName>Biomatrica</fullName>
+                <default>false</default>
+                <label>Biomatrica</label>
+            </value>
+            <value>
+                <fullName>BIOMEDICA</fullName>
+                <default>false</default>
+                <label>BIOMEDICA</label>
+            </value>
+            <value>
+                <fullName>Biomedical Polymers</fullName>
+                <default>false</default>
+                <label>Biomedical Polymers</label>
+            </value>
+            <value>
+                <fullName>BIOMERIEUX</fullName>
+                <default>false</default>
+                <label>BIOMERIEUX</label>
+            </value>
+            <value>
+                <fullName>BIORAD</fullName>
+                <default>false</default>
+                <label>BIORAD</label>
+            </value>
+            <value>
+                <fullName>BioSearch Technologies</fullName>
+                <default>false</default>
+                <label>BioSearch Technologies</label>
+            </value>
+            <value>
+                <fullName>Biotix</fullName>
+                <default>false</default>
+                <label>Biotix</label>
+            </value>
+            <value>
+                <fullName>BMX</fullName>
+                <default>false</default>
+                <label>BMX</label>
+            </value>
+            <value>
+                <fullName>BRADY</fullName>
+                <default>false</default>
+                <label>BRADY</label>
+            </value>
+            <value>
+                <fullName>CAROLINA LCC</fullName>
+                <default>false</default>
+                <label>CAROLINA LCC</label>
+            </value>
+            <value>
+                <fullName>CEPHEID</fullName>
+                <default>false</default>
+                <label>CEPHEID</label>
+            </value>
+            <value>
+                <fullName>Cooper Surgical</fullName>
+                <default>false</default>
+                <label>Cooper Surgical</label>
+            </value>
+            <value>
+                <fullName>DADE</fullName>
+                <default>false</default>
+                <label>DADE</label>
+            </value>
+            <value>
+                <fullName>DAKO</fullName>
+                <default>false</default>
+                <label>DAKO</label>
+            </value>
+            <value>
+                <fullName>DIAGNOSTICA STAGO</fullName>
+                <default>false</default>
+                <label>DIAGNOSTICA STAGO</label>
+            </value>
+            <value>
+                <fullName>DIAMEDICA</fullName>
+                <default>false</default>
+                <label>DIAMEDICA</label>
+            </value>
+            <value>
+                <fullName>DiaSorin</fullName>
+                <default>false</default>
+                <label>DIASORIN</label>
+            </value>
+            <value>
+                <fullName>DiaSorin Molecular</fullName>
+                <default>false</default>
+                <label>DiaSorin Molecular</label>
+            </value>
+            <value>
+                <fullName>Diatron</fullName>
+                <default>false</default>
+                <label>Diatron</label>
+            </value>
+            <value>
+                <fullName>Drucker Diagnostics</fullName>
+                <default>false</default>
+                <label>Drucker Diagnostics</label>
+            </value>
+            <value>
+                <fullName>DYNEX</fullName>
+                <default>false</default>
+                <label>DYNEX</label>
+            </value>
+            <value>
+                <fullName>EPPENDORF</fullName>
+                <default>false</default>
+                <label>EPPENDORF</label>
+            </value>
+            <value>
+                <fullName>GENERAL</fullName>
+                <default>false</default>
+                <label>GENERAL</label>
+            </value>
+            <value>
+                <fullName>GENMARK</fullName>
+                <default>false</default>
+                <label>GENMARK</label>
+            </value>
+            <value>
+                <fullName>GEN-PROBE</fullName>
+                <default>false</default>
+                <label>GEN-PROBE</label>
+            </value>
+            <value>
+                <fullName>GOLD STANDARD DIAGNOSTICS</fullName>
+                <default>false</default>
+                <label>GOLD STANDARD DIAGNOSTICS</label>
+            </value>
+            <value>
+                <fullName>Grifols</fullName>
+                <default>false</default>
+                <label>Grifols</label>
+            </value>
+            <value>
+                <fullName>HACKER</fullName>
+                <default>false</default>
+                <label>HACKER</label>
+            </value>
+            <value>
+                <fullName>Hamilton</fullName>
+                <default>false</default>
+                <label>Hamilton</label>
+            </value>
+            <value>
+                <fullName>HELENA</fullName>
+                <default>false</default>
+                <label>HELENA</label>
+            </value>
+            <value>
+                <fullName>HEMOCUE</fullName>
+                <default>false</default>
+                <label>HEMOCUE</label>
+            </value>
+            <value>
+                <fullName>Hitachi</fullName>
+                <default>false</default>
+                <label>Hitachi</label>
+            </value>
+            <value>
+                <fullName>HOLOGIC</fullName>
+                <default>false</default>
+                <label>HOLOGIC</label>
+            </value>
+            <value>
+                <fullName>Hycor</fullName>
+                <default>false</default>
+                <label>Hycor</label>
+            </value>
+            <value>
+                <fullName>Illumina</fullName>
+                <default>false</default>
+                <label>Illumina</label>
+            </value>
+            <value>
+                <fullName>Imucore</fullName>
+                <default>false</default>
+                <label>Imucore</label>
+            </value>
+            <value>
+                <fullName>INFOLAB</fullName>
+                <default>false</default>
+                <label>INFOLAB</label>
+            </value>
+            <value>
+                <fullName>IRIS STRECK</fullName>
+                <default>false</default>
+                <label>IRIS STRECK</label>
+            </value>
+            <value>
+                <fullName>ITC</fullName>
+                <default>false</default>
+                <label>ITC</label>
+            </value>
+            <value>
+                <fullName>LEICA</fullName>
+                <default>false</default>
+                <label>LEICA</label>
+            </value>
+            <value>
+                <fullName>LUMINEX</fullName>
+                <default>false</default>
+                <label>LUMINEX</label>
+            </value>
+            <value>
+                <fullName>MediCore</fullName>
+                <default>false</default>
+                <label>MediCore</label>
+            </value>
+            <value>
+                <fullName>MEDITE</fullName>
+                <default>false</default>
+                <label>MEDITE</label>
+            </value>
+            <value>
+                <fullName>Medtox</fullName>
+                <default>false</default>
+                <label>Medtox</label>
+            </value>
+            <value>
+                <fullName>MERIDIAN</fullName>
+                <default>false</default>
+                <label>MERIDIAN</label>
+            </value>
+            <value>
+                <fullName>Mesa Biotech Inc.</fullName>
+                <default>false</default>
+                <label>Mesa Biotech Inc.</label>
+            </value>
+            <value>
+                <fullName>MICROM</fullName>
+                <default>false</default>
+                <label>MICROM</label>
+            </value>
+            <value>
+                <fullName>MILESTONE</fullName>
+                <default>false</default>
+                <label>MILESTONE</label>
+            </value>
+            <value>
+                <fullName>Mindray</fullName>
+                <default>false</default>
+                <label>Mindray</label>
+            </value>
+            <value>
+                <fullName>MLA</fullName>
+                <default>false</default>
+                <label>MLA</label>
+            </value>
+            <value>
+                <fullName>MOPEC</fullName>
+                <default>false</default>
+                <label>MOPEC</label>
+            </value>
+            <value>
+                <fullName>NANOSPHERE</fullName>
+                <default>false</default>
+                <label>NANOSPHERE</label>
+            </value>
+            <value>
+                <fullName>NeuMoDx Molecular</fullName>
+                <default>false</default>
+                <label>NeuMoDx Molecular</label>
+            </value>
+            <value>
+                <fullName>NOVA</fullName>
+                <default>false</default>
+                <label>NOVA</label>
+            </value>
+            <value>
+                <fullName>OCD</fullName>
+                <default>false</default>
+                <label>OCD</label>
+            </value>
+            <value>
+                <fullName>OLYMPUS</fullName>
+                <default>false</default>
+                <label>OLYMPUS</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>PHADIA</fullName>
+                <default>false</default>
+                <label>PHADIA</label>
+            </value>
+            <value>
+                <fullName>Polymedco</fullName>
+                <default>false</default>
+                <label>POLYMEDCO</label>
+            </value>
+            <value>
+                <fullName>Primerdesign</fullName>
+                <default>false</default>
+                <label>Primerdesign</label>
+            </value>
+            <value>
+                <fullName>PROMEGA</fullName>
+                <default>false</default>
+                <label>PROMEGA</label>
+            </value>
+            <value>
+                <fullName>QIAGEN</fullName>
+                <default>false</default>
+                <label>QIAGEN</label>
+            </value>
+            <value>
+                <fullName>Quidel</fullName>
+                <default>false</default>
+                <label>Quidel</label>
+            </value>
+            <value>
+                <fullName>R&amp;D SYSTEMS</fullName>
+                <default>false</default>
+                <label>R&amp;D SYSTEMS</label>
+            </value>
+            <value>
+                <fullName>REICHERT JUNG</fullName>
+                <default>false</default>
+                <label>REICHERT JUNG</label>
+            </value>
+            <value>
+                <fullName>RMC</fullName>
+                <default>false</default>
+                <label>RMC</label>
+            </value>
+            <value>
+                <fullName>ROCHE</fullName>
+                <default>false</default>
+                <label>ROCHE</label>
+            </value>
+            <value>
+                <fullName>SAKURA</fullName>
+                <default>false</default>
+                <label>SAKURA</label>
+            </value>
+            <value>
+                <fullName>SDI BIOMED</fullName>
+                <default>false</default>
+                <label>SDI BIOMED</label>
+            </value>
+            <value>
+                <fullName>SIEMENS</fullName>
+                <default>false</default>
+                <label>SIEMENS</label>
+            </value>
+            <value>
+                <fullName>Siemens Healthineers</fullName>
+                <default>false</default>
+                <label>Siemens Healthineers</label>
+            </value>
+            <value>
+                <fullName>Stago</fullName>
+                <default>false</default>
+                <label>Stago</label>
+            </value>
+            <value>
+                <fullName>STANBIO</fullName>
+                <default>false</default>
+                <label>STANBIO</label>
+            </value>
+            <value>
+                <fullName>Streck</fullName>
+                <default>false</default>
+                <label>Streck</label>
+            </value>
+            <value>
+                <fullName>SURGIPATH</fullName>
+                <default>false</default>
+                <label>SURGIPATH</label>
+            </value>
+            <value>
+                <fullName>SYSMEX</fullName>
+                <default>false</default>
+                <label>SYSMEX</label>
+            </value>
+            <value>
+                <fullName>TBS</fullName>
+                <default>false</default>
+                <label>TBS</label>
+            </value>
+            <value>
+                <fullName>THERMO FISHER</fullName>
+                <default>false</default>
+                <label>THERMO FISHER</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI REMEL MBD</fullName>
+                <default>false</default>
+                <label>THERMO SCI REMEL MBD</label>
+            </value>
+            <value>
+                <fullName>TISSUE TEK</fullName>
+                <default>false</default>
+                <label>TISSUE TEK</label>
+            </value>
+            <value>
+                <fullName>TOSOH</fullName>
+                <default>false</default>
+                <label>TOSOH</label>
+            </value>
+            <value>
+                <fullName>TRINITY BIOTECH</fullName>
+                <default>false</default>
+                <label>TRINITY BIOTECH</label>
+            </value>
+            <value>
+                <fullName>Typenex</fullName>
+                <default>false</default>
+                <label>Typenex</label>
+            </value>
+            <value>
+                <fullName>Vela Diagnostics</fullName>
+                <default>false</default>
+                <label>Vela Diagnostics</label>
+            </value>
+            <value>
+                <fullName>VENTANA</fullName>
+                <default>false</default>
+                <label>VENTANA</label>
+            </value>
+            <value>
+                <fullName>YSI LIFE SCIENCES</fullName>
+                <default>false</default>
+                <label>YSI LIFE SCIENCES</label>
+            </value>
+            <value>
+                <fullName>ZEBRA</fullName>
+                <default>false</default>
+                <label>ZEBRA</label>
+            </value>
+            <value>
+                <fullName>Zeus</fullName>
+                <default>false</default>
+                <label>Zeus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

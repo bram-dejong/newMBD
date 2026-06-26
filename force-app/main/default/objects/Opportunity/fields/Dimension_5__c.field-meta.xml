@@ -5,12 +5,13 @@
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
         <controllingField>Dimension_4__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>Abbott</fullName>
                 <default>false</default>
@@ -122,12 +123,6 @@
                 <label>Oral-Eze</label>
             </value>
             <value>
-                <fullName>OraSure</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>OraSure</label>
-            </value>
-            <value>
                 <fullName>Other</fullName>
                 <default>false</default>
                 <label>Other</label>
@@ -192,59 +187,84 @@
                 <default>false</default>
                 <label>Women&apos;s Health</label>
             </value>
+            <value>
+                <fullName>OraSure</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OraSure</label>
+            </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>Buffers</controllingFieldValue>
-            <controllingFieldValue>Diluents</controllingFieldValue>
+            <controllingFieldValue>RIA</controllingFieldValue>
             <controllingFieldValue>Sheath Fluid</controllingFieldValue>
-            <controllingFieldValue>Lysing</controllingFieldValue>
+            <controllingFieldValue>Software</controllingFieldValue>
             <controllingFieldValue>Stains</controllingFieldValue>
-            <controllingFieldValue>Lablink</controllingFieldValue>
-            <controllingFieldValue>CEDIA</controllingFieldValue>
-            <controllingFieldValue>DRI</controllingFieldValue>
-            <controllingFieldValue>Not Applicable</controllingFieldValue>
             <controllingFieldValue>TDM/ISD</controllingFieldValue>
-            <controllingFieldValue>POC (Cups)</controllingFieldValue>
+            <controllingFieldValue>Wash</controllingFieldValue>
             <controllingFieldValue>KRYPTOR</controllingFieldValue>
-            <controllingFieldValue>EIA</controllingFieldValue>
+            <controllingFieldValue>Lablink</controllingFieldValue>
             <controllingFieldValue>LIA</controllingFieldValue>
             <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Lysing</controllingFieldValue>
             <controllingFieldValue>Merchandise</controllingFieldValue>
+            <controllingFieldValue>Not Applicable</controllingFieldValue>
+            <controllingFieldValue>POC (Cups)</controllingFieldValue>
+            <controllingFieldValue>Buffers</controllingFieldValue>
+            <controllingFieldValue>CEDIA</controllingFieldValue>
+            <controllingFieldValue>Confirmations</controllingFieldValue>
+            <controllingFieldValue>Diluents</controllingFieldValue>
+            <controllingFieldValue>DRI</controllingFieldValue>
+            <controllingFieldValue>EIA</controllingFieldValue>
             <controllingFieldValue>POC (direct)</controllingFieldValue>
             <controllingFieldValue>POC (Q)</controllingFieldValue>
-            <controllingFieldValue>RIA</controllingFieldValue>
-            <controllingFieldValue>Software</controllingFieldValue>
-            <controllingFieldValue>Confirmations</controllingFieldValue>
-            <controllingFieldValue>Wash</controllingFieldValue>
             <valueName>Not Applicable</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Competitor</controllingFieldValue>
-            <valueName>Beckman</valueName>
+            <controllingFieldValue>TDM/ISD</controllingFieldValue>
+            <controllingFieldValue>N/A</controllingFieldValue>
+            <valueName>Immunosuppressive Drugs</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Competitor</controllingFieldValue>
-            <valueName>Diasys</valueName>
+            <controllingFieldValue>TDM/ISD</controllingFieldValue>
+            <controllingFieldValue>N/A</controllingFieldValue>
+            <valueName>Therapeutic Drug Monitoring</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Competitor</controllingFieldValue>
-            <valueName>Diazyme</valueName>
+            <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Merchandise</controllingFieldValue>
+            <valueName>Abbott</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Competitor</controllingFieldValue>
-            <valueName>Mindray</valueName>
+            <controllingFieldValue>License</controllingFieldValue>
+            <valueName>Biomerieux</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Competitor</controllingFieldValue>
-            <valueName>Paraller Trade</valueName>
+            <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Merchandise</controllingFieldValue>
+            <valueName>Diasorin</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Competitor</controllingFieldValue>
-            <valueName>Radiometer</valueName>
+            <controllingFieldValue>License</controllingFieldValue>
+            <valueName>Fujirebio</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Competitor</controllingFieldValue>
-            <valueName>Snibe</valueName>
+            <controllingFieldValue>License</controllingFieldValue>
+            <valueName>LSI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Merchandise</controllingFieldValue>
+            <valueName>QuidelOrtho</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Merchandise</controllingFieldValue>
+            <valueName>Roche</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>License</controllingFieldValue>
+            <controllingFieldValue>Merchandise</controllingFieldValue>
+            <valueName>Siemens</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>MAS Controls</controllingFieldValue>
@@ -302,6 +322,38 @@
             <valueName>Women&apos;s Health</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>CEDIA</controllingFieldValue>
+            <valueName>Oral-Eze</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Beckman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Diasys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Diazyme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Mindray</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Paraller Trade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Radiometer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Competitor</controllingFieldValue>
+            <valueName>Snibe</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>Custom Controls</controllingFieldValue>
             <valueName>ctDNA</valueName>
         </valueSettings>
@@ -312,57 +364,6 @@
         <valueSettings>
             <controllingFieldValue>Custom Controls</controllingFieldValue>
             <valueName>General</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CEDIA</controllingFieldValue>
-            <valueName>Oral-Eze</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>N/A</controllingFieldValue>
-            <controllingFieldValue>TDM/ISD</controllingFieldValue>
-            <valueName>Immunosuppressive Drugs</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>N/A</controllingFieldValue>
-            <controllingFieldValue>TDM/ISD</controllingFieldValue>
-            <valueName>Therapeutic Drug Monitoring</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>License</controllingFieldValue>
-            <controllingFieldValue>Merchandise</controllingFieldValue>
-            <valueName>Abbott</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>License</controllingFieldValue>
-            <valueName>Biomerieux</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>License</controllingFieldValue>
-            <controllingFieldValue>Merchandise</controllingFieldValue>
-            <valueName>Diasorin</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>License</controllingFieldValue>
-            <valueName>Fujirebio</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>License</controllingFieldValue>
-            <valueName>LSI</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>License</controllingFieldValue>
-            <controllingFieldValue>Merchandise</controllingFieldValue>
-            <valueName>QuidelOrtho</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>License</controllingFieldValue>
-            <controllingFieldValue>Merchandise</controllingFieldValue>
-            <valueName>Roche</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>License</controllingFieldValue>
-            <controllingFieldValue>Merchandise</controllingFieldValue>
-            <valueName>Siemens</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Hierrarchy_Lvl_3__c</fullName>
+    <label>Product Hierarchy Lvl 3</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Animal health</fullName>
+                <default>false</default>
+                <label>Animal health</label>
+            </value>
+            <value>
+                <fullName>AST Automation</fullName>
+                <default>false</default>
+                <label>AST Automation</label>
+            </value>
+            <value>
+                <fullName>AST Rapid</fullName>
+                <default>false</default>
+                <label>AST Rapid</label>
+            </value>
+            <value>
+                <fullName>Biochemical ID</fullName>
+                <default>false</default>
+                <label>Biochemical ID</label>
+            </value>
+            <value>
+                <fullName>Blood Culture Automation</fullName>
+                <default>false</default>
+                <label>Blood Culture Automation</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion Consumables</fullName>
+                <default>false</default>
+                <label>CDD Cascadion Consumables</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion Instruments</fullName>
+                <default>false</default>
+                <label>CDD Cascadion Instruments</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion Reagents</fullName>
+                <default>false</default>
+                <label>CDD Cascadion Reagents</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion spare parts</fullName>
+                <default>false</default>
+                <label>CDD Cascadion spare parts</label>
+            </value>
+            <value>
+                <fullName>Collection and Transport</fullName>
+                <default>false</default>
+                <label>Collection and Transport</label>
+            </value>
+            <value>
+                <fullName>Core Instruments</fullName>
+                <default>false</default>
+                <label>Core Instruments</label>
+            </value>
+            <value>
+                <fullName>Core Other</fullName>
+                <default>false</default>
+                <label>Core Other</label>
+            </value>
+            <value>
+                <fullName>Culture Media Automation</fullName>
+                <default>false</default>
+                <label>Culture Media Automation</label>
+            </value>
+            <value>
+                <fullName>DCM</fullName>
+                <default>false</default>
+                <label>DCM</label>
+            </value>
+            <value>
+                <fullName>ELISA</fullName>
+                <default>false</default>
+                <label>ELISA</label>
+            </value>
+            <value>
+                <fullName>Environmental Systems</fullName>
+                <default>false</default>
+                <label>Environmental Systems</label>
+            </value>
+            <value>
+                <fullName>Exent Assays</fullName>
+                <default>false</default>
+                <label>Exent Assays</label>
+            </value>
+            <value>
+                <fullName>Exent Instruments</fullName>
+                <default>false</default>
+                <label>Exent Instruments</label>
+            </value>
+            <value>
+                <fullName>Food testing</fullName>
+                <default>false</default>
+                <label>Food testing</label>
+            </value>
+            <value>
+                <fullName>Freelite</fullName>
+                <default>false</default>
+                <label>Freelite</label>
+            </value>
+            <value>
+                <fullName>Hevylite</fullName>
+                <default>false</default>
+                <label>Hevylite</label>
+            </value>
+            <value>
+                <fullName>Immunofluorescence Assays</fullName>
+                <default>false</default>
+                <label>Immunofluorescence Assays</label>
+            </value>
+            <value>
+                <fullName>Immunological ID</fullName>
+                <default>false</default>
+                <label>Immunological ID</label>
+            </value>
+            <value>
+                <fullName>Lateral Flow</fullName>
+                <default>false</default>
+                <label>Lateral Flow</label>
+            </value>
+            <value>
+                <fullName>MAAS</fullName>
+                <default>false</default>
+                <label>MAAS</label>
+            </value>
+            <value>
+                <fullName>Manual AST</fullName>
+                <default>false</default>
+                <label>Manual AST</label>
+            </value>
+            <value>
+                <fullName>Manual Blood Culture</fullName>
+                <default>false</default>
+                <label>Manual Blood Culture</label>
+            </value>
+            <value>
+                <fullName>Method QC</fullName>
+                <default>false</default>
+                <label>Method QC</label>
+            </value>
+            <value>
+                <fullName>Molecular Controls</fullName>
+                <default>false</default>
+                <label>Molecular Controls</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Rapid Tests</fullName>
+                <default>false</default>
+                <label>Other Rapid Tests</label>
+            </value>
+            <value>
+                <fullName>Plasma Protein</fullName>
+                <default>false</default>
+                <label>Plasma Protein</label>
+            </value>
+            <value>
+                <fullName>Pre-Prepared</fullName>
+                <default>false</default>
+                <label>Pre-Prepared</label>
+            </value>
+            <value>
+                <fullName>QC Organisms</fullName>
+                <default>false</default>
+                <label>QC Organisms</label>
+            </value>
+            <value>
+                <fullName>Rapid Food Tests</fullName>
+                <default>false</default>
+                <label>Rapid Food Tests</label>
+            </value>
+            <value>
+                <fullName>Sample Preparation</fullName>
+                <default>false</default>
+                <label>Sample Preparation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

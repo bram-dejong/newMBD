@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EAN_UPC_GTIN__c</fullName>
+    <description>MBD EAN/UPC/GTIN field mapped to same in SAP.</description>
+    <externalId>false</externalId>
+    <label>EAN/UPC/GTIN</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -3,7 +3,6 @@
     <fullName>TF_Country__c</fullName>
     <label>Country</label>
     <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>

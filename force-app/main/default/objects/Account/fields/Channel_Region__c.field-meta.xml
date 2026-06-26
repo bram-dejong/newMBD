@@ -6,7 +6,6 @@
     <label>Channel Region</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
         <controllingField>Channel_Country__c</controllingField>
@@ -74,9 +73,11 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Ukraine</controllingFieldValue>
             <controllingFieldValue>Jordan</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
             <controllingFieldValue>Kenya</controllingFieldValue>
+            <controllingFieldValue>Kosovo</controllingFieldValue>
             <controllingFieldValue>Kuwait</controllingFieldValue>
             <controllingFieldValue>Armenia</controllingFieldValue>
             <controllingFieldValue>Azerbaijan</controllingFieldValue>
@@ -85,14 +86,13 @@
             <controllingFieldValue>Lebanon</controllingFieldValue>
             <controllingFieldValue>Yemen</controllingFieldValue>
             <controllingFieldValue>Zambia</controllingFieldValue>
+            <controllingFieldValue>Albania</controllingFieldValue>
             <controllingFieldValue>Liberia</controllingFieldValue>
             <controllingFieldValue>Zimbabwe</controllingFieldValue>
-            <controllingFieldValue>Albania</controllingFieldValue>
-            <controllingFieldValue>Libya</controllingFieldValue>
-            <controllingFieldValue>Kosovo</controllingFieldValue>
             <controllingFieldValue>Algeria</controllingFieldValue>
-            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Libya</controllingFieldValue>
             <controllingFieldValue>Angola</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
             <controllingFieldValue>Belarus</controllingFieldValue>
             <controllingFieldValue>Benin</controllingFieldValue>
             <controllingFieldValue>Botswana</controllingFieldValue>
@@ -107,10 +107,10 @@
             <controllingFieldValue>Cameroon</controllingFieldValue>
             <controllingFieldValue>Morocco</controllingFieldValue>
             <controllingFieldValue>Mozambique</controllingFieldValue>
-            <controllingFieldValue>Myanmar</controllingFieldValue>
             <controllingFieldValue>Central African Republic</controllingFieldValue>
             <controllingFieldValue>Chad</controllingFieldValue>
             <controllingFieldValue>Comoros</controllingFieldValue>
+            <controllingFieldValue>Myanmar</controllingFieldValue>
             <controllingFieldValue>Namibia</controllingFieldValue>
             <controllingFieldValue>Niger</controllingFieldValue>
             <controllingFieldValue>Nigeria</controllingFieldValue>
@@ -126,9 +126,9 @@
             <controllingFieldValue>Poland</controllingFieldValue>
             <controllingFieldValue>Qatar</controllingFieldValue>
             <controllingFieldValue>Romania</controllingFieldValue>
-            <controllingFieldValue>Russian Federation</controllingFieldValue>
             <controllingFieldValue>Ethiopia</controllingFieldValue>
             <controllingFieldValue>Gabon</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
             <controllingFieldValue>Rwanda</controllingFieldValue>
             <controllingFieldValue>Georgia</controllingFieldValue>
             <controllingFieldValue>Ghana</controllingFieldValue>
@@ -138,10 +138,10 @@
             <controllingFieldValue>Seychelles</controllingFieldValue>
             <controllingFieldValue>Sierra Leone</controllingFieldValue>
             <controllingFieldValue>Slovakia</controllingFieldValue>
-            <controllingFieldValue>Slovenia</controllingFieldValue>
             <controllingFieldValue>Guinea</controllingFieldValue>
             <controllingFieldValue>Guinea-Bissau</controllingFieldValue>
             <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
             <controllingFieldValue>Somalia</controllingFieldValue>
             <controllingFieldValue>South Africa</controllingFieldValue>
             <controllingFieldValue>South Sudan</controllingFieldValue>
@@ -149,12 +149,11 @@
             <controllingFieldValue>Syrian Arab Republic</controllingFieldValue>
             <controllingFieldValue>Tanzania, United Republic of</controllingFieldValue>
             <controllingFieldValue>Togo</controllingFieldValue>
-            <controllingFieldValue>Tunisia</controllingFieldValue>
             <controllingFieldValue>Iraq</controllingFieldValue>
+            <controllingFieldValue>Tunisia</controllingFieldValue>
             <controllingFieldValue>Turkey</controllingFieldValue>
             <controllingFieldValue>Israel</controllingFieldValue>
             <controllingFieldValue>Uganda</controllingFieldValue>
-            <controllingFieldValue>Ukraine</controllingFieldValue>
             <valueName>EEMEA</valueName>
         </valueSettings>
         <valueSettings>
@@ -171,8 +170,8 @@
             <controllingFieldValue>Cuba</controllingFieldValue>
             <controllingFieldValue>Panama</controllingFieldValue>
             <controllingFieldValue>Paraguay</controllingFieldValue>
-            <controllingFieldValue>Peru</controllingFieldValue>
             <controllingFieldValue>El Salvador</controllingFieldValue>
+            <controllingFieldValue>Peru</controllingFieldValue>
             <controllingFieldValue>Puerto Rico</controllingFieldValue>
             <controllingFieldValue>Guadeloupe</controllingFieldValue>
             <controllingFieldValue>Guatemala</controllingFieldValue>

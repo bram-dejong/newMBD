@@ -3,7 +3,6 @@
     <fullName>SVMX_Requires_Decontamination__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Requires Decontamination</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <type>Checkbox</type>
 </CustomField>

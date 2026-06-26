@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <description>a throw away field to support a flow until informatica is fixed. will be used by a flow to set the value</description>
     <label>SAP Batch Managed</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

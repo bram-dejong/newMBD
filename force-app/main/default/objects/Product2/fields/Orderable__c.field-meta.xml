@@ -5,7 +5,6 @@
     <description>Used to specify if a product can be ordered</description>
     <inlineHelpText>Used to specify if a product can be ordered</inlineHelpText>
     <label>Orderable</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <type>Checkbox</type>
 </CustomField>

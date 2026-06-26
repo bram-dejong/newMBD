@@ -4,7 +4,6 @@
     <description>Use this URL for factory support on this product</description>
     <label>Factory support</label>
     <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Url</type>
 </CustomField>

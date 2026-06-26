@@ -1,0 +1,2046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier__c</fullName>
+    <description>Dependent Fields: 
+&apos;HMD Comp Buckets&apos; on Opportunity Product</description>
+    <label>Supplier</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3M FALL PROTECTION</fullName>
+                <default>false</default>
+                <label>3M FALL PROTECTION</label>
+            </value>
+            <value>
+                <fullName>ABAXIS</fullName>
+                <default>false</default>
+                <label>ABAXIS</label>
+            </value>
+            <value>
+                <fullName>ABBOTT DIAGNOSTICS DIVISION</fullName>
+                <color>#009900</color>
+                <default>false</default>
+                <label>ABBOTT DIAGNOSTICS DIVISION</label>
+            </value>
+            <value>
+                <fullName>Abbott Rapid Diagnostics (Alere)</fullName>
+                <default>false</default>
+                <label>Abbott Rapid Diagnostics (Alere)</label>
+            </value>
+            <value>
+                <fullName>ABBOTT RAPID DX NA (BINAX)</fullName>
+                <default>false</default>
+                <label>ABBOTT RAPID DX NA (BINAX)</label>
+            </value>
+            <value>
+                <fullName>AB Sciex</fullName>
+                <default>false</default>
+                <label>AB Sciex</label>
+            </value>
+            <value>
+                <fullName>Accelerate Diagnostics</fullName>
+                <default>false</default>
+                <label>Accelerate Diagnostics</label>
+            </value>
+            <value>
+                <fullName>ACCRIVA</fullName>
+                <default>false</default>
+                <label>ACCRIVA</label>
+            </value>
+            <value>
+                <fullName>ACCUFORM</fullName>
+                <default>false</default>
+                <label>ACCUFORM</label>
+            </value>
+            <value>
+                <fullName>ACE GLASS INC</fullName>
+                <default>false</default>
+                <label>ACE GLASS INC</label>
+            </value>
+            <value>
+                <fullName>ADD</fullName>
+                <default>false</default>
+                <label>ADD</label>
+            </value>
+            <value>
+                <fullName>ADVANCED INSTRUMENTS</fullName>
+                <default>false</default>
+                <label>ADVANCED INSTRUMENTS</label>
+            </value>
+            <value>
+                <fullName>ADVANCE TABCO</fullName>
+                <default>false</default>
+                <label>ADVANCE TABCO</label>
+            </value>
+            <value>
+                <fullName>AIR BOSS DEFENSE</fullName>
+                <default>false</default>
+                <label>AIR BOSS DEFENSE</label>
+            </value>
+            <value>
+                <fullName>AIRCLEAN SYSTEMS</fullName>
+                <default>false</default>
+                <label>AIRCLEAN SYSTEMS</label>
+            </value>
+            <value>
+                <fullName>AKERS</fullName>
+                <default>false</default>
+                <label>AKERS</label>
+            </value>
+            <value>
+                <fullName>AK LTD</fullName>
+                <default>false</default>
+                <label>AK LTD</label>
+            </value>
+            <value>
+                <fullName>ALCOR SCIENTIFIC</fullName>
+                <default>false</default>
+                <label>ALCOR SCIENTIFIC</label>
+            </value>
+            <value>
+                <fullName>ALPHAPROTECH</fullName>
+                <default>false</default>
+                <label>ALPHAPROTECH</label>
+            </value>
+            <value>
+                <fullName>ALSICO HI TEC</fullName>
+                <default>false</default>
+                <label>ALSICO HI TEC</label>
+            </value>
+            <value>
+                <fullName>AMETEK POWERVAR</fullName>
+                <default>false</default>
+                <label>AMETEK POWERVAR</label>
+            </value>
+            <value>
+                <fullName>Ammex</fullName>
+                <default>false</default>
+                <label>Ammex</label>
+            </value>
+            <value>
+                <fullName>ANSELL</fullName>
+                <default>false</default>
+                <label>ANSELL</label>
+            </value>
+            <value>
+                <fullName>Ansell - Microflex MidKnight</fullName>
+                <default>false</default>
+                <label>Ansell - Microflex MidKnight</label>
+            </value>
+            <value>
+                <fullName>Ansell - Microflex UltraSense</fullName>
+                <default>false</default>
+                <label>Ansell - Microflex UltraSense</label>
+            </value>
+            <value>
+                <fullName>APOC</fullName>
+                <default>false</default>
+                <label>APOC</label>
+            </value>
+            <value>
+                <fullName>ARDx (FORMERLY ALERE)</fullName>
+                <default>false</default>
+                <label>ARDx (FORMERLY ALERE)</label>
+            </value>
+            <value>
+                <fullName>ARKRAY</fullName>
+                <default>false</default>
+                <label>ARKRAY</label>
+            </value>
+            <value>
+                <fullName>ARLINGTON SCIENTIFIC</fullName>
+                <default>false</default>
+                <label>ARLINGTON SCIENTIFIC</label>
+            </value>
+            <value>
+                <fullName>ASPEN SURGICAL PRODUCTS</fullName>
+                <default>false</default>
+                <label>ASPEN SURGICAL PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>ATLANTIC BIOPHARM SOLUTIONS LLC</fullName>
+                <default>false</default>
+                <label>ATLANTIC BIOPHARM SOLUTIONS LLC</label>
+            </value>
+            <value>
+                <fullName>AZER SCIENTIFIC</fullName>
+                <default>false</default>
+                <label>AZER SCIENTIFIC</label>
+            </value>
+            <value>
+                <fullName>BACTERIOSCAN</fullName>
+                <default>false</default>
+                <label>BACTERIOSCAN</label>
+            </value>
+            <value>
+                <fullName>BAY ADVANCED TECHNOLOGIES LLC</fullName>
+                <default>false</default>
+                <label>BAY ADVANCED TECHNOLOGIES LLC</label>
+            </value>
+            <value>
+                <fullName>BAYER</fullName>
+                <default>false</default>
+                <label>BAYER</label>
+            </value>
+            <value>
+                <fullName>BD DIAGNOSTIC INSTRUMENT SYSTEMS (DIS)</fullName>
+                <default>false</default>
+                <label>BD DIAGNOSTIC INSTRUMENT SYSTEMS (DIS)</label>
+            </value>
+            <value>
+                <fullName>BD DIAGNOSTICS</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>BD DIAGNOSTICS</label>
+            </value>
+            <value>
+                <fullName>BD Vacutainer</fullName>
+                <default>false</default>
+                <label>BD Vacutainer</label>
+            </value>
+            <value>
+                <fullName>BECKMAN COULTER</fullName>
+                <default>false</default>
+                <label>BECKMAN COULTER</label>
+            </value>
+            <value>
+                <fullName>BELAIR</fullName>
+                <default>false</default>
+                <label>BELAIR</label>
+            </value>
+            <value>
+                <fullName>Bel Art Products</fullName>
+                <default>false</default>
+                <label>BEL ART PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>BENCHPRO INC</fullName>
+                <default>false</default>
+                <label>BENCHPRO INC</label>
+            </value>
+            <value>
+                <fullName>BERKSHIRE CORPORATION</fullName>
+                <default>false</default>
+                <label>BERKSHIRE CORPORATION</label>
+            </value>
+            <value>
+                <fullName>BEVCO PRECISION MANUFACTURING CO</fullName>
+                <default>false</default>
+                <label>BEVCO PRECISION MANUFACTURING CO</label>
+            </value>
+            <value>
+                <fullName>Binx Health</fullName>
+                <default>false</default>
+                <label>Binx Health</label>
+            </value>
+            <value>
+                <fullName>BIOCARE</fullName>
+                <default>false</default>
+                <label>BIOCARE</label>
+            </value>
+            <value>
+                <fullName>Biocartis</fullName>
+                <default>false</default>
+                <label>Biocartis</label>
+            </value>
+            <value>
+                <fullName>BIOFIRE</fullName>
+                <default>false</default>
+                <label>BIOFIRE</label>
+            </value>
+            <value>
+                <fullName>BIOFIT ENGINEERED SEATING INC</fullName>
+                <default>false</default>
+                <label>BIOFIT ENGINEERED SEATING INC</label>
+            </value>
+            <value>
+                <fullName>BIOGENIX</fullName>
+                <default>false</default>
+                <label>BIOGENIX</label>
+            </value>
+            <value>
+                <fullName>Biomatrica</fullName>
+                <default>false</default>
+                <label>Biomatrica</label>
+            </value>
+            <value>
+                <fullName>BIOMEDICA</fullName>
+                <default>false</default>
+                <label>BIOMEDICA</label>
+            </value>
+            <value>
+                <fullName>Biomedical Polymers</fullName>
+                <default>false</default>
+                <label>Biomedical Polymers</label>
+            </value>
+            <value>
+                <fullName>BioMed Resource Inc.</fullName>
+                <default>false</default>
+                <label>BioMed Resource Inc.</label>
+            </value>
+            <value>
+                <fullName>BIOMERIEUX</fullName>
+                <default>false</default>
+                <label>BIOMERIEUX</label>
+            </value>
+            <value>
+                <fullName>BIORAD</fullName>
+                <default>false</default>
+                <label>BIORAD</label>
+            </value>
+            <value>
+                <fullName>BioSearch Technologies</fullName>
+                <default>false</default>
+                <label>BioSearch Technologies</label>
+            </value>
+            <value>
+                <fullName>BioTechne</fullName>
+                <default>false</default>
+                <label>BioTechne</label>
+            </value>
+            <value>
+                <fullName>BIOTEK</fullName>
+                <default>false</default>
+                <label>BIOTEK</label>
+            </value>
+            <value>
+                <fullName>Biotix</fullName>
+                <default>false</default>
+                <label>Biotix</label>
+            </value>
+            <value>
+                <fullName>BLOWHARD FANS</fullName>
+                <default>false</default>
+                <label>BLOWHARD FANS</label>
+            </value>
+            <value>
+                <fullName>B Medical Systems</fullName>
+                <default>false</default>
+                <label>B Medical Systems</label>
+            </value>
+            <value>
+                <fullName>BMP MEDICAL</fullName>
+                <default>false</default>
+                <label>BMP MEDICAL</label>
+            </value>
+            <value>
+                <fullName>Boekel Scientific</fullName>
+                <default>false</default>
+                <label>Boekel Scientific</label>
+            </value>
+            <value>
+                <fullName>Bonray Bio</fullName>
+                <default>false</default>
+                <label>Bonray Bio</label>
+            </value>
+            <value>
+                <fullName>BOOTIEBUTLER</fullName>
+                <default>false</default>
+                <label>BOOTIEBUTLER</label>
+            </value>
+            <value>
+                <fullName>BOSIO METAL SPECIALTIES INC</fullName>
+                <default>false</default>
+                <label>BOSIO METAL SPECIALTIES INC</label>
+            </value>
+            <value>
+                <fullName>BRADY</fullName>
+                <default>false</default>
+                <label>BRADY</label>
+            </value>
+            <value>
+                <fullName>BRADY WORLDWIDE INC</fullName>
+                <default>false</default>
+                <label>BRADY WORLDWIDE INC</label>
+            </value>
+            <value>
+                <fullName>BRAND TECH SCIENTIFIC INC</fullName>
+                <default>false</default>
+                <label>BRAND TECH SCIENTIFIC INC</label>
+            </value>
+            <value>
+                <fullName>BRUKER CORPORATIONS</fullName>
+                <default>false</default>
+                <label>BRUKER CORPORATIONS</label>
+            </value>
+            <value>
+                <fullName>BULLARD COMPANY</fullName>
+                <default>false</default>
+                <label>BULLARD COMPANY</label>
+            </value>
+            <value>
+                <fullName>CALIFORNIA ADVANCED LABELING INC</fullName>
+                <default>false</default>
+                <label>CALIFORNIA ADVANCED LABELING INC</label>
+            </value>
+            <value>
+                <fullName>Cardinal Health</fullName>
+                <default>false</default>
+                <label>Cardinal Health</label>
+            </value>
+            <value>
+                <fullName>CARDIOCHEK</fullName>
+                <default>false</default>
+                <label>CARDIOCHEK</label>
+            </value>
+            <value>
+                <fullName>CAROLINA LCC</fullName>
+                <default>false</default>
+                <label>CAROLINA LCC</label>
+            </value>
+            <value>
+                <fullName>CDW</fullName>
+                <default>false</default>
+                <label>CDW</label>
+            </value>
+            <value>
+                <fullName>Cellpath</fullName>
+                <default>false</default>
+                <label>Cellpath</label>
+            </value>
+            <value>
+                <fullName>CEPHEID</fullName>
+                <default>false</default>
+                <label>CEPHEID</label>
+            </value>
+            <value>
+                <fullName>Chembio Diagnostics</fullName>
+                <default>false</default>
+                <label>Chembio Diagnostics</label>
+            </value>
+            <value>
+                <fullName>CHEMTRONICS INC</fullName>
+                <default>false</default>
+                <label>CHEMTRONICS INC</label>
+            </value>
+            <value>
+                <fullName>CLEANSPACE TECHNOLOGY PTY LTD</fullName>
+                <default>false</default>
+                <label>CLEANSPACE TECHNOLOGY PTY LTD</label>
+            </value>
+            <value>
+                <fullName>Click DX</fullName>
+                <default>false</default>
+                <label>Click DX</label>
+            </value>
+            <value>
+                <fullName>CLIMATEPRO</fullName>
+                <default>false</default>
+                <label>CLIMATEPRO</label>
+            </value>
+            <value>
+                <fullName>COLE PARMER 3P</fullName>
+                <default>false</default>
+                <label>COLE PARMER 3P</label>
+            </value>
+            <value>
+                <fullName>COLUMBIA PRINTING &amp; CLEANROOM</fullName>
+                <default>false</default>
+                <label>COLUMBIA PRINTING &amp; CLEANROOM</label>
+            </value>
+            <value>
+                <fullName>COM PAC INTERNATIONAL INC</fullName>
+                <default>false</default>
+                <label>COM PAC INTERNATIONAL INC</label>
+            </value>
+            <value>
+                <fullName>CONTEC INC</fullName>
+                <default>false</default>
+                <label>CONTEC INC</label>
+            </value>
+            <value>
+                <fullName>Control Company</fullName>
+                <default>false</default>
+                <label>Control Company</label>
+            </value>
+            <value>
+                <fullName>Cooper Surgical</fullName>
+                <default>false</default>
+                <label>Cooper Surgical</label>
+            </value>
+            <value>
+                <fullName>COPAN</fullName>
+                <default>false</default>
+                <label>COPAN</label>
+            </value>
+            <value>
+                <fullName>CORNING</fullName>
+                <default>false</default>
+                <label>CORNING</label>
+            </value>
+            <value>
+                <fullName>CT INTERNATIONAL</fullName>
+                <default>false</default>
+                <label>CT INTERNATIONAL</label>
+            </value>
+            <value>
+                <fullName>CURRENT TECH INC</fullName>
+                <default>false</default>
+                <label>CURRENT TECH INC</label>
+            </value>
+            <value>
+                <fullName>Current Technologies</fullName>
+                <default>false</default>
+                <label>Current Technologies</label>
+            </value>
+            <value>
+                <fullName>DADE</fullName>
+                <default>false</default>
+                <label>DADE</label>
+            </value>
+            <value>
+                <fullName>DAKO</fullName>
+                <default>false</default>
+                <label>DAKO</label>
+            </value>
+            <value>
+                <fullName>Deardoff Fitzsimmons</fullName>
+                <default>false</default>
+                <label>Deardoff Fitzsimmons</label>
+            </value>
+            <value>
+                <fullName>Decon Labs</fullName>
+                <default>false</default>
+                <label>Decon Labs</label>
+            </value>
+            <value>
+                <fullName>Delcon</fullName>
+                <default>false</default>
+                <label>Delcon</label>
+            </value>
+            <value>
+                <fullName>DENTEC SAFETY SPECIALISTS CORP</fullName>
+                <default>false</default>
+                <label>DENTEC SAFETY SPECIALISTS CORP</label>
+            </value>
+            <value>
+                <fullName>DESCO INDUSTRIES INC</fullName>
+                <default>false</default>
+                <label>DESCO INDUSTRIES INC</label>
+            </value>
+            <value>
+                <fullName>DIAGNOSTICA STAGO</fullName>
+                <default>false</default>
+                <label>DIAGNOSTICA STAGO</label>
+            </value>
+            <value>
+                <fullName>DIAMEDIX</fullName>
+                <default>false</default>
+                <label>DIAMEDIX</label>
+            </value>
+            <value>
+                <fullName>DIASORIN</fullName>
+                <default>false</default>
+                <label>DIASORIN</label>
+            </value>
+            <value>
+                <fullName>DIASORIN MOLECULAR</fullName>
+                <default>false</default>
+                <label>DIASORIN MOLECULAR</label>
+            </value>
+            <value>
+                <fullName>DIATRON</fullName>
+                <default>false</default>
+                <label>DIATRON</label>
+            </value>
+            <value>
+                <fullName>Diazyme Laboratories</fullName>
+                <default>false</default>
+                <label>Diazyme Laboratories</label>
+            </value>
+            <value>
+                <fullName>DNA Genotek V</fullName>
+                <default>false</default>
+                <label>DNA Genotek V</label>
+            </value>
+            <value>
+                <fullName>DRAEGER INC</fullName>
+                <default>false</default>
+                <label>DRAEGER INC</label>
+            </value>
+            <value>
+                <fullName>DRAEGER MEDICAL INC</fullName>
+                <default>false</default>
+                <label>DRAEGER MEDICAL INC</label>
+            </value>
+            <value>
+                <fullName>Drucker Diagnostics</fullName>
+                <default>false</default>
+                <label>Drucker Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Dukal Corp</fullName>
+                <default>false</default>
+                <label>Dukal Corp</label>
+            </value>
+            <value>
+                <fullName>DUPONT PERSONAL PROTECTION</fullName>
+                <default>false</default>
+                <label>DUPONT PERSONAL PROTECTION</label>
+            </value>
+            <value>
+                <fullName>DUSTCONTROL INC</fullName>
+                <default>false</default>
+                <label>DUSTCONTROL INC</label>
+            </value>
+            <value>
+                <fullName>DWK Life Sciences</fullName>
+                <default>false</default>
+                <label>DWK Life Sciences</label>
+            </value>
+            <value>
+                <fullName>DYNALON LABWARE</fullName>
+                <default>false</default>
+                <label>DYNALON LABWARE</label>
+            </value>
+            <value>
+                <fullName>DYNALON PRODUCTS</fullName>
+                <default>false</default>
+                <label>DYNALON PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>DYN A MED PRODUCTS</fullName>
+                <default>false</default>
+                <label>DYN A MED PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>Dynamic Diagnostics (DDI)</fullName>
+                <default>false</default>
+                <label>Dynamic Diagnostics (DDI)</label>
+            </value>
+            <value>
+                <fullName>DYNEX TECHNOLOGIES</fullName>
+                <default>false</default>
+                <label>DYNEX TECHNOLOGIES</label>
+            </value>
+            <value>
+                <fullName>EAGLE MHC</fullName>
+                <default>false</default>
+                <label>EAGLE MHC</label>
+            </value>
+            <value>
+                <fullName>E COM</fullName>
+                <default>false</default>
+                <label>E COM</label>
+            </value>
+            <value>
+                <fullName>ECO PARK S PTE LTD</fullName>
+                <default>false</default>
+                <label>ECO PARK S PTE LTD</label>
+            </value>
+            <value>
+                <fullName>EMD MILLIPORE CORP</fullName>
+                <default>false</default>
+                <label>EMD MILLIPORE CORP</label>
+            </value>
+            <value>
+                <fullName>EPPENDORF</fullName>
+                <default>false</default>
+                <label>EPPENDORF</label>
+            </value>
+            <value>
+                <fullName>Epredia (formerly APD)</fullName>
+                <default>false</default>
+                <label>Epredia (formerly APD)</label>
+            </value>
+            <value>
+                <fullName>EURAMCO SAFETY INC</fullName>
+                <default>false</default>
+                <label>EURAMCO SAFETY INC</label>
+            </value>
+            <value>
+                <fullName>EUROIMMUN</fullName>
+                <default>false</default>
+                <label>EUROIMMUN</label>
+            </value>
+            <value>
+                <fullName>EXCELTA CORP</fullName>
+                <default>false</default>
+                <label>EXCELTA CORP</label>
+            </value>
+            <value>
+                <fullName>FABRICS ETCETERA</fullName>
+                <default>false</default>
+                <label>FABRICS ETCETERA</label>
+            </value>
+            <value>
+                <fullName>Faxitron</fullName>
+                <default>false</default>
+                <label>Faxitron</label>
+            </value>
+            <value>
+                <fullName>FG CLEAN WIPES</fullName>
+                <default>false</default>
+                <label>FG CLEAN WIPES</label>
+            </value>
+            <value>
+                <fullName>FISHERBRAND</fullName>
+                <default>false</default>
+                <label>FISHERBRAND</label>
+            </value>
+            <value>
+                <fullName>FISHERBRAND INTERNATIONAL</fullName>
+                <default>false</default>
+                <label>FISHERBRAND INTERNATIONAL</label>
+            </value>
+            <value>
+                <fullName>FOAMTEC INTERNATIONAL</fullName>
+                <default>false</default>
+                <label>FOAMTEC INTERNATIONAL</label>
+            </value>
+            <value>
+                <fullName>FRANEK TECHNOLOGIES INC</fullName>
+                <default>false</default>
+                <label>FRANEK TECHNOLOGIES INC</label>
+            </value>
+            <value>
+                <fullName>FREUDENBERG HOUSEHOLD PROD LP</fullName>
+                <default>false</default>
+                <label>FREUDENBERG HOUSEHOLD PROD LP</label>
+            </value>
+            <value>
+                <fullName>Fujifilm</fullName>
+                <default>false</default>
+                <label>Fujifilm</label>
+            </value>
+            <value>
+                <fullName>GENERAL</fullName>
+                <default>false</default>
+                <label>GENERAL</label>
+            </value>
+            <value>
+                <fullName>GENERAL DATA HEALTHCARE</fullName>
+                <default>false</default>
+                <label>GENERAL DATA HEALTHCARE</label>
+            </value>
+            <value>
+                <fullName>GENMARK DX</fullName>
+                <default>false</default>
+                <label>GENMARK DX</label>
+            </value>
+            <value>
+                <fullName>GEN-PROBE</fullName>
+                <default>false</default>
+                <label>GEN-PROBE</label>
+            </value>
+            <value>
+                <fullName>GIBSON LABORATORIES</fullName>
+                <default>false</default>
+                <label>GIBSON LABORATORIES</label>
+            </value>
+            <value>
+                <fullName>GLOBE SCIENTIFIC INC</fullName>
+                <default>false</default>
+                <label>GLOBE SCIENTIFIC INC</label>
+            </value>
+            <value>
+                <fullName>GOJO INDUSTRIES INC</fullName>
+                <default>false</default>
+                <label>GOJO INDUSTRIES INC</label>
+            </value>
+            <value>
+                <fullName>GOLD STANDARD DIAGNOSTICS</fullName>
+                <default>false</default>
+                <label>GOLD STANDARD DIAGNOSTICS</label>
+            </value>
+            <value>
+                <fullName>Great Basin</fullName>
+                <default>false</default>
+                <label>Great Basin</label>
+            </value>
+            <value>
+                <fullName>GREINER</fullName>
+                <default>false</default>
+                <label>GREINER</label>
+            </value>
+            <value>
+                <fullName>GRIFOLS</fullName>
+                <default>false</default>
+                <label>GRIFOLS</label>
+            </value>
+            <value>
+                <fullName>Grundium</fullName>
+                <default>false</default>
+                <label>Grundium</label>
+            </value>
+            <value>
+                <fullName>HACKER</fullName>
+                <default>false</default>
+                <label>HACKER</label>
+            </value>
+            <value>
+                <fullName>Hamilton</fullName>
+                <default>false</default>
+                <label>Hamilton</label>
+            </value>
+            <value>
+                <fullName>HARDY DIAGNOSTICS</fullName>
+                <default>false</default>
+                <label>HARDY DIAGNOSTICS</label>
+            </value>
+            <value>
+                <fullName>HAWS CORPORATION</fullName>
+                <default>false</default>
+                <label>HAWS CORPORATION</label>
+            </value>
+            <value>
+                <fullName>HB Instrument Company</fullName>
+                <default>false</default>
+                <label>HB INSTRUMENT COMPANY</label>
+            </value>
+            <value>
+                <fullName>HDS MARKETING INC</fullName>
+                <default>false</default>
+                <label>HDS MARKETING INC</label>
+            </value>
+            <value>
+                <fullName>Healthlink</fullName>
+                <default>false</default>
+                <label>Healthlink</label>
+            </value>
+            <value>
+                <fullName>Heathrow Scientific</fullName>
+                <default>false</default>
+                <label>HEATHROW SCIENTIFIC</label>
+            </value>
+            <value>
+                <fullName>HELENA</fullName>
+                <default>false</default>
+                <label>HELENA</label>
+            </value>
+            <value>
+                <fullName>HELENA LABS</fullName>
+                <default>false</default>
+                <label>HELENA LABS</label>
+            </value>
+            <value>
+                <fullName>HEMOCUE</fullName>
+                <default>false</default>
+                <label>HEMOCUE</label>
+            </value>
+            <value>
+                <fullName>HEMOSURE</fullName>
+                <default>false</default>
+                <label>HEMOSURE</label>
+            </value>
+            <value>
+                <fullName>HIGH TECH CONVERSIONS</fullName>
+                <default>false</default>
+                <label>HIGH TECH CONVERSIONS</label>
+            </value>
+            <value>
+                <fullName>HITACHI</fullName>
+                <default>false</default>
+                <label>HITACHI</label>
+            </value>
+            <value>
+                <fullName>HONEYWELL SAFETY PRODUCTS USA INC</fullName>
+                <default>false</default>
+                <label>HONEYWELL SAFETY PRODUCTS USA INC</label>
+            </value>
+            <value>
+                <fullName>HORIBA ABX</fullName>
+                <color>#33FFFF</color>
+                <default>false</default>
+                <label>HORIBA ABX</label>
+            </value>
+            <value>
+                <fullName>Hourglass</fullName>
+                <default>false</default>
+                <label>Hourglass</label>
+            </value>
+            <value>
+                <fullName>HOURGLASS INTERNATIONAL INC</fullName>
+                <default>false</default>
+                <label>HOURGLASS INTERNATIONAL INC</label>
+            </value>
+            <value>
+                <fullName>HTL Strefa</fullName>
+                <default>false</default>
+                <label>HTL Strefa</label>
+            </value>
+            <value>
+                <fullName>HYCOR</fullName>
+                <default>false</default>
+                <label>HYCOR</label>
+            </value>
+            <value>
+                <fullName>ILLUMINA</fullName>
+                <default>false</default>
+                <label>ILLUMINA</label>
+            </value>
+            <value>
+                <fullName>IMMUNOSTICS</fullName>
+                <default>false</default>
+                <label>IMMUNOSTICS</label>
+            </value>
+            <value>
+                <fullName>IMMY</fullName>
+                <default>false</default>
+                <label>IMMY</label>
+            </value>
+            <value>
+                <fullName>IMUCORE</fullName>
+                <default>false</default>
+                <label>IMUCORE</label>
+            </value>
+            <value>
+                <fullName>INFOLAB</fullName>
+                <default>false</default>
+                <label>INFOLAB</label>
+            </value>
+            <value>
+                <fullName>INOVA</fullName>
+                <default>false</default>
+                <label>INOVA</label>
+            </value>
+            <value>
+                <fullName>Instrumentation Laboratory (IL)</fullName>
+                <default>false</default>
+                <label>Instrumentation Laboratory (IL)</label>
+            </value>
+            <value>
+                <fullName>Intco</fullName>
+                <default>false</default>
+                <label>Intco</label>
+            </value>
+            <value>
+                <fullName>INTEC INDUSTRIES INC</fullName>
+                <default>false</default>
+                <label>INTEC INDUSTRIES INC</label>
+            </value>
+            <value>
+                <fullName>Inteplast</fullName>
+                <default>false</default>
+                <label>Inteplast</label>
+            </value>
+            <value>
+                <fullName>INTERMETRO INDUSTRIES CORPORATION</fullName>
+                <default>false</default>
+                <label>INTERMETRO INDUSTRIES CORPORATION</label>
+            </value>
+            <value>
+                <fullName>INTERNATIONAL ENVIROGUARD SYSTEMS INC</fullName>
+                <default>false</default>
+                <label>INTERNATIONAL ENVIROGUARD SYSTEMS INC</label>
+            </value>
+            <value>
+                <fullName>IRIS STRECK</fullName>
+                <default>false</default>
+                <label>IRIS STRECK</label>
+            </value>
+            <value>
+                <fullName>ITC</fullName>
+                <default>false</default>
+                <label>ITC</label>
+            </value>
+            <value>
+                <fullName>ITL Biomedical</fullName>
+                <default>false</default>
+                <label>ITL BIOMEDICAL</label>
+            </value>
+            <value>
+                <fullName>ITW TEXWIPE COMPANY</fullName>
+                <default>false</default>
+                <label>ITW TEXWIPE COMPANY</label>
+            </value>
+            <value>
+                <fullName>JUSTRITE MANUFACTURING COMPANY</fullName>
+                <default>false</default>
+                <label>JUSTRITE MANUFACTURING COMPANY</label>
+            </value>
+            <value>
+                <fullName>K2 Scientific</fullName>
+                <default>false</default>
+                <label>K2 Scientific</label>
+            </value>
+            <value>
+                <fullName>KAPPLER</fullName>
+                <default>false</default>
+                <label>KAPPLER</label>
+            </value>
+            <value>
+                <fullName>Kawasumi</fullName>
+                <default>false</default>
+                <label>Kawasumi</label>
+            </value>
+            <value>
+                <fullName>KC Purple</fullName>
+                <default>false</default>
+                <label>KC Purple</label>
+            </value>
+            <value>
+                <fullName>KC - Sterling</fullName>
+                <default>false</default>
+                <label>KC - Sterling</label>
+            </value>
+            <value>
+                <fullName>KEWAUNEE SCIENTIFIC CORPORATION</fullName>
+                <default>false</default>
+                <label>KEWAUNEE SCIENTIFIC CORPORATION</label>
+            </value>
+            <value>
+                <fullName>KEYSTONE ADJUSTABLE CAP COMPANY INC</fullName>
+                <default>false</default>
+                <label>KEYSTONE ADJUSTABLE CAP COMPANY INC</label>
+            </value>
+            <value>
+                <fullName>KIMBERLY CLARK CORPORATION</fullName>
+                <default>false</default>
+                <label>KIMBERLY CLARK CORPORATION</label>
+            </value>
+            <value>
+                <fullName>KOVA Int&apos;l</fullName>
+                <default>false</default>
+                <label>KOVA Int&apos;l</label>
+            </value>
+            <value>
+                <fullName>KURIN</fullName>
+                <default>false</default>
+                <label>KURIN</label>
+            </value>
+            <value>
+                <fullName>LabBuilders</fullName>
+                <default>false</default>
+                <label>LabBuilders</label>
+            </value>
+            <value>
+                <fullName>LABCONCO CORPORATION</fullName>
+                <default>false</default>
+                <label>LABCONCO CORPORATION</label>
+            </value>
+            <value>
+                <fullName>LABORATORY BUILDERS</fullName>
+                <default>false</default>
+                <label>LABORATORY BUILDERS</label>
+            </value>
+            <value>
+                <fullName>Laxco, Inc.</fullName>
+                <default>false</default>
+                <label>Laxco, Inc.</label>
+            </value>
+            <value>
+                <fullName>LEICA</fullName>
+                <default>false</default>
+                <label>LEICA</label>
+            </value>
+            <value>
+                <fullName>LGC Clinical Diagnostics</fullName>
+                <default>false</default>
+                <label>LGC Clinical Diagnostics</label>
+            </value>
+            <value>
+                <fullName>LGP CONSULTING</fullName>
+                <default>false</default>
+                <label>LGP CONSULTING</label>
+            </value>
+            <value>
+                <fullName>LIFE TECHNOLOGIES</fullName>
+                <default>false</default>
+                <label>LIFE TECHNOLOGIES</label>
+            </value>
+            <value>
+                <fullName>LIOFILCHEM</fullName>
+                <default>false</default>
+                <label>LIOFILCHEM</label>
+            </value>
+            <value>
+                <fullName>LION APPAREL INC</fullName>
+                <default>false</default>
+                <label>LION APPAREL INC</label>
+            </value>
+            <value>
+                <fullName>LUCIRA HEALTH</fullName>
+                <default>false</default>
+                <label>LUCIRA HEALTH</label>
+            </value>
+            <value>
+                <fullName>LUDLUM MEASUREMENTS INC</fullName>
+                <default>false</default>
+                <label>LUDLUM MEASUREMENTS INC</label>
+            </value>
+            <value>
+                <fullName>LumiraDx</fullName>
+                <default>false</default>
+                <label>LumiraDx</label>
+            </value>
+            <value>
+                <fullName>M+A MATTING</fullName>
+                <default>false</default>
+                <label>M+A MATTING</label>
+            </value>
+            <value>
+                <fullName>MAGELLAN</fullName>
+                <default>false</default>
+                <label>MAGELLAN</label>
+            </value>
+            <value>
+                <fullName>Maine Standards</fullName>
+                <default>false</default>
+                <label>Maine Standards</label>
+            </value>
+            <value>
+                <fullName>MAPA PIONEER</fullName>
+                <default>false</default>
+                <label>MAPA PIONEER</label>
+            </value>
+            <value>
+                <fullName>MaxCare</fullName>
+                <default>false</default>
+                <label>MaxCare</label>
+            </value>
+            <value>
+                <fullName>MedDX</fullName>
+                <default>false</default>
+                <label>MedDX</label>
+            </value>
+            <value>
+                <fullName>MEDICAL CHEM CORP (MCC)</fullName>
+                <default>false</default>
+                <label>MEDICAL CHEM CORP (MCC)</label>
+            </value>
+            <value>
+                <fullName>MediCore</fullName>
+                <default>false</default>
+                <label>MediCore</label>
+            </value>
+            <value>
+                <fullName>MEDIGEN</fullName>
+                <default>false</default>
+                <label>MEDIGEN</label>
+            </value>
+            <value>
+                <fullName>Medisca</fullName>
+                <default>false</default>
+                <label>Medisca</label>
+            </value>
+            <value>
+                <fullName>MEDITE</fullName>
+                <default>false</default>
+                <label>MEDITE</label>
+            </value>
+            <value>
+                <fullName>MedTox</fullName>
+                <default>false</default>
+                <label>MedTox</label>
+            </value>
+            <value>
+                <fullName>MERIDIAN</fullName>
+                <default>false</default>
+                <label>MERIDIAN</label>
+            </value>
+            <value>
+                <fullName>MERIDIAN ZERO DEGREES LLC</fullName>
+                <default>false</default>
+                <label>MERIDIAN ZERO DEGREES LLC</label>
+            </value>
+            <value>
+                <fullName>MESA BIOTECH INC.</fullName>
+                <default>false</default>
+                <label>MESA BIOTECH INC.</label>
+            </value>
+            <value>
+                <fullName>METASYSTEMS</fullName>
+                <default>false</default>
+                <label>METASYSTEMS</label>
+            </value>
+            <value>
+                <fullName>MICROBIOLOGICS</fullName>
+                <default>false</default>
+                <label>MICROBIOLOGICS</label>
+            </value>
+            <value>
+                <fullName>MICROM</fullName>
+                <default>false</default>
+                <label>MICROM</label>
+            </value>
+            <value>
+                <fullName>MICRONOVA MFG CO</fullName>
+                <default>false</default>
+                <label>MICRONOVA MFG CO</label>
+            </value>
+            <value>
+                <fullName>MILESTONE</fullName>
+                <default>false</default>
+                <label>MILESTONE</label>
+            </value>
+            <value>
+                <fullName>MINDRAY MEDICAL INSTRUMENTATION</fullName>
+                <default>false</default>
+                <label>MINDRAY MEDICAL INSTRUMENTATION</label>
+            </value>
+            <value>
+                <fullName>MINE SAFETY APPLIANCES COMPANY</fullName>
+                <default>false</default>
+                <label>MINE SAFETY APPLIANCES COMPANY</label>
+            </value>
+            <value>
+                <fullName>MINUTEMAN INTERNATIONAL INC</fullName>
+                <default>false</default>
+                <label>MINUTEMAN INTERNATIONAL INC</label>
+            </value>
+            <value>
+                <fullName>MLA</fullName>
+                <default>false</default>
+                <label>MLA</label>
+            </value>
+            <value>
+                <fullName>MOPEC</fullName>
+                <default>false</default>
+                <label>MOPEC</label>
+            </value>
+            <value>
+                <fullName>MYCOMED TECHNOLOGIES</fullName>
+                <default>false</default>
+                <label>MYCOMED TECHNOLOGIES</label>
+            </value>
+            <value>
+                <fullName>NANOSPHERE</fullName>
+                <default>false</default>
+                <label>NANOSPHERE</label>
+            </value>
+            <value>
+                <fullName>NATIONAL MARKER</fullName>
+                <default>false</default>
+                <label>NATIONAL MARKER</label>
+            </value>
+            <value>
+                <fullName>NATIONAL OPTICAL</fullName>
+                <default>false</default>
+                <label>NATIONAL OPTICAL</label>
+            </value>
+            <value>
+                <fullName>NeuMoDx MOLECULAR</fullName>
+                <default>false</default>
+                <label>NeuMoDx MOLECULAR</label>
+            </value>
+            <value>
+                <fullName>NEVS INK INC</fullName>
+                <default>false</default>
+                <label>NEVS INK INC</label>
+            </value>
+            <value>
+                <fullName>NEWELL RUBBERMAID INC</fullName>
+                <default>false</default>
+                <label>NEWELL RUBBERMAID INC</label>
+            </value>
+            <value>
+                <fullName>NEW PIG CORPORATION</fullName>
+                <default>false</default>
+                <label>NEW PIG CORPORATION</label>
+            </value>
+            <value>
+                <fullName>NILFISK OF AMERICA INC</fullName>
+                <default>false</default>
+                <label>NILFISK OF AMERICA INC</label>
+            </value>
+            <value>
+                <fullName>NOTRAX</fullName>
+                <default>false</default>
+                <label>NOTRAX</label>
+            </value>
+            <value>
+                <fullName>NOVA</fullName>
+                <default>false</default>
+                <label>NOVA</label>
+            </value>
+            <value>
+                <fullName>NOW Diagnostics</fullName>
+                <default>false</default>
+                <label>NOW Diagnostics</label>
+            </value>
+            <value>
+                <fullName>NSP Tech</fullName>
+                <default>false</default>
+                <label>NSP Tech</label>
+            </value>
+            <value>
+                <fullName>O&amp;M Halyard</fullName>
+                <default>false</default>
+                <label>O&amp;M Halyard</label>
+            </value>
+            <value>
+                <fullName>Oasis Diagnostics</fullName>
+                <default>false</default>
+                <label>Oasis Diagnostics</label>
+            </value>
+            <value>
+                <fullName>OCCUPATIONAL HEALTH DYNAMICS</fullName>
+                <default>false</default>
+                <label>OCCUPATIONAL HEALTH DYNAMICS</label>
+            </value>
+            <value>
+                <fullName>OLYMPUS</fullName>
+                <default>false</default>
+                <label>OLYMPUS</label>
+            </value>
+            <value>
+                <fullName>Orasure</fullName>
+                <default>false</default>
+                <label>Orasure</label>
+            </value>
+            <value>
+                <fullName>ORTHO CLINICAL DIAGNOSTICS</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <label>ORTHO CLINICAL DIAGNOSTICS</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>OTSUKA</fullName>
+                <default>false</default>
+                <label>OTSUKA</label>
+            </value>
+            <value>
+                <fullName>Owen Mumford USA</fullName>
+                <default>false</default>
+                <label>Owen Mumford USA</label>
+            </value>
+            <value>
+                <fullName>Parter Medical</fullName>
+                <default>false</default>
+                <label>PARTER MEDICAL</label>
+            </value>
+            <value>
+                <fullName>PDI (Professional Disposables Intl)</fullName>
+                <default>false</default>
+                <label>PDI (Professional Disposables Intl)</label>
+            </value>
+            <value>
+                <fullName>PERFEX CORP</fullName>
+                <default>false</default>
+                <label>PERFEX CORP</label>
+            </value>
+            <value>
+                <fullName>PETROLEUM ANALYZER CORPORATION</fullName>
+                <default>false</default>
+                <label>PETROLEUM ANALYZER CORPORATION</label>
+            </value>
+            <value>
+                <fullName>PIERCAN USA INC</fullName>
+                <default>false</default>
+                <label>PIERCAN USA INC</label>
+            </value>
+            <value>
+                <fullName>POLYMEDCO</fullName>
+                <default>false</default>
+                <label>POLYMEDCO</label>
+            </value>
+            <value>
+                <fullName>Porex Technologies</fullName>
+                <default>false</default>
+                <label>Porex Technologies</label>
+            </value>
+            <value>
+                <fullName>PORTA FAB CORPORATION</fullName>
+                <default>false</default>
+                <label>PORTA FAB CORPORATION</label>
+            </value>
+            <value>
+                <fullName>PRECIPIO Inc</fullName>
+                <default>false</default>
+                <label>PRECIPIO INC</label>
+            </value>
+            <value>
+                <fullName>PRECISION DYNAMICS CORPORATION</fullName>
+                <default>false</default>
+                <label>PRECISION DYNAMICS CORPORATION</label>
+            </value>
+            <value>
+                <fullName>Prime MTM</fullName>
+                <default>false</default>
+                <label>Prime MTM</label>
+            </value>
+            <value>
+                <fullName>PRIMERDESIGN</fullName>
+                <default>false</default>
+                <label>PRIMERDESIGN</label>
+            </value>
+            <value>
+                <fullName>Private Label Supplier</fullName>
+                <default>false</default>
+                <label>Private Label Supplier</label>
+            </value>
+            <value>
+                <fullName>PROEX SERVICES</fullName>
+                <default>false</default>
+                <label>PROEX SERVICES</label>
+            </value>
+            <value>
+                <fullName>PROMEGA</fullName>
+                <default>false</default>
+                <label>PROMEGA</label>
+            </value>
+            <value>
+                <fullName>PROTECTIVE INDUSTRIAL PRODUCTS INC</fullName>
+                <default>false</default>
+                <label>PROTECTIVE INDUSTRIAL PRODUCTS INC</label>
+            </value>
+            <value>
+                <fullName>PROTEXER</fullName>
+                <default>false</default>
+                <label>PROTEXER</label>
+            </value>
+            <value>
+                <fullName>PUREAIRE MONITORING SYSTEMS INC</fullName>
+                <default>false</default>
+                <label>PUREAIRE MONITORING SYSTEMS INC</label>
+            </value>
+            <value>
+                <fullName>PURITAN MEDICAL PRODUCTS COMPANY LLC</fullName>
+                <default>false</default>
+                <label>PURITAN MEDICAL PRODUCTS COMPANY LLC</label>
+            </value>
+            <value>
+                <fullName>PURUS INTERNATIONAL INC</fullName>
+                <default>false</default>
+                <label>PURUS INTERNATIONAL INC</label>
+            </value>
+            <value>
+                <fullName>QBC DIAGNOSTICS LLC</fullName>
+                <default>false</default>
+                <label>QBC DIAGNOSTICS LLC</label>
+            </value>
+            <value>
+                <fullName>QED ENVIRONMENTAL SYSTEMS</fullName>
+                <default>false</default>
+                <label>QED ENVIRONMENTAL SYSTEMS</label>
+            </value>
+            <value>
+                <fullName>QUIDEL</fullName>
+                <default>false</default>
+                <label>QUIDEL</label>
+            </value>
+            <value>
+                <fullName>Quidel Triage</fullName>
+                <default>false</default>
+                <label>Quidel Triage</label>
+            </value>
+            <value>
+                <fullName>R&amp;D SYSTEMS</fullName>
+                <default>false</default>
+                <label>R&amp;D SYSTEMS</label>
+            </value>
+            <value>
+                <fullName>RD Plastics</fullName>
+                <default>false</default>
+                <label>RD Plastics</label>
+            </value>
+            <value>
+                <fullName>REICHERT JUNG</fullName>
+                <default>false</default>
+                <label>REICHERT JUNG</label>
+            </value>
+            <value>
+                <fullName>REYTEK EQUIPMENT LLC</fullName>
+                <default>false</default>
+                <label>REYTEK EQUIPMENT LLC</label>
+            </value>
+            <value>
+                <fullName>RMC</fullName>
+                <default>false</default>
+                <label>RMC</label>
+            </value>
+            <value>
+                <fullName>ROCHE</fullName>
+                <default>false</default>
+                <label>ROCHE</label>
+            </value>
+            <value>
+                <fullName>SAINT GOBAIN AMERICA OPERADORA</fullName>
+                <default>false</default>
+                <label>SAINT GOBAIN AMERICA OPERADORA</label>
+            </value>
+            <value>
+                <fullName>SAKURA</fullName>
+                <default>false</default>
+                <label>SAKURA</label>
+            </value>
+            <value>
+                <fullName>SALISBURY ELECTRICAL SAFETY LLC</fullName>
+                <default>false</default>
+                <label>SALISBURY ELECTRICAL SAFETY LLC</label>
+            </value>
+            <value>
+                <fullName>SA Scientific</fullName>
+                <default>false</default>
+                <label>SA Scientific</label>
+            </value>
+            <value>
+                <fullName>SAVOX</fullName>
+                <default>false</default>
+                <label>SAVOX</label>
+            </value>
+            <value>
+                <fullName>SCIENTIFIC MATERIAL COMPANY INC</fullName>
+                <default>false</default>
+                <label>SCIENTIFIC MATERIAL COMPANY INC</label>
+            </value>
+            <value>
+                <fullName>SCOTT SAFETY</fullName>
+                <default>false</default>
+                <label>SCOTT SAFETY</label>
+            </value>
+            <value>
+                <fullName>S CURVE TECHNOLOGIES</fullName>
+                <default>false</default>
+                <label>S CURVE TECHNOLOGIES</label>
+            </value>
+            <value>
+                <fullName>SDI BIOMED</fullName>
+                <default>false</default>
+                <label>SDI BIOMED</label>
+            </value>
+            <value>
+                <fullName>SEKISUI</fullName>
+                <default>false</default>
+                <label>SEKISUI</label>
+            </value>
+            <value>
+                <fullName>SELECT MEDICAL SUPPLY INC</fullName>
+                <default>false</default>
+                <label>SELECT MEDICAL SUPPLY INC</label>
+            </value>
+            <value>
+                <fullName>Sempermed USA</fullName>
+                <default>false</default>
+                <label>Sempermed USA</label>
+            </value>
+            <value>
+                <fullName>Serum Dpt</fullName>
+                <default>false</default>
+                <label>Serum Dpt</label>
+            </value>
+            <value>
+                <fullName>SHEAR TECH</fullName>
+                <default>false</default>
+                <label>SHEAR TECH</label>
+            </value>
+            <value>
+                <fullName>SHOE INN LLC</fullName>
+                <default>false</default>
+                <label>SHOE INN LLC</label>
+            </value>
+            <value>
+                <fullName>SIEMENS HEALTHINEERS</fullName>
+                <default>false</default>
+                <label>SIEMENS HEALTHINEERS</label>
+            </value>
+            <value>
+                <fullName>SIEMENS MEDICAL SOLUTIONS DIAGNOSTICS</fullName>
+                <default>false</default>
+                <label>SIEMENS MEDICAL SOLUTIONS DIAGNOSTICS</label>
+            </value>
+            <value>
+                <fullName>Simport Scientific</fullName>
+                <default>false</default>
+                <label>SIMPORT SCIENTIFIC</label>
+            </value>
+            <value>
+                <fullName>Smiths Medical</fullName>
+                <default>false</default>
+                <label>Smiths Medical</label>
+            </value>
+            <value>
+                <fullName>Sonoco</fullName>
+                <default>false</default>
+                <label>Sonoco</label>
+            </value>
+            <value>
+                <fullName>SORENSON BIOSCIENCES INC</fullName>
+                <default>false</default>
+                <label>SORENSON BIOSCIENCES INC</label>
+            </value>
+            <value>
+                <fullName>SOTAX CORPORATION</fullName>
+                <default>false</default>
+                <label>SOTAX CORPORATION</label>
+            </value>
+            <value>
+                <fullName>Spectrum Solutions</fullName>
+                <default>false</default>
+                <label>Spectrum Solutions</label>
+            </value>
+            <value>
+                <fullName>Sri Trang</fullName>
+                <default>false</default>
+                <label>Sri Trang</label>
+            </value>
+            <value>
+                <fullName>Stago</fullName>
+                <default>false</default>
+                <label>Stago</label>
+            </value>
+            <value>
+                <fullName>STANBIO</fullName>
+                <default>false</default>
+                <label>STANBIO</label>
+            </value>
+            <value>
+                <fullName>Starplex Scientific</fullName>
+                <default>false</default>
+                <label>Starplex Scientific</label>
+            </value>
+            <value>
+                <fullName>StatLab</fullName>
+                <default>false</default>
+                <label>StatLab</label>
+            </value>
+            <value>
+                <fullName>Sterilis Solutions</fullName>
+                <default>false</default>
+                <label>Sterilis Solutions</label>
+            </value>
+            <value>
+                <fullName>STONE MEDICAL</fullName>
+                <default>false</default>
+                <label>STONE MEDICAL</label>
+            </value>
+            <value>
+                <fullName>Streck</fullName>
+                <default>false</default>
+                <label>Streck</label>
+            </value>
+            <value>
+                <fullName>SURGICAL DESIGN INC</fullName>
+                <default>false</default>
+                <label>SURGICAL DESIGN INC</label>
+            </value>
+            <value>
+                <fullName>SURGIPATH</fullName>
+                <default>false</default>
+                <label>SURGIPATH</label>
+            </value>
+            <value>
+                <fullName>SW SAFETY SOLUTIONS INC</fullName>
+                <default>false</default>
+                <label>SW SAFETY SOLUTIONS INC</label>
+            </value>
+            <value>
+                <fullName>SYSMEX</fullName>
+                <default>false</default>
+                <label>SYSMEX</label>
+            </value>
+            <value>
+                <fullName>TBS</fullName>
+                <default>false</default>
+                <label>TBS</label>
+            </value>
+            <value>
+                <fullName>Techcyte</fullName>
+                <default>false</default>
+                <label>Techcyte</label>
+            </value>
+            <value>
+                <fullName>Techlab</fullName>
+                <default>false</default>
+                <label>Techlab</label>
+            </value>
+            <value>
+                <fullName>TERRA UNIVERSAL INC</fullName>
+                <default>false</default>
+                <label>TERRA UNIVERSAL INC</label>
+            </value>
+            <value>
+                <fullName>Therapak</fullName>
+                <default>false</default>
+                <label>Therapak</label>
+            </value>
+            <value>
+                <fullName>THERMO APD</fullName>
+                <default>false</default>
+                <label>THERMO APD</label>
+            </value>
+            <value>
+                <fullName>THERMO ASHEVILLE 3P</fullName>
+                <default>false</default>
+                <label>THERMO ASHEVILLE 3P</label>
+            </value>
+            <value>
+                <fullName>THERMO CDD</fullName>
+                <default>false</default>
+                <label>THERMO CDD</label>
+            </value>
+            <value>
+                <fullName>THERMO CTT</fullName>
+                <default>false</default>
+                <label>THERMO CTT</label>
+            </value>
+            <value>
+                <fullName>THERMO ENVIRONMENTAL AND PROCESS MONITORING (EPM)</fullName>
+                <default>false</default>
+                <label>THERMO ENVIRONMENTAL AND PROCESS MONITORING (EPM)</label>
+            </value>
+            <value>
+                <fullName>THERMO ENVIRONMENTAL INSTRUMENTS LLC</fullName>
+                <default>false</default>
+                <label>THERMO ENVIRONMENTAL INSTRUMENTS LLC</label>
+            </value>
+            <value>
+                <fullName>THERMO FISHER</fullName>
+                <default>false</default>
+                <label>THERMO FISHER</label>
+            </value>
+            <value>
+                <fullName>THERMO FISHER CHINA</fullName>
+                <default>false</default>
+                <label>THERMO FISHER CHINA</label>
+            </value>
+            <value>
+                <fullName>THERMO MBD</fullName>
+                <default>false</default>
+                <label>THERMO MBD</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI</fullName>
+                <default>false</default>
+                <label>THERMO SCI</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI 3P AIG INSTRUMENTS</fullName>
+                <default>false</default>
+                <label>THERMO SCI 3P AIG INSTRUMENTS</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI BID</fullName>
+                <default>false</default>
+                <label>THERMO SCI BID</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI Bio Safety Cabinets GPS</fullName>
+                <default>false</default>
+                <label>THERMO SCI Bio Safety Cabinets GPS</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI CAPITAL VIAL LPE</fullName>
+                <default>false</default>
+                <label>THERMO SCI CAPITAL VIAL LPE</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI CENTRIFUGATION GPS</fullName>
+                <default>false</default>
+                <label>THERMO SCI CENTRIFUGATION GPS</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI Chemical Analysis Division (CAD)</fullName>
+                <default>false</default>
+                <label>THERMO SCI Chemical Analysis Division (CAD)</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI CMD</fullName>
+                <default>false</default>
+                <label>THERMO SCI CMD</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI CO2 INCUBATORS GPS</fullName>
+                <default>false</default>
+                <label>THERMO SCI CO2 INCUBATORS GPS</label>
+            </value>
+            <value>
+                <fullName>Thermo Sci CSD</fullName>
+                <default>false</default>
+                <label>Thermo Sci CSD</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI EBERLINE</fullName>
+                <default>false</default>
+                <label>THERMO SCI EBERLINE</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI ENCLOSURES GPS</fullName>
+                <default>false</default>
+                <label>THERMO SCI ENCLOSURES GPS</label>
+            </value>
+            <value>
+                <fullName>THERMO SCIENTIFIC CTT</fullName>
+                <default>false</default>
+                <label>THERMO SCIENTIFIC CTT</label>
+            </value>
+            <value>
+                <fullName>THERMO SCIENTIFIC LET</fullName>
+                <default>false</default>
+                <label>THERMO SCIENTIFIC LET</label>
+            </value>
+            <value>
+                <fullName>THERMO SCIENTIFIC PORTABLE ANALYTICAL</fullName>
+                <default>false</default>
+                <label>THERMO SCIENTIFIC PORTABLE ANALYTICAL</label>
+            </value>
+            <value>
+                <fullName>Thermo Sci - GPS (LET)</fullName>
+                <default>false</default>
+                <label>Thermo Sci - GPS (LET)</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI GSD</fullName>
+                <default>false</default>
+                <label>THERMO SCI GSD</label>
+            </value>
+            <value>
+                <fullName>Thermo Sci IDD</fullName>
+                <color>#33FF33</color>
+                <default>false</default>
+                <label>Thermo Sci IDD</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI INCUBATORS LED</fullName>
+                <default>false</default>
+                <label>THERMO SCI INCUBATORS LED</label>
+            </value>
+            <value>
+                <fullName>Thermo Sci Incubators non-Co2 WLP</fullName>
+                <default>false</default>
+                <label>Thermo Sci Incubators non-Co2 WLP</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI LABSYSTEMS LPE</fullName>
+                <default>false</default>
+                <label>THERMO SCI LABSYSTEMS LPE</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI LAB VISION</fullName>
+                <default>false</default>
+                <label>THERMO SCI LAB VISION</label>
+            </value>
+            <value>
+                <fullName>Thermo Sci LCD - Fisher Chemical</fullName>
+                <default>false</default>
+                <label>Thermo Sci LCD - Fisher Chemical</label>
+            </value>
+            <value>
+                <fullName>Thermo Sci LPD - LET (CTT)</fullName>
+                <default>false</default>
+                <label>Thermo Sci LPD - LET (CTT)</label>
+            </value>
+            <value>
+                <fullName>Thermo Sci LPD - LET (GPS)</fullName>
+                <default>false</default>
+                <label>Thermo Sci LPD - LET (GPS)</label>
+            </value>
+            <value>
+                <fullName>Thermo Sci LPD - LPE</fullName>
+                <default>false</default>
+                <label>Thermo Sci LPD - LPE</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI MAS CDD</fullName>
+                <default>false</default>
+                <label>THERMO SCI MAS CDD</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI MBP LPE</fullName>
+                <default>false</default>
+                <label>THERMO SCI MBP LPE</label>
+            </value>
+            <value>
+                <fullName>Thermo Sci Mesa (RDS)</fullName>
+                <default>false</default>
+                <label>Thermo Sci Mesa (RDS)</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI NALGE LPE</fullName>
+                <default>false</default>
+                <label>THERMO SCI NALGE LPE</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI NANODROP</fullName>
+                <default>false</default>
+                <label>THERMO SCI NANODROP</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI NUNC LPE</fullName>
+                <default>false</default>
+                <label>THERMO SCI NUNC LPE</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI PHADIA IDD</fullName>
+                <default>false</default>
+                <label>THERMO SCI PHADIA IDD</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI PORTABLE ANALYTICAL</fullName>
+                <default>false</default>
+                <label>THERMO SCI PORTABLE ANALYTICAL</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI ROCHESTER</fullName>
+                <default>false</default>
+                <label>THERMO SCI ROCHESTER</label>
+            </value>
+            <value>
+                <fullName>THERMO SCI SAMCO LPE</fullName>
+                <default>false</default>
+                <label>THERMO SCI SAMCO LPE</label>
+            </value>
+            <value>
+                <fullName>Thermo SCI SDG</fullName>
+                <default>false</default>
+                <label>Thermo SCI SDG</label>
+            </value>
+            <value>
+                <fullName>THERMO TDX</fullName>
+                <default>false</default>
+                <label>THERMO TDX</label>
+            </value>
+            <value>
+                <fullName>THREE M COMPANY</fullName>
+                <default>false</default>
+                <label>THREE M COMPANY</label>
+            </value>
+            <value>
+                <fullName>TIANS INTERNATIONAL INC</fullName>
+                <default>false</default>
+                <label>TIANS INTERNATIONAL INC</label>
+            </value>
+            <value>
+                <fullName>TISSUE TEK</fullName>
+                <default>false</default>
+                <label>TISSUE TEK</label>
+            </value>
+            <value>
+                <fullName>Top Glove</fullName>
+                <default>false</default>
+                <label>Top Glove</label>
+            </value>
+            <value>
+                <fullName>TOSOH</fullName>
+                <color>#8F6429</color>
+                <default>false</default>
+                <label>TOSOH</label>
+            </value>
+            <value>
+                <fullName>TRINITY BIOTECH</fullName>
+                <default>false</default>
+                <label>TRINITY BIOTECH</label>
+            </value>
+            <value>
+                <fullName>TSI INCORPORATED</fullName>
+                <default>false</default>
+                <label>TSI INCORPORATED</label>
+            </value>
+            <value>
+                <fullName>Typenex</fullName>
+                <default>false</default>
+                <label>Typenex</label>
+            </value>
+            <value>
+                <fullName>ULTRA TAPE</fullName>
+                <default>false</default>
+                <label>ULTRA TAPE</label>
+            </value>
+            <value>
+                <fullName>UNIFORM TECHNOLOGY</fullName>
+                <default>false</default>
+                <label>UNIFORM TECHNOLOGY</label>
+            </value>
+            <value>
+                <fullName>VAISALA INC</fullName>
+                <default>false</default>
+                <label>VAISALA INC</label>
+            </value>
+            <value>
+                <fullName>Valiant</fullName>
+                <default>false</default>
+                <label>Valiant</label>
+            </value>
+            <value>
+                <fullName>VELA OPS/GREAT BASIN</fullName>
+                <default>false</default>
+                <label>VELA OPS/GREAT BASIN</label>
+            </value>
+            <value>
+                <fullName>VELTEK ASSOCIATES INC</fullName>
+                <default>false</default>
+                <label>VELTEK ASSOCIATES INC</label>
+            </value>
+            <value>
+                <fullName>VENTANA</fullName>
+                <default>false</default>
+                <label>VENTANA</label>
+            </value>
+            <value>
+                <fullName>Verax Biomedical</fullName>
+                <default>false</default>
+                <label>Verax Biomedical</label>
+            </value>
+            <value>
+                <fullName>VF IMAGEWEAR INC</fullName>
+                <default>false</default>
+                <label>VF IMAGEWEAR INC</label>
+            </value>
+            <value>
+                <fullName>Vidan Diagnostics</fullName>
+                <default>false</default>
+                <label>Vidan Diagnostics</label>
+            </value>
+            <value>
+                <fullName>VIDARO CORPORATION</fullName>
+                <default>false</default>
+                <label>VIDARO CORPORATION</label>
+            </value>
+            <value>
+                <fullName>Visby Medical</fullName>
+                <default>false</default>
+                <label>Visby Medical</label>
+            </value>
+            <value>
+                <fullName>WEARWELL INC</fullName>
+                <default>false</default>
+                <label>WEARWELL INC</label>
+            </value>
+            <value>
+                <fullName>WELLS LAMONT INDUSTRIAL PRODUCTS</fullName>
+                <default>false</default>
+                <label>WELLS LAMONT INDUSTRIAL PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>WHITE KNIGHT ENGINEERED PRODUCTS</fullName>
+                <default>false</default>
+                <label>WHITE KNIGHT ENGINEERED PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>YSI LIFE SCIENCES</fullName>
+                <default>false</default>
+                <label>YSI LIFE SCIENCES</label>
+            </value>
+            <value>
+                <fullName>ZEBRA</fullName>
+                <default>false</default>
+                <label>ZEBRA</label>
+            </value>
+            <value>
+                <fullName>Zeptometrix</fullName>
+                <default>false</default>
+                <label>Zeptometrix</label>
+            </value>
+            <value>
+                <fullName>ZEUS</fullName>
+                <default>false</default>
+                <label>ZEUS</label>
+            </value>
+            <value>
+                <fullName>ZHEJIANG GONGDONG MEDICAL TECH CO LTD</fullName>
+                <default>false</default>
+                <label>ZHEJIANG GONGDONG MEDICAL TECH CO LTD</label>
+            </value>
+            <value>
+                <fullName>ZING</fullName>
+                <default>false</default>
+                <label>ZING</label>
+            </value>
+            <value>
+                <fullName>ZOLL MEDICAL CORPORATION</fullName>
+                <default>false</default>
+                <label>ZOLL MEDICAL CORPORATION</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

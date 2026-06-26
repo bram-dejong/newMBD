@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Class__c</fullName>
+    <description>[CDD NA Pilot] The class of the product.</description>
+    <label>Product Class</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>6-AM</fullName>
+                <default>false</default>
+                <label>6-AM</label>
+            </value>
+            <value>
+                <fullName>Abbott MCC</fullName>
+                <default>false</default>
+                <label>Abbott MCC</label>
+            </value>
+            <value>
+                <fullName>Abbott Specific</fullName>
+                <default>false</default>
+                <label>Abbott Specific</label>
+            </value>
+            <value>
+                <fullName>Ab Indy &amp; Ag Indy-FG</fullName>
+                <default>false</default>
+                <label>Ab Indy &amp; Ag Indy-FG</label>
+            </value>
+            <value>
+                <fullName>AB-PINACA</fullName>
+                <default>false</default>
+                <label>AB-PINACA</label>
+            </value>
+            <value>
+                <fullName>Accessories</fullName>
+                <default>false</default>
+                <label>Accessories</label>
+            </value>
+            <value>
+                <fullName>Acetaminophen</fullName>
+                <default>false</default>
+                <label>Acetaminophen</label>
+            </value>
+            <value>
+                <fullName>Adsorb Out™</fullName>
+                <default>false</default>
+                <label>Adsorb Out™</label>
+            </value>
+            <value>
+                <fullName>AFP</fullName>
+                <default>false</default>
+                <label>AFP</label>
+            </value>
+            <value>
+                <fullName>Alcohol</fullName>
+                <default>false</default>
+                <label>Alcohol</label>
+            </value>
+            <value>
+                <fullName>Allele Specific Trays</fullName>
+                <default>false</default>
+                <label>Allele Specific Trays</label>
+            </value>
+            <value>
+                <fullName>AllSet+ Gold High-Resolution</fullName>
+                <default>false</default>
+                <label>AllSet+ Gold High-Resolution</label>
+            </value>
+            <value>
+                <fullName>AllSet+ Gold Low-Resolution</fullName>
+                <default>false</default>
+                <label>AllSet+ Gold Low-Resolution</label>
+            </value>
+            <value>
+                <fullName>AllType Ancillary Reagents</fullName>
+                <default>false</default>
+                <label>AllType Ancillary Reagents</label>
+            </value>
+            <value>
+                <fullName>AllType NGS</fullName>
+                <default>false</default>
+                <label>AllType NGS</label>
+            </value>
+            <value>
+                <fullName>Amikacin</fullName>
+                <default>false</default>
+                <label>Amikacin</label>
+            </value>
+            <value>
+                <fullName>Amph/Ecstasy</fullName>
+                <default>false</default>
+                <label>Amph/Ecstasy</label>
+            </value>
+            <value>
+                <fullName>Amphetamine</fullName>
+                <default>false</default>
+                <label>Amphetamine</label>
+            </value>
+            <value>
+                <fullName>AMX Custom Clinical</fullName>
+                <default>false</default>
+                <label>AMX Custom Clinical</label>
+            </value>
+            <value>
+                <fullName>Ancillary Product</fullName>
+                <default>false</default>
+                <label>Ancillary Product</label>
+            </value>
+            <value>
+                <fullName>Ancillary Products</fullName>
+                <default>false</default>
+                <label>Ancillary Products</label>
+            </value>
+            <value>
+                <fullName>anti-Tg</fullName>
+                <default>false</default>
+                <label>Anti-TG</label>
+            </value>
+            <value>
+                <fullName>anti-TPO</fullName>
+                <default>false</default>
+                <label>Anti-TPO</label>
+            </value>
+            <value>
+                <fullName>AQUAKEM Consumables</fullName>
+                <default>false</default>
+                <label>AQUAKEM Consumables</label>
+            </value>
+            <value>
+                <fullName>AQUAKEM Instruments</fullName>
+                <default>false</default>
+                <label>AQUAKEM Instruments</label>
+            </value>
+            <value>
+                <fullName>AQUAKEM Reagents</fullName>
+                <default>false</default>
+                <label>AQUAKEM Reagents</label>
+            </value>
+            <value>
+                <fullName>AQUAKEM Service &amp;Support</fullName>
+                <default>false</default>
+                <label>AQUAKEM Service &amp;Support</label>
+            </value>
+            <value>
+                <fullName>Arbekacin</fullName>
+                <default>false</default>
+                <label>Arbekacin</label>
+            </value>
+            <value>
+                <fullName>Arena/Aquakem Spare Part</fullName>
+                <default>false</default>
+                <label>Arena/Aquakem Spare Part</label>
+            </value>
+            <value>
+                <fullName>Arena C&amp;C</fullName>
+                <default>false</default>
+                <label>Arena C&amp;C</label>
+            </value>
+            <value>
+                <fullName>Arena Consumables</fullName>
+                <default>false</default>
+                <label>Arena Consumables</label>
+            </value>
+            <value>
+                <fullName>Arena Instruments</fullName>
+                <default>false</default>
+                <label>Arena Instruments</label>
+            </value>
+            <value>
+                <fullName>ARENA MAINTENANCE KITS</fullName>
+                <default>false</default>
+                <label>ARENA MAINTENANCE KITS</label>
+            </value>
+            <value>
+                <fullName>Arena Reagents</fullName>
+                <default>false</default>
+                <label>Arena Reagents</label>
+            </value>
+            <value>
+                <fullName>ARK TDM</fullName>
+                <default>false</default>
+                <label>ARK TDM</label>
+            </value>
+            <value>
+                <fullName>AT1R</fullName>
+                <default>false</default>
+                <label>AT1R</label>
+            </value>
+            <value>
+                <fullName>B27 Monoclonal Antibody</fullName>
+                <default>false</default>
+                <label>B27 Monoclonal Antibody</label>
+            </value>
+            <value>
+                <fullName>Barbiturate</fullName>
+                <default>false</default>
+                <label>Barbiturate</label>
+            </value>
+            <value>
+                <fullName>Barb OFT</fullName>
+                <default>false</default>
+                <label>Barb OFT</label>
+            </value>
+            <value>
+                <fullName>Benzodiazepine</fullName>
+                <default>false</default>
+                <label>Benzodiazepine</label>
+            </value>
+            <value>
+                <fullName>b-glucuronidase</fullName>
+                <default>false</default>
+                <label>b-glucuronidase</label>
+            </value>
+            <value>
+                <fullName>Bio-Tek® Microplate Reader</fullName>
+                <default>false</default>
+                <label>Bio-Tek® Microplate Reader</label>
+            </value>
+            <value>
+                <fullName>Blood Screening - NAT</fullName>
+                <default>false</default>
+                <label>Blood Screening - NAT</label>
+            </value>
+            <value>
+                <fullName>Blood Screening - Serology</fullName>
+                <default>false</default>
+                <label>Blood Screening - Serology</label>
+            </value>
+            <value>
+                <fullName>Bromperidol</fullName>
+                <default>false</default>
+                <label>Bromperidol</label>
+            </value>
+            <value>
+                <fullName>Bulk Monoloclonal Antibody</fullName>
+                <default>false</default>
+                <label>Bulk Monoloclonal Antibody</label>
+            </value>
+            <value>
+                <fullName>Bup II</fullName>
+                <default>false</default>
+                <label>Bup II</label>
+            </value>
+            <value>
+                <fullName>Buprenorphine</fullName>
+                <default>false</default>
+                <label>Buprenorphine</label>
+            </value>
+            <value>
+                <fullName>C1qScreen</fullName>
+                <default>false</default>
+                <label>C1qScreen</label>
+            </value>
+            <value>
+                <fullName>C1qScreen (Research Use)</fullName>
+                <default>false</default>
+                <label>C1qScreen (Research Use)</label>
+            </value>
+            <value>
+                <fullName>CA125</fullName>
+                <default>false</default>
+                <label>CA125</label>
+            </value>
+            <value>
+                <fullName>CA 15-3</fullName>
+                <default>false</default>
+                <label>CA 15-3</label>
+            </value>
+            <value>
+                <fullName>CA 19-9</fullName>
+                <default>false</default>
+                <label>CA 19-9</label>
+            </value>
+            <value>
+                <fullName>Capitol Vial</fullName>
+                <default>false</default>
+                <label>Capitol Vial</label>
+            </value>
+            <value>
+                <fullName>Carbamazepine</fullName>
+                <default>false</default>
+                <label>Carbamazepine</label>
+            </value>
+            <value>
+                <fullName>Cardiac Controls TL</fullName>
+                <default>false</default>
+                <label>Cardiac Controls TL</label>
+            </value>
+            <value>
+                <fullName>Casco</fullName>
+                <default>false</default>
+                <label>Casco</label>
+            </value>
+            <value>
+                <fullName>CCR</fullName>
+                <default>false</default>
+                <label>CCR</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion Accessories</fullName>
+                <default>false</default>
+                <label>CDD Cascadion Accessories</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion Consumables</fullName>
+                <default>false</default>
+                <label>CDD Cascadion Consumables</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion Instruments</fullName>
+                <default>false</default>
+                <label>CDD Cascadion Instruments</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion Reagents</fullName>
+                <default>false</default>
+                <label>CDD Cascadion Reagents</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion spare parts</fullName>
+                <default>false</default>
+                <label>CDD Cascadion spare parts</label>
+            </value>
+            <value>
+                <fullName>CEA</fullName>
+                <default>false</default>
+                <label>CEA</label>
+            </value>
+            <value>
+                <fullName>Ceriliant</fullName>
+                <default>false</default>
+                <label>Ceriliant</label>
+            </value>
+            <value>
+                <fullName>CgA</fullName>
+                <default>false</default>
+                <label>CgA</label>
+            </value>
+            <value>
+                <fullName>Chromate</fullName>
+                <default>false</default>
+                <label>Chromate</label>
+            </value>
+            <value>
+                <fullName>Clinical – Oncology</fullName>
+                <default>false</default>
+                <label>Clinical – Oncology</label>
+            </value>
+            <value>
+                <fullName>Clinical – Viral Infectious</fullName>
+                <default>false</default>
+                <label>Clinical – Viral Infectious</label>
+            </value>
+            <value>
+                <fullName>Cocaine</fullName>
+                <default>false</default>
+                <label>Cocaine</label>
+            </value>
+            <value>
+                <fullName>Collection Device</fullName>
+                <default>false</default>
+                <label>Collection Device</label>
+            </value>
+            <value>
+                <fullName>Consumables</fullName>
+                <default>false</default>
+                <label>Consumables</label>
+            </value>
+            <value>
+                <fullName>Cotinine</fullName>
+                <default>false</default>
+                <label>Cotinine</label>
+            </value>
+            <value>
+                <fullName>CPT Billing</fullName>
+                <default>false</default>
+                <label>CPT Billing</label>
+            </value>
+            <value>
+                <fullName>Creatinine</fullName>
+                <default>false</default>
+                <label>Creatinine</label>
+            </value>
+            <value>
+                <fullName>Cyclosporin</fullName>
+                <default>false</default>
+                <label>Cyclosporin</label>
+            </value>
+            <value>
+                <fullName>Cyclosporine</fullName>
+                <default>false</default>
+                <label>Cyclosporine</label>
+            </value>
+            <value>
+                <fullName>Cyfra 21-1</fullName>
+                <default>false</default>
+                <label>Cyfra 21-1</label>
+            </value>
+            <value>
+                <fullName>Cytokine Genotyping Trays</fullName>
+                <default>false</default>
+                <label>Cytokine Genotyping Trays</label>
+            </value>
+            <value>
+                <fullName>Cytotoxic Controls</fullName>
+                <default>false</default>
+                <label>Cytotoxic Controls</label>
+            </value>
+            <value>
+                <fullName>DAT</fullName>
+                <default>false</default>
+                <label>DAT</label>
+            </value>
+            <value>
+                <fullName>Diabetes Controls</fullName>
+                <default>false</default>
+                <label>Diabetes Controls</label>
+            </value>
+            <value>
+                <fullName>Digitoxin</fullName>
+                <default>false</default>
+                <label>Digitoxin</label>
+            </value>
+            <value>
+                <fullName>Digoxin</fullName>
+                <default>false</default>
+                <label>Digoxin</label>
+            </value>
+            <value>
+                <fullName>DOAT</fullName>
+                <default>false</default>
+                <label>DOAT</label>
+            </value>
+            <value>
+                <fullName>DON</fullName>
+                <default>false</default>
+                <label>DON</label>
+            </value>
+            <value>
+                <fullName>Dyed (Color-Rich, Fluoro-Max)</fullName>
+                <default>false</default>
+                <label>Dyed (Color-Rich, Fluoro-Max)</label>
+            </value>
+            <value>
+                <fullName>Dynabeads</fullName>
+                <default>false</default>
+                <label>Dynabeads</label>
+            </value>
+            <value>
+                <fullName>Ecstasy</fullName>
+                <default>false</default>
+                <label>Ecstasy</label>
+            </value>
+            <value>
+                <fullName>EDDP</fullName>
+                <default>false</default>
+                <label>EDDP</label>
+            </value>
+            <value>
+                <fullName>ELY Supern&amp;Pure AB&apos;s(FG)</fullName>
+                <default>false</default>
+                <label>ELY Supern&amp;Pure AB&apos;s(FG)</label>
+            </value>
+            <value>
+                <fullName>Endocrinology and Metabolic Disorders</fullName>
+                <default>false</default>
+                <label>Endocrinology and Metabolic Disorders</label>
+            </value>
+            <value>
+                <fullName>Estriol</fullName>
+                <default>false</default>
+                <label>Estriol</label>
+            </value>
+            <value>
+                <fullName>ETAR</fullName>
+                <default>false</default>
+                <label>ETAR</label>
+            </value>
+            <value>
+                <fullName>ETG</fullName>
+                <default>false</default>
+                <label>ETG</label>
+            </value>
+            <value>
+                <fullName>Everolimus</fullName>
+                <default>false</default>
+                <label>Everolimus</label>
+            </value>
+            <value>
+                <fullName>Fentanyl</fullName>
+                <default>false</default>
+                <label>Fentanyl</label>
+            </value>
+            <value>
+                <fullName>FlowDSA-XM</fullName>
+                <default>false</default>
+                <label>FlowDSA-XM</label>
+            </value>
+            <value>
+                <fullName>FlowPRA Ancillary Products</fullName>
+                <default>false</default>
+                <label>FlowPRA Ancillary Products</label>
+            </value>
+            <value>
+                <fullName>FlowPRA Screening Test</fullName>
+                <default>false</default>
+                <label>FlowPRA Screening Test</label>
+            </value>
+            <value>
+                <fullName>FlowPRA Single Antigen</fullName>
+                <default>false</default>
+                <label>FlowPRA Single Antigen</label>
+            </value>
+            <value>
+                <fullName>FlowPRA Specific Test</fullName>
+                <default>false</default>
+                <label>FlowPRA Specific Test</label>
+            </value>
+            <value>
+                <fullName>FluoroBeads™ Isolation Reagents</fullName>
+                <default>false</default>
+                <label>FluoroBeads™ Isolation Reagents</label>
+            </value>
+            <value>
+                <fullName>FluoroQuench™ Staining/Quench Reagent</fullName>
+                <default>false</default>
+                <label>FluoroQuench™ Staining/Quench Reagent</label>
+            </value>
+            <value>
+                <fullName>free PSA</fullName>
+                <default>false</default>
+                <label>free PSA</label>
+            </value>
+            <value>
+                <fullName>Free β-hCG</fullName>
+                <default>false</default>
+                <label>Free β-hCG</label>
+            </value>
+            <value>
+                <fullName>Gallery/Instrument</fullName>
+                <default>false</default>
+                <label>Gallery/Instrument</label>
+            </value>
+            <value>
+                <fullName>Gallery Consumables</fullName>
+                <default>false</default>
+                <label>Gallery Consumables</label>
+            </value>
+            <value>
+                <fullName>General Oxidant</fullName>
+                <default>false</default>
+                <label>General Oxidant</label>
+            </value>
+            <value>
+                <fullName>General Oxidant-Detect</fullName>
+                <default>false</default>
+                <label>General Oxidant-Detect</label>
+            </value>
+            <value>
+                <fullName>Generic Trays</fullName>
+                <default>false</default>
+                <label>Generic Trays</label>
+            </value>
+            <value>
+                <fullName>Gentamicin</fullName>
+                <default>false</default>
+                <label>Gentamicin</label>
+            </value>
+            <value>
+                <fullName>Goat IgG Anti-Human Kappa</fullName>
+                <default>false</default>
+                <label>Goat IgG Anti-Human Kappa</label>
+            </value>
+            <value>
+                <fullName>High Resolution Trays</fullName>
+                <default>false</default>
+                <label>High Resolution Trays</label>
+            </value>
+            <value>
+                <fullName>HLA B7, 27 lgG Biotinylated Conjugated Monoclonal Antibody</fullName>
+                <default>false</default>
+                <label>HLA B7, 27 lgG Biotinylated Conjugated Monoclonal Antibody</label>
+            </value>
+            <value>
+                <fullName>HLA Fusion™</fullName>
+                <default>false</default>
+                <label>HLA Fusion™</label>
+            </value>
+            <value>
+                <fullName>HNA Genotyping Test</fullName>
+                <default>false</default>
+                <label>HNA Genotyping Test</label>
+            </value>
+            <value>
+                <fullName>hs Tg</fullName>
+                <default>false</default>
+                <label>hs Tg</label>
+            </value>
+            <value>
+                <fullName>Human TRAK</fullName>
+                <default>false</default>
+                <label>Human TRAK</label>
+            </value>
+            <value>
+                <fullName>Hydrocodone</fullName>
+                <default>false</default>
+                <label>Hydrocodone</label>
+            </value>
+            <value>
+                <fullName>I/C HP Star</fullName>
+                <default>false</default>
+                <label>I/C HP Star</label>
+            </value>
+            <value>
+                <fullName>IHC</fullName>
+                <default>false</default>
+                <label>IHC</label>
+            </value>
+            <value>
+                <fullName>Immunoassay Controls</fullName>
+                <default>false</default>
+                <label>Immunoassay Controls</label>
+            </value>
+            <value>
+                <fullName>Indiko Consumables</fullName>
+                <default>false</default>
+                <label>Indiko Consumables</label>
+            </value>
+            <value>
+                <fullName>Indiko Instrument</fullName>
+                <default>false</default>
+                <label>Indiko Instrument</label>
+            </value>
+            <value>
+                <fullName>Indiko Service &amp; Support</fullName>
+                <default>false</default>
+                <label>Indiko Service &amp; Support</label>
+            </value>
+            <value>
+                <fullName>Indiko Spare Parts</fullName>
+                <default>false</default>
+                <label>Indiko Spare Parts</label>
+            </value>
+            <value>
+                <fullName>Infectious Disease</fullName>
+                <default>false</default>
+                <label>Infectious Disease</label>
+            </value>
+            <value>
+                <fullName>Instrument</fullName>
+                <default>false</default>
+                <label>Instrument</label>
+            </value>
+            <value>
+                <fullName>Instruments</fullName>
+                <default>false</default>
+                <label>Instruments</label>
+            </value>
+            <value>
+                <fullName>Ion Xpress Barcode Adapters 1-16 Kit</fullName>
+                <default>false</default>
+                <label>Ion Xpress Barcode Adapters 1-16 Kit</label>
+            </value>
+            <value>
+                <fullName>Ion Xpress Barcode Adapters 17-32 Kit</fullName>
+                <default>false</default>
+                <label>Ion Xpress Barcode Adapters 17-32 Kit</label>
+            </value>
+            <value>
+                <fullName>Ion Xpress Barcode Adapters 1-96 Kit</fullName>
+                <default>false</default>
+                <label>Ion Xpress Barcode Adapters 1-96 Kit</label>
+            </value>
+            <value>
+                <fullName>Ion Xpress Barcode Adapters 33-48 Kit</fullName>
+                <default>false</default>
+                <label>Ion Xpress Barcode Adapters 33-48 Kit</label>
+            </value>
+            <value>
+                <fullName>Ion Xpress Barcode Adapters 49-64 Kit</fullName>
+                <default>false</default>
+                <label>Ion Xpress Barcode Adapters 49-64 Kit</label>
+            </value>
+            <value>
+                <fullName>Ion Xpress Barcode Adapters 65-80 Kit</fullName>
+                <default>false</default>
+                <label>Ion Xpress Barcode Adapters 65-80 Kit</label>
+            </value>
+            <value>
+                <fullName>Ion Xpress Barcode Adapters 81-96 Kit</fullName>
+                <default>false</default>
+                <label>Ion Xpress Barcode Adapters 81-96 Kit</label>
+            </value>
+            <value>
+                <fullName>Ion Xpress Plus Fragment Library Kit (20 rxns )</fullName>
+                <default>false</default>
+                <label>Ion Xpress Plus Fragment Library Kit (20 rxns )</label>
+            </value>
+            <value>
+                <fullName>ISD</fullName>
+                <default>false</default>
+                <label>ISD</label>
+            </value>
+            <value>
+                <fullName>KIR SSO Genotyping</fullName>
+                <default>false</default>
+                <label>KIR SSO Genotyping</label>
+            </value>
+            <value>
+                <fullName>KIR SSP Genotyping</fullName>
+                <default>false</default>
+                <label>KIR SSP Genotyping</label>
+            </value>
+            <value>
+                <fullName>Kryptor Compact Plus</fullName>
+                <default>false</default>
+                <label>Kryptor Compact Plus</label>
+            </value>
+            <value>
+                <fullName>Kryptor Gold</fullName>
+                <default>false</default>
+                <label>Kryptor Gold</label>
+            </value>
+            <value>
+                <fullName>LABScan3D™</fullName>
+                <default>false</default>
+                <label>LABScan3D™</label>
+            </value>
+            <value>
+                <fullName>LABScan™</fullName>
+                <default>false</default>
+                <label>LABScan™</label>
+            </value>
+            <value>
+                <fullName>LABScreen Ancillary Reagents</fullName>
+                <default>false</default>
+                <label>LABScreen Ancillary Reagents</label>
+            </value>
+            <value>
+                <fullName>LABScreen Autoantibody Ancillary Reagents</fullName>
+                <default>false</default>
+                <label>LABScreen Autoantibody Ancillary Reagents</label>
+            </value>
+            <value>
+                <fullName>LABScreen Autoantibody Reagents</fullName>
+                <default>false</default>
+                <label>LABScreen Autoantibody Reagents</label>
+            </value>
+            <value>
+                <fullName>LABScreen MICA</fullName>
+                <default>false</default>
+                <label>LABScreen MICA</label>
+            </value>
+            <value>
+                <fullName>LABScreen Mixed</fullName>
+                <default>false</default>
+                <label>LABScreen Mixed</label>
+            </value>
+            <value>
+                <fullName>LABScreen Multi</fullName>
+                <default>false</default>
+                <label>LABScreen Multi</label>
+            </value>
+            <value>
+                <fullName>LABScreen PRA</fullName>
+                <default>false</default>
+                <label>LABScreen PRA</label>
+            </value>
+            <value>
+                <fullName>LABScreen Single Antigen</fullName>
+                <default>false</default>
+                <label>LABScreen Single Antigen</label>
+            </value>
+            <value>
+                <fullName>LABType CWD</fullName>
+                <default>false</default>
+                <label>LABType CWD</label>
+            </value>
+            <value>
+                <fullName>LABType HD</fullName>
+                <default>false</default>
+                <label>LABType HD</label>
+            </value>
+            <value>
+                <fullName>LABType SSO</fullName>
+                <default>false</default>
+                <label>LABType SSO</label>
+            </value>
+            <value>
+                <fullName>LABType XR</fullName>
+                <default>false</default>
+                <label>LABType XR</label>
+            </value>
+            <value>
+                <fullName>LABXpress™</fullName>
+                <default>false</default>
+                <label>LABXpress™</label>
+            </value>
+            <value>
+                <fullName>Lambda Monoclonal Trays™ (LMT)</fullName>
+                <default>false</default>
+                <label>Lambda Monoclonal Trays™ (LMT)</label>
+            </value>
+            <value>
+                <fullName>Lamotragine</fullName>
+                <default>false</default>
+                <label>Lamotragine</label>
+            </value>
+            <value>
+                <fullName>LAT</fullName>
+                <default>false</default>
+                <label>LAT</label>
+            </value>
+            <value>
+                <fullName>LAT Mixed</fullName>
+                <default>false</default>
+                <label>LAT Mixed</label>
+            </value>
+            <value>
+                <fullName>LAT Single Antigen</fullName>
+                <default>false</default>
+                <label>LAT Single Antigen</label>
+            </value>
+            <value>
+                <fullName>Lidocaine</fullName>
+                <default>false</default>
+                <label>Lidocaine</label>
+            </value>
+            <value>
+                <fullName>LinkSeq ABO</fullName>
+                <default>false</default>
+                <label>LinkSeq ABO</label>
+            </value>
+            <value>
+                <fullName>LinkSeq Accessories</fullName>
+                <default>false</default>
+                <label>LinkSeq Accessories</label>
+            </value>
+            <value>
+                <fullName>LinkSeq HLA</fullName>
+                <default>false</default>
+                <label>LinkSeq HLA</label>
+            </value>
+            <value>
+                <fullName>LinkSeq HPA</fullName>
+                <default>false</default>
+                <label>LinkSeq HPA</label>
+            </value>
+            <value>
+                <fullName>LinkSeq KIR</fullName>
+                <default>false</default>
+                <label>LinkSeq KIR</label>
+            </value>
+            <value>
+                <fullName>LinkSeq Products</fullName>
+                <default>false</default>
+                <label>LinkSeq Products</label>
+            </value>
+            <value>
+                <fullName>LinkSeq Wipe Test</fullName>
+                <default>false</default>
+                <label>LinkSeq Wipe Test</label>
+            </value>
+            <value>
+                <fullName>LinkSeq™ Accessories</fullName>
+                <default>false</default>
+                <label>LinkSeq™ Accessories</label>
+            </value>
+            <value>
+                <fullName>LinkSeq™ HLA</fullName>
+                <default>false</default>
+                <label>LinkSeq™ HLA</label>
+            </value>
+            <value>
+                <fullName>LinkSeq™ HPA</fullName>
+                <default>false</default>
+                <label>LinkSeq™ HPA</label>
+            </value>
+            <value>
+                <fullName>LinkSeq™ KIR</fullName>
+                <default>false</default>
+                <label>LinkSeq™ KIR</label>
+            </value>
+            <value>
+                <fullName>LinkSeq™ Products</fullName>
+                <default>false</default>
+                <label>LinkSeq™ Products</label>
+            </value>
+            <value>
+                <fullName>LinkSeq™ Wipe Test</fullName>
+                <default>false</default>
+                <label>LinkSeq™ Wipe Test</label>
+            </value>
+            <value>
+                <fullName>LSD</fullName>
+                <default>false</default>
+                <label>LSD</label>
+            </value>
+            <value>
+                <fullName>Lympho-Kwik™ Isolation Reagents</fullName>
+                <default>false</default>
+                <label>Lympho-Kwik™ Isolation Reagents</label>
+            </value>
+            <value>
+                <fullName>MD</fullName>
+                <default>false</default>
+                <label>MD</label>
+            </value>
+            <value>
+                <fullName>MD/OFT</fullName>
+                <default>false</default>
+                <label>MD/OFT</label>
+            </value>
+            <value>
+                <fullName>MD-B OFT Cal</fullName>
+                <default>false</default>
+                <label>MD-B OFT Cal</label>
+            </value>
+            <value>
+                <fullName>MD-B OFT Ctrl</fullName>
+                <default>false</default>
+                <label>MD-B OFT Ctrl</label>
+            </value>
+            <value>
+                <fullName>Methadone</fullName>
+                <default>false</default>
+                <label>Methadone</label>
+            </value>
+            <value>
+                <fullName>Methadone Metabolite</fullName>
+                <default>false</default>
+                <label>Methadone Metabolite</label>
+            </value>
+            <value>
+                <fullName>Methamphetamine</fullName>
+                <default>false</default>
+                <label>Methamphetamine</label>
+            </value>
+            <value>
+                <fullName>Methaqualone</fullName>
+                <default>false</default>
+                <label>Methaqualone</label>
+            </value>
+            <value>
+                <fullName>Meth OFT</fullName>
+                <default>false</default>
+                <label>Meth OFT</label>
+            </value>
+            <value>
+                <fullName>Micro SSP Seramates</fullName>
+                <default>false</default>
+                <label>Micro SSP Seramates</label>
+            </value>
+            <value>
+                <fullName>Micro SSP™ AmbiStrips™</fullName>
+                <default>false</default>
+                <label>Micro SSP™ AmbiStrips™</label>
+            </value>
+            <value>
+                <fullName>Mineral Oil</fullName>
+                <default>false</default>
+                <label>Mineral Oil</label>
+            </value>
+            <value>
+                <fullName>MPA</fullName>
+                <default>false</default>
+                <label>MPA</label>
+            </value>
+            <value>
+                <fullName>NAPA</fullName>
+                <default>false</default>
+                <label>NAPA</label>
+            </value>
+            <value>
+                <fullName>Negative Calibrator</fullName>
+                <default>false</default>
+                <label>Negative Calibrator</label>
+            </value>
+            <value>
+                <fullName>NGS Ancillary Equipment</fullName>
+                <default>false</default>
+                <label>NGS Ancillary Equipment</label>
+            </value>
+            <value>
+                <fullName>NGS Instrumentation</fullName>
+                <default>false</default>
+                <label>NGS Instrumentation</label>
+            </value>
+            <value>
+                <fullName>NGS Starter Packages</fullName>
+                <default>false</default>
+                <label>NGS Starter Packages</label>
+            </value>
+            <value>
+                <fullName>NSE</fullName>
+                <default>false</default>
+                <label>NSE</label>
+            </value>
+            <value>
+                <fullName>NXType NGS Reagents</fullName>
+                <default>false</default>
+                <label>NXType NGS Reagents</label>
+            </value>
+            <value>
+                <fullName>One Lambda SmartType™</fullName>
+                <default>false</default>
+                <label>One Lambda SmartType™</label>
+            </value>
+            <value>
+                <fullName>Opiate</fullName>
+                <default>false</default>
+                <label>Opiate</label>
+            </value>
+            <value>
+                <fullName>Osteocalcin</fullName>
+                <default>false</default>
+                <label>Osteocalcin</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Others clinical chemistry</fullName>
+                <default>false</default>
+                <label>Others clinical chemistry</label>
+            </value>
+            <value>
+                <fullName>Oxycodone</fullName>
+                <default>false</default>
+                <label>Oxycodone</label>
+            </value>
+            <value>
+                <fullName>Oxy OFT</fullName>
+                <default>false</default>
+                <label>Oxy OFT</label>
+            </value>
+            <value>
+                <fullName>PAPP-A</fullName>
+                <default>false</default>
+                <label>PAPP-A</label>
+            </value>
+            <value>
+                <fullName>PCP</fullName>
+                <default>false</default>
+                <label>PCP</label>
+            </value>
+            <value>
+                <fullName>PH</fullName>
+                <default>false</default>
+                <label>PH</label>
+            </value>
+            <value>
+                <fullName>Phenobarbitol</fullName>
+                <default>false</default>
+                <label>Phenobarbitol</label>
+            </value>
+            <value>
+                <fullName>Phenytoin</fullName>
+                <default>false</default>
+                <label>Phenytoin</label>
+            </value>
+            <value>
+                <fullName>Plgf</fullName>
+                <default>false</default>
+                <label>Plgf</label>
+            </value>
+            <value>
+                <fullName>PNS</fullName>
+                <default>false</default>
+                <label>PNS</label>
+            </value>
+            <value>
+                <fullName>POC COVID 19</fullName>
+                <default>false</default>
+                <label>POC COVID 19</label>
+            </value>
+            <value>
+                <fullName>POC DAU</fullName>
+                <default>false</default>
+                <label>POC DAU</label>
+            </value>
+            <value>
+                <fullName>POC DOA</fullName>
+                <default>false</default>
+                <label>POC DOA</label>
+            </value>
+            <value>
+                <fullName>Pooled Human Serum</fullName>
+                <default>false</default>
+                <label>Pooled Human Serum</label>
+            </value>
+            <value>
+                <fullName>Procainamide</fullName>
+                <default>false</default>
+                <label>Procainamide</label>
+            </value>
+            <value>
+                <fullName>Procalcitonin</fullName>
+                <default>false</default>
+                <label>Procalcitonin</label>
+            </value>
+            <value>
+                <fullName>Prolactin</fullName>
+                <default>false</default>
+                <label>Prolactin</label>
+            </value>
+            <value>
+                <fullName>Propoxyphene</fullName>
+                <default>false</default>
+                <label>Propoxyphene</label>
+            </value>
+            <value>
+                <fullName>QC</fullName>
+                <default>false</default>
+                <label>QC</label>
+            </value>
+            <value>
+                <fullName>Quinidine</fullName>
+                <default>false</default>
+                <label>Quinidine</label>
+            </value>
+            <value>
+                <fullName>Rabbit Complement</fullName>
+                <default>false</default>
+                <label>Rabbit Complement</label>
+            </value>
+            <value>
+                <fullName>Respiratory/Pulmonary/Cardiovascular Diseases</fullName>
+                <default>false</default>
+                <label>Respiratory/Pulmonary/Cardiovascular Diseases</label>
+            </value>
+            <value>
+                <fullName>Run Rate Product</fullName>
+                <default>false</default>
+                <label>Run Rate Product</label>
+            </value>
+            <value>
+                <fullName>Salicylate</fullName>
+                <default>false</default>
+                <label>Salicylate</label>
+            </value>
+            <value>
+                <fullName>Sample Check</fullName>
+                <default>false</default>
+                <label>Sample Check</label>
+            </value>
+            <value>
+                <fullName>Sample Validity</fullName>
+                <default>false</default>
+                <label>Sample Validity</label>
+            </value>
+            <value>
+                <fullName>SCC</fullName>
+                <default>false</default>
+                <label>SCC</label>
+            </value>
+            <value>
+                <fullName>SeCore GSSP</fullName>
+                <default>false</default>
+                <label>SeCore GSSP</label>
+            </value>
+            <value>
+                <fullName>SeCore SBT</fullName>
+                <default>false</default>
+                <label>SeCore SBT</label>
+            </value>
+            <value>
+                <fullName>Sflt-1</fullName>
+                <default>false</default>
+                <label>sFlt-1</label>
+            </value>
+            <value>
+                <fullName>Siemen Tox Control</fullName>
+                <default>false</default>
+                <label>Siemen Tox Control</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Spare Parts</fullName>
+                <default>false</default>
+                <label>Spare Parts</label>
+            </value>
+            <value>
+                <fullName>Specific protein</fullName>
+                <default>false</default>
+                <label>Specific protein</label>
+            </value>
+            <value>
+                <fullName>Sp Gravity</fullName>
+                <default>false</default>
+                <label>Sp Gravity</label>
+            </value>
+            <value>
+                <fullName>Surface Treated Plus Dyed, Fl, &amp; Undyed</fullName>
+                <default>false</default>
+                <label>Surface Treated Plus Dyed, Fl, &amp; Undyed</label>
+            </value>
+            <value>
+                <fullName>System reagent</fullName>
+                <default>false</default>
+                <label>System reagent</label>
+            </value>
+            <value>
+                <fullName>T4</fullName>
+                <default>false</default>
+                <label>T4</label>
+            </value>
+            <value>
+                <fullName>Tacrolimus</fullName>
+                <default>false</default>
+                <label>Tacrolimus</label>
+            </value>
+            <value>
+                <fullName>Taq Polymerase - 30µl</fullName>
+                <default>false</default>
+                <label>Taq Polymerase - 30µl</label>
+            </value>
+            <value>
+                <fullName>Taq Polymerase - 50µl</fullName>
+                <default>false</default>
+                <label>Taq Polymerase - 50µl</label>
+            </value>
+            <value>
+                <fullName>Taq Polymerase - 75µl</fullName>
+                <default>false</default>
+                <label>Taq Polymerase - 75µl</label>
+            </value>
+            <value>
+                <fullName>TDM</fullName>
+                <default>false</default>
+                <label>TDM</label>
+            </value>
+            <value>
+                <fullName>Teicoplanin</fullName>
+                <default>false</default>
+                <label>Teicoplanin</label>
+            </value>
+            <value>
+                <fullName>Terasaki Cover Slides</fullName>
+                <default>false</default>
+                <label>Terasaki Cover Slides</label>
+            </value>
+            <value>
+                <fullName>Terasaki Dry HLA Tissue Typing Trays</fullName>
+                <default>false</default>
+                <label>Terasaki Dry HLA Tissue Typing Trays</label>
+            </value>
+            <value>
+                <fullName>Terasaki HLA Tissue Typing Trays</fullName>
+                <default>false</default>
+                <label>Terasaki HLA Tissue Typing Trays</label>
+            </value>
+            <value>
+                <fullName>Terasaki Supplment HLA Tissue Typing Trays</fullName>
+                <default>false</default>
+                <label>Terasaki Supplment HLA Tissue Typing Trays</label>
+            </value>
+            <value>
+                <fullName>Terasaki Trays</fullName>
+                <default>false</default>
+                <label>Terasaki Trays</label>
+            </value>
+            <value>
+                <fullName>THC</fullName>
+                <default>false</default>
+                <label>THC</label>
+            </value>
+            <value>
+                <fullName>Theophylline</fullName>
+                <default>false</default>
+                <label>Theophylline</label>
+            </value>
+            <value>
+                <fullName>Thyroxine</fullName>
+                <default>false</default>
+                <label>Thyroxine</label>
+            </value>
+            <value>
+                <fullName>Tobramycin</fullName>
+                <default>false</default>
+                <label>Tobramycin</label>
+            </value>
+            <value>
+                <fullName>Topiramate</fullName>
+                <default>false</default>
+                <label>Topiramate</label>
+            </value>
+            <value>
+                <fullName>Total hCG</fullName>
+                <default>false</default>
+                <label>Total hCG</label>
+            </value>
+            <value>
+                <fullName>Total PSA</fullName>
+                <default>false</default>
+                <label>Total PSA</label>
+            </value>
+            <value>
+                <fullName>Tox (Serum) Control</fullName>
+                <default>false</default>
+                <label>Tox (Serum) Control</label>
+            </value>
+            <value>
+                <fullName>Tricyclics</fullName>
+                <default>false</default>
+                <label>Tricyclics</label>
+            </value>
+            <value>
+                <fullName>Tumor Marker</fullName>
+                <default>false</default>
+                <label>Tumor Marker</label>
+            </value>
+            <value>
+                <fullName>T Uptake</fullName>
+                <default>false</default>
+                <label>T Uptake</label>
+            </value>
+            <value>
+                <fullName>T-Uptake</fullName>
+                <default>false</default>
+                <label>T-Uptake</label>
+            </value>
+            <value>
+                <fullName>TypeStream™</fullName>
+                <default>false</default>
+                <label>TypeStream™</label>
+            </value>
+            <value>
+                <fullName>UniMatch PLUS™</fullName>
+                <default>false</default>
+                <label>UniMatch PLUS™</label>
+            </value>
+            <value>
+                <fullName>UR-144</fullName>
+                <default>false</default>
+                <label>UR-144</label>
+            </value>
+            <value>
+                <fullName>uTYPE™</fullName>
+                <default>false</default>
+                <label>uTYPE™</label>
+            </value>
+            <value>
+                <fullName>Valproic Acid</fullName>
+                <default>false</default>
+                <label>Valproic Acid</label>
+            </value>
+            <value>
+                <fullName>Vancomycine</fullName>
+                <default>false</default>
+                <label>Vancomycine</label>
+            </value>
+            <value>
+                <fullName>Vec-Test</fullName>
+                <default>false</default>
+                <label>Vec-Test</label>
+            </value>
+            <value>
+                <fullName>Zonisamide</fullName>
+                <default>false</default>
+                <label>Zonisamide</label>
+            </value>
+            <value>
+                <fullName>CDD-Spares</fullName>
+                <default>false</default>
+                <label>CDD-Spares</label>
+            </value>
+            <value>
+                <fullName>CDD-Consumables</fullName>
+                <default>false</default>
+                <label>CDD-Consumables</label>
+            </value>
+            <value>
+                <fullName>CDD-Instruments</fullName>
+                <default>false</default>
+                <label>CDD-Instruments</label>
+            </value>
+            <value>
+                <fullName>CDD-Sparepart</fullName>
+                <default>false</default>
+                <label>CDD-Sparepart</label>
+            </value>
+            <value>
+                <fullName>CDD-Instrument</fullName>
+                <default>false</default>
+                <label>CDD-Instrument</label>
+            </value>
+            <value>
+                <fullName>MBD-Consumables</fullName>
+                <default>false</default>
+                <label>MBD-Consumables</label>
+            </value>
+            <value>
+                <fullName>MBD-Spares</fullName>
+                <default>false</default>
+                <label>MBD-Spares</label>
+            </value>
+            <value>
+                <fullName>MBD-Instrument</fullName>
+                <default>false</default>
+                <label>MBD-Instrument</label>
+            </value>
+            <value>
+                <fullName>Reagent</fullName>
+                <default>false</default>
+                <label>Reagent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

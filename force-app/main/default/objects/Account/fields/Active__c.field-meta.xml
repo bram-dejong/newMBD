@@ -4,6 +4,6 @@
     <defaultValue>false</defaultValue>
     <description>for FCO classes</description>
     <label>Active</label>
-    <trackHistory>false</trackHistory>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

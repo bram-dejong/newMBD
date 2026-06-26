@@ -6,7 +6,6 @@
     <label>Channel Sub-Region</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
         <controllingField>Channel_Country__c</controllingField>
@@ -99,9 +98,27 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>United Kingdom</controllingFieldValue>
-            <controllingFieldValue>Greece</controllingFieldValue>
-            <valueName>EMEA</valueName>
+            <controllingFieldValue>Ukraine</controllingFieldValue>
+            <controllingFieldValue>Kosovo</controllingFieldValue>
+            <controllingFieldValue>Armenia</controllingFieldValue>
+            <controllingFieldValue>Azerbaijan</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Albania</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Belarus</controllingFieldValue>
+            <controllingFieldValue>Bulgaria</controllingFieldValue>
+            <controllingFieldValue>Croatia</controllingFieldValue>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Romania</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Georgia</controllingFieldValue>
+            <controllingFieldValue>Slovakia</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Israel</controllingFieldValue>
+            <valueName>Eastern Europe</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Jordan</controllingFieldValue>
@@ -109,8 +126,8 @@
             <controllingFieldValue>Bahrain</controllingFieldValue>
             <controllingFieldValue>Lebanon</controllingFieldValue>
             <controllingFieldValue>Yemen</controllingFieldValue>
-            <controllingFieldValue>Libya</controllingFieldValue>
             <controllingFieldValue>Algeria</controllingFieldValue>
+            <controllingFieldValue>Libya</controllingFieldValue>
             <controllingFieldValue>Morocco</controllingFieldValue>
             <controllingFieldValue>Cyprus</controllingFieldValue>
             <controllingFieldValue>Oman</controllingFieldValue>
@@ -120,6 +137,11 @@
             <controllingFieldValue>Syrian Arab Republic</controllingFieldValue>
             <controllingFieldValue>Iraq</controllingFieldValue>
             <valueName>MENA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <valueName>EMEA</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Kenya</controllingFieldValue>
@@ -166,29 +188,6 @@
             <controllingFieldValue>Tunisia</controllingFieldValue>
             <controllingFieldValue>Uganda</controllingFieldValue>
             <valueName>Sub Sahara</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Armenia</controllingFieldValue>
-            <controllingFieldValue>Azerbaijan</controllingFieldValue>
-            <controllingFieldValue>Latvia</controllingFieldValue>
-            <controllingFieldValue>Albania</controllingFieldValue>
-            <controllingFieldValue>Kosovo</controllingFieldValue>
-            <controllingFieldValue>Lithuania</controllingFieldValue>
-            <controllingFieldValue>Belarus</controllingFieldValue>
-            <controllingFieldValue>Bulgaria</controllingFieldValue>
-            <controllingFieldValue>Croatia</controllingFieldValue>
-            <controllingFieldValue>Estonia</controllingFieldValue>
-            <controllingFieldValue>Poland</controllingFieldValue>
-            <controllingFieldValue>Romania</controllingFieldValue>
-            <controllingFieldValue>Russian Federation</controllingFieldValue>
-            <controllingFieldValue>Georgia</controllingFieldValue>
-            <controllingFieldValue>Slovakia</controllingFieldValue>
-            <controllingFieldValue>Slovenia</controllingFieldValue>
-            <controllingFieldValue>Hungary</controllingFieldValue>
-            <controllingFieldValue>Turkey</controllingFieldValue>
-            <controllingFieldValue>Israel</controllingFieldValue>
-            <controllingFieldValue>Ukraine</controllingFieldValue>
-            <valueName>Eastern Europe</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Australia</controllingFieldValue>

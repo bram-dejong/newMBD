@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Hierarchy_Lvl_4__c</fullName>
+    <label>Product Hierarchy Lvl 4</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allergen tests</fullName>
+                <default>false</default>
+                <label>Allergen tests</label>
+            </value>
+            <value>
+                <fullName>AMX Custom Clinical</fullName>
+                <default>false</default>
+                <label>AMX Custom Clinical</label>
+            </value>
+            <value>
+                <fullName>Astar Consumable</fullName>
+                <default>false</default>
+                <label>Astar Consumable</label>
+            </value>
+            <value>
+                <fullName>Astar Equipment</fullName>
+                <default>false</default>
+                <label>Astar Equipment</label>
+            </value>
+            <value>
+                <fullName>BAX consumables</fullName>
+                <default>false</default>
+                <label>BAX consumables</label>
+            </value>
+            <value>
+                <fullName>BAX Equipment</fullName>
+                <default>false</default>
+                <label>BAX Equipment</label>
+            </value>
+            <value>
+                <fullName>Biochemical Confirmatory Tests</fullName>
+                <default>false</default>
+                <label>Biochemical Confirmatory Tests</label>
+            </value>
+            <value>
+                <fullName>Biochemical ID Panels</fullName>
+                <default>false</default>
+                <label>Biochemical ID Panels</label>
+            </value>
+            <value>
+                <fullName>Blood Culture Equipment</fullName>
+                <default>false</default>
+                <label>Blood Culture Equipment</label>
+            </value>
+            <value>
+                <fullName>Blood Culture Systems</fullName>
+                <default>false</default>
+                <label>Blood Culture Systems</label>
+            </value>
+            <value>
+                <fullName>Bottles</fullName>
+                <default>false</default>
+                <label>Bottles</label>
+            </value>
+            <value>
+                <fullName>CART</fullName>
+                <default>false</default>
+                <label>CART</label>
+            </value>
+            <value>
+                <fullName>Cartridges</fullName>
+                <default>false</default>
+                <label>Cartridges</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion Accessories</fullName>
+                <default>false</default>
+                <label>CDD Cascadion Accessories</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion Consumables</fullName>
+                <default>false</default>
+                <label>CDD Cascadion Consumables</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion Instruments</fullName>
+                <default>false</default>
+                <label>CDD Cascadion Instruments</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion Reagents</fullName>
+                <default>false</default>
+                <label>CDD Cascadion Reagents</label>
+            </value>
+            <value>
+                <fullName>CDD Cascadion spare parts</fullName>
+                <default>false</default>
+                <label>CDD Cascadion spare parts</label>
+            </value>
+            <value>
+                <fullName>Collection and Transport</fullName>
+                <default>false</default>
+                <label>Collection and Transport</label>
+            </value>
+            <value>
+                <fullName>Complement</fullName>
+                <default>false</default>
+                <label>Complement</label>
+            </value>
+            <value>
+                <fullName>Convenience formats</fullName>
+                <default>false</default>
+                <label>Convenience formats</label>
+            </value>
+            <value>
+                <fullName>Core Instrument Capital</fullName>
+                <default>false</default>
+                <label>Core Instrument Capital</label>
+            </value>
+            <value>
+                <fullName>Core Instrument Consumables</fullName>
+                <default>false</default>
+                <label>Core Instrument Consumables</label>
+            </value>
+            <value>
+                <fullName>Core Instrument Maintenance</fullName>
+                <default>false</default>
+                <label>Core Instrument Maintenance</label>
+            </value>
+            <value>
+                <fullName>Culti-Loops</fullName>
+                <default>false</default>
+                <label>Culti-Loops</label>
+            </value>
+            <value>
+                <fullName>Custom Consumables</fullName>
+                <default>false</default>
+                <label>Custom Consumables</label>
+            </value>
+            <value>
+                <fullName>Dehydrated Culture Media</fullName>
+                <default>false</default>
+                <label>Dehydrated Culture Media</label>
+            </value>
+            <value>
+                <fullName>Dynal Consumables [FT2]</fullName>
+                <default>false</default>
+                <label>Dynal Consumables [FT2]</label>
+            </value>
+            <value>
+                <fullName>Dynal Equipment [FT2]</fullName>
+                <default>false</default>
+                <label>Dynal Equipment [FT2]</label>
+            </value>
+            <value>
+                <fullName>Elisa Other</fullName>
+                <default>false</default>
+                <label>Elisa Other</label>
+            </value>
+            <value>
+                <fullName>Enteric</fullName>
+                <default>false</default>
+                <label>Enteric</label>
+            </value>
+            <value>
+                <fullName>Exent Capital Instruments</fullName>
+                <default>false</default>
+                <label>Exent Capital Instruments</label>
+            </value>
+            <value>
+                <fullName>Exent Consumables</fullName>
+                <default>false</default>
+                <label>Exent Consumables</label>
+            </value>
+            <value>
+                <fullName>Exent Maintenance</fullName>
+                <default>false</default>
+                <label>Exent Maintenance</label>
+            </value>
+            <value>
+                <fullName>Exent Reagents</fullName>
+                <default>false</default>
+                <label>Exent Reagents</label>
+            </value>
+            <value>
+                <fullName>Freelite</fullName>
+                <default>false</default>
+                <label>Freelite</label>
+            </value>
+            <value>
+                <fullName>Gas Generating Systems</fullName>
+                <default>false</default>
+                <label>Gas Generating Systems</label>
+            </value>
+            <value>
+                <fullName>Hevylite</fullName>
+                <default>false</default>
+                <label>Hevylite</label>
+            </value>
+            <value>
+                <fullName>Immunoglobulins</fullName>
+                <default>false</default>
+                <label>Immunoglobulins</label>
+            </value>
+            <value>
+                <fullName>Immunological tests</fullName>
+                <default>false</default>
+                <label>Immunological tests</label>
+            </value>
+            <value>
+                <fullName>Instrumentation</fullName>
+                <default>false</default>
+                <label>Instrumentation</label>
+            </value>
+            <value>
+                <fullName>Laboratory Preps</fullName>
+                <default>false</default>
+                <label>Laboratory Preps</label>
+            </value>
+            <value>
+                <fullName>Lateral Flow Tests</fullName>
+                <default>false</default>
+                <label>Lateral Flow Tests</label>
+            </value>
+            <value>
+                <fullName>Latex Agglutination tests</fullName>
+                <default>false</default>
+                <label>Latex Agglutination tests</label>
+            </value>
+            <value>
+                <fullName>LF Other</fullName>
+                <default>false</default>
+                <label>LF Other</label>
+            </value>
+            <value>
+                <fullName>LSG EMM MasterMix</fullName>
+                <default>false</default>
+                <label>LSG EMM MasterMix</label>
+            </value>
+            <value>
+                <fullName>Microseq/ RapidFinder/ TaqMan Consumable</fullName>
+                <default>false</default>
+                <label>Microseq/ RapidFinder/ TaqMan Consumable</label>
+            </value>
+            <value>
+                <fullName>Microseq/ RapidFinder Equipment</fullName>
+                <default>false</default>
+                <label>Microseq/ RapidFinder Equipment</label>
+            </value>
+            <value>
+                <fullName>Microseq/ RapidFinder Equiptment</fullName>
+                <default>false</default>
+                <label>Microseq/ RapidFinder Equiptment</label>
+            </value>
+            <value>
+                <fullName>Microseq/ RapidFinder  Support</fullName>
+                <default>false</default>
+                <label>Microseq/ RapidFinder  Support</label>
+            </value>
+            <value>
+                <fullName>MIC Tests</fullName>
+                <default>false</default>
+                <label>MIC Tests</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>NGS Product Range</fullName>
+                <default>false</default>
+                <label>NGS Product Range</label>
+            </value>
+            <value>
+                <fullName>Non- Pathogen Molecular Assays</fullName>
+                <default>false</default>
+                <label>Non- Pathogen Molecular Assays</label>
+            </value>
+            <value>
+                <fullName>OPAOther PP</fullName>
+                <default>false</default>
+                <label>OPAOther PP</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other IFA kits</fullName>
+                <default>false</default>
+                <label>Other IFA kits</label>
+            </value>
+            <value>
+                <fullName>Other Molecular Consumables</fullName>
+                <default>false</default>
+                <label>Other Molecular Consumables</label>
+            </value>
+            <value>
+                <fullName>Other Molecular Support</fullName>
+                <default>false</default>
+                <label>Other Molecular Support</label>
+            </value>
+            <value>
+                <fullName>Other QC Organisms</fullName>
+                <default>false</default>
+                <label>Other QC Organisms</label>
+            </value>
+            <value>
+                <fullName>Other Rapid Tests</fullName>
+                <default>false</default>
+                <label>Other Rapid Tests</label>
+            </value>
+            <value>
+                <fullName>Pathatrix Consumables [MTC]</fullName>
+                <default>false</default>
+                <label>Pathatrix Consumables [MTC]</label>
+            </value>
+            <value>
+                <fullName>Pathatrix Equipment [MTI]</fullName>
+                <default>false</default>
+                <label>Pathatrix Equipment [MTI]</label>
+            </value>
+            <value>
+                <fullName>PathoProof Consumables</fullName>
+                <default>false</default>
+                <label>PathoProof Consumables</label>
+            </value>
+            <value>
+                <fullName>Plates</fullName>
+                <default>false</default>
+                <label>Plates</label>
+            </value>
+            <value>
+                <fullName>Proficiency Test</fullName>
+                <default>false</default>
+                <label>Proficiency Test</label>
+            </value>
+            <value>
+                <fullName>Quanticult</fullName>
+                <default>false</default>
+                <label>Quanticult</label>
+            </value>
+            <value>
+                <fullName>Reader</fullName>
+                <default>false</default>
+                <label>Reader</label>
+            </value>
+            <value>
+                <fullName>Resale</fullName>
+                <default>false</default>
+                <label>Resale</label>
+            </value>
+            <value>
+                <fullName>Resale Collection and Transport</fullName>
+                <default>false</default>
+                <label>Resale Collection and Transport</label>
+            </value>
+            <value>
+                <fullName>Resale Instrumentation</fullName>
+                <default>false</default>
+                <label>Resale instrumentation</label>
+            </value>
+            <value>
+                <fullName>Resale Rapid Tests</fullName>
+                <default>false</default>
+                <label>Resale Rapid Tests</label>
+            </value>
+            <value>
+                <fullName>Respiratory</fullName>
+                <default>false</default>
+                <label>Respiratory</label>
+            </value>
+            <value>
+                <fullName>Sample Preparation</fullName>
+                <default>false</default>
+                <label>Sample Preparation</label>
+            </value>
+            <value>
+                <fullName>Sensititre AST Panels</fullName>
+                <default>false</default>
+                <label>Sensititre AST Panels</label>
+            </value>
+            <value>
+                <fullName>Sensititre broths and ancillaries</fullName>
+                <default>false</default>
+                <label>Sensititre broths and ancillaries</label>
+            </value>
+            <value>
+                <fullName>Sensititre Equipment</fullName>
+                <default>false</default>
+                <label>Sensititre Equipment</label>
+            </value>
+            <value>
+                <fullName>Sensititre Support</fullName>
+                <default>false</default>
+                <label>Sensititre Support</label>
+            </value>
+            <value>
+                <fullName>Sensititre Testing</fullName>
+                <default>false</default>
+                <label>Sensititre Testing</label>
+            </value>
+            <value>
+                <fullName>Stains and Reagents</fullName>
+                <default>false</default>
+                <label>Stains and Reagents</label>
+            </value>
+            <value>
+                <fullName>Subclasses</fullName>
+                <default>false</default>
+                <label>Subclasses</label>
+            </value>
+            <value>
+                <fullName>Supplements</fullName>
+                <default>false</default>
+                <label>Supplements</label>
+            </value>
+            <value>
+                <fullName>SureTect consumables</fullName>
+                <default>false</default>
+                <label>SureTect consumables</label>
+            </value>
+            <value>
+                <fullName>SureTect Equipment</fullName>
+                <default>false</default>
+                <label>SureTect Equipment</label>
+            </value>
+            <value>
+                <fullName>Tubes</fullName>
+                <default>false</default>
+                <label>Tubes</label>
+            </value>
+            <value>
+                <fullName>Vaccine Response</fullName>
+                <default>false</default>
+                <label>Vaccine Response</label>
+            </value>
+            <value>
+                <fullName>VersaTREK BC Bottles</fullName>
+                <default>false</default>
+                <label>VersaTREK BC Bottles</label>
+            </value>
+            <value>
+                <fullName>Versatrek Support</fullName>
+                <default>false</default>
+                <label>Versatrek Support</label>
+            </value>
+            <value>
+                <fullName>VersaTREK TB Bottles</fullName>
+                <default>false</default>
+                <label>VersaTREK TB Bottles</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

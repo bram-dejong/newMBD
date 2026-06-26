@@ -3,10 +3,10 @@
     <fullName>SVMX_ERP_Source__c</fullName>
     <description>Used to identify the source of data being created/updated by integration</description>
     <externalId>false</externalId>
-    <label>SVMX ERP Source</label>
+    <label>ERP Source</label>
     <length>10</length>
     <required>false</required>
-    <trackHistory>false</trackHistory>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Text</type>
     <unique>false</unique>
 </CustomField>

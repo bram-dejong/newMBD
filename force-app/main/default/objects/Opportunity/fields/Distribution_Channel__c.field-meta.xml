@@ -5,11 +5,12 @@
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>Avantor/VWR</fullName>
                 <default>false</default>
@@ -24,12 +25,6 @@
                 <fullName>Direct</fullName>
                 <default>true</default>
                 <label>Direct</label>
-            </value>
-            <value>
-                <fullName>Fisher</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Fisher</label>
             </value>
             <value>
                 <fullName>Fisher (EU/ROW)</fullName>
@@ -52,12 +47,6 @@
                 <label>Henry Schein</label>
             </value>
             <value>
-                <fullName>HMD</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>HMD</label>
-            </value>
-            <value>
                 <fullName>McKesson</fullName>
                 <default>false</default>
                 <label>McKesson</label>
@@ -76,6 +65,18 @@
                 <fullName>Other</fullName>
                 <default>false</default>
                 <label>Other</label>
+            </value>
+            <value>
+                <fullName>Fisher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fisher</label>
+            </value>
+            <value>
+                <fullName>HMD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HMD</label>
             </value>
         </valueSetDefinition>
     </valueSet>

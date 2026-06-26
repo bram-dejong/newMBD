@@ -4,7 +4,6 @@
     <description>Instructions for Ask-our-docs instance related to this product</description>
     <label>AOD Instructions</label>
     <length>32768</length>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>LongTextArea</type>
     <visibleLines>10</visibleLines>

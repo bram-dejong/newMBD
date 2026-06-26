@@ -5,7 +5,6 @@
     <description>Customer Replaceable Item</description>
     <inlineHelpText>Customer Replaceable Item - this product can replaced by a customer (consumable item)</inlineHelpText>
     <label>CRI</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

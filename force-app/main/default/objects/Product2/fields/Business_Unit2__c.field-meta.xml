@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit2__c</fullName>
+    <label>Business Unit</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>--None--</fullName>
+                <default>false</default>
+                <label>--None--</label>
+            </value>
+            <value>
+                <fullName>A&amp;A</fullName>
+                <default>false</default>
+                <label>A&amp;A</label>
+            </value>
+            <value>
+                <fullName>BMK</fullName>
+                <default>false</default>
+                <label>BMK</label>
+            </value>
+            <value>
+                <fullName>CCR</fullName>
+                <default>false</default>
+                <label>CCR</label>
+            </value>
+            <value>
+                <fullName>Niche</fullName>
+                <default>false</default>
+                <label>Niche</label>
+            </value>
+            <value>
+                <fullName>Point of Care</fullName>
+                <default>false</default>
+                <label>Point of Care</label>
+            </value>
+            <value>
+                <fullName>Clinical Mass Spec</fullName>
+                <default>false</default>
+                <label>CMS</label>
+            </value>
+            <value>
+                <fullName>SDG</fullName>
+                <default>false</default>
+                <label>SDG</label>
+            </value>
+            <value>
+                <fullName>Biomarkers</fullName>
+                <default>false</default>
+                <label>Biomarkers</label>
+            </value>
+            <value>
+                <fullName>POC</fullName>
+                <default>false</default>
+                <label>POC</label>
+            </value>
+            <value>
+                <fullName>RDS</fullName>
+                <default>false</default>
+                <label>RDS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -3,7 +3,6 @@
     <fullName>Update_Record__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Update Record</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

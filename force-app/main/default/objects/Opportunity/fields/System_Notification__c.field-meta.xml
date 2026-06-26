@@ -20,6 +20,7 @@ OR(ISBLANK(SO_Amount__c), ISBLANK(Order_Number_SO__c))
     <label>System Notification</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>
 </CustomField>

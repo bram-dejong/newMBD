@@ -3,7 +3,6 @@
     <fullName>Requires_Software__c</fullName>
     <defaultValue>false</defaultValue>
     <label>Requires Software</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

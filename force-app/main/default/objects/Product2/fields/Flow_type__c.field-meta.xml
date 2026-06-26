@@ -3,7 +3,6 @@
     <fullName>Flow_type__c</fullName>
     <label>Flow type</label>
     <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>

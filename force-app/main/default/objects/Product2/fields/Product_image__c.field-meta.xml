@@ -3,7 +3,6 @@
     <fullName>Product_image__c</fullName>
     <label>Product image</label>
     <length>32768</length>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Html</type>
     <visibleLines>25</visibleLines>

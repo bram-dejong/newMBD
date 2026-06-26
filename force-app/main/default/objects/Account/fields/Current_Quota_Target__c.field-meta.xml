@@ -10,6 +10,5 @@
     </summaryFilterItems>
     <summaryForeignKey>Partner_Performance__c.Account__c</summaryForeignKey>
     <summaryOperation>sum</summaryOperation>
-    <trackHistory>false</trackHistory>
     <type>Summary</type>
 </CustomField>

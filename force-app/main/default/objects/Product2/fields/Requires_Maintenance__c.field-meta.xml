@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <description>If checked product is eligible for PMV</description>
     <label>Requires Maintenance</label>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <type>Checkbox</type>
 </CustomField>
