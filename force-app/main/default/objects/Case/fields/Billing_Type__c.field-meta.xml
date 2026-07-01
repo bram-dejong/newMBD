@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Type__c</fullName>
+    <label>System Billing Type</label>
+    <inlineHelpText>Select Billing Type</inlineHelpText>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+                <label>Warranty</label>
+            </value>
+            <value>
+                <fullName>Contract</fullName>
+                <default>false</default>
+                <label>Contract</label>
+            </value>
+            <value>
+                <fullName>Billable</fullName>
+                <default>false</default>
+                <label>Billable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
+

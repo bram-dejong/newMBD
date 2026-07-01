@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description_Translated__c</fullName>
+    <label>Description (Translated)</label>
+    <inlineHelpText>Disclaimer: This text has been translated by AI. Minor differences from the original may be present, but the overall intent and meaning remain unchanged.</inlineHelpText>
+    <type>LongTextArea</type>
+    <length>32768</length>
+    <visibleLines>10</visibleLines>
+</CustomField>
+

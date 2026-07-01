@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDG_Close_Reason__c</fullName>
+    <label>Close Reason</label>
+    <inlineHelpText>Closure category</inlineHelpText>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Corrected</fullName>
+                <default>false</default>
+                <label>Corrected</label>
+            </value>
+            <value>
+                <fullName>Future Enhancement</fullName>
+                <default>false</default>
+                <label>Future Enhancement</label>
+            </value>
+            <value>
+                <fullName>No Solution Found</fullName>
+                <default>false</default>
+                <label>No Solution Found</label>
+            </value>
+            <value>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+                <label>Resolved</label>
+            </value>
+            <value>
+                <fullName>Trained</fullName>
+                <default>false</default>
+                <label>Trained</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
+

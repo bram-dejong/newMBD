@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Division__c</fullName>
+    <label>Division</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IDD</fullName>
+                <default>false</default>
+                <label>IDD</label>
+            </value>
+            <value>
+                <fullName>CDD</fullName>
+                <default>false</default>
+                <label>CDD</label>
+            </value>
+            <value>
+                <fullName>MBD</fullName>
+                <default>false</default>
+                <label>MBD</label>
+            </value>
+            <value>
+                <fullName>TDX</fullName>
+                <default>false</default>
+                <label>TDX</label>
+            </value>
+            <value>
+                <fullName>PDX</fullName>
+                <default>false</default>
+                <label>PDX</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
+

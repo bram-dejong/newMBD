@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_File_s_location__c</fullName>
+    <label>Log File(s) location</label>
+    <inlineHelpText>Address or URL for Log files</inlineHelpText>
+    <type>Text</type>
+    <length>255</length>
+</CustomField>
+

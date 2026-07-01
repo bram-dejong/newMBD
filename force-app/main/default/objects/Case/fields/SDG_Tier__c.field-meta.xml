@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDG_Tier__c</fullName>
+    <label>Tier</label>
+    <inlineHelpText>Used by Analyst for support categorization</inlineHelpText>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>I - Business</fullName>
+                <default>false</default>
+                <label>I - Business</label>
+            </value>
+            <value>
+                <fullName>II - EAS Consultants</fullName>
+                <default>false</default>
+                <label>II - EAS Consultants</label>
+            </value>
+            <value>
+                <fullName>III - EAS Internal</fullName>
+                <default>false</default>
+                <label>III - EAS Internal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
+

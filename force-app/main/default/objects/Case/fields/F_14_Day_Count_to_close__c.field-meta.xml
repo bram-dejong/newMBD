@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F_14_Day_Count_to_close__c</fullName>
+    <label>14 Day Count to close</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+</CustomField>
+

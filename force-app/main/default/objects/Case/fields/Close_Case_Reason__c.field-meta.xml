@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Case_Reason__c</fullName>
+    <label>Close Case Reason</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Application support</fullName>
+                <default>false</default>
+                <label>Application support</label>
+            </value>
+            <value>
+                <fullName>Canceled by customer</fullName>
+                <default>false</default>
+                <label>Canceled by customer</label>
+            </value>
+            <value>
+                <fullName>Escalated</fullName>
+                <default>false</default>
+                <label>Escalated</label>
+            </value>
+            <value>
+                <fullName>Information given to customer</fullName>
+                <default>false</default>
+                <label>Information given to customer</label>
+            </value>
+            <value>
+                <fullName>Part(s) sent to customer</fullName>
+                <default>false</default>
+                <label>Part(s) sent to customer</label>
+            </value>
+            <value>
+                <fullName>Problem solved by FSE</fullName>
+                <default>false</default>
+                <label>Problem solved by FSE</label>
+            </value>
+            <value>
+                <fullName>Problem solved by Hotline</fullName>
+                <default>false</default>
+                <label>Problem solved by Hotline</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Remote Service</fullName>
+                <default>false</default>
+                <label>Remote Service</label>
+            </value>
+            <value>
+                <fullName>Resolved by Field Agent</fullName>
+                <default>false</default>
+                <label>Resolved by Field Agent</label>
+            </value>
+            <value>
+                <fullName>Resolved by Investigator</fullName>
+                <default>false</default>
+                <label>Resolved by Investigator</label>
+            </value>
+            <value>
+                <fullName>Solved by customer</fullName>
+                <default>false</default>
+                <label>Solved by customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
+

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAPA_ID__c</fullName>
+    <label>Manufacturer Reference</label>
+    <type>Text</type>
+    <length>25</length>
+</CustomField>
+

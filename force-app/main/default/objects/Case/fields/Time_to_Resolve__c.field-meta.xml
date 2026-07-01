@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_to_Resolve__c</fullName>
+    <label>Time to Resolve (in Minutes)</label>
+    <inlineHelpText>Time taken to resolve as per commitment in SLA.</inlineHelpText>
+    <type>Number</type>
+    <precision>18</precision>
+    <scale>2</scale>
+</CustomField>
+

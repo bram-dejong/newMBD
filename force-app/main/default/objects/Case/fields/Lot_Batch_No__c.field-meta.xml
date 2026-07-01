@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lot_Batch_No__c</fullName>
+    <label>Lot/Batch No</label>
+    <inlineHelpText>Lot or batch number involved in this case</inlineHelpText>
+    <type>Text</type>
+    <length>25</length>
+</CustomField>
+

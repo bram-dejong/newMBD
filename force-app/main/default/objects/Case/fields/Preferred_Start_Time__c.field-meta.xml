@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Start_Time__c</fullName>
+    <label>Preferred Start Time</label>
+    <inlineHelpText>Start time for the case to be scheduled. Calculated automatically based on booking window selection.</inlineHelpText>
+    <type>DateTime</type>
+</CustomField>
+

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entitlement_Type__c</fullName>
+    <label>Entitlement Type</label>
+    <inlineHelpText>This is for internal use,  and this is set to &apos;Auto&apos; by Auto-Entitlement or set to &apos;Interactive&apos; in interactive entitlement.</inlineHelpText>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AUTO</fullName>
+                <default>false</default>
+                <label>AUTO</label>
+            </value>
+            <value>
+                <fullName>INTERACTIVE</fullName>
+                <default>false</default>
+                <label>INTERACTIVE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
+

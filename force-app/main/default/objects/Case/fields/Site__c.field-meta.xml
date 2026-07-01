@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site__c</fullName>
+    <label>Location</label>
+    <inlineHelpText>The customer location where the contact is reporting the problem or the location of the installed product.</inlineHelpText>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <referenceTo>Location</referenceTo>
+    <relationshipLabel>Location Cases</relationshipLabel>
+    <relationshipName>Location_Cases</relationshipName>
+    <type>Lookup</type>
+</CustomField>
+

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clock_Paused_Forever__c</fullName>
+    <label>Clock Paused Forever</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+</CustomField>
+

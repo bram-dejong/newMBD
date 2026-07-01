@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Frequency__c</fullName>
+    <label>Frequency</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Reoccurring</fullName>
+                <default>false</default>
+                <label>Reoccurring</label>
+            </value>
+            <value>
+                <fullName>Frequent</fullName>
+                <default>false</default>
+                <label>Frequent</label>
+            </value>
+            <value>
+                <fullName>Systematic</fullName>
+                <default>false</default>
+                <label>Systematic</label>
+            </value>
+            <value>
+                <fullName>Escalated</fullName>
+                <default>false</default>
+                <label>Escalated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
+

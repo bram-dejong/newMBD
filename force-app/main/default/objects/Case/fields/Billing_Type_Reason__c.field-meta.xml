@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Type_Reason__c</fullName>
+    <label>Billing Type Reason</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On sales demand</fullName>
+                <default>false</default>
+                <label>On sales demand</label>
+            </value>
+            <value>
+                <fullName>Courtesy</fullName>
+                <default>false</default>
+                <label>Courtesy</label>
+            </value>
+            <value>
+                <fullName>Alternative billing</fullName>
+                <default>false</default>
+                <label>Alternative billing</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
+

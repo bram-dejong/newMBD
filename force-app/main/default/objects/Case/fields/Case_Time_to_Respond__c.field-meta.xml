@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Time_to_Respond__c</fullName>
+    <label>Case Time to Respond</label>
+    <inlineHelpText>Using LastModifiedDate  &lt; 14 as 🟢 and not used in past 14 day as 🔴 for &apos;normal&apos; cases and
+ 🟢 🟡 🔴 for &apos;queue owned cases&apos; based on Days open.</inlineHelpText>
+    <type>Text</type>
+    <length>255</length>
+</CustomField>
+

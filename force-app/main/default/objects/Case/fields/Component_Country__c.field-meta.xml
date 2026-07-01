@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Component_Country__c</fullName>
+    <label>Component SN Country</label>
+    <inlineHelpText>“Country” part of the physical location address of Component SN</inlineHelpText>
+    <type>Text</type>
+    <length>255</length>
+</CustomField>
+

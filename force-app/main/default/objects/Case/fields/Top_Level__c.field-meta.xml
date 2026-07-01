@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_Level__c</fullName>
+    <label>Product/System</label>
+    <inlineHelpText>Serial number of the top-level installed product to which the component belongs. Is a lookup to an existing installed product record in ServiceMax.</inlineHelpText>
+    <type>Text</type>
+    <length>18</length>
+</CustomField>
+

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pMDR_4__c</fullName>
+    <label>Sample damage or loss issue</label>
+    <inlineHelpText>Risk of sample damage or loss - if checked an email will be send to Quality Officer</inlineHelpText>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+</CustomField>
+

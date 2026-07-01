@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zinc_Conversation__c</fullName>
+    <label>Zinc Conversation</label>
+    <inlineHelpText>View this object&apos;s conversation in Zinc</inlineHelpText>
+    <type>Text</type>
+    <length>255</length>
+</CustomField>
+

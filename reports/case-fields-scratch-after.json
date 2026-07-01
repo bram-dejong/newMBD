@@ -1,0 +1,3492 @@
+﻿[
+    {
+        "name":  "Id",
+        "label":  "Case ID",
+        "type":  "id",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "IsDeleted",
+        "label":  "Deleted",
+        "type":  "boolean",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "MasterRecordId",
+        "label":  "Master Record ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "Case"
+                        ]
+    },
+    {
+        "name":  "CaseNumber",
+        "label":  "Case Number",
+        "type":  "string",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  30,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "ContactId",
+        "label":  "Contact ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "Contact"
+                        ]
+    },
+    {
+        "name":  "AccountId",
+        "label":  "Account ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "Account"
+                        ]
+    },
+    {
+        "name":  "AssetId",
+        "label":  "Asset ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "Asset"
+                        ]
+    },
+    {
+        "name":  "ProductId",
+        "label":  "Product ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "Product2"
+                        ]
+    },
+    {
+        "name":  "EntitlementId",
+        "label":  "Entitlement ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "Entitlement"
+                        ]
+    },
+    {
+        "name":  "SourceId",
+        "label":  "Case Source ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "EmailMessage",
+                            "SocialPost"
+                        ]
+    },
+    {
+        "name":  "BusinessHoursId",
+        "label":  "Business Hours ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "BusinessHours"
+                        ]
+    },
+    {
+        "name":  "ParentId",
+        "label":  "Parent Case ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "Case"
+                        ]
+    },
+    {
+        "name":  "SuppliedName",
+        "label":  "Name",
+        "type":  "string",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  80,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SuppliedEmail",
+        "label":  "Email Address",
+        "type":  "email",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  80,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SuppliedPhone",
+        "label":  "Phone",
+        "type":  "string",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  40,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SuppliedCompany",
+        "label":  "Company",
+        "type":  "string",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  80,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Type",
+        "label":  "Case Type",
+        "type":  "picklist",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Status",
+        "label":  "Status",
+        "type":  "picklist",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Reason",
+        "label":  "Case Reason",
+        "type":  "picklist",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Origin",
+        "label":  "Case Origin",
+        "type":  "picklist",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "IsVisibleInSelfService",
+        "label":  "Visible in Self-Service Portal",
+        "type":  "boolean",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Subject",
+        "label":  "Subject",
+        "type":  "string",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Priority",
+        "label":  "Priority",
+        "type":  "picklist",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Description",
+        "label":  "Description",
+        "type":  "textarea",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  32000,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "IsClosed",
+        "label":  "Closed",
+        "type":  "boolean",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "ClosedDate",
+        "label":  "Closed Date",
+        "type":  "datetime",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "IsEscalated",
+        "label":  "Escalated",
+        "type":  "boolean",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "HasCommentsUnreadByOwner",
+        "label":  "New Self-Service Comment",
+        "type":  "boolean",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "HasSelfServiceComments",
+        "label":  "Self-Service Commented",
+        "type":  "boolean",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "CurrencyIsoCode",
+        "label":  "Case Currency",
+        "type":  "picklist",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  3,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "OwnerId",
+        "label":  "Owner ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "Group",
+                            "User"
+                        ]
+    },
+    {
+        "name":  "IsClosedOnCreate",
+        "label":  "Closed When Created",
+        "type":  "boolean",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "IsSelfServiceClosed",
+        "label":  "Closed by Self-Service User",
+        "type":  "boolean",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SlaStartDate",
+        "label":  "Sla Policy Start Time",
+        "type":  "datetime",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SlaExitDate",
+        "label":  "Sla Policy End Time",
+        "type":  "datetime",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "IsStopped",
+        "label":  "Stopped",
+        "type":  "boolean",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "StopStartDate",
+        "label":  "Stopped Since",
+        "type":  "datetime",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "CreatedDate",
+        "label":  "Created Date",
+        "type":  "datetime",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "CreatedById",
+        "label":  "Created By ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "User"
+                        ]
+    },
+    {
+        "name":  "LastModifiedDate",
+        "label":  "Last Modified Date",
+        "type":  "datetime",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "LastModifiedById",
+        "label":  "Last Modified By ID",
+        "type":  "reference",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "User"
+                        ]
+    },
+    {
+        "name":  "SystemModstamp",
+        "label":  "System Modstamp",
+        "type":  "datetime",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "ContactPhone",
+        "label":  "Contact Phone",
+        "type":  "phone",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  40,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "ContactMobile",
+        "label":  "Contact Mobile",
+        "type":  "phone",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  40,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "ContactEmail",
+        "label":  "Contact Email",
+        "type":  "email",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  80,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "ContactFax",
+        "label":  "Contact Fax",
+        "type":  "phone",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  40,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Comments",
+        "label":  "Internal Comments",
+        "type":  "textarea",
+        "custom":  false,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  4000,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "LastViewedDate",
+        "label":  "Last Viewed Date",
+        "type":  "datetime",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "LastReferencedDate",
+        "label":  "Last Referenced Date",
+        "type":  "datetime",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "MilestoneStatus",
+        "label":  "Milestone Status",
+        "type":  "string",
+        "custom":  false,
+        "createable":  false,
+        "updateable":  false,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  30,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Actual_Initial_Response__c",
+        "label":  "Actual Initial Response",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Actual_Onsite_Response__c",
+        "label":  "Actual Onsite Response",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Actual_Resolution__c",
+        "label":  "Actual Resolution",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Actual_Restoration__c",
+        "label":  "Actual Restoration",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Analyte_component__c",
+        "label":  "Analyte component",
+        "type":  "multipicklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  4099,
+        "precision":  4,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Auto_Entitlement_Status__c",
+        "label":  "Auto Entitlement Status",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "BW_Date__c",
+        "label":  "BW Date",
+        "type":  "date",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "BW_Selected_By__c",
+        "label":  "BW Selected By",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "BW_Selected_On__c",
+        "label":  "BW Selected On",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "BW_Slots_Before__c",
+        "label":  "BW Slots Before",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "BW_Territory__c",
+        "label":  "BW Territory",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "BW_Time_Zone__c",
+        "label":  "BW Time Zone",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Billing_Type_Reason__c",
+        "label":  "Billing Type Reason",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Billing_Type__c",
+        "label":  "System Billing Type",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Booking_Window__c",
+        "label":  "Booking Window",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "CAPA_ID__c",
+        "label":  "Manufacturer Reference",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  25,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "CMS_Site__c",
+        "label":  "CMS-Site",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Case_Comment_Added__c",
+        "label":  "Case Comment Added",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Case_Country__c",
+        "label":  "Case Country",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Case_Record_Count__c",
+        "label":  "Case Record Count",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  1,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Case_Resolution__c",
+        "label":  "Case Resolution",
+        "type":  "textarea",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  131072,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Case_Time_to_Respond__c",
+        "label":  "Case Time to Respond",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Case__c",
+        "label":  "SVMX Case #",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  30,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Caselink__c",
+        "label":  "Caselink",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "City__c",
+        "label":  "City",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  50,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Clock_Paused_Forever__c",
+        "label":  "Clock Paused Forever",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Close_Case_Reason__c",
+        "label":  "Close Case Reason",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Comp_IP__c",
+        "label":  "Competitor Installed Product",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Component_City__c",
+        "label":  "Component SN City",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Component_Country__c",
+        "label":  "Component SN Country",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Component_State__c",
+        "label":  "Component SN State",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Component_Street__c",
+        "label":  "Component SN Street",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Component_Zip__c",
+        "label":  "Component SN Zip",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Component__c",
+        "label":  "Installed Product",
+        "type":  "reference",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+                            "Asset"
+                        ]
+    },
+    {
+        "name":  "Component_serial__c",
+        "label":  "Component_serial",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Credit_Check__c",
+        "label":  "Credit Check",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Customer_Satisfaction__c",
+        "label":  "Customer Satisfaction",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Days_Open__c",
+        "label":  "Days Open",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Days_to_resolution__c",
+        "label":  "Days to resolution",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Description_Translated__c",
+        "label":  "Description (Translated)",
+        "type":  "textarea",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  32768,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Division__c",
+        "label":  "Division",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Email__c",
+        "label":  "Email",
+        "type":  "email",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  80,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Entitlement_Notes__c",
+        "label":  "Entitlement Notes",
+        "type":  "textarea",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  32000,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Entitlement_Type__c",
+        "label":  "Entitlement Type",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Error_Code_Link__c",
+        "label":  "Linked Error Code",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Error_Code__c",
+        "label":  "Error Code",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "FSR_template__c",
+        "label":  "FSR template",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "F_14_Day_Count_to_close__c",
+        "label":  "14 Day Count to close",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Frequency__c",
+        "label":  "Frequency",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Genesys_Conversation_Id__c",
+        "label":  "Genesys_Conversation_Id",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  100,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Genesys_Email_Queue__c",
+        "label":  "Genesys Email Queue",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "InfoCard_ID__c",
+        "label":  "InfoCard ID",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  25,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Initial_Response_Customer_By__c",
+        "label":  "Initial Response Customer By",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Initial_Response_Internal_By__c",
+        "label":  "Initial Response Internal By",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "IsKNcreator__c",
+        "label":  "IsKNcreator",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Is_Entitlement_Performed__c",
+        "label":  "Is Entitlement Performed",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Is_Invoice_Created__c",
+        "label":  "Is Invoice Created",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Is_PM_Case__c",
+        "label":  "Is PM Case",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Is_SLA_Calculated__c",
+        "label":  "Recalculate SLA",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Is_Service_Covered__c",
+        "label":  "Is Service Covered",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Is_owned_by_Queue__c",
+        "label":  "Is owned by Queue",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Latest_Case_Comments__c",
+        "label":  "Latest Case Comments",
+        "type":  "textarea",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  32768,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Latitude__c",
+        "label":  "Latitude",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  6,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Log_File_s_location__c",
+        "label":  "Log File(s) location",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Log_file_Name_s__c",
+        "label":  "Log file Name(s)",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Longitude__c",
+        "label":  "Longitude",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  6,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Lot_Batch_No__c",
+        "label":  "Lot/Batch No",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  25,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "MC_Complaint_Team__c",
+        "label":  "MC Complaint Team",
+        "type":  "textarea",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "MC_Site__c",
+        "label":  "MC Site",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Manual_Billing_Type_Override__c",
+        "label":  "Manual Billing Type Override",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Master_Control_Status__c",
+        "label":  "Master Control Status",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  50,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "MyThread_ID__c",
+        "label":  "MyThread_ID",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  120,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "New_Case_Report__c",
+        "label":  "New Case Report",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Notified_Date__c",
+        "label":  "Notified Date",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Onsite_Response_Customer_By__c",
+        "label":  "Onsite Response Customer By",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Onsite_Response_Internal_By__c",
+        "label":  "Onsite Response Internal By",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Owner_department__c",
+        "label":  "Owner department",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "PCC_Email__c",
+        "label":  "PCC Email",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "PM_Plan__c",
+        "label":  "Preventive Maintenance Plan",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Packet_ID__c",
+        "label":  "Packet ID",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  25,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Perform_Auto_Entitlement__c",
+        "label":  "Perform Auto Entitlement",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Pref_Application_Specialist_from_IP__c",
+        "label":  "Pref. Application Specialist from IP",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Pref_Application_Specialist_from_Loc__c",
+        "label":  "Pref. Application Specialist from Loc",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Pref_Technician_from_IP__c",
+        "label":  "Pref. Technician from IP",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Pref_Technician_from_Location__c",
+        "label":  "Pref. Technician from Location",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Preferred_End_Time__c",
+        "label":  "Preferred End Time",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Preferred_Start_Time__c",
+        "label":  "Preferred Start Time",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Product__c",
+        "label":  "Product",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Product_safety_assessment__c",
+        "label":  "Product safety assessment",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Proforma_Invoice_Amount__c",
+        "label":  "Proforma Invoice Amount",
+        "type":  "currency",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  3,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Proforma_Invoice__c",
+        "label":  "Proforma Invoice",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "PushToComplaint__c",
+        "label":  "PushToComplaint",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Reagent_Product__c",
+        "label":  "Reagent/Product",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Reagent_component__c",
+        "label":  "Reagent/component",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  25,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Record_Time_Visibility__c",
+        "label":  "Record Time Visibility",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Region__c",
+        "label":  "Region",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  20,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "RescueCustomField4__c",
+        "label":  "RescueCustomField4",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Rescue_Field2__c",
+        "label":  "Rescue_Field2",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Resolution_Customer_By__c",
+        "label":  "Resolution Customer By",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Resolution_Internal_By__c",
+        "label":  "Resolution Internal By",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Restart_SLA_Clock__c",
+        "label":  "Restart SLA Clock",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Restoration_Customer_By__c",
+        "label":  "Restoration Customer By",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Restoration_Internal_By__c",
+        "label":  "Restoration Internal By",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SContract_Business_Hour__c",
+        "label":  "SContract Business Hour",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SDG_Close_Reason__c",
+        "label":  "Close Reason",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SDG_Closure_Details__c",
+        "label":  "Closure Details",
+        "type":  "textarea",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SDG_Request_Type__c",
+        "label":  "Request Type",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SDG_Requestor__c",
+        "label":  "Requestor",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SDG_Screen_Shot__c",
+        "label":  "Screen Shot",
+        "type":  "textarea",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  32768,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SDG_Status_Category__c",
+        "label":  "Status Category",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SDG_Ticket_Type__c",
+        "label":  "Ticket Type",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SDG_Tier__c",
+        "label":  "Tier",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SLA_Clock_Extension_Minutes__c",
+        "label":  "SLA Clock Extension Minutes",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SLA_Clock_Pause_Days__c",
+        "label":  "SLA Clock Pause Days",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SLA_Clock_Pause_Hours__c",
+        "label":  "SLA Clock Pause Hours",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SLA_Clock_Pause_Minutes__c",
+        "label":  "SLA Clock Pause Minutes",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SLA_Clock_Pause_Reason__c",
+        "label":  "SLA Clock Pause Reason",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SLA_Clock_Pause_Restart_Time__c",
+        "label":  "SLA Clock Pause Restart Time",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SLA_Clock_Pause_Time__c",
+        "label":  "SLA Clock Pause Time",
+        "type":  "datetime",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SLA_Clock_Paused__c",
+        "label":  "SLA Clock Paused",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SLA_Terms__c",
+        "label":  "SLA Terms",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SM_Change_Order__c",
+        "label":  "Change Order",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "SM_Is_FCO_Case__c",
+        "label":  "Is FCO Case",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Scheduled_Date__c",
+        "label":  "Scheduled Date",
+        "type":  "date",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Service_Contract__c",
+        "label":  "Service/Maintenance Contract",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Service_Request__c",
+        "label":  "Service Request",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Site__c",
+        "label":  "Location",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Solution__c",
+        "label":  "Solution",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "State__c",
+        "label":  "State",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  80,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Street__c",
+        "label":  "Street",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  120,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Subject_Translated__c",
+        "label":  "Subject (Translated)",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Support_Description__c",
+        "label":  "Support Description",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Support_URL__c",
+        "label":  "Support URL",
+        "type":  "textarea",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  1500,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Support_contact__c",
+        "label":  "Support contact",
+        "type":  "email",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  80,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Survey_Monkey_NPS_Feedback__c",
+        "label":  "NPS Feedback",
+        "type":  "textarea",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Survey_Monkey_NPS__c",
+        "label":  "NPS Score",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  2,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Symptom__c",
+        "label":  "Symptom",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "TF_Business_unit__c",
+        "label":  "Business unit",
+        "type":  "picklist",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "TF_Component_Retrofit_Method__c",
+        "label":  "Component Retrofit/Method",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "TF_Component_firmware__c",
+        "label":  "Component firmware",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "TF_Component_software__c",
+        "label":  "Component software",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "TF_Country__c",
+        "label":  "Country",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "TF_NLP__c",
+        "label":  "NLP",
+        "type":  "textarea",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  32768,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Time_to_Initial_Response__c",
+        "label":  "Time to Initial Response (in Minutes)",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  2,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Time_to_Onsite_Response__c",
+        "label":  "Time to Onsite Response (in Minutes)",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  2,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Time_to_Resolve__c",
+        "label":  "Time to Resolve (in Minutes)",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  2,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Time_to_Restore__c",
+        "label":  "Time to Restore (in Minutes)",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  2,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Top_Level__c",
+        "label":  "Product/System",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Total_Activity_Time_minutes__c",
+        "label":  "Total Activity Time (minutes)",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  2,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "URL_Link__c",
+        "label":  "URL Link",
+        "type":  "url",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "WO_Closed_Date__c",
+        "label":  "WO Closed Date",
+        "type":  "date",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Warranty__c",
+        "label":  "Warranty",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  18,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Work_Order_Created__c",
+        "label":  "Work Order Created",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Work_Orders_Created__c",
+        "label":  "Number of Work Orders Created",
+        "type":  "double",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  0,
+        "precision":  18,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Zinc_Conversation__c",
+        "label":  "Zinc Conversation",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Zinc_External_Id__c",
+        "label":  "Zinc External Id",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Zinc_Message_Body__c",
+        "label":  "Zinc Message Body",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  255,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "Zip__c",
+        "label":  "Zip",
+        "type":  "string",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  true,
+        "calculated":  false,
+        "length":  50,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "pMDR_10__c",
+        "label":  "Assessment performed",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "pMDR_1__c",
+        "label":  "Evidence of repeated failure",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "pMDR_2__c",
+        "label":  "Smoke/fire/electrical shock issue",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "pMDR_3__c",
+        "label":  "Risk of injury or death",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "pMDR_4__c",
+        "label":  "Sample damage or loss issue",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "pMDR_5__c",
+        "label":  "Potential incorrect/delayed diagnosis",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "pMDR_6__c",
+        "label":  "Labels/documents are inaccurate/missing",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "pMDR_7__c",
+        "label":  "Performance not matching product claims",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "pMDR_8__c",
+        "label":  "Potential regulatory issue",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    },
+    {
+        "name":  "pMDR_9__c",
+        "label":  "No to all",
+        "type":  "boolean",
+        "custom":  true,
+        "createable":  true,
+        "updateable":  true,
+        "nillable":  false,
+        "calculated":  false,
+        "length":  0,
+        "precision":  0,
+        "scale":  0,
+        "referenceTo":  [
+
+                        ]
+    }
+]

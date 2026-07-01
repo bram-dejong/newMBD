@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_safety_assessment__c</fullName>
+    <label>Product safety assessment</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product endangering safety - Death -100-</fullName>
+                <default>false</default>
+                <label>Product endangering safety - Death -100-</label>
+            </value>
+            <value>
+                <fullName>Product endangering safety - Severe bodily harm -25-</fullName>
+                <default>false</default>
+                <label>Product endangering safety - Severe bodily harm -25-</label>
+            </value>
+            <value>
+                <fullName>Product endangering safety - Minor injury -10-</fullName>
+                <default>false</default>
+                <label>Product endangering safety - Minor injury -10-</label>
+            </value>
+            <value>
+                <fullName>Product endangering safety - Minor discomfort -3-</fullName>
+                <default>false</default>
+                <label>Product endangering safety - Minor discomfort -3-</label>
+            </value>
+            <value>
+                <fullName>No safety risk - No impact -1-</fullName>
+                <default>false</default>
+                <label>No safety risk - No impact -1-</label>
+            </value>
+            <value>
+                <fullName>Potential loss of sample</fullName>
+                <default>false</default>
+                <label>Potential loss of sample</label>
+            </value>
+            <value>
+                <fullName>Potential incorrect / delayed diagnosis</fullName>
+                <default>false</default>
+                <label>Potential incorrect / delayed diagnosis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
+

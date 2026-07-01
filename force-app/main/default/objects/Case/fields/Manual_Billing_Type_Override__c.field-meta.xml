@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manual_Billing_Type_Override__c</fullName>
+    <label>Manual Billing Type Override</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ERP Controlled</fullName>
+                <default>true</default>
+                <label>ERP Controlled</label>
+            </value>
+            <value>
+                <fullName>Not Entitled</fullName>
+                <default>false</default>
+                <label>Not Entitled</label>
+            </value>
+            <value>
+                <fullName>Courtesy</fullName>
+                <default>false</default>
+                <label>Courtesy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
+
