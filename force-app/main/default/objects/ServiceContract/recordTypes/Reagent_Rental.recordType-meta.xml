@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reagent_Rental</fullName>
+    <active>true</active>
+    <description>Used to manage Reagent Rental Contracts</description>
+    <label>Reagent Rental</label>
+    <picklistValues>
+        <picklist>ApprovalStatus</picklist>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Executed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offline Business Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signatures</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

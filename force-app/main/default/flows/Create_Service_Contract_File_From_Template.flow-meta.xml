@@ -75,9 +75,9 @@
         </filters>
         <filters>
             <field>Title</field>
-            <operator>Contains</operator>
+            <operator>StartsWith</operator>
             <value>
-                <stringValue>Service Contract Template</stringValue>
+                <stringValue>Contract template|</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
@@ -108,7 +108,7 @@
             <inputParameters>
                 <name>placeholder</name>
                 <value>
-                    <stringValue>Select a service contract template</stringValue>
+                    <stringValue>Select a contract template</stringValue>
                 </value>
             </inputParameters>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
@@ -128,7 +128,7 @@
             <dataType>String</dataType>
             <fieldText>New File Title</fieldText>
             <fieldType>InputField</fieldType>
-            <helpText>Leave blank to use the selected template name.</helpText>
+            <helpText>Leave blank to use the Service Contract name plus the selected template name.</helpText>
             <isRequired>false</isRequired>
             <styleProperties>
                 <verticalAlignment>

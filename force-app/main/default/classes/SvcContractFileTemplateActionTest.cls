@@ -15,17 +15,29 @@ private class SvcContractFileTemplateActionTest {
         insert contract;
 
         ContentVersion template = new ContentVersion(
-            Title = 'Service Contract Template - Standard',
-            PathOnClient = 'Service Contract Template - Standard.txt',
+            Title = 'Contract template|Standard',
+            PathOnClient = 'Contract template|Standard.txt',
             VersionData = Blob.valueOf('Template body')
         );
         insert template;
+        template = [
+            SELECT Id, ContentDocumentId
+            FROM ContentVersion
+            WHERE Id = :template.Id
+        ];
+
+        ContentWorkspace templateLibrary = getOrCreateLibrary('Contract Templates', 'Contract_Templates');
+        ContentWorkspace contractsLibrary = getOrCreateLibrary('Contracts', 'Contracts');
+
+        insert new ContentWorkspaceDoc(
+            ContentWorkspaceId = templateLibrary.Id,
+            ContentDocumentId = template.ContentDocumentId
+        );
 
         ServiceContractFileFromTemplateAction.Request request =
             new ServiceContractFileFromTemplateAction.Request();
         request.serviceContractId = String.valueOf(contract.Id);
         request.templateContentVersionId = String.valueOf(template.Id);
-        request.newFileTitle = 'Generated Service Contract';
 
         Test.startTest();
         List<ServiceContractFileFromTemplateAction.Result> results =
@@ -42,7 +54,7 @@ private class SvcContractFileTemplateActionTest {
             FROM ContentVersion
             WHERE Id = :results[0].contentVersionId
         ];
-        System.assertEquals('Generated Service Contract', generated.Title);
+        System.assertEquals('Template Test Contract Standard', generated.Title);
         System.assertEquals('Template body', generated.VersionData.toString());
 
         ContentDocumentLink link = [
@@ -53,5 +65,32 @@ private class SvcContractFileTemplateActionTest {
             LIMIT 1
         ];
         System.assertEquals(contract.Id, link.LinkedEntityId);
+
+        ContentWorkspaceDoc generatedLibraryDocument = [
+            SELECT ContentWorkspaceId
+            FROM ContentWorkspaceDoc
+            WHERE ContentDocumentId = :generated.ContentDocumentId
+            AND ContentWorkspaceId = :contractsLibrary.Id
+            LIMIT 1
+        ];
+        System.assertEquals(contractsLibrary.Id, generatedLibraryDocument.ContentWorkspaceId);
+    }
+
+    private static ContentWorkspace getOrCreateLibrary(String name, String developerName) {
+        List<ContentWorkspace> libraries = [
+            SELECT Id
+            FROM ContentWorkspace
+            WHERE Name = :name
+            LIMIT 1
+        ];
+        if (libraries.isEmpty()) {
+            ContentWorkspace library = new ContentWorkspace(
+                Name = name,
+                DeveloperName = developerName
+            );
+            insert library;
+            return library;
+        }
+        return libraries[0];
     }
 }

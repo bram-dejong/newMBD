@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proof_Documents_Required__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Indicates whether proof documents are expected to be attached through Salesforce Files.</description>
+    <label>Proof Documents Required</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

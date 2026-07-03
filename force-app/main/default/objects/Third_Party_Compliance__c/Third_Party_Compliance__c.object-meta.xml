@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -114,35 +128,48 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Third_Party_Compliance_Record_Page</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Third_Party_Compliance_Record_Page</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>false</enableFeeds>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Tracks reseller and account compliance status as a lightweight Salesforce replacement for Third Party Manager.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <recordTypeTrackHistory>false</recordTypeTrackHistory>
-    <searchLayouts>
-        <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTRACT.STARTDATE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTRACT.ENDDATE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTRACT.APPROVALSTATUS</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTRACT.STATUS</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTRACT.STATUSINDICATOR</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.STARTDATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.ENDDATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.APPROVALSTATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.STATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTRACT.STATUSINDICATOR</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <label>Third Party Compliance</label>
+    <nameField>
+        <displayFormat>TPC-{00000}</displayFormat>
+        <label>Compliance Record Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Third Party Compliance</pluralLabel>
+    <searchLayouts></searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

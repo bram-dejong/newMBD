@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Third_Party_Compliance__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Compliance record that supports this service contract.</description>
+    <label>Third Party Compliance</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Third_Party_Compliance__c.Account__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.AccountId</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Third_Party_Compliance__c</referenceTo>
+    <relationshipLabel>Service Contracts</relationshipLabel>
+    <relationshipName>Service_Contracts</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

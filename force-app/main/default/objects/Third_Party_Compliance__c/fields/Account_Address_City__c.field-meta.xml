@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Address_City__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(Account__r.D_B_Record__c)), Account__r.D_B_Record__r.Geocoded_City__c, Account__r.BillingCity)</formula>
+    <label>Account Address City</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
