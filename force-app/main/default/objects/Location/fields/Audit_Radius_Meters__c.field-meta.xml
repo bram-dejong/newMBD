@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audit_Radius_Meters__c</fullName>
+    <description>Optional Location-specific geofence radius. When blank, the default radius from Asset Audit Settings is used.</description>
+    <label>Audit Radius Meters</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+</CustomField>

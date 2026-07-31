@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Asset Location QR Audit</masterLabel>
+    <description>Scan asset QR codes and compare them with the assets assigned to a Salesforce Location.</description>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__UtilityBar</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <objects>
+                <object>Location</object>
+            </objects>
+        </targetConfig>
+        <targetConfig targets="lightning__AppPage">
+            <property
+                name="locationId"
+                type="String"
+                label="Default Location ID"
+                description="Optional Salesforce Location ID. If blank, the engineer selects a location."
+            />
+        </targetConfig>
+        <targetConfig targets="lightning__UtilityBar">
+            <property
+                name="label"
+                type="String"
+                label="Utility Label"
+                default="Asset QR Audit"
+            />
+            <property
+                name="locationId"
+                type="String"
+                label="Default Location ID"
+                description="Optional Salesforce Location ID. If blank, the engineer selects a location."
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

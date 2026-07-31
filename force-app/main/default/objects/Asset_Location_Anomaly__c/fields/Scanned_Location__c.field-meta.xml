@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scanned_Location__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <label>Scanned Location</label>
+    <referenceTo>Location</referenceTo>
+    <relationshipLabel>Scanned Asset Anomalies</relationshipLabel>
+    <relationshipName>Scanned_Asset_Anomalies</relationshipName>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

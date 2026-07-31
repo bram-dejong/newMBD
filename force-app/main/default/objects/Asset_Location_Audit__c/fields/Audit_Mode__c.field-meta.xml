@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audit_Mode__c</fullName>
+    <label>Audit Mode</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Spot Check</fullName><default>true</default><label>Spot Check</label></value>
+            <value><fullName>Complete Inventory</fullName><default>false</default><label>Complete Inventory</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

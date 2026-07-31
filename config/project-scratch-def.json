@@ -4,8 +4,7 @@
   "features": [
     "API",
     "AuthorApex",
-    "MultiCurrency",
-    "Quotes"
+    "MultiCurrency"
   ],
   "settings": {
     "lightningExperienceSettings": {
@@ -13,6 +12,9 @@
     },
     "enhancedNotesSettings": {
       "enableEnhancedNotes": true
+    },
+    "quoteSettings": {
+      "enableQuote": true
     }
   }
 }

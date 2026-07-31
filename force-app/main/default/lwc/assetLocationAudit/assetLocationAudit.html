@@ -1,0 +1,289 @@
+<template>
+    <lightning-card title="Asset location audit" icon-name="standard:asset_object">
+        <div class="slds-var-p-horizontal_medium slds-var-p-bottom_medium">
+            <template lwc:if={showLocationPicker}>
+                <lightning-record-picker
+                    label="Location"
+                    placeholder="Search Locations"
+                    object-api-name="Location"
+                    value={selectedLocationId}
+                    onchange={handleLocationChange}
+                    required
+                    disabled={isBusy}
+                ></lightning-record-picker>
+            </template>
+
+            <lightning-radio-group
+                class="slds-var-m-top_medium"
+                name="auditMode"
+                label="Audit type"
+                options={auditModeOptions}
+                value={auditMode}
+                type="radio"
+                onchange={handleAuditModeChange}
+                disabled={isBusy}
+                required
+            ></lightning-radio-group>
+
+            <div class="slds-var-m-top_medium">
+                <lightning-barcode-scanner
+                    barcode-types={barcodeTypes}
+                    enable-continuous-scan
+                    onscan={handleBarcodeScan}
+                    onerror={handleScannerError}
+                    disabled={isBusy}
+                    enabled-alternative-text="Scan asset QR codes"
+                    disabled-alternative-text="Asset QR scanner unavailable while audit is processing"
+                ></lightning-barcode-scanner>
+                <p class="slds-text-body_small slds-text-color_weak slds-var-m-top_x-small">
+                    Scan QR codes continuously. Duplicate codes are ignored.
+                </p>
+                <lightning-button
+                    class="slds-var-m-top_small"
+                    label="Identify from photo"
+                    icon-name="utility:photo"
+                    variant="brand-outline"
+                    onclick={handleStartPhotoIdentification}
+                    disabled={isBusy}
+                ></lightning-button>
+            </div>
+
+            <template lwc:if={photoActive}>
+                <section class="capture-panel slds-var-m-top_medium" aria-labelledby="photo-heading">
+                    <h2 id="photo-heading" class="slds-text-heading_small">Identify Asset from nameplate</h2>
+                    <p class="slds-text-body_small slds-var-m-top_x-small">
+                        Photos are processed transiently and are not saved with the audit.
+                    </p>
+                    <template lwc:if={photoGuidance}>
+                        <div class="guidance-panel slds-var-m-top_small" role="status">
+                            {photoGuidance}
+                        </div>
+                    </template>
+                    <div class="slds-form-element slds-var-m-top_small">
+                        <label class="slds-form-element__label" for="asset-photo">{photoInputLabel}</label>
+                        <div class="slds-form-element__control">
+                            <input
+                                id="asset-photo"
+                                class="slds-input"
+                                type="file"
+                                accept="image/jpeg,image/png,image/webp"
+                                capture="environment"
+                                onchange={handlePhotoSelected}
+                                disabled={isIdentifying}
+                            />
+                        </div>
+                    </div>
+                    <template lwc:if={photoPreview}>
+                        <img class="photo-preview slds-var-m-top_small" src={photoPreview} alt="Captured Asset identification photo" />
+                    </template>
+                    <template lwc:if={showContinueToNameplate}>
+                        <lightning-button
+                            class="slds-var-m-top_small"
+                            label="Now show the serial label"
+                            variant="brand"
+                            onclick={handleContinueToNameplate}
+                            disabled={isIdentifying}
+                        ></lightning-button>
+                    </template>
+                    <template lwc:if={showSerialSearch}>
+                        <lightning-input
+                            class="slds-var-m-top_small"
+                            type="text"
+                            label="Serial number"
+                            value={serialInput}
+                            onchange={handleSerialChange}
+                            max-length="80"
+                            required
+                        ></lightning-input>
+                        <lightning-input
+                            class="slds-var-m-top_small"
+                            type="text"
+                            label="Model (optional)"
+                            value={modelInput}
+                            onchange={handleModelChange}
+                            max-length="255"
+                        ></lightning-input>
+                        <lightning-button
+                            class="slds-var-m-top_small"
+                            label="Find matching Assets"
+                            variant="brand"
+                            onclick={handleFindCandidates}
+                            disabled={isIdentifying}
+                        ></lightning-button>
+                    </template>
+                    <template lwc:if={hasCandidates}>
+                        <lightning-radio-group
+                            class="candidate-list slds-var-m-top_medium"
+                            name="assetCandidate"
+                            label="Matching Salesforce Assets"
+                            options={candidateOptions}
+                            value={selectedCandidateId}
+                            type="radio"
+                            onchange={handleCandidateSelection}
+                        ></lightning-radio-group>
+                        <lightning-button
+                            class="slds-var-m-top_small"
+                            label="Confirm Asset"
+                            variant="brand"
+                            onclick={handleConfirmCandidate}
+                            disabled={confirmCandidateDisabled}
+                        ></lightning-button>
+                    </template>
+                    <lightning-button
+                        class="slds-var-m-top_small slds-var-m-left_small"
+                        label="Cancel"
+                        onclick={handleCancelPhotoIdentification}
+                        disabled={isIdentifying}
+                    ></lightning-button>
+                    <template lwc:if={isIdentifying}>
+                        <lightning-spinner alternative-text="Analyzing photo" size="small"></lightning-spinner>
+                    </template>
+                </section>
+            </template>
+
+            <div class="manual-entry slds-var-m-top_medium">
+                <lightning-input
+                    class="manual-code"
+                    type="text"
+                    label="Enter a QR code manually"
+                    value={manualCode}
+                    onchange={handleManualCodeChange}
+                    onkeydown={handleManualCodeKeydown}
+                    disabled={isBusy}
+                    max-length="255"
+                    message-when-value-missing="Enter a QR code."
+                ></lightning-input>
+                <lightning-button
+                    class="add-button"
+                    label="Add code"
+                    onclick={handleAddManualCode}
+                    disabled={isBusy}
+                ></lightning-button>
+            </div>
+
+            <div class="slds-var-m-top_medium" aria-live="polite" aria-atomic="true">
+                <h2 class="slds-text-heading_small">Added assets and identifiers ({scannedCount})</h2>
+                <template lwc:if={hasScannedCodes}>
+                    <ul class="code-list slds-var-m-top_x-small">
+                        <template for:each={scannedCodeItems} for:item="item">
+                            <li key={item.key} class="code-row">
+                                <span class="code-value" title={item.code}>{item.code}</span>
+                                <lightning-button-icon
+                                    icon-name="utility:close"
+                                    alternative-text={item.removeLabel}
+                                    title={item.removeLabel}
+                                    data-code={item.code}
+                                    onclick={handleRemoveCode}
+                                    disabled={isBusy}
+                                    variant="bare"
+                                ></lightning-button-icon>
+                            </li>
+                        </template>
+                    </ul>
+                    <lightning-button
+                        class="slds-var-m-top_small"
+                        label="Clear QR codes"
+                        onclick={handleClearCodes}
+                        disabled={isBusy}
+                    ></lightning-button>
+                </template>
+                <template lwc:if={hasIdentifiedAssets}>
+                    <ul class="code-list slds-var-m-top_small">
+                        <template for:each={identifiedAssetItems} for:item="item">
+                            <li key={item.assetId} class="code-row">
+                                <span class="code-value">
+                                    {item.assetName} — S/N {item.serialNumber}
+                                    <span class="source-badge">{item.sourceLabel}</span>
+                                </span>
+                                <lightning-button-icon
+                                    icon-name="utility:close"
+                                    alternative-text={item.removeLabel}
+                                    title={item.removeLabel}
+                                    data-asset-id={item.assetId}
+                                    onclick={handleRemoveIdentifiedAsset}
+                                    disabled={isBusy}
+                                    variant="bare"
+                                ></lightning-button-icon>
+                            </li>
+                        </template>
+                    </ul>
+                </template>
+                <template lwc:else>
+                    <p class="slds-text-body_small slds-text-color_weak slds-var-m-top_x-small">
+                        No QR identifiers have been added.
+                    </p>
+                </template>
+            </div>
+
+            <template lwc:if={statusMessage}>
+                <p class="slds-assistive-text" aria-live="polite">{statusMessage}</p>
+            </template>
+
+            <template lwc:if={errorMessage}>
+                <div class="slds-notify slds-notify_alert slds-alert_error slds-var-m-top_medium" role="alert">
+                    <lightning-icon
+                        icon-name="utility:error"
+                        size="x-small"
+                        variant="inverse"
+                        alternative-text="Error"
+                    ></lightning-icon>
+                    <span class="slds-var-m-left_x-small">{errorMessage}</span>
+                </div>
+            </template>
+
+            <template lwc:if={hasResult}>
+                <section class="result-panel slds-var-m-top_medium" aria-labelledby="audit-result-heading">
+                    <h2 id="audit-result-heading" class="slds-text-heading_small">Audit complete</h2>
+                    <dl class="result-grid slds-var-m-top_small">
+                        <div>
+                            <dt>Scanned</dt>
+                            <dd>{result.scannedCount}</dd>
+                        </div>
+                        <div>
+                            <dt>Expected</dt>
+                            <dd>{result.expectedCount}</dd>
+                        </div>
+                        <div>
+                            <dt>Anomalies</dt>
+                            <dd>{result.anomalyCount}</dd>
+                        </div>
+                        <div>
+                            <dt>GPS validation</dt>
+                            <dd>{result.geoValidationStatus}</dd>
+                        </div>
+                        <template lwc:if={result.distanceMeters}>
+                            <div>
+                                <dt>Distance</dt>
+                                <dd>{result.distanceMeters} m</dd>
+                            </div>
+                        </template>
+                    </dl>
+                    <template lwc:if={result.message}>
+                        <p class="slds-var-m-top_small">{result.message}</p>
+                    </template>
+                    <lightning-button
+                        class="slds-var-m-top_medium"
+                        label="View audit"
+                        variant="brand-outline"
+                        onclick={handleViewAudit}
+                    ></lightning-button>
+                </section>
+            </template>
+
+            <div class="slds-var-m-top_large">
+                <lightning-button
+                    label="Finalize audit"
+                    variant="brand"
+                    onclick={handleFinalize}
+                    disabled={finalizeDisabled}
+                ></lightning-button>
+                <template lwc:if={isBusy}>
+                    <lightning-spinner
+                        alternative-text="Finalizing audit"
+                        size="small"
+                    ></lightning-spinner>
+                </template>
+            </div>
+        </div>
+    </lightning-card>
+</template>

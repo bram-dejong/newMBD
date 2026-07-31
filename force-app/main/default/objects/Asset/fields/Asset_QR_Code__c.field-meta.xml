@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_QR_Code__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Stable identifier encoded in the physical asset QR code and used during location audits.</description>
+    <externalId>true</externalId>
+    <label>Asset QR Code</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Device_Location__c</fullName>
+    <description>Latitude and longitude captured from the engineer's mobile device when the audit was finalized.</description>
+    <displayLocationInDecimal>true</displayLocationInDecimal>
+    <label>Device Location</label>
+    <required>false</required>
+    <scale>6</scale>
+    <type>Location</type>
+</CustomField>

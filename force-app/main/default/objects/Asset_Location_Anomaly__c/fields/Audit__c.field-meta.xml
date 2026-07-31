@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audit__c</fullName>
+    <label>Audit</label>
+    <referenceTo>Asset_Location_Audit__c</referenceTo>
+    <relationshipLabel>Location Anomalies</relationshipLabel>
+    <relationshipName>Location_Anomalies</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

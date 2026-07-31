@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maximum_Distance_Meters__c</fullName>
+    <description>Maximum base distance between the device and stored Location coordinates before a location-radius anomaly is created.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Maximum Distance Meters</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+</CustomField>

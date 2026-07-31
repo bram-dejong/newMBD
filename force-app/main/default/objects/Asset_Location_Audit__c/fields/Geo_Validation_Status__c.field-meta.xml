@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geo_Validation_Status__c</fullName>
+    <label>Geo Validation Status</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Within Tolerance</fullName><default>true</default><label>Within Tolerance</label></value>
+            <value><fullName>Outside Tolerance</fullName><default>false</default><label>Outside Tolerance</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

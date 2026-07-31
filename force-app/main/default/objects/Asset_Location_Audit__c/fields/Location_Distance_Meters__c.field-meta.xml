@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Distance_Meters__c</fullName>
+    <description>Calculated distance in metres between the captured device location and stored Salesforce Location coordinates.</description>
+    <label>Location Distance Meters</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+</CustomField>
