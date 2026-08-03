@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPage>Asset_Work_Order_Finder</flexiPage>
+    <label>Asset Work Order Finder</label>
+    <motif>Custom63: Chip</motif>
+</CustomTab>

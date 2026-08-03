@@ -4,14 +4,16 @@
         <headerColor>#0070D2</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
-    <description>Browser test application for the NewMBD mobile asset location audit.</description>
+    <description>Mobile and desktop tools for Asset identification, open Work Order lookup, and location audits.</description>
     <formFactors>Large</formFactors>
+    <formFactors>Small</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>NewMBD Asset Audit</label>
     <navType>Standard</navType>
+    <tabs>Asset_Work_Order_Finder</tabs>
     <tabs>standard-Asset</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>NewMBD_Asset_Audit_UtilityBar</utilityBar>

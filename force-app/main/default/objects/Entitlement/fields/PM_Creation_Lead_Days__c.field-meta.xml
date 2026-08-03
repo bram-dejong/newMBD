@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_Creation_Lead_Days__c</fullName>
+    <defaultValue>30</defaultValue>
+    <description>Number of days before the PM due date that the Work Order may be generated.</description>
+    <label>PM Creation Lead Days</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+</CustomField>

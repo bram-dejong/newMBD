@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_PM_Date__c</fullName>
+    <description>Date on which preventive maintenance was last completed for this Asset.</description>
+    <label>Last PM Date</label>
+    <type>Date</type>
+</CustomField>

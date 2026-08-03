@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Administrative and scheduler access for preventive-maintenance Work Order automation.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Preventive Maintenance Automation Admin</label>
+    <classAccesses><apexClass>PMWorkOrderBatch</apexClass><enabled>true</enabled></classAccesses>
+    <classAccesses><apexClass>PMWorkOrderGenerationService</apexClass><enabled>true</enabled></classAccesses>
+    <classAccesses><apexClass>PMWorkOrderScheduler</apexClass><enabled>true</enabled></classAccesses>
+    <objectPermissions>
+        <allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><object>Account</object><viewAllFields>false</viewAllFields><viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><object>Asset</object><viewAllFields>false</viewAllFields><viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><object>Entitlement</object><viewAllFields>false</viewAllFields><viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><object>ServiceContract</object><viewAllFields>false</viewAllFields><viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate><allowDelete>false</allowDelete><allowEdit>false</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><object>Product2</object><viewAllFields>false</viewAllFields><viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><object>WorkOrder</object><viewAllFields>false</viewAllFields><viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <fieldPermissions><editable>true</editable><field>Asset.Last_PM_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Asset.PM_Automation_Enabled__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Asset.PM_Base_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Entitlement.PM_Creation_Lead_Days__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Entitlement.PM_Generation_Enabled__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Entitlement.PM_Interval_Days__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Entitlement.IsPerIncident</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Entitlement.WorkOrdersPerEntitlement</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Product2.Requires_Maintenance__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>WorkOrder.PM_Due_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>WorkOrder.PM_Generation_Key__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>WorkOrder.System_Generated_PM__c</field><readable>true</readable></fieldPermissions>
+</PermissionSet>

@@ -1,0 +1,172 @@
+<template>
+    <lightning-card title="Find an Asset work order" icon-name="standard:work_order">
+        <div class="content">
+            <p class="intro">Scan the Asset QR code to find work that is ready for attention.</p>
+
+            <div class="primary-actions">
+                <lightning-barcode-scanner
+                    barcode-types={barcodeTypes}
+                    onscan={handleBarcodeScan}
+                    onerror={handleScannerError}
+                    disabled={isBusy}
+                    enabled-alternative-text="Scan Asset QR code"
+                    disabled-alternative-text="Asset QR scanner unavailable while searching"
+                ></lightning-barcode-scanner>
+                <lightning-button
+                    label="Use camera / nameplate"
+                    icon-name="utility:photo"
+                    variant="brand-outline"
+                    onclick={handleStartPhoto}
+                    disabled={isBusy}
+                ></lightning-button>
+            </div>
+
+            <div class="manual-entry">
+                <lightning-input
+                    class="manual-code"
+                    type="text"
+                    label="Or enter the QR code"
+                    value={manualCode}
+                    onchange={handleManualCodeChange}
+                    onkeydown={handleManualCodeKeydown}
+                    disabled={isBusy}
+                    max-length="255"
+                ></lightning-input>
+                <lightning-button
+                    class="lookup-button"
+                    label="Find Asset"
+                    variant="brand"
+                    onclick={handleManualLookup}
+                    disabled={isBusy}
+                ></lightning-button>
+            </div>
+
+            <template lwc:if={photoActive}>
+                <section class="photo-panel" aria-labelledby="photo-heading">
+                    <h2 id="photo-heading" class="slds-text-heading_small">Identify the nameplate</h2>
+                    <p class="privacy-note">The photo is processed transiently and is not saved.</p>
+                    <template lwc:if={photoGuidance}>
+                        <div class="guidance" role="status">{photoGuidance}</div>
+                    </template>
+                    <template lwc:if={documentScannerAvailable}>
+                        <lightning-button
+                            class="slds-var-m-top_small"
+                            label="Scan nameplate text"
+                            icon-name="utility:scan"
+                            variant="brand"
+                            onclick={handleScanNameplate}
+                            disabled={isBusy}
+                        ></lightning-button>
+                    </template>
+                    <div class="slds-form-element slds-var-m-top_small">
+                        <label class="slds-form-element__label" for="nameplate-photo">Take a nameplate photo</label>
+                        <div class="slds-form-element__control">
+                            <input
+                                id="nameplate-photo"
+                                class="slds-input"
+                                type="file"
+                                accept="image/jpeg,image/png,image/webp"
+                                capture="environment"
+                                onchange={handlePhotoSelected}
+                                disabled={isBusy}
+                            />
+                        </div>
+                    </div>
+                    <template lwc:if={photoPreview}>
+                        <img class="photo-preview" src={photoPreview} alt="Captured Asset nameplate" />
+                    </template>
+                    <lightning-input
+                        class="slds-var-m-top_small"
+                        type="text"
+                        label="Serial number"
+                        value={serialInput}
+                        onchange={handleSerialChange}
+                        max-length="80"
+                        required
+                        disabled={isBusy}
+                    ></lightning-input>
+                    <lightning-input
+                        type="text"
+                        label="Model (optional)"
+                        value={modelInput}
+                        onchange={handleModelChange}
+                        max-length="255"
+                        disabled={isBusy}
+                    ></lightning-input>
+                    <div class="photo-actions">
+                        <lightning-button label="Find matching Assets" variant="brand" onclick={handleFindCandidates} disabled={isBusy}></lightning-button>
+                        <lightning-button label="Cancel" onclick={handleCancelPhoto} disabled={isBusy}></lightning-button>
+                    </div>
+                    <template lwc:if={hasCandidates}>
+                        <lightning-radio-group
+                            class="candidate-list"
+                            name="assetCandidate"
+                            label="Matching Assets"
+                            options={candidateOptions}
+                            value={selectedCandidateId}
+                            type="radio"
+                            onchange={handleCandidateSelection}
+                            disabled={isBusy}
+                        ></lightning-radio-group>
+                        <lightning-button
+                            class="slds-var-m-top_small"
+                            label="Use selected Asset"
+                            variant="brand"
+                            onclick={handleConfirmCandidate}
+                            disabled={confirmCandidateDisabled}
+                        ></lightning-button>
+                    </template>
+                </section>
+            </template>
+
+            <template lwc:if={isBusy}>
+                <div class="spinner-wrap"><lightning-spinner alternative-text="Finding Asset work orders" size="small"></lightning-spinner></div>
+            </template>
+            <template lwc:if={statusMessage}>
+                <p class="status" aria-live="polite">{statusMessage}</p>
+            </template>
+            <template lwc:if={errorMessage}>
+                <div class="slds-notify slds-notify_alert slds-alert_error error" role="alert">
+                    <lightning-icon icon-name="utility:error" size="x-small" variant="inverse" alternative-text="Error"></lightning-icon>
+                    <span class="slds-var-m-left_x-small">{errorMessage}</span>
+                </div>
+            </template>
+
+            <template lwc:if={hasResult}>
+                <section class="result" aria-labelledby="asset-heading">
+                    <div class="asset-header">
+                        <div>
+                            <p class="eyebrow">IDENTIFIED ASSET</p>
+                            <h2 id="asset-heading" class="asset-name">{result.assetName}</h2>
+                            <template lwc:if={result.serialNumber}><p>S/N {result.serialNumber}</p></template>
+                            <template lwc:if={result.productName}><p>{result.productName}</p></template>
+                            <template lwc:if={result.locationName}><p>{result.locationName}</p></template>
+                        </div>
+                        <lightning-button label="View Asset" onclick={handleOpenAsset}></lightning-button>
+                    </div>
+                    <h3 class="work-heading">Open work orders</h3>
+                    <template lwc:if={result.workOrderLimitReached}>
+                        <p class="limit-note">Showing the first 50 open work orders.</p>
+                    </template>
+                    <template lwc:if={hasWorkOrders}>
+                        <ul class="work-list">
+                            <template for:each={result.workOrders} for:item="item">
+                                <li key={item.id} class="work-item">
+                                    <button class="work-link" data-record-id={item.id} onclick={handleOpenWorkOrder}>
+                                        <span class="work-number">{item.number}</span>
+                                        <template lwc:if={item.subject}><span class="work-subject">{item.subject}</span></template>
+                                        <template lwc:if={item.summary}><span class="work-meta">{item.summary}</span></template>
+                                        <lightning-icon icon-name="utility:chevronright" size="x-small" alternative-text="Open"></lightning-icon>
+                                    </button>
+                                </li>
+                            </template>
+                        </ul>
+                    </template>
+                    <template lwc:else>
+                        <div class="empty-state">No open work orders were found for this Asset.</div>
+                    </template>
+                </section>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_Base_Date__c</fullName>
+    <description>Preferred anchor date for calculating the next preventive-maintenance due date.</description>
+    <inlineHelpText>Takes precedence over Last PM Date when the automation calculates the next due date.</inlineHelpText>
+    <label>PM Base Date</label>
+    <type>Date</type>
+</CustomField>

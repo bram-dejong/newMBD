@@ -82,7 +82,9 @@ public with sharing class AssetPhotoIdentificationController {
 
     @AuraEnabled(cacheable=true)
     public static List<Candidate> findCandidates(String serialNumber, String model, Id locationId) {
-        validateLocation(locationId);
+        if (locationId != null) {
+            validateLocation(locationId);
+        }
         String normalizedSerial = normalizeSerial(serialNumber, true);
         List<Asset> assets = [
             SELECT Id, Name, SerialNumber, Product2.Name, Location__c, Location__r.Name
@@ -102,7 +104,7 @@ public with sharing class AssetPhotoIdentificationController {
             candidate.productName = item.Product2 == null ? null : item.Product2.Name;
             candidate.salesforceLocationId = item.Location__c;
             candidate.salesforceLocationName = item.Location__r == null ? null : item.Location__r.Name;
-            candidate.atSelectedLocation = item.Location__c == locationId;
+            candidate.atSelectedLocation = locationId != null && item.Location__c == locationId;
             results.add(candidate);
         }
         return results;

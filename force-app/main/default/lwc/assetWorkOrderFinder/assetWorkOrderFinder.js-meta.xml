@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Asset Work Order Finder</masterLabel>
+    <description>Scan an Asset QR code or identify its nameplate, then open a related work order.</description>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__UtilityBar</target>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <objects><object>Asset</object></objects>
+        </targetConfig>
+        <targetConfig targets="lightning__AppPage,lightning__HomePage,lightning__UtilityBar">
+            <property name="locationId" type="String" label="Optional Location ID" description="Optionally favor nameplate matches at this Salesforce Location." />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

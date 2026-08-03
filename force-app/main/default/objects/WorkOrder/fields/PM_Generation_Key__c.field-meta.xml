@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_Generation_Key__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>Idempotency key formed from Asset, Entitlement, and PM due date.</description>
+    <externalId>true</externalId>
+    <label>PM Generation Key</label>
+    <length>100</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

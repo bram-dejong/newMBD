@@ -343,3 +343,26 @@ These files document the field-reconstruction and sanitization work used to make
   - `Contracts`
 - Confirm Service Contract record type spelling and naming, especially `Distrbution_Agreement`, before promoting metadata beyond the scratch-org context.
 - Review deployment manifests before using them against a non-scratch org; several were created for staged/safe deployment and cleanup workflows.
+
+## Preventive Maintenance Work Order Automation MVP
+
+Deployed to `newMBD-scratch` on 3 August 2026 using `manifest/pm-work-order-mvp-package.xml`.
+
+The MVP replaces the ServiceMax package dependency with standard Salesforce records:
+
+- `Asset` for installed equipment, with PM automation, base-date, and Last-PM fields.
+- `Entitlement` for the Asset-to-Service-Contract coverage, interval, lead time, and standard Work Order allowance.
+- `Product2.Requires_Maintenance__c` as the product eligibility gate.
+- `WorkOrder` for generated PM work, with a due date, system-generated marker, and unique external generation key.
+- `PMWorkOrderGenerationService`, `PMWorkOrderBatch`, and `PMWorkOrderScheduler` for bulk-safe daily generation.
+- `Preventive_Maintenance_Automation_Admin` for configuration and scheduler administration.
+
+Validation evidence:
+
+- Deployment ID: `0AfSv00000L7oOzKAJ`
+- Seven of seven `PMWorkOrderGenerationServiceTest` methods passed.
+- Batch and scheduler coverage: 100%; generation-service coverage: 120 of 127 executable locations (94.5%).
+- Daily scheduled job: `newMBD PM Work Order Generation - Daily`, cron `0 0 2 * * ?`.
+- The scratch scheduling user is set to Pacific time, so the current next fire is 02:00 Pacific (09:00 UTC). Production must use a named automation user with an explicitly governed time zone.
+
+Design and operating assumptions are documented in `PREVENTIVE_MAINTENANCE_AUTOMATION_BRD.md` and the generated Word BRD in `output/newMBD_Preventive_Maintenance_Automation_BRD.docx`.

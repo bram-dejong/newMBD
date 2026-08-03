@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_Interval_Days__c</fullName>
+    <defaultValue>365</defaultValue>
+    <description>Number of days between preventive-maintenance due dates under this entitlement.</description>
+    <inlineHelpText>Enter a positive whole number of days.</inlineHelpText>
+    <label>PM Interval Days</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+</CustomField>

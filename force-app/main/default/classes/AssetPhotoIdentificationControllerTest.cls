@@ -91,6 +91,17 @@ private class AssetPhotoIdentificationControllerTest {
     }
 
     @IsTest
+    static void exactSerialDoesNotRequireLocationContext() {
+        List<AssetPhotoIdentificationController.Candidate> results =
+            AssetPhotoIdentificationController.findCandidates('SN-100', null, null);
+
+        System.assertEquals(2, results.size());
+        for (AssetPhotoIdentificationController.Candidate item : results) {
+            System.assertEquals(false, item.atSelectedLocation);
+        }
+    }
+
+    @IsTest
     static void rejectsUnsupportedImageAndInvalidLocation() {
         Boolean imageRejected = false;
         try {

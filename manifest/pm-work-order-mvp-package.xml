@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>PMWorkOrderBatch</members>
+        <members>PMWorkOrderGenerationService</members>
+        <members>PMWorkOrderGenerationServiceTest</members>
+        <members>PMWorkOrderScheduler</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Asset.Last_PM_Date__c</members>
+        <members>Asset.PM_Automation_Enabled__c</members>
+        <members>Asset.PM_Base_Date__c</members>
+        <members>Entitlement.PM_Creation_Lead_Days__c</members>
+        <members>Entitlement.PM_Generation_Enabled__c</members>
+        <members>Entitlement.PM_Interval_Days__c</members>
+        <members>Product2.Requires_Maintenance__c</members>
+        <members>WorkOrder.PM_Due_Date__c</members>
+        <members>WorkOrder.PM_Generation_Key__c</members>
+        <members>WorkOrder.System_Generated_PM__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Preventive_Maintenance_Automation_Admin</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>65.0</version>
+</Package>
