@@ -1,0 +1,117 @@
+<template>
+    <lightning-card title="Account Search" icon-name="standard:account">
+        <div class="slds-var-p-around_medium">
+            <p class="slds-var-m-bottom_medium">
+                Search for an existing Salesforce Account. If no Account is found, use D&amp;B data to create a qualified Lead.
+            </p>
+
+            <div class="search-row">
+                <lightning-input
+                    class="name-input"
+                    type="search"
+                    label="Company name"
+                    value={company}
+                    minlength="3"
+                    maxlength="255"
+                    required
+                    disabled={isBusy}
+                    onchange={handleCompanyChange}
+                    onkeydown={handleCompanyKeydown}
+                    field-level-help="Enter at least three characters. Typographical and close-name matches are included."
+                ></lightning-input>
+                <lightning-button
+                    class="search-button"
+                    variant="brand"
+                    label="Search Accounts"
+                    disabled={searchDisabled}
+                    onclick={handleSearch}
+                ></lightning-button>
+            </div>
+
+            <div class="message-region" aria-live="polite" aria-atomic="true">
+                <template lwc:if={isSearching}>
+                    <lightning-spinner alternative-text="Searching Accounts and D&B" size="small"></lightning-spinner>
+                </template>
+                <template lwc:if={errorMessage}>
+                    <div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+                        <lightning-icon icon-name="utility:error" size="x-small" variant="inverse" alternative-text="Error"></lightning-icon>
+                        <span class="slds-var-m-left_x-small">{errorMessage}</span>
+                    </div>
+                </template>
+                <template lwc:if={statusMessage}>
+                    <div class="slds-notify slds-notify_alert slds-alert_info" role="status">
+                        <span>{statusMessage}</span>
+                    </div>
+                </template>
+            </div>
+
+            <template lwc:if={hasAccountMatches}>
+                <section class="slds-var-m-top_medium" aria-labelledby="existing-accounts-heading">
+                    <h2 id="existing-accounts-heading" class="slds-text-heading_small slds-var-m-bottom_small">
+                        Existing Salesforce Accounts
+                    </h2>
+                    <p class="slds-var-m-bottom_small">Use the existing Account. Lead creation is not permitted.</p>
+                    <ul class="match-list">
+                        <template for:each={accountMatches} for:item="item">
+                            <li key={item.accountId} class="match-card">
+                                <div>
+                                    <strong>{item.accountName}</strong>
+                                    <div class="slds-text-body_small">{item.score}% name match</div>
+                                </div>
+                                <lightning-button label="Open Account" data-id={item.accountId} onclick={handleOpenAccount}></lightning-button>
+                            </li>
+                        </template>
+                    </ul>
+                </section>
+            </template>
+
+            <template lwc:if={hasDbMatches}>
+                <section class="slds-var-m-top_medium" aria-labelledby="db-matches-heading">
+                    <h2 id="db-matches-heading" class="slds-text-heading_small slds-var-m-bottom_small">
+                        D&amp;B organizations for the new Lead
+                    </h2>
+                    <p class="slds-var-m-bottom_small">No Account was found. Select the correct D&amp;B organization to pre-populate the Lead.</p>
+                    <ul class="match-list">
+                        <template for:each={dbMatches} for:item="item">
+                            <li key={item.dbDataId} class="match-card">
+                                <div class="match-details">
+                                    <strong>{item.companyName}</strong>
+                                    <div class="slds-text-body_small">DUNS {item.dunsNumber} · {item.score}% name match</div>
+                                    <div class="slds-text-body_small">{item.addressSummary}</div>
+                                </div>
+                                <lightning-button variant="brand-outline" label="Use for Lead" data-id={item.dbDataId} onclick={handleSelectDbData}></lightning-button>
+                            </li>
+                        </template>
+                    </ul>
+                </section>
+            </template>
+
+            <template lwc:if={showLeadForm}>
+                <section class="form-section slds-var-m-top_large" aria-labelledby="lead-details-heading">
+                    <div class="section-heading">
+                        <h2 id="lead-details-heading" class="slds-text-heading_small">New Lead details</h2>
+                        <template lwc:if={selectedDbData}>
+                            <lightning-badge label={selectedDbLabel}></lightning-badge>
+                        </template>
+                    </div>
+                    <div class="form-grid slds-var-m-top_medium">
+                        <lightning-input label="Company" value={company} required maxlength="255" data-field="company" onchange={handleFieldChange}></lightning-input>
+                        <lightning-input label="First name" value={firstName} maxlength="40" data-field="firstName" onchange={handleFieldChange}></lightning-input>
+                        <lightning-input label="Last name" value={lastName} required maxlength="80" data-field="lastName" onchange={handleFieldChange}></lightning-input>
+                        <lightning-input type="email" label="Email" value={email} data-field="email" onchange={handleFieldChange}></lightning-input>
+                        <lightning-input type="tel" label="Phone" value={phone} data-field="phone" onchange={handleFieldChange}></lightning-input>
+                        <lightning-input type="url" label="Website" value={website} data-field="website" onchange={handleFieldChange}></lightning-input>
+                        <lightning-textarea class="full-width" label="Street" value={street} data-field="street" onchange={handleFieldChange}></lightning-textarea>
+                        <lightning-input label="City" value={city} data-field="city" onchange={handleFieldChange}></lightning-input>
+                        <lightning-input label="State/Province" value={state} data-field="state" onchange={handleFieldChange}></lightning-input>
+                        <lightning-input label="Postal code" value={postalCode} data-field="postalCode" onchange={handleFieldChange}></lightning-input>
+                        <lightning-input label="Country" value={country} data-field="country" onchange={handleFieldChange}></lightning-input>
+                    </div>
+                    <div class="slds-var-m-top_large">
+                        <lightning-button variant="brand" label="Create Lead" disabled={saveDisabled} onclick={handleCreateLead}></lightning-button>
+                    </div>
+                </section>
+            </template>
+        </div>
+    </lightning-card>
+</template>
